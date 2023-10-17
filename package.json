@@ -1,0 +1,45 @@
+{
+  "name": "npm-upstream-check",
+  "version": "0.0.1",
+  "packageManager": "pnpm@8.9.2",
+  "description": "Check the updates of upstream npm dependencies",
+  "author": "ArcherGu",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "url": "https://github.com/ArcherGu/npm-upstream-check.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "postinstall": "npx simple-git-hooks"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "npm-check-updates": "^16.14.6"
+  },
+  "devDependencies": {
+    "@lightwing/eslint-config": "^0.0.24",
+    "@types/node": "^20.8.6",
+    "@vercel/ncc": "^0.38.0",
+    "conventional-changelog-cli": "^4.1.0",
+    "eslint": "^8.51.0",
+    "lint-staged": "^15.0.1",
+    "simple-git-hooks": "^2.9.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue,md,json,yml}": [
+      "eslint --fix"
+    ]
+  }
+}

@@ -1,31 +1,31 @@
-name: "npm-upstream-check"
-description: "Check the updates of upstream npm dependencies"
-author: "ArcherGu"
+name: npm-upstream-check
+description: Check the updates of upstream npm dependencies
+author: ArcherGu
 branding:
-  icon: "anchor"
-  color: "blue"
+  icon: anchor
+  color: blue
 
 inputs:
   upstream:
-    description: "upstream npm dependencies"
+    description: upstream npm dependencies
     required: true
   deep:
-    description: "deep check"
+    description: deep check
     required: false
   check-only:
-    description: "only check, not update package.json"
+    description: 'only check, not update package.json'
     required: false
   all:
-    description: "update all npm dependencies in package.json"
+    description: update all npm dependencies in package.json
     required: false
 
 outputs:
   need-update:
-    description: "need update"
+    description: need update
   dependencies:
-    description: "dependencies need update with version"
+    description: dependencies need update with version
 
 runs:
   using: node16
   main: dist/index.js
-  pre: npm install
+  pre: pre.js

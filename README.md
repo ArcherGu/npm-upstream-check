@@ -44,4 +44,4 @@ Your npm package may depend on another npm package, and when the upstream packag
 
 ## License
 
-MIT License © 2022 [Archer Gu](https://github.com/archergu)
+MIT License © 2023 [Archer Gu](https://github.com/archergu)

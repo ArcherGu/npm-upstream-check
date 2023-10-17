@@ -1,7 +1,6 @@
 import path from 'node:path'
 import { execSync } from 'node:child_process'
 import * as core from '@actions/core'
-import globalDirs from 'global-dirs'
 import type { RunOptions } from 'npm-check-updates'
 
 function importModuleLocalOrGlobal(moduleName: string) {
@@ -9,7 +8,8 @@ function importModuleLocalOrGlobal(moduleName: string) {
     return require(moduleName)
   }
   catch (error) {
-    const globalPath = path.join(globalDirs.npm.packages, moduleName)
+    const globalDir = execSync('npm root --global').toString().trim()
+    const globalPath = path.join(globalDir, moduleName)
     return require(globalPath)
   }
 }

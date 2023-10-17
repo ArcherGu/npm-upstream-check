@@ -5,5 +5,5 @@ export default defineConfig({
   entry: ['src/index.ts'],
   clean: true,
   splitting: false,
-  noExternal: ['@actions/core', 'global-dirs'],
+  noExternal: ['@actions/core'],
 })

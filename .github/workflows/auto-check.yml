@@ -1,4 +1,4 @@
-name: CI
+name: Auto Check
 
 on:
   push:
@@ -27,6 +27,16 @@ jobs:
           upstream: '@actions/core'
           check-only: true
           all: true
+
+      - name: Check Need Update
+        run: |
+          if [ "${{ steps.ncu.outputs.need-update }}" == "true" ]; then
+            echo "Need Update"
+            echo "dependencies: ${{ steps.ncu.outputs.dependencies }}"
+            echo "Will commit and push..."
+          else
+            echo "No dependencies need update, exiting..."
+          fi
 
   commit-and-push:
     needs: auto-check

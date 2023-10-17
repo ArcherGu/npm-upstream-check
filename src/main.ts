@@ -1,5 +1,30 @@
+import path from 'node:path'
+import { execSync } from 'node:child_process'
 import * as core from '@actions/core'
-import { run as ncu } from 'npm-check-updates'
+import globalDirs from 'global-dirs'
+import type { RunOptions } from 'npm-check-updates'
+
+function importModuleLocalOrGlobal(moduleName: string) {
+  try {
+    return require(moduleName)
+  }
+  catch (error) {
+    const globalPath = path.join(globalDirs.npm.packages, moduleName)
+    return require(globalPath)
+  }
+}
+
+function prepareNcu() {
+  try {
+    const ncu = importModuleLocalOrGlobal('npm-check-updates')
+    return ncu
+  }
+  catch (error) {
+    execSync('npm install npm-check-updates -g')
+    const ncu = importModuleLocalOrGlobal('npm-check-updates')
+    return ncu
+  }
+}
 
 export async function run(cwd?: string) {
   try {
@@ -10,19 +35,20 @@ export async function run(cwd?: string) {
 
     core.debug(`upstream npm dependencies: ${upstreamDeps.join(', ')}`)
 
+    const ncu = prepareNcu()
+
     const updateInfos: { [key: string]: string } = {}
-    const result = await ncu({
+    const result = await ncu.run({
       deep,
       cwd,
       filterResults: (packageName) => {
-        if (allDeps) {
+        if (allDeps)
           return true
-        }
 
         return upstreamDeps.includes(packageName)
       },
       upgrade: !checkOnly,
-    })
+    } as RunOptions)
 
     // 如果 result 为
     if (!result) {
@@ -33,21 +59,21 @@ export async function run(cwd?: string) {
     for (const key in result) {
       if (deep) {
         for (const pkgName in (result as any)[key]) {
-          if (allDeps || upstreamDeps.includes(pkgName)) {
+          if (allDeps || upstreamDeps.includes(pkgName))
             updateInfos[pkgName] = (result as any)[key][pkgName]
-          }
         }
-      } else {
-        if (allDeps || upstreamDeps.includes(key)) {
+      }
+      else {
+        if (allDeps || upstreamDeps.includes(key))
           updateInfos[key] = (result as any)[key]
-        }
       }
     }
 
     const needUpdate = Object.keys(updateInfos).length > 0
     core.setOutput('need-update', needUpdate)
     needUpdate && core.setOutput('dependencies', updateInfos)
-  } catch (error: any) {
+  }
+  catch (error: any) {
     core.setFailed(error.message)
   }
 }

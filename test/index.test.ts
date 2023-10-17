@@ -1,29 +1,29 @@
-import core from '@actions/core'
-import { run } from '../src/main'
-import { vitest, describe, beforeEach, it, beforeAll, expect, afterAll } from 'vitest'
 import path from 'node:path'
 import fs from 'node:fs'
+import core from '@actions/core'
+import { afterAll, beforeAll, beforeEach, describe, expect, it, vitest } from 'vitest'
+import { run } from '../src/main'
 
 const mockDir = path.resolve(__dirname, './mock')
 const srcPkgJson = {
-  "name": "test",
-  "dependencies": {
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0"
-  }
+  name: 'test',
+  dependencies: {
+    'vue': '^3.0.0',
+    'vue-router': '^4.0.0',
+  },
 }
 
 const srcDeepPkgJson = {
-  "name": "deep-test",
-  "dependencies": {
-    "react": "^18.0.0"
-  }
+  name: 'deep-test',
+  dependencies: {
+    react: '^18.0.0',
+  },
 }
 
 function readPackageJson() {
   return [
     JSON.parse(fs.readFileSync(path.resolve(mockDir, 'package.json'), 'utf-8')),
-    JSON.parse(fs.readFileSync(path.resolve(mockDir, 'deep/package.json'), 'utf-8'))
+    JSON.parse(fs.readFileSync(path.resolve(mockDir, 'deep/package.json'), 'utf-8')),
   ]
 }
 
@@ -53,7 +53,7 @@ describe('action', () => {
   })
 
   it('updates the package.json', async () => {
-    getInputMock.mockImplementation(name => {
+    getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           return 'vue'
@@ -73,15 +73,15 @@ describe('action', () => {
     expect(setOutputMock).toHaveBeenNthCalledWith(
       1,
       'need-update',
-      true
+      true,
     )
 
     expect(setOutputMock).toHaveBeenNthCalledWith(
       2,
       'dependencies',
       {
-        vue: pkgJson.dependencies.vue
-      }
+        vue: pkgJson.dependencies.vue,
+      },
     )
 
     await runMain()
@@ -94,12 +94,12 @@ describe('action', () => {
     expect(setOutputMock).toHaveBeenNthCalledWith(
       3,
       'need-update',
-      false
+      false,
     )
   })
 
   it('updates the package.json with deep', async () => {
-    getInputMock.mockImplementation(name => {
+    getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           return 'vue,react'
@@ -121,7 +121,7 @@ describe('action', () => {
     expect(setOutputMock).toHaveBeenNthCalledWith(
       1,
       'need-update',
-      true
+      true,
     )
 
     expect(setOutputMock).toHaveBeenNthCalledWith(
@@ -129,13 +129,13 @@ describe('action', () => {
       'dependencies',
       {
         vue: pkgJson.dependencies.vue,
-        react: deepPkgJson.dependencies.react
-      }
+        react: deepPkgJson.dependencies.react,
+      },
     )
   })
 
   it('updates the package.json with check-only', async () => {
-    getInputMock.mockImplementation(name => {
+    getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           return 'vue'
@@ -157,12 +157,12 @@ describe('action', () => {
     expect(setOutputMock).toHaveBeenNthCalledWith(
       1,
       'need-update',
-      true
+      true,
     )
   })
 
   it('updates all dependencies in package.json', async () => {
-    getInputMock.mockImplementation(name => {
+    getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           return 'vue'
@@ -184,21 +184,21 @@ describe('action', () => {
     expect(setOutputMock).toHaveBeenNthCalledWith(
       1,
       'need-update',
-      true
+      true,
     )
 
     expect(setOutputMock).toHaveBeenNthCalledWith(
       2,
       'dependencies',
       {
-        vue: pkgJson.dependencies.vue,
-        'vue-router': pkgJson.dependencies['vue-router']
-      }
+        'vue': pkgJson.dependencies.vue,
+        'vue-router': pkgJson.dependencies['vue-router'],
+      },
     )
   })
 
   it('fails if upstream is empty', async () => {
-    getInputMock.mockImplementation(name => {
+    getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           throw new Error('Input required and not supplied: upstream')
@@ -211,7 +211,7 @@ describe('action', () => {
 
     expect(setFailedMock).toHaveBeenNthCalledWith(
       1,
-      'Input required and not supplied: upstream'
+      'Input required and not supplied: upstream',
     )
   })
 })

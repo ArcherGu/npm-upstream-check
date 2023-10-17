@@ -4,5 +4,6 @@ export default defineConfig({
   name: 'npm-upstream-check',
   entry: ['src/index.ts'],
   clean: true,
-  splitting: false
+  splitting: false,
+  noExternal: ['@actions/core', 'global-dirs'],
 })

@@ -1,8 +1,8 @@
-name: npm-upstream-check
+name: Npm Upstream Check
 description: Check the updates of upstream npm dependencies
 author: ArcherGu
 branding:
-  icon: anchor
+  icon: refresh-cw
   color: blue
 
 inputs:

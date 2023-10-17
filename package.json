@@ -5,7 +5,6 @@
   "description": "Check the updates of upstream npm dependencies",
   "author": "ArcherGu",
   "license": "MIT",
-  "type": "module",
   "repository": {
     "url": "https://github.com/ArcherGu/npm-upstream-check.git"
   },

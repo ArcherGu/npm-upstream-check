@@ -23,15 +23,15 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 
 // src/main.ts
-var import_core = __toESM(require("@actions/core"), 1);
+var core = __toESM(require("@actions/core"));
 var import_npm_check_updates = require("npm-check-updates");
 async function run(cwd) {
   try {
-    const upstreamDeps = import_core.default.getInput("upstream", { required: true }).trim().split(",");
-    const deep = import_core.default.getInput("deep", { required: false }) === "true";
-    const checkOnly = import_core.default.getInput("check-only", { required: false }) === "true";
-    const allDeps = import_core.default.getInput("all", { required: false }) === "true";
-    import_core.default.debug(`upstream npm dependencies: ${upstreamDeps.join(", ")}`);
+    const upstreamDeps = core.getInput("upstream", { required: true }).trim().split(",");
+    const deep = core.getInput("deep", { required: false }) === "true";
+    const checkOnly = core.getInput("check-only", { required: false }) === "true";
+    const allDeps = core.getInput("all", { required: false }) === "true";
+    core.debug(`upstream npm dependencies: ${upstreamDeps.join(", ")}`);
     const updateInfos = {};
     const result = await (0, import_npm_check_updates.run)({
       deep,
@@ -45,7 +45,7 @@ async function run(cwd) {
       upgrade: !checkOnly
     });
     if (!result) {
-      import_core.default.setOutput("need-update", false);
+      core.setOutput("need-update", false);
       return;
     }
     for (const key in result) {
@@ -62,10 +62,10 @@ async function run(cwd) {
       }
     }
     const needUpdate = Object.keys(updateInfos).length > 0;
-    import_core.default.setOutput("need-update", needUpdate);
-    needUpdate && import_core.default.setOutput("dependencies", updateInfos);
+    core.setOutput("need-update", needUpdate);
+    needUpdate && core.setOutput("dependencies", updateInfos);
   } catch (error) {
-    import_core.default.setFailed(error.message);
+    core.setFailed(error.message);
   }
 }
 

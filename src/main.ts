@@ -1,4 +1,4 @@
-import core from '@actions/core'
+import * as core from '@actions/core'
 import { run as ncu } from 'npm-check-updates'
 
 export async function run(cwd?: string) {

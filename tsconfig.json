@@ -12,5 +12,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
-  }
+  },
+  "include": [
+    "src"
+  ],
 }

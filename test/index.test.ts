@@ -207,6 +207,8 @@ describe('action', () => {
       }
     })
 
+    setFailedMock.mockImplementation(() => { })
+
     await runMain()
 
     expect(setFailedMock).toHaveBeenNthCalledWith(

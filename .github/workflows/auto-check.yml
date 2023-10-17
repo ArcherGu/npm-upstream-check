@@ -13,6 +13,29 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    outputs:
+      need-update: ${{ steps.ncu.outputs.need-update }}
+      dependencies: ${{ steps.ncu.outputs.dependencies }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the updates of upstream npm dependencies
+        uses: ./ # Uses an action in the root directory
+        id: ncu
+        with:
+          upstream: '@actions/core'
+          check-only: true
+          all: true
+
+  commit-and-push:
+    needs: auto-check
+    if: ${{ needs.auto-check.outputs.need-update == 'true' }}
+
+    name: Commit and Push
+
+    runs-on: ubuntu-latest
+
     permissions:
       contents: write
 
@@ -30,23 +53,17 @@ jobs:
           upstream: '@actions/core'
           all: true
 
-      - name: Check Need update
-        if: ${{ steps.ncu.outputs.need-update == 'false' }}
-        run: |
-          echo "No dependencies need to update"
-          exit 0
-
       - name: Cache pnpm store
         uses: actions/cache@v3
         env:
           cache-name: cache-pnpm-store
         with:
           path: ${{ github.workspace }}/.pnpm-store
-          key: ubuntu-latest-18.x-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          key: Linux-18.x-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ubuntu-latest-18.x-${{ env.cache-name }}-
-            ubuntu-latest-18.x-
-            ubuntu-latest-
+            Linux-18.x-${{ env.cache-name }}-
+            Linux-18.x-
+            Linux-
 
       - name: Install pnpm
         run: npm i -g pnpm

@@ -51,18 +51,11 @@ jobs:
         run: pnpm build && pnpm test
 
   action-test:
-    if: '!contains(github.event.head_commit.message, ''skip-ci'')'
+    needs: [code-test]
 
     runs-on: ubuntu-latest
 
     name: Action Test
-
-    # if you want to output to other job, you can use `outputs`
-    # then you can use `needs: [action-test]` in other job
-    # and use `${{ needs.action-test.outputs.need-update }}` to get the output
-    # outputs:
-    #   need-update: ${{ steps.ncu.outputs.need-update }}
-    #   dependencies: ${{ steps.ncu.outputs.dependencies }}
 
     steps:
       - name: Checkout

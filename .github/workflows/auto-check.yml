@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  schedule:
+    # every day at 00:00 UTC
+    - cron: '0 0 * * *'
+
+jobs:
+  auto-check:
+    name: Auto Check
+
+    runs-on: ${{ matrix.os }}
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Update dependencies
+        id: ncu
+        uses: ./ # Uses an action in the root directory
+        with:
+          upstream: '@actions/core'
+          all: true
+
+      - name: Check Need update
+        if: ${{ steps.ncu.outputs.need-update == 'false' }}
+        run: |
+          echo "No dependencies need to update"
+          exit 0
+
+      - name: Cache pnpm store
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-pnpm-store
+        with:
+          path: ${{ github.workspace }}/.pnpm-store
+          key: ubuntu-latest-18.x-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ubuntu-latest-18.x-${{ env.cache-name }}-
+            ubuntu-latest-18.x-
+            ubuntu-latest-
+
+      - name: Install pnpm
+        run: npm i -g pnpm
+
+      - name: Set pnpm store path
+        run: pnpm config set store-dir .pnpm-store
+
+      - name: Install deps
+        run: pnpm i --no-frozen-lockfile
+
+      - name: Build and Test
+        run: pnpm build && pnpm test
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: ncu update dependencies\n\n ${{ needs.action-test.outputs.dependencies }}"

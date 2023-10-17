@@ -57,9 +57,12 @@ jobs:
 
     name: Action Test
 
-    outputs:
-      need-update: ${{ steps.ncu.outputs.need-update }}
-      dependencies: ${{ steps.ncu.outputs.dependencies }}
+    # if you want to output to other job, you can use `outputs`
+    # then you can use `needs: [action-test]` in other job
+    # and use `${{ needs.action-test.outputs.need-update }}` to get the output
+    # outputs:
+    #   need-update: ${{ steps.ncu.outputs.need-update }}
+    #   dependencies: ${{ steps.ncu.outputs.dependencies }}
 
     steps:
       - name: Checkout
@@ -73,59 +76,7 @@ jobs:
           check-only: true
           all: true
 
-  commit-and-push:
-    needs: action-test
-    if: ${{ needs.action-test.outputs.need-update == 'true' }}
-
-    name: Commit and Push
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [18.x]
-
-    runs-on: ${{ matrix.os }}
-
-    permissions:
-      contents: write
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Cache pnpm store
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-pnpm-store
-        with:
-          path: ${{ github.workspace }}/.pnpm-store
-          key: ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-
-            ${{ runner.os }}-${{ matrix.node-version }}-
-            ${{ runner.os }}-
-
-      - name: Install pnpm
-        run: npm i -g pnpm
-
-      - name: Set pnpm store path
-        run: pnpm config set store-dir .pnpm-store
-
-      - name: Update dependencies
-        uses: ./ # Uses an action in the root directory
-        with:
-          upstream: '@actions/core'
-          all: true
-
-      - name: Install deps
-        run: pnpm i --no-frozen-lockfile
-
-      - name: Build and Test
-        run: pnpm build && pnpm test
-
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: ncu update dependencies\n\n ${{ needs.action-test.outputs.dependencies }}"
+      - name: Get Outputs
+        run: |
+          echo "need-update: ${{ steps.ncu.outputs.need-update }}"
+          echo "dependencies: ${{ steps.ncu.outputs.dependencies }}"

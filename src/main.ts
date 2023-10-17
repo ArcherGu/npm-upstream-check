@@ -20,7 +20,9 @@ function prepareNcu() {
     return ncu
   }
   catch (error) {
-    execSync('npm install npm-check-updates -g')
+    core.debug('npm-check-updates not found, installing...')
+    const stdout = execSync('npm install npm-check-updates -g')
+    core.debug(stdout.toString())
     const ncu = importModuleLocalOrGlobal('npm-check-updates')
     return ncu
   }

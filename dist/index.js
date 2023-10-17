@@ -18139,15 +18139,15 @@ var require_global_dirs = __commonJS({
 });
 
 // src/main.ts
+var import_node_path = __toESM(require("path"));
+var import_node_child_process = require("child_process");
 var core = __toESM(require_core());
-var import_path = __toESM(require("path"));
 var import_global_dirs = __toESM(require_global_dirs());
-var import_child_process = require("child_process");
 function importModuleLocalOrGlobal(moduleName) {
   try {
     return require(moduleName);
   } catch (error) {
-    const globalPath = import_path.default.join(import_global_dirs.default.npm.packages, moduleName);
+    const globalPath = import_node_path.default.join(import_global_dirs.default.npm.packages, moduleName);
     return require(globalPath);
   }
 }
@@ -18156,7 +18156,9 @@ function prepareNcu() {
     const ncu = importModuleLocalOrGlobal("npm-check-updates");
     return ncu;
   } catch (error) {
-    (0, import_child_process.execSync)("npm install npm-check-updates -g");
+    core.debug("npm-check-updates not found, installing...");
+    const stdout = (0, import_node_child_process.execSync)("npm install npm-check-updates -g");
+    core.debug(stdout.toString());
     const ncu = importModuleLocalOrGlobal("npm-check-updates");
     return ncu;
   }
@@ -18174,9 +18176,8 @@ async function run(cwd) {
       deep,
       cwd,
       filterResults: (packageName) => {
-        if (allDeps) {
+        if (allDeps)
           return true;
-        }
         return upstreamDeps.includes(packageName);
       },
       upgrade: !checkOnly
@@ -18188,14 +18189,12 @@ async function run(cwd) {
     for (const key in result) {
       if (deep) {
         for (const pkgName in result[key]) {
-          if (allDeps || upstreamDeps.includes(pkgName)) {
+          if (allDeps || upstreamDeps.includes(pkgName))
             updateInfos[pkgName] = result[key][pkgName];
-          }
         }
       } else {
-        if (allDeps || upstreamDeps.includes(key)) {
+        if (allDeps || upstreamDeps.includes(key))
           updateInfos[key] = result[key];
-        }
       }
     }
     const needUpdate = Object.keys(updateInfos).length > 0;

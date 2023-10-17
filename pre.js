@@ -2,7 +2,7 @@
 
 const { exec } = require('child_process')
 
-exec('npm install', (err, stdout, stderr) => {
+exec('npm install --omit=dev', (err, stdout, stderr) => {
   if (err) {
     console.log(err)
   }

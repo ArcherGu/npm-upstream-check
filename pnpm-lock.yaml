@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@lightwing/eslint-config':
-    specifier: ^1.0.1
-    version: 1.0.1(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6)
+    specifier: ^1.0.3
+    version: 1.0.3(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6)
   '@types/node':
     specifier: ^20.8.10
     version: 20.8.10
@@ -464,8 +464,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@lightwing/eslint-config@1.0.1(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6):
-    resolution: {integrity: sha512-rfLgjQpeJ0po7akViMLnrnTRa68QGoJHu2liJP5x9LKvb1KV7dK5aTE6camC33B0kNZVjVF2GfDC6Qx7WGjwMw==}
+  /@lightwing/eslint-config@1.0.3(eslint@8.53.0)(typescript@5.2.2)(vitest@0.34.6):
+    resolution: {integrity: sha512-azeDaF3kV9xdZGldkWXj7SlX0yUv1GNeecVqfa5q+HXbZBfce7UAn/gtRdMucpLc0eT2HPBlw7MDcSfeZEhZzQ==}
     peerDependencies:
       eslint: '>=8.0.0'
       typescript: '>=4.0.0'

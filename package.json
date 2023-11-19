@@ -27,7 +27,7 @@
     "lint-staged": "^15.1.0",
     "npm-check-updates": "^16.14.6",
     "simple-git-hooks": "^2.9.0",
-    "tsup": "^7.3.0",
+    "tsup": "^8.0.0",
     "typescript": "^5.2.2",
     "vitest": "^0.34.6"
   },

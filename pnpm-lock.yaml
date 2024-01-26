@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^15.2.0
     version: 15.2.0
   npm-check-updates:
-    specifier: ^16.14.12
-    version: 16.14.12
+    specifier: ^16.14.13
+    version: 16.14.13
   simple-git-hooks:
     specifier: ^2.9.0
     version: 2.9.0
@@ -3646,8 +3646,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: true
 
-  /npm-check-updates@16.14.12:
-    resolution: {integrity: sha512-5FvqaDX8AqWWTDQFbBllgLwoRXTvzlqVIRSKl9Kg8bYZTfNwMnrp1Zlmb5e/ocf11UjPTc+ShBFjYQ7kg6FL0w==}
+  /npm-check-updates@16.14.13:
+    resolution: {integrity: sha512-vuRTJUoOElBDQ1Z5/UqqgNfExteSdrmwKNV6xuZtiyuKENFduYsy+IhDvCIC9fI1F+MD4zWtq9WCBwfOGfxy7Q==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:

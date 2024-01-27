@@ -22,14 +22,14 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.24",
-    "@types/node": "^20.11.6",
+    "@types/node": "^20.11.7",
     "eslint": "^8.56.0",
     "lint-staged": "^15.2.0",
-    "npm-check-updates": "^16.14.13",
+    "npm-check-updates": "^16.14.14",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
-    "vitest": "^1.2.1"
+    "vitest": "^1.2.2"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

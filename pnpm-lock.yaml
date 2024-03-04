@@ -29,7 +29,7 @@ devDependencies:
     specifier: ^16.14.15
     version: 16.14.15
   simple-git-hooks:
-    specifier: ^2.9.0
+    specifier: ^2.10.0
     version: 2.10.0
   tsup:
     specifier: ^8.0.2

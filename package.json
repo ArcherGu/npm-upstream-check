@@ -21,14 +21,14 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.41",
+    "@lightwing/eslint-config": "^1.0.42",
     "@types/node": "^20.12.7",
     "eslint": "^9.0.0",
     "lint-staged": "^15.2.2",
     "npm-check-updates": "^16.14.18",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.0.2",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "vitest": "^1.4.0"
   },
   "simple-git-hooks": {

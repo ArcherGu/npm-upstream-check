@@ -22,7 +22,7 @@ importers:
         specifier: ^20.12.7
         version: 20.12.7
       eslint:
-        specifier: ^9.1.0
+        specifier: ^9.1.1
         version: 9.1.1
       lint-staged:
         specifier: ^15.2.2
@@ -3950,7 +3950,7 @@ snapshots:
   '@tufjs/models@1.0.4':
     dependencies:
       '@tufjs/canonical-json': 1.0.0
-      minimatch: 9.0.3
+      minimatch: 9.0.4
 
   '@types/eslint@8.56.9':
     dependencies:
@@ -5238,7 +5238,7 @@ snapshots:
 
   ignore-walk@6.0.4:
     dependencies:
-      minimatch: 9.0.3
+      minimatch: 9.0.4
 
   ignore@5.3.1: {}
 

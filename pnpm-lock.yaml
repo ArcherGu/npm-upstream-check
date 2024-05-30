@@ -19,7 +19,7 @@ importers:
         specifier: ^1.0.55
         version: 1.0.55(@typescript-eslint/parser@7.11.0(eslint@9.3.0)(typescript@5.4.5))(@vue/compiler-sfc@3.4.21)(eslint@9.3.0)(typescript@5.4.5)(vitest@1.6.0(@types/node@20.12.13))
       '@types/node':
-        specifier: ^20.12.12
+        specifier: ^20.12.13
         version: 20.12.13
       eslint:
         specifier: ^9.3.0

@@ -22,7 +22,7 @@ importers:
         specifier: ^20.14.2
         version: 20.14.2
       eslint:
-        specifier: ^9.4.0
+        specifier: ^9.5.0
         version: 9.5.0
       lint-staged:
         specifier: ^15.2.7

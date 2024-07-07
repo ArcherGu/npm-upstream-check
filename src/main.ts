@@ -52,7 +52,6 @@ export async function run(cwd?: string) {
       upgrade: !checkOnly,
     } as RunOptions)
 
-    // 如果 result 为
     if (!result) {
       core.setOutput('need-update', false)
       return

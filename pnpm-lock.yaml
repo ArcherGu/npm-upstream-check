@@ -22,7 +22,7 @@ importers:
         specifier: ^20.14.10
         version: 20.14.10
       eslint:
-        specifier: ^9.6.0
+        specifier: ^9.7.0
         version: 9.7.0
       lint-staged:
         specifier: ^15.2.7
@@ -4314,7 +4314,7 @@ snapshots:
   '@tufjs/models@1.0.4':
     dependencies:
       '@tufjs/canonical-json': 1.0.0
-      minimatch: 9.0.4
+      minimatch: 9.0.5
 
   '@types/eslint@8.56.10':
     dependencies:
@@ -5648,7 +5648,7 @@ snapshots:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 3.1.2
-      minimatch: 9.0.4
+      minimatch: 9.0.5
       minipass: 7.1.2
       path-scurry: 1.11.1
 
@@ -5769,7 +5769,7 @@ snapshots:
 
   ignore-walk@6.0.4:
     dependencies:
-      minimatch: 9.0.4
+      minimatch: 9.0.5
 
   ignore@5.3.1: {}
 

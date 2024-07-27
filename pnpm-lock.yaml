@@ -25,7 +25,7 @@ importers:
         specifier: ^20.14.12
         version: 20.14.12
       eslint:
-        specifier: ^9.7.0
+        specifier: ^9.8.0
         version: 9.8.0
       lint-staged:
         specifier: ^15.2.7
@@ -4293,7 +4293,7 @@ snapshots:
   '@tufjs/models@1.0.4':
     dependencies:
       '@tufjs/canonical-json': 1.0.0
-      minimatch: 9.0.4
+      minimatch: 9.0.5
 
   '@types/eslint@8.56.10':
     dependencies:

@@ -19,10 +19,10 @@ importers:
         specifier: ^1.0.69
         version: 1.0.69(@vue/compiler-sfc@3.4.21)(eslint@9.8.0)(typescript@5.5.4)(vitest@2.0.5(@types/node@22.1.0))
       '@swc/core':
-        specifier: ^1.7.4
+        specifier: ^1.7.5
         version: 1.7.5
       '@types/node':
-        specifier: ^22.0.2
+        specifier: ^22.1.0
         version: 22.1.0
       eslint:
         specifier: ^9.8.0
@@ -31,13 +31,13 @@ importers:
         specifier: ^15.2.7
         version: 15.2.7
       npm-check-updates:
-        specifier: ^17.0.0
-        version: 17.0.0
+        specifier: ^17.0.1
+        version: 17.0.1
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
       tsup:
-        specifier: ^8.2.3
+        specifier: ^8.2.4
         version: 8.2.4(@swc/core@1.7.5)(jiti@1.21.6)(postcss@8.4.40)(tsx@4.16.3)(typescript@5.5.4)(yaml@2.4.5)
       typescript:
         specifier: ^5.5.4
@@ -2014,8 +2014,8 @@ packages:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
 
-  npm-check-updates@17.0.0:
-    resolution: {integrity: sha512-rXJTiUYBa+GzlvPgemFlwlTdsqS2C16trlW58d9it8u3Hnp0M+Fzmd3NsYBFCjlRlgMZwzuCIBKd9bvIz6yx0Q==}
+  npm-check-updates@17.0.1:
+    resolution: {integrity: sha512-PKVCncWsT/8rBptjds5lpGMLlqaTjv11NJgblMf2rKUauzHZBB9OSAqFgC4duyY2+N6na/WGzL9CUD/+ZeIzvQ==}
     engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
@@ -4860,7 +4860,7 @@ snapshots:
 
   normalize-path@3.0.0: {}
 
-  npm-check-updates@17.0.0: {}
+  npm-check-updates@17.0.1: {}
 
   npm-run-path@4.0.1:
     dependencies:

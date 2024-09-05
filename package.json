@@ -21,9 +21,9 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.77",
+    "@lightwing/eslint-config": "^1.0.78",
     "@swc/core": "^1.7.23",
-    "@types/node": "^22.5.3",
+    "@types/node": "^22.5.4",
     "eslint": "^9.9.1",
     "lint-staged": "^15.2.10",
     "npm-check-updates": "^17.1.1",

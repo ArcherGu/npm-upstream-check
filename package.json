@@ -23,14 +23,14 @@
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.83",
     "@swc/core": "^1.7.26",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.5.5",
     "eslint": "^9.10.0",
     "lint-staged": "^15.2.10",
     "npm-check-updates": "^17.1.1",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.2.4",
     "typescript": "^5.6.2",
-    "vitest": "^2.1.0"
+    "vitest": "^2.1.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

@@ -24,7 +24,7 @@
     "@lightwing/eslint-config": "^1.0.88",
     "@swc/core": "^1.7.36",
     "@types/node": "^22.7.6",
-    "eslint": "^9.12.0",
+    "eslint": "^9.13.0",
     "lint-staged": "^15.2.10",
     "npm-check-updates": "^17.1.4",
     "simple-git-hooks": "^2.11.1",

@@ -22,14 +22,14 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.90",
-    "@swc/core": "^1.9.2",
-    "@types/node": "^22.9.1",
+    "@swc/core": "^1.9.3",
+    "@types/node": "^22.9.2",
     "eslint": "^9.15.0",
     "lint-staged": "^15.2.10",
     "npm-check-updates": "^17.1.11",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.3.5",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "vitest": "^2.1.5"
   },
   "simple-git-hooks": {

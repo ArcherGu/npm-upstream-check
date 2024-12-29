@@ -28,7 +28,7 @@ importers:
         specifier: ^9.17.0
         version: 9.17.0(jiti@2.4.2)
       lint-staged:
-        specifier: ^15.2.11
+        specifier: ^15.3.0
         version: 15.3.0
       npm-check-updates:
         specifier: ^17.1.12

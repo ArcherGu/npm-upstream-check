@@ -1,5 +1,5 @@
-import path from 'node:path'
 import fs from 'node:fs'
+import path from 'node:path'
 import core from '@actions/core'
 import { afterAll, beforeAll, beforeEach, describe, expect, it, vitest } from 'vitest'
 import { run } from '../src/main'

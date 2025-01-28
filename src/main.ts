@@ -1,13 +1,13 @@
-import path from 'node:path'
-import { execSync } from 'node:child_process'
-import * as core from '@actions/core'
 import type { RunOptions } from 'npm-check-updates'
+import { execSync } from 'node:child_process'
+import path from 'node:path'
+import * as core from '@actions/core'
 
 function importModuleLocalOrGlobal(moduleName: string) {
   try {
     return require(moduleName)
   }
-  catch (error) {
+  catch {
     const globalDir = execSync('npm root --global').toString().trim()
     const globalPath = path.join(globalDir, moduleName)
     return require(globalPath)
@@ -19,7 +19,7 @@ function prepareNcu() {
     const ncu = importModuleLocalOrGlobal('npm-check-updates')
     return ncu
   }
-  catch (error) {
+  catch {
     core.debug('npm-check-updates not found, installing...')
     const stdout = execSync('npm install npm-check-updates -g')
     core.debug(stdout.toString())

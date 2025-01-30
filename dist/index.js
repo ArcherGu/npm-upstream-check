@@ -18638,13 +18638,13 @@ Support boolean input list: \`true | True | TRUE | false | False | FALSE\``);
 });
 
 // src/main.ts
-var import_node_path = __toESM(require("path"));
 var import_node_child_process = require("child_process");
+var import_node_path = __toESM(require("path"));
 var core = __toESM(require_core());
 function importModuleLocalOrGlobal(moduleName) {
   try {
     return require(moduleName);
-  } catch (error) {
+  } catch {
     const globalDir = (0, import_node_child_process.execSync)("npm root --global").toString().trim();
     const globalPath = import_node_path.default.join(globalDir, moduleName);
     return require(globalPath);
@@ -18654,7 +18654,7 @@ function prepareNcu() {
   try {
     const ncu = importModuleLocalOrGlobal("npm-check-updates");
     return ncu;
-  } catch (error) {
+  } catch {
     core.debug("npm-check-updates not found, installing...");
     const stdout = (0, import_node_child_process.execSync)("npm install npm-check-updates -g");
     core.debug(stdout.toString());

@@ -25,7 +25,7 @@ importers:
         specifier: ^22.13.1
         version: 22.13.1
       eslint:
-        specifier: ^9.20.0
+        specifier: ^9.20.1
         version: 9.20.1(jiti@2.4.2)
       lint-staged:
         specifier: ^15.4.3

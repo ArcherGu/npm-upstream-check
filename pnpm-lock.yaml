@@ -19,7 +19,7 @@ importers:
         specifier: ^1.0.106
         version: 1.0.106(@typescript-eslint/utils@8.24.1(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3))(@vue/compiler-sfc@3.4.21)(eslint@9.20.1(jiti@2.4.2))(ts-api-utils@2.0.1(typescript@5.7.3))(typescript@5.7.3)(vitest@3.0.6(@types/debug@4.1.12)(@types/node@22.13.4)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0))
       '@swc/core':
-        specifier: ^1.10.17
+        specifier: ^1.10.18
         version: 1.10.18
       '@types/node':
         specifier: ^22.13.4

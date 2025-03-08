@@ -21,10 +21,10 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.109",
-    "@swc/core": "^1.11.7",
+    "@lightwing/eslint-config": "^1.0.110",
+    "@swc/core": "^1.11.8",
     "@types/node": "^22.13.9",
-    "eslint": "^9.21.0",
+    "eslint": "^9.22.0",
     "lint-staged": "^15.4.3",
     "npm-check-updates": "^17.1.15",
     "simple-git-hooks": "^2.11.1",

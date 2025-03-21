@@ -34,7 +34,7 @@ importers:
         specifier: ^17.1.15
         version: 17.1.15
       simple-git-hooks:
-        specifier: ^2.11.1
+        specifier: ^2.12.1
         version: 2.12.1
       tsup:
         specifier: ^8.4.0

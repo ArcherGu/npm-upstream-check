@@ -1,7 +1,7 @@
 {
   "name": "npm-upstream-check",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.7.1",
+  "packageManager": "pnpm@10.8.0",
   "description": "Check the updates of upstream npm dependencies",
   "author": "ArcherGu",
   "license": "MIT",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.113",
-    "@swc/core": "^1.11.16",
+    "@swc/core": "^1.11.18",
     "@types/node": "^22.14.0",
     "eslint": "^9.24.0",
     "lint-staged": "^15.5.0",

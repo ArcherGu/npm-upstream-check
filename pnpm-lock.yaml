@@ -32,7 +32,7 @@ importers:
         version: 15.5.0
       npm-check-updates:
         specifier: ^17.1.16
-        version: 17.1.16
+        version: 17.1.18
       simple-git-hooks:
         specifier: ^2.12.1
         version: 2.12.1
@@ -2381,8 +2381,8 @@ packages:
     resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  npm-check-updates@17.1.16:
-    resolution: {integrity: sha512-9nohkfjLRzLfsLVGbO34eXBejvrOOTuw5tvNammH73KEFG5XlFoi3G2TgjTExHtnrKWCbZ+mTT+dbNeSjASIPw==}
+  npm-check-updates@17.1.18:
+    resolution: {integrity: sha512-bkUy2g4v1i+3FeUf5fXMLbxmV95eG4/sS7lYE32GrUeVgQRfQEk39gpskksFunyaxQgTIdrvYbnuNbO/pSUSqw==}
     engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
@@ -5532,7 +5532,7 @@ snapshots:
       semver: 7.7.1
       validate-npm-package-license: 3.0.4
 
-  npm-check-updates@17.1.16: {}
+  npm-check-updates@17.1.18: {}
 
   npm-run-path@5.3.0:
     dependencies:

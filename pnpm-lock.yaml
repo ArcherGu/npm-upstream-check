@@ -25,14 +25,14 @@ importers:
         specifier: ^22.14.1
         version: 22.14.1
       eslint:
-        specifier: ^9.25.0
+        specifier: ^9.25.1
         version: 9.25.1(jiti@2.4.2)
       lint-staged:
         specifier: ^15.5.1
         version: 15.5.1
       npm-check-updates:
-        specifier: ^17.1.18
-        version: 17.1.18
+        specifier: ^18.0.0
+        version: 18.0.0
       simple-git-hooks:
         specifier: ^2.12.1
         version: 2.12.1
@@ -43,7 +43,7 @@ importers:
         specifier: ^5.8.3
         version: 5.8.3
       vitest:
-        specifier: ^3.1.1
+        specifier: ^3.1.2
         version: 3.1.2(@types/debug@4.1.12)(@types/node@22.14.1)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.1)
 
 packages:
@@ -2433,8 +2433,8 @@ packages:
     resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
     engines: {node: ^16.14.0 || >=18.0.0}
 
-  npm-check-updates@17.1.18:
-    resolution: {integrity: sha512-bkUy2g4v1i+3FeUf5fXMLbxmV95eG4/sS7lYE32GrUeVgQRfQEk39gpskksFunyaxQgTIdrvYbnuNbO/pSUSqw==}
+  npm-check-updates@18.0.0:
+    resolution: {integrity: sha512-ymh9KF/xcGypQuCr5NQw1pAMRh5mHnQQDgHwM8gQBG8siG9XAKvcP9OtoARxFRgOjzEfjD6YtU/7KB2jJqGGlQ==}
     engines: {node: ^18.18.0 || >=20.0.0, npm: '>=8.12.1'}
     hasBin: true
 
@@ -5666,7 +5666,7 @@ snapshots:
       semver: 7.7.1
       validate-npm-package-license: 3.0.4
 
-  npm-check-updates@17.1.18: {}
+  npm-check-updates@18.0.0: {}
 
   npm-run-path@5.3.0:
     dependencies:

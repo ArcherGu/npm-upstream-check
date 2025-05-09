@@ -23,7 +23,7 @@
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.115",
     "@swc/core": "^1.11.24",
-    "@types/node": "^22.15.15",
+    "@types/node": "^22.15.17",
     "eslint": "^9.26.0",
     "lint-staged": "^15.5.2",
     "npm-check-updates": "^18.0.1",

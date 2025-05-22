@@ -21,8 +21,8 @@
     "@actions/github": "^6.0.1"
   },
   "devDependencies": {
-    "@lightwing/eslint-config": "^1.0.116",
-    "@swc/core": "^1.11.24",
+    "@lightwing/eslint-config": "^1.0.117",
+    "@swc/core": "^1.11.29",
     "@types/node": "^22.15.21",
     "eslint": "^9.27.0",
     "lint-staged": "^16.0.0",

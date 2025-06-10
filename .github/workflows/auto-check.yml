@@ -90,6 +90,6 @@ jobs:
       - name: Build and Test
         run: pnpm build && pnpm test
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "chore: ncu update dependencies\n\n ${{ needs.action-test.outputs.dependencies }}"

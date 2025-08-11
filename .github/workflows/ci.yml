@@ -20,7 +20,7 @@ jobs:
     name: Code Test
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - uses: actions/setup-node@v4
         with:
@@ -59,7 +59,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Check the updates of upstream npm dependencies
         uses: ./ # Uses an action in the root directory

@@ -19,7 +19,7 @@ importers:
         specifier: ^1.0.130
         version: 1.0.130(@vue/compiler-sfc@3.4.21)(eslint@9.36.0(jiti@2.5.1))(ts-api-utils@2.1.0(typescript@5.9.2))(typescript@5.9.2)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@24.5.2)(jiti@2.5.1)(tsx@4.19.2)(yaml@2.8.1))
       '@swc/core':
-        specifier: ^1.13.19
+        specifier: ^1.13.20
         version: 1.13.20
       '@types/node':
         specifier: ^24.5.2

@@ -23,9 +23,9 @@
   "devDependencies": {
     "@lightwing/eslint-config": "^1.0.130",
     "@swc/core": "^1.13.20",
-    "@types/node": "^24.7.1",
+    "@types/node": "^24.7.2",
     "eslint": "^9.37.0",
-    "lint-staged": "^16.2.3",
+    "lint-staged": "^16.2.4",
     "npm-check-updates": "^19.0.0",
     "simple-git-hooks": "^2.13.1",
     "tsup": "^8.5.0",

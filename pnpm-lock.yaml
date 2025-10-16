@@ -31,7 +31,7 @@ importers:
         specifier: ^16.2.4
         version: 16.2.4
       npm-check-updates:
-        specifier: ^19.1.0
+        specifier: ^19.1.1
         version: 19.1.1
       simple-git-hooks:
         specifier: ^2.13.1

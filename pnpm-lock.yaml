@@ -16,7 +16,7 @@ importers:
         version: 6.0.1
     devDependencies:
       '@lightwing/eslint-config':
-        specifier: ^1.0.133
+        specifier: ^1.0.135
         version: 1.0.135(@vue/compiler-sfc@3.4.21)(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)(vitest@4.0.15(@types/node@24.10.1)(jiti@2.6.1)(tsx@4.19.2)(yaml@2.8.2))
       '@swc/core':
         specifier: ^1.15.3

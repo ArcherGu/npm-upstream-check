@@ -246,7 +246,7 @@ describe('action', () => {
         case 'upstream':
           return 'vue'
         case 'ncu-options':
-          return '{"packageManager": "pnpm", "workspaces": true}'
+          return '{"workspaces": true}'
         default:
           return ''
       }

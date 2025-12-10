@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node-version: [18.x, 20.x]
+        node-version: [22.x, 24.x]
 
     runs-on: ${{ matrix.os }}
 
@@ -65,7 +65,8 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: ncu
         with:
-          upstream: '@actions/core'
+          upstream: '@actions/core,npm-check-updates'
+          ncu-options: '{"workspaces": true}'
           check-only: true
           all: true
 

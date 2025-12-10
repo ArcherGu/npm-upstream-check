@@ -64,6 +64,7 @@ jobs:
         uses: ./ # Uses an action in the root directory
         with:
           upstream: '@actions/core,npm-check-updates'
+          ncu-options: '{"workspaces": true}'
           all: true
 
       - name: Cache pnpm store

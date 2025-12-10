@@ -19950,23 +19950,37 @@ function prepareNcu() {
     return ncu;
   }
 }
+function parseNcuOptions(ncuOptionsJson) {
+  try {
+    return JSON.parse(ncuOptionsJson);
+  } catch {
+    return {};
+  }
+}
 async function run(cwd) {
   try {
     const upstreamDeps = core.getInput("upstream", { required: true }).trim().split(",");
-    const deep = core.getInput("deep", { required: false }) === "true";
     const checkOnly = core.getInput("check-only", { required: false }) === "true";
     const allDeps = core.getInput("all", { required: false }) === "true";
-    core.debug(`upstream npm dependencies: ${upstreamDeps.join(", ")}`);
+    const ncuOptionsJson = core.getInput("ncu-options", { required: false }) || "{}";
+    const ncuOptions = parseNcuOptions(ncuOptionsJson);
+    core.debug(`upstream dependencies: ${upstreamDeps.join(", ")}`);
+    if (ncuOptions.packageManager) {
+      core.debug(`package manager: ${ncuOptions.packageManager}`);
+    }
+    if (ncuOptions.workspaces) {
+      core.debug("ncu: workspaces mode enabled");
+    }
     const ncu = prepareNcu();
     const updateInfos = {};
     const result = await ncu.run({
-      deep,
       cwd,
       filterResults: (packageName) => {
         if (allDeps)
           return true;
         return upstreamDeps.includes(packageName);
       },
+      ...ncuOptions,
       upgrade: !checkOnly
     });
     if (!result) {
@@ -19974,7 +19988,7 @@ async function run(cwd) {
       return;
     }
     for (const key in result) {
-      if (deep) {
+      if (typeof result[key] === "object") {
         for (const pkgName in result[key]) {
           if (allDeps || upstreamDeps.includes(pkgName))
             updateInfos[pkgName] = result[key][pkgName];

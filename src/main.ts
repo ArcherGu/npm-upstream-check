@@ -42,10 +42,16 @@ export async function run(cwd?: string) {
     const upstreamDeps = core.getInput('upstream', { required: true }).trim().split(',')
     const checkOnly = core.getInput('check-only', { required: false }) === 'true'
     const allDeps = core.getInput('all', { required: false }) === 'true'
-    const ncuOptionsJson = core.getInput('ncu-options', { required: false })
+    const ncuOptionsJson = core.getInput('ncu-options', { required: false }) || '{}'
     const ncuOptions = parseNcuOptions(ncuOptionsJson) as RunOptions
 
-    core.debug(`upstream npm dependencies: ${upstreamDeps.join(', ')}`)
+    core.debug(`upstream dependencies: ${upstreamDeps.join(', ')}`)
+    if (ncuOptions.packageManager) {
+      core.debug(`package manager: ${ncuOptions.packageManager}`)
+    }
+    if (ncuOptions.workspaces) {
+      core.debug('ncu: workspaces mode enabled')
+    }
 
     const ncu = prepareNcu()
 
@@ -68,15 +74,15 @@ export async function run(cwd?: string) {
     }
 
     for (const key in result) {
-      if (ncuOptions.deep) {
-        for (const pkgName in (result as any)[key]) {
+      if (typeof result[key] === 'object') {
+        for (const pkgName in result[key]) {
           if (allDeps || upstreamDeps.includes(pkgName))
-            updateInfos[pkgName] = (result as any)[key][pkgName]
+            updateInfos[pkgName] = result[key][pkgName]
         }
       }
       else {
         if (allDeps || upstreamDeps.includes(key))
-          updateInfos[key] = (result as any)[key]
+          updateInfos[key] = result[key]
       }
     }
 

@@ -2,3 +2,4 @@ node_modules
 *.log
 .cache
 .pnpm-store
+test/mock

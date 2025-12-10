@@ -30,7 +30,8 @@
     "simple-git-hooks": "catalog:",
     "tsup": "catalog:",
     "typescript": "catalog:",
-    "vitest": "catalog:"
+    "vitest": "catalog:",
+    "yaml": "catalog:"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

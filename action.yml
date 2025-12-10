@@ -9,11 +9,11 @@ inputs:
   upstream:
     description: upstream npm dependencies
     required: true
-  deep:
-    description: deep check
-    required: false
   check-only:
     description: 'only check, not update package.json'
+    required: false
+  ncu-options:
+    description: The options for npm-check-updates
     required: false
   all:
     description: update all npm dependencies in package.json

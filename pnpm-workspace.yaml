@@ -1,0 +1,30 @@
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
+  - '@octokit/plugin-paginate-rest@9.2.2'
+  - undici@5.29.0
+  - '@octokit/endpoint@9.0.6'
+
+shellEmulator: true
+
+cleanupUnusedCatalogs: true
+
+catalogMode: prefer
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - simple-git-hooks
+catalog:
+  '@actions/core': ^2.0.0
+  '@actions/github': ^6.0.1
+  '@lightwing/eslint-config': ^1.0.135
+  '@swc/core': ^1.15.3
+  '@types/node': ^24.10.2
+  eslint: ^9.39.1
+  lint-staged: ^16.2.7
+  npm-check-updates: ^19.1.2
+  simple-git-hooks: ^2.13.1
+  tsup: ^8.5.1
+  typescript: ^5.9.3
+  vitest: ^4.0.15

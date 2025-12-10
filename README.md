@@ -25,12 +25,14 @@ Your npm package may depend on another npm package, and when the upstream packag
   - `upstream`: The upstream package name
     - required
     - example: `esbuild` or `esbuild,rollup`
-  - `deep`: Deep check, e.g. monorepo
-    - optional
-    - default: `false`
   - `check-only`: Only check, not update package.json
     - optional
     - default: `false`
+  - `ncu-options`: The options for npm-check-updates
+    - optional
+    - default: `{}`
+    - example: `{"deep": true}`
+    - available options: [npm-check-updates options](https://github.com/raineorshine/npm-check-updates#options)
   - `all`: Check all dependencies, not just upstream
     - optional
     - default: `false`

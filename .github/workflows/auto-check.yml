@@ -63,7 +63,7 @@ jobs:
         id: ncu
         uses: ./ # Uses an action in the root directory
         with:
-          upstream: '@actions/core'
+          upstream: '@actions/core,npm-check-updates'
           all: true
 
       - name: Cache pnpm store

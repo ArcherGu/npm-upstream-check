@@ -28,12 +28,22 @@ function prepareNcu() {
   }
 }
 
+function parseNcuOptions(ncuOptionsJson: string) {
+  try {
+    return JSON.parse(ncuOptionsJson)
+  }
+  catch {
+    return {}
+  }
+}
+
 export async function run(cwd?: string) {
   try {
     const upstreamDeps = core.getInput('upstream', { required: true }).trim().split(',')
-    const deep = core.getInput('deep', { required: false }) === 'true'
     const checkOnly = core.getInput('check-only', { required: false }) === 'true'
     const allDeps = core.getInput('all', { required: false }) === 'true'
+    const ncuOptionsJson = core.getInput('ncu-options', { required: false })
+    const ncuOptions = parseNcuOptions(ncuOptionsJson) as RunOptions
 
     core.debug(`upstream npm dependencies: ${upstreamDeps.join(', ')}`)
 
@@ -41,7 +51,6 @@ export async function run(cwd?: string) {
 
     const updateInfos: { [key: string]: string } = {}
     const result = await ncu.run({
-      deep,
       cwd,
       filterResults: (packageName) => {
         if (allDeps)
@@ -49,6 +58,7 @@ export async function run(cwd?: string) {
 
         return upstreamDeps.includes(packageName)
       },
+      ...ncuOptions,
       upgrade: !checkOnly,
     } as RunOptions)
 
@@ -58,7 +68,7 @@ export async function run(cwd?: string) {
     }
 
     for (const key in result) {
-      if (deep) {
+      if (ncuOptions.deep) {
         for (const pkgName in (result as any)[key]) {
           if (allDeps || upstreamDeps.includes(pkgName))
             updateInfos[pkgName] = (result as any)[key][pkgName]

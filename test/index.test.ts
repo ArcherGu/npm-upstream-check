@@ -48,7 +48,6 @@ describe('action', () => {
   })
 
   afterAll(() => {
-    // 移除 mock 目录
     fs.rmSync(mockDir, { recursive: true })
   })
 
@@ -98,13 +97,13 @@ describe('action', () => {
     )
   })
 
-  it('updates the package.json with deep', async () => {
+  it('updates the package.json with ncu option', async () => {
     getInputMock.mockImplementation((name) => {
       switch (name) {
         case 'upstream':
           return 'vue,react'
-        case 'deep':
-          return 'true'
+        case 'ncu-options':
+          return '{"deep": true}'
         default:
           return ''
       }

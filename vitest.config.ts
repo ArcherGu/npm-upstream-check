@@ -5,6 +5,7 @@ export default defineConfig({
     testTimeout: 30 * 1000,
     exclude: [
       ...configDefaults.exclude,
+      '.pnpm-store/**',
       'test/mock/**',
     ],
   },

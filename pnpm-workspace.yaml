@@ -1,6 +1,6 @@
 {
   "catalog": {
-    "@actions/core": "^2.0.2",
+    "@actions/core": "^3.0.0",
     "@actions/github": "^7.0.0",
     "@lightwing/eslint-config": "^1.0.141",
     "@swc/core": "^1.15.10",

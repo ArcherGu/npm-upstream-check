@@ -1,7 +1,7 @@
 {
   "name": "npm-upstream-check",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.29.2",
+  "packageManager": "pnpm@10.29.3",
   "workspaces": [],
   "description": "Check the updates of upstream npm dependencies",
   "author": "ArcherGu",

@@ -33,10 +33,6 @@ jobs:
         with:
           path: ${{ github.workspace }}/.pnpm-store
           key: ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ matrix.node-version }}-${{ env.cache-name }}-
-            ${{ runner.os }}-${{ matrix.node-version }}-
-            ${{ runner.os }}-
 
       - name: Install pnpm
         run: npm i -g pnpm

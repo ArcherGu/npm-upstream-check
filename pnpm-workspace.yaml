@@ -1,33 +1,30 @@
-{
-  "catalog": {
-    "@actions/core": "^2.0.2",
-    "@actions/github": "^7.0.0",
-    "@lightwing/eslint-config": "^1.0.141",
-    "@swc/core": "^1.15.10",
-    "@types/node": "^25.0.9",
-    "eslint": "^9.39.2",
-    "lint-staged": "^16.2.7",
-    "npm-check-updates": "^19.3.1",
-    "simple-git-hooks": "^2.13.1",
-    "tsup": "^8.5.1",
-    "typescript": "^5.9.3",
-    "vitest": "^4.0.17",
-    "yaml": "^2.8.2"
-  },
-  "catalogMode": "prefer",
-  "cleanupUnusedCatalogs": true,
-  "onlyBuiltDependencies": [
-    "@swc/core",
-    "esbuild",
-    "simple-git-hooks"
-  ],
-  "shellEmulator": true,
-  "trustPolicy": "no-downgrade",
-  "trustPolicyExclude": [
-    "chokidar@4.0.3",
-    "semver@6.3.1",
-    "@octokit/plugin-paginate-rest@9.2.2",
-    "undici@5.29.0",
-    "@octokit/endpoint@9.0.6"
-  ]
-}
+catalog:
+  '@actions/core': ^3.0.0
+  '@actions/github': ^9.0.0
+  '@lightwing/eslint-config': ^1.0.147
+  '@swc/core': ^1.15.17
+  '@types/node': ^25.3.2
+  eslint: ^10.0.2
+  lint-staged: ^16.2.7
+  npm-check-updates: ^19.6.3
+  simple-git-hooks: ^2.13.1
+  tsup: ^8.5.1
+  typescript: ^5.9.3
+  vitest: ^4.0.18
+  yaml: ^2.8.2
+
+catalogMode: prefer
+cleanupUnusedCatalogs: true
+onlyBuiltDependencies:
+  - '@swc/core'
+  - esbuild
+  - simple-git-hooks
+
+shellEmulator: true
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  - chokidar@4.0.3
+  - semver@6.3.1
+  - '@octokit/plugin-paginate-rest@9.2.2'
+  - undici@5.29.0
+  - '@octokit/endpoint@9.0.6'

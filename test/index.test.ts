@@ -1,9 +1,11 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import core from '@actions/core'
+import * as core from '@actions/core'
 import { afterAll, beforeAll, beforeEach, describe, expect, it, vitest } from 'vitest'
 import { parse as parseYaml, stringify as stringifyYaml } from 'yaml'
 import { run } from '../src/main'
+
+vitest.mock('@actions/core', { spy: true })
 
 const mockDir = path.resolve(__dirname, './mock')
 const srcPkgJson = {

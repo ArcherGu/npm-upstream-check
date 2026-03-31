@@ -8,7 +8,7 @@ catalog:
   npm-check-updates: ^19.6.3
   simple-git-hooks: ^2.13.1
   tsdown: ^0.21.7
-  typescript: ^5.9.3
+  typescript: ^6.0.0
   vitest: ^4.0.18
   yaml: ^2.8.2
 

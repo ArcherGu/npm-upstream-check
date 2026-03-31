@@ -11,7 +11,7 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
@@ -24,12 +24,11 @@
   },
   "devDependencies": {
     "@lightwing/eslint-config": "catalog:",
-    "@swc/core": "catalog:",
     "@types/node": "catalog:",
     "eslint": "catalog:",
     "lint-staged": "catalog:",
     "simple-git-hooks": "catalog:",
-    "tsup": "catalog:",
+    "tsdown": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",
     "yaml": "catalog:"

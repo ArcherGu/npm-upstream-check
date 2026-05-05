@@ -3,14 +3,14 @@ catalog:
   '@actions/github': ^9.1.1
   '@lightwing/eslint-config': ^1.0.154
   '@types/node': ^25.6.0
-  eslint: ^10.2.1
+  eslint: ^10.3.0
   lint-staged: ^16.4.0
-  npm-check-updates: ^22.0.1
+  npm-check-updates: ^22.1.0
   simple-git-hooks: ^2.13.1
   tsdown: ^0.21.10
   typescript: ^6.0.3
   vitest: ^4.1.5
-  yaml: ^2.8.3
+  yaml: ^2.8.4
 
 catalogMode: prefer
 cleanupUnusedCatalogs: true

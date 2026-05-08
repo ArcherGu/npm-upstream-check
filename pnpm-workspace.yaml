@@ -14,9 +14,9 @@ catalog:
 
 catalogMode: prefer
 cleanupUnusedCatalogs: true
-onlyBuiltDependencies:
-  - esbuild
-  - simple-git-hooks
+allowBuilds:
+  esbuild: true
+  simple-git-hooks: true
 
 shellEmulator: true
 trustPolicy: no-downgrade

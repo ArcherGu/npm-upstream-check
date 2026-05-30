@@ -3,11 +3,11 @@ catalog:
   '@actions/github': ^9.1.1
   '@lightwing/eslint-config': ^1.0.155
   '@types/node': ^25.9.1
-  eslint: ^10.4.0
+  eslint: ^10.4.1
   lint-staged: ^17.0.5
   npm-check-updates: ^22.2.1
   simple-git-hooks: ^2.13.1
-  tsdown: ^0.22.0
+  tsdown: ^0.22.1
   typescript: ^6.0.3
   vitest: ^4.1.7
   yaml: ^2.9.0
@@ -28,3 +28,5 @@ trustPolicyExclude:
   - '@octokit/endpoint@9.0.6'
 minimumReleaseAgeExclude:
   - npm-check-updates@22.2.1
+  - '@eslint/plugin-kit@0.7.2'
+  - eslint@10.4.1

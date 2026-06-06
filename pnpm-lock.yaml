@@ -21,9 +21,9 @@ catalogs:
     eslint:
       specifier: ^10.4.1
       version: 10.4.1
-    npm-check-updates:
-      specifier: ^22.2.1
-      version: 22.2.1
+    lint-staged:
+      specifier: ^17.0.5
+      version: 17.0.7
     simple-git-hooks:
       specifier: ^2.13.1
       version: 2.13.1
@@ -52,7 +52,7 @@ importers:
         version: 9.1.1
       npm-check-updates:
         specifier: 'catalog:'
-        version: 22.2.1
+        version: 22.2.2
     devDependencies:
       '@lightwing/eslint-config':
         specifier: 'catalog:'
@@ -2328,8 +2328,8 @@ packages:
   node-releases@2.0.27:
     resolution: {integrity: sha512-nmh3lCkYZ3grZvqcCH+fjmQ7X+H0OeZgP40OierEaAptX4XofMh5kwNbWh7lBduUzCcV/8kZ+NDLCwm2iorIlA==}
 
-  npm-check-updates@22.2.1:
-    resolution: {integrity: sha512-mGdIJfhtg+q0BzhbOpbOL73zhMZlgBQMG4wnBwPMMD5k96028UCuV0753YeSYk9odoh7HWK6/cY69bWxT7o+yg==}
+  npm-check-updates@22.2.2:
+    resolution: {integrity: sha512-dgDPmR9FfONMrHdMKsPoYzb2NgR+NxlLGBi3nL/3yN3aFr8IKLyQJMBEMj4pKM5yuv9esV4nL5TX0TY2veliNw==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: '>=10.0.0'}
     hasBin: true
 
@@ -5386,7 +5386,7 @@ snapshots:
 
   node-releases@2.0.27: {}
 
-  npm-check-updates@22.2.1: {}
+  npm-check-updates@22.2.2: {}
 
   nth-check@2.1.1:
     dependencies:

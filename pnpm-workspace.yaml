@@ -3,13 +3,13 @@ catalog:
   '@actions/github': ^9.1.1
   '@lightwing/eslint-config': ^1.0.155
   '@types/node': ^25.9.3
-  eslint: ^10.4.1
+  eslint: ^10.5.0
   lint-staged: ^17.0.7
   npm-check-updates: ^22.2.3
   simple-git-hooks: ^2.13.1
   tsdown: ^0.22.2
   typescript: ^6.0.3
-  vitest: ^4.1.8
+  vitest: ^4.1.9
   yaml: ^2.9.0
 
 catalogMode: prefer
@@ -32,3 +32,11 @@ minimumReleaseAgeExclude:
   - '@eslint/plugin-kit@0.7.2'
   - eslint@10.4.1
   - '@types/node@25.9.3'
+  - '@vitest/expect@4.1.9'
+  - '@vitest/mocker@4.1.9'
+  - '@vitest/pretty-format@4.1.9'
+  - '@vitest/runner@4.1.9'
+  - '@vitest/snapshot@4.1.9'
+  - '@vitest/spy@4.1.9'
+  - '@vitest/utils@4.1.9'
+  - vitest@4.1.9

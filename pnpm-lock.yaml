@@ -13,17 +13,20 @@ catalogs:
       specifier: ^9.1.1
       version: 9.1.1
     '@lightwing/eslint-config':
-      specifier: ^1.0.155
+      specifier: ^1.0.156
       version: 1.0.156
     '@types/node':
-      specifier: ^26.0.0
+      specifier: ^26.1.0
       version: 26.1.0
     eslint:
-      specifier: ^10.5.0
+      specifier: ^10.6.0
       version: 10.6.0
     lint-staged:
       specifier: ^17.0.8
       version: 17.0.8
+    npm-check-updates:
+      specifier: ^22.2.9
+      version: 22.2.9
     simple-git-hooks:
       specifier: ^2.13.1
       version: 2.13.1
@@ -3646,8 +3649,8 @@ snapshots:
 
   '@typescript-eslint/project-service@8.56.1(typescript@6.0.3)':
     dependencies:
-      '@typescript-eslint/tsconfig-utils': 8.56.1(typescript@6.0.3)
-      '@typescript-eslint/types': 8.56.1
+      '@typescript-eslint/tsconfig-utils': 8.62.0(typescript@6.0.3)
+      '@typescript-eslint/types': 8.62.0
       debug: 4.4.3
       typescript: 6.0.3
     transitivePeerDependencies:

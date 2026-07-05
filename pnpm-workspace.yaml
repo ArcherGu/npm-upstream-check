@@ -1,11 +1,11 @@
 catalog:
   '@actions/core': ^3.0.1
   '@actions/github': ^9.1.1
-  '@lightwing/eslint-config': ^1.0.155
-  '@types/node': ^26.0.0
-  eslint: ^10.5.0
+  '@lightwing/eslint-config': ^1.0.156
+  '@types/node': ^26.1.0
+  eslint: ^10.6.0
   lint-staged: ^17.0.8
-  npm-check-updates: ^22.2.7
+  npm-check-updates: ^22.2.9
   simple-git-hooks: ^2.13.1
   tsdown: ^0.22.3
   typescript: ^6.0.3

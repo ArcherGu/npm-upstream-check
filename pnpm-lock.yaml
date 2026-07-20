@@ -34,8 +34,8 @@ catalogs:
       specifier: ^2.13.1
       version: 2.13.1
     tsdown:
-      specifier: ^0.22.9
-      version: 0.22.9
+      specifier: ^0.22.12
+      version: 0.22.12
     typescript:
       specifier: npm:@typescript/typescript6@6.0.2
       version: 6.0.2
@@ -80,7 +80,7 @@ importers:
         version: 2.13.1
       tsdown:
         specifier: 'catalog:'
-        version: 0.22.9(@typescript/typescript6@6.0.2)
+        version: 0.22.12(@typescript/typescript6@6.0.2)
       typescript:
         specifier: 'catalog:'
         version: '@typescript/typescript6@6.0.2'
@@ -2622,14 +2622,14 @@ packages:
   ts-pattern@5.9.0:
     resolution: {integrity: sha512-6s5V71mX8qBUmlgbrfL33xDUwO0fq48rxAu2LBE11WBeGdpCPOsXksQbZJHvHwhrd3QjUusd3mAOM5Gg0mFBLg==}
 
-  tsdown@0.22.9:
-    resolution: {integrity: sha512-/0QEjQEhOU1t1YxOIAGzFN7bIssd8P0pBpkOmNLCQi3c5UtrcMF5bvq3f30xHJNW9QCA9aUNcNAorMr2CTd6Lg==}
+  tsdown@0.22.12:
+    resolution: {integrity: sha512-IzGRfGwSsufXJWOcQ0tmECKMG/dbxhUwDOySTS7JE1AM8pkB9+bpcTPs8bTxxSNrSvGocSczrBlOh97tZObq9Q==}
     engines: {node: ^22.18.0 || >=24.11.0}
     hasBin: true
     peerDependencies:
       '@arethetypeswrong/core': ^0.18.1
-      '@tsdown/css': 0.22.9
-      '@tsdown/exe': 0.22.9
+      '@tsdown/css': 0.22.12
+      '@tsdown/exe': 0.22.12
       '@vitejs/devtools': '*'
       publint: ^0.3.8
       tsx: '*'
@@ -2722,6 +2722,10 @@ packages:
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  verkit@0.1.0:
+    resolution: {integrity: sha512-hot+EjuRuW/QsivBRTVKlL5FUVPIGpnjJv0fzuyYyD9Bqaj3Kx2KoSw1WVIoCTOhFkmNJZ0fhl66JdsXjWXztw==}
+    engines: {node: ^22.18.0 || ^24.11.0 || >=26.0.0}
 
   vite@7.2.6:
     resolution: {integrity: sha512-tI2l/nFHC5rLh7+5+o7QjKjSR04ivXDF4jcgV0f/bTQ+OJiITy5S6gaynVsEM+7RqzufMnVbIon6Sr5x1SDYaQ==}
@@ -5518,7 +5522,7 @@ snapshots:
 
   ts-pattern@5.9.0: {}
 
-  tsdown@0.22.9(@typescript/typescript6@6.0.2):
+  tsdown@0.22.12(@typescript/typescript6@6.0.2):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -5530,11 +5534,11 @@ snapshots:
       picomatch: 4.0.5
       rolldown: 1.2.0
       rolldown-plugin-dts: 0.27.9(@typescript/typescript6@6.0.2)(rolldown@1.2.0)
-      semver: 7.8.5
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
+      verkit: 0.1.0
     optionalDependencies:
       typescript: '@typescript/typescript6@6.0.2'
     transitivePeerDependencies:
@@ -5633,6 +5637,8 @@ snapshots:
       punycode: 2.3.1
 
   util-deprecate@1.0.2: {}
+
+  verkit@0.1.0: {}
 
   vite@7.2.6(@types/node@26.1.1)(jiti@2.7.0)(yaml@2.9.0):
     dependencies:

@@ -25,14 +25,17 @@ catalogs:
       specifier: ^10.7.0
       version: 10.7.0
     lint-staged:
-      specifier: ^17.1.0
-      version: 17.1.0
+      specifier: ^17.1.1
+      version: 17.1.1
     npm-check-updates:
       specifier: ^22.2.9
       version: 22.2.9
     simple-git-hooks:
       specifier: ^2.13.1
       version: 2.13.1
+    tsdown:
+      specifier: ^0.22.13
+      version: 0.22.13
     typescript:
       specifier: npm:@typescript/typescript6@6.0.2
       version: 6.0.2
@@ -71,7 +74,7 @@ importers:
         version: 10.7.0(jiti@2.7.0)
       lint-staged:
         specifier: 'catalog:'
-        version: 17.1.0
+        version: 17.1.1
       simple-git-hooks:
         specifier: 'catalog:'
         version: 2.13.1
@@ -2162,8 +2165,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  lint-staged@17.1.0:
-    resolution: {integrity: sha512-d7UQRu/9ZPgfu4+hu/k0wny5GEaIxo+2jb2LJqQDkE7cHRTm1HGqNUDq5UOwsGPpjpaNAFmgAsYo3TR+i9cSJw==}
+  lint-staged@17.1.1:
+    resolution: {integrity: sha512-FnHWpSe5cPRtrDG+soOuNdBxb4XQb2gN5EqpEWKdweyqyOfpl4QSjbrz3ilcIf0WXmkiNQGZZRQ23R5YtB3TEw==}
     engines: {node: '>=22.22.1'}
     hasBin: true
 
@@ -4851,7 +4854,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  lint-staged@17.1.0:
+  lint-staged@17.1.1:
     dependencies:
       picomatch: 4.0.5
       string-argv: 0.3.2

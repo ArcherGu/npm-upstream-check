@@ -5,10 +5,10 @@ catalog:
   '@types/node': ^26.1.1
   '@typescript/native': npm:typescript@7.0.2
   eslint: ^10.7.0
-  lint-staged: ^17.1.0
+  lint-staged: ^17.1.1
   npm-check-updates: ^22.2.9
   simple-git-hooks: ^2.13.1
-  tsdown: ^0.22.12
+  tsdown: ^0.22.13
   typescript: npm:@typescript/typescript6@6.0.2
   vitest: ^4.1.10
   yaml: ^2.9.0
@@ -42,5 +42,5 @@ minimumReleaseAgeExclude:
   - vitest@4.1.9
   - rolldown-plugin-dts@0.27.8
   - tsdown@0.22.7 || 0.22.8 || 0.22.12
-  - lint-staged@17.1.0
+  - lint-staged@17.1.0 || 17.1.1
   - verkit@0.1.0

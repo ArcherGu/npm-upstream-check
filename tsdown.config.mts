@@ -6,10 +6,13 @@ export default defineConfig({
   clean: true,
   platform: 'node',
   format: 'cjs',
+  outputOptions: {
+    codeSplitting: false,
+  },
   fixedExtension: false,
   hash: false,
   deps: {
-    alwaysBundle: ['@actions/core'],
+    alwaysBundle: ['@actions/core', 'npm-check-updates'],
     onlyBundle: false,
   },
 })

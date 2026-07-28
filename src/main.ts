@@ -1,32 +1,6 @@
 import type { RunOptions } from 'npm-check-updates'
-import { execSync } from 'node:child_process'
-import path from 'node:path'
 import * as core from '@actions/core'
-
-function importModuleLocalOrGlobal(moduleName: string) {
-  try {
-    return require(moduleName)
-  }
-  catch {
-    const globalDir = execSync('npm root --global').toString().trim()
-    const globalPath = path.join(globalDir, moduleName)
-    return require(globalPath)
-  }
-}
-
-function prepareNcu() {
-  try {
-    const ncu = importModuleLocalOrGlobal('npm-check-updates')
-    return ncu
-  }
-  catch {
-    core.debug('npm-check-updates not found, installing...')
-    const stdout = execSync('npm install npm-check-updates -g')
-    core.debug(stdout.toString())
-    const ncu = importModuleLocalOrGlobal('npm-check-updates')
-    return ncu
-  }
-}
+import ncu from 'npm-check-updates'
 
 function parseNcuOptions(ncuOptionsJson: string) {
   try {
@@ -52,8 +26,6 @@ export async function run(cwd?: string) {
     if (ncuOptions.workspaces) {
       core.debug('ncu: workspaces mode enabled')
     }
-
-    const ncu = prepareNcu()
 
     const updateInfos: { [key: string]: string } = {}
     const result = await ncu.run({

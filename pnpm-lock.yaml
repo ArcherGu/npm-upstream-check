@@ -15,11 +15,14 @@ catalogs:
     '@lightwing/eslint-config':
       specifier: ^1.0.157
       version: 1.0.157
+    '@types/node':
+      specifier: ^26.1.2
+      version: 26.1.2
     '@typescript/native':
       specifier: npm:typescript@7.0.2
       version: 7.0.2
     eslint:
-      specifier: ^10.7.0
+      specifier: ^10.8.0
       version: 10.8.0
     lint-staged:
       specifier: ^17.2.0

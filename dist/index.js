@@ -16216,7 +16216,7 @@ function error(message, properties = {}) {
 	issueCommand("error", toCommandProperties(properties), message instanceof Error ? message.toString() : message);
 }
 //#endregion
-//#region node_modules/.pnpm/npm-check-updates@23.0.0/node_modules/npm-check-updates/build/chunks/rolldown-runtime-C6GIJ8is.js
+//#region node_modules/.pnpm/npm-check-updates@23.0.1/node_modules/npm-check-updates/build/chunks/rolldown-runtime-C6GIJ8is.js
 var t$1, n, r, i, a$1, o$1, s$1, c$1, l$2, u$2, d$2, f$1, p$1;
 var init_rolldown_runtime_C6GIJ8is = __esmMin((() => {
 	t$1 = Object.create;
@@ -16257,7 +16257,7 @@ var init_rolldown_runtime_C6GIJ8is = __esmMin((() => {
 	p$1 = /* @__PURE__ */ (0, node_module.createRequire)(require("url").pathToFileURL(__filename).href);
 }));
 //#endregion
-//#region node_modules/.pnpm/npm-check-updates@23.0.0/node_modules/npm-check-updates/build/chunks/__vite-optional-peer-dep_kerberos_proxy-agent-negotiate-BrmyulJA.js
+//#region node_modules/.pnpm/npm-check-updates@23.0.1/node_modules/npm-check-updates/build/chunks/__vite-optional-peer-dep_kerberos_proxy-agent-negotiate-BrmyulJA.js
 var __vite_optional_peer_dep_kerberos_proxy_agent_negotiate_BrmyulJA_exports = /* @__PURE__ */ __exportAll({ default: () => t });
 var t;
 var init___vite_optional_peer_dep_kerberos_proxy_agent_negotiate_BrmyulJA = __esmMin((() => {
@@ -16267,7 +16267,7 @@ var init___vite_optional_peer_dep_kerberos_proxy_agent_negotiate_BrmyulJA = __es
 	}))();
 }));
 //#endregion
-//#region node_modules/.pnpm/npm-check-updates@23.0.0/node_modules/npm-check-updates/build/chunks/lib-CsU_nP_S.js
+//#region node_modules/.pnpm/npm-check-updates@23.0.1/node_modules/npm-check-updates/build/chunks/lib-CsU_nP_S.js
 var lib_CsU_nP_S_exports = /* @__PURE__ */ __exportAll({ default: () => lib_CsU_nP_S_default });
 async function Gt$1(e) {
 	let t = 0, n = [];
@@ -18350,7 +18350,7 @@ More info here: ${s}`), l(e, n, o, d)) : (n.body.on("end", () => c(e, n, o, d)),
 		n.exports = o;
 	}));
 	De$1 = /* @__PURE__ */ c$1(((e, n) => {
-		var r = process.platform === "win32", { URL: i } = p$1("node:url"), a = p$1(r ? "node:path/win32" : "node:path"), { homedir: c } = p$1("node:os"), l = zn(), u = Ot(), d = Ee$1(), { log: f } = ve$1(), p = r ? /\\|[/]/ : /[/]/, m = /^(?:git[+])?[a-z]+:/i, h = /^[^@]+@[^:.]+\.[^:]+:.+$/i, g = /[.](?:tgz|tar\.gz|tar)$/i, _ = /:[0-9]+(\/|$)/i, v = /^(?:[.]|~[/]|[/\\]|[a-zA-Z]:)/, y = /^(?:[.]|~[/]|[/]|[a-zA-Z]:)/, b = "https://registry.npmjs.org";
+		var r = process.platform === "win32", { URL: i } = p$1("node:url"), a = p$1(r ? "node:path/win32" : "node:path"), { homedir: c } = p$1("node:os"), l = An(), u = Ot(), d = Ee$1(), { log: f } = ve$1(), p = r ? /\\|[/]/ : /[/]/, m = /^(?:git[+])?[a-z]+:/i, h = /^[^@]+@[^:.]+\.[^:]+:.+$/i, g = /[.](?:tgz|tar\.gz|tar)$/i, _ = /:[0-9]+(\/|$)/i, v = /^(?:[.]|~[/]|[/\\]|[a-zA-Z]:)/, y = /^(?:[.]|~[/]|[/]|[a-zA-Z]:)/, b = "https://registry.npmjs.org";
 		function x(e, t) {
 			let n, r;
 			if (typeof e == "object") return e instanceof k && (!t || t === e.where) ? e : e.name && e.rawSpec ? x.resolve(e.name, e.rawSpec, t || e.where) : x(e.raw, t || e.where);
@@ -20862,7 +20862,7 @@ while (this[h](this[C]()));
 		}
 	}));
 	bt$1 = /* @__PURE__ */ c$1(((e, t) => {
-		var { LRUCache: n } = Fn(), r = new n({
+		var { LRUCache: n } = En(), r = new n({
 			max: 500,
 			maxSize: 50 * 1024 * 1024,
 			ttl: 180 * 1e3,
@@ -24984,7 +24984,7 @@ while (this[h](this[T]()) && this[x].length);
 		} };
 	}));
 	It$1 = /* @__PURE__ */ c$1(((e, n) => {
-		var { LRUCache: r } = Fn(), i = p$1("dns"), a = new r({ max: 50 });
+		var { LRUCache: r } = En(), i = p$1("dns"), a = new r({ max: 50 });
 		n.exports = {
 			cache: a,
 			getOptions: ({ family: e = 0, hints: t = i.ADDRCONFIG, all: n = !1, verbatim: r = void 0, ttl: o = 300 * 1e3, lookup: s = i.lookup }) => ({
@@ -27454,7 +27454,7 @@ while (this[h](this[T]()) && this[x].length);
 		};
 	}));
 	Gn$1 = /* @__PURE__ */ c$1(((t, n) => {
-		var { HttpProxyAgent: r } = (on$1(), f$1(en$1)), { HttpsProxyAgent: i } = (_n$1(), f$1(dn$1)), { SocksProxyAgent: a } = (Un$1(), f$1(Fn$1)), { LRUCache: o } = Fn(), { InvalidProxyProtocolError: s } = Wn$1(), l = new o({ max: 20 }), u = new Set(a.protocols), d = /* @__PURE__ */ new Set([
+		var { HttpProxyAgent: r } = (on$1(), f$1(en$1)), { HttpsProxyAgent: i } = (_n$1(), f$1(dn$1)), { SocksProxyAgent: a } = (Un$1(), f$1(Fn$1)), { LRUCache: o } = En(), { InvalidProxyProtocolError: s } = Wn$1(), l = new o({ max: 20 }), u = new Set(a.protocols), d = /* @__PURE__ */ new Set([
 			"https_proxy",
 			"http_proxy",
 			"proxy",
@@ -27600,7 +27600,7 @@ while (this[h](this[T]()) && this[x].length);
 		};
 	}));
 	qn$1 = /* @__PURE__ */ c$1(((e, t) => {
-		var { LRUCache: n } = Fn(), { normalizeOptions: r, cacheOptions: i } = Lt$1(), { getProxy: a, proxyCache: o } = Gn$1(), s = It$1(), l = Kn$1(), u = new n({ max: 20 });
+		var { LRUCache: n } = En(), { normalizeOptions: r, cacheOptions: i } = Lt$1(), { getProxy: a, proxyCache: o } = Gn$1(), s = It$1(), l = Kn$1(), u = new n({ max: 20 });
 		t.exports = {
 			getAgent: (e, { agent: t, proxy: n, noProxy: o, ...s } = {}) => {
 				if (t != null) return t;
@@ -28397,68 +28397,46 @@ while (this[h](this[T]()) && this[x].length);
 	lib_CsU_nP_S_default = vr$1();
 }));
 //#endregion
-//#region node_modules/.pnpm/npm-check-updates@23.0.0/node_modules/npm-check-updates/build/index.js
+//#region node_modules/.pnpm/npm-check-updates@23.0.1/node_modules/npm-check-updates/build/index.js
 var build_exports = /* @__PURE__ */ __exportAll({
 	_: () => ve,
-	a: () => Ni,
-	c: () => oi,
-	d: () => kn,
-	default: () => Mp,
-	defineConfig: () => Fi,
-	f: () => On,
+	a: () => Ti,
+	c: () => Zr,
+	d: () => _n,
+	default: () => pp,
+	defineConfig: () => Di,
+	f: () => gn,
 	g: () => qe,
 	h: () => it,
-	i: () => Kl,
-	l: () => zn,
+	i: () => Dl,
+	l: () => An,
 	m: () => Ot,
-	n: () => Zf,
-	o: () => Pi,
-	p: () => wn,
-	r: () => hf,
-	run: () => Mp,
-	s: () => gi,
-	t: () => ep,
-	u: () => Fn,
+	n: () => Mf,
+	o: () => Ei,
+	p: () => fn,
+	r: () => Yd,
+	run: () => pp,
+	s: () => ci,
+	t: () => Ff,
+	u: () => En,
 	v: () => pe
 });
-function jt(e, t) {
-	if (t === 0) return ["just now", "right now"];
-	var n = At[Math.floor(t / 2)];
-	return e > 1 && (n += "s"), [e + " " + n + " ago", "in " + e + " " + n];
-}
-function Nt(e, t) {
-	if (t === 0) return ["刚刚", "片刻后"];
-	var n = Mt[~~(t / 2)];
-	return [e + " " + n + "前", e + " " + n + "后"];
-}
-function Rt(e) {
-	return e instanceof Date ? e : !isNaN(e) || /^\d+$/.test(e) ? new Date(parseInt(e)) : (e = (e || "").trim().replace(/\.\d+/, "").replace(/-/, "/").replace(/-/, "/").replace(/(\d)T(\d)/, "$1 $2").replace(/Z/, " UTC").replace(/([+-]\d\d):?(\d\d)/, " $1$2"), new Date(e));
-}
-function zt(e, t) {
-	var n = +(e < 0);
-	e = Math.abs(e);
-	for (var r = e, i = 0; e >= Lt[i] && i < Lt.length; i++) e /= Lt[i];
-	return e = Math.floor(e), i *= 2, e > (i === 0 ? 9 : 1) && (i += 1), t(e, i, r)[n].replace("%s", e.toString());
-}
-function Bt(e, t) {
-	return ((t ? Rt(t) : /* @__PURE__ */ new Date()) - +Rt(e)) / 1e3;
-}
-function Yt() {
+function Lt() {
 	let e = /* @__PURE__ */ new Map();
-	for (let [t, n] of Object.entries(Kt)) {
-		for (let [t, r] of Object.entries(n)) Kt[t] = {
+	for (let [t, n] of Object.entries(Pt)) {
+		for (let [t, r] of Object.entries(n)) Pt[t] = {
 			open: `\u001B[${r[0]}m`,
 			close: `\u001B[${r[1]}m`
-		}, n[t] = Kt[t], e.set(r[0], r[1]);
-		Object.defineProperty(Kt, t, {
+		}, n[t] = Pt[t], e.set(r[0], r[1]);
+		Object.defineProperty(Pt, t, {
 			value: n,
 			enumerable: !1
 		});
 	}
-	return Object.defineProperty(Kt, "codes", {
+	return Object.defineProperty(Pt, "codes", {
 		value: e,
 		enumerable: !1
-	}), Kt.color.close = "\x1B[39m", Kt.bgColor.close = "\x1B[49m", Kt.color.ansi = Ut(), Kt.color.ansi256 = Wt(), Kt.color.ansi16m = Gt(), Kt.bgColor.ansi = Ut(Ht), Kt.bgColor.ansi256 = Wt(Ht), Kt.bgColor.ansi16m = Gt(Ht), Object.defineProperties(Kt, {
+	}), Pt.color.close = "\x1B[39m", Pt.bgColor.close = "\x1B[49m", Pt.color.ansi = jt(), Pt.color.ansi256 = Mt(), Pt.color.ansi16m = Nt(), Pt.bgColor.ansi = jt(At), Pt.bgColor.ansi256 = Mt(At), Pt.bgColor.ansi16m = Nt(At), Object.defineProperties(Pt, {
 		rgbToAnsi256: {
 			value(e, t, n) {
 				return e === t && t === n ? e < 8 ? 16 : e > 248 ? 231 : Math.round((e - 8) / 247 * 24) + 232 : 16 + 36 * Math.round(e / 255 * 5) + 6 * Math.round(t / 255 * 5) + Math.round(n / 255 * 5);
@@ -28485,7 +28463,7 @@ function Yt() {
 			enumerable: !1
 		},
 		hexToAnsi256: {
-			value: (e) => Kt.rgbToAnsi256(...Kt.hexToRgb(e)),
+			value: (e) => Pt.rgbToAnsi256(...Pt.hexToRgb(e)),
 			enumerable: !1
 		},
 		ansi256ToAnsi: {
@@ -28507,23 +28485,23 @@ function Yt() {
 			enumerable: !1
 		},
 		rgbToAnsi: {
-			value: (e, t, n) => Kt.ansi256ToAnsi(Kt.rgbToAnsi256(e, t, n)),
+			value: (e, t, n) => Pt.ansi256ToAnsi(Pt.rgbToAnsi256(e, t, n)),
 			enumerable: !1
 		},
 		hexToAnsi: {
-			value: (e) => Kt.ansi256ToAnsi(Kt.hexToAnsi256(e)),
+			value: (e) => Pt.ansi256ToAnsi(Pt.hexToAnsi256(e)),
 			enumerable: !1
 		}
-	}), Kt;
+	}), Pt;
 }
-function Zt(e, t = globalThis.Deno ? globalThis.Deno.args : node_process.default.argv) {
+function zt(e, t = globalThis.Deno ? globalThis.Deno.args : node_process.default.argv) {
 	let n = e.startsWith("-") ? "" : e.length === 1 ? "-" : "--", r = t.indexOf(n + e), i = t.indexOf("--");
 	return r !== -1 && (i === -1 || r < i);
 }
-function en() {
-	if ("FORCE_COLOR" in Qt) return Qt.FORCE_COLOR === "true" ? 1 : Qt.FORCE_COLOR === "false" ? 0 : Qt.FORCE_COLOR.length === 0 ? 1 : Math.min(Number.parseInt(Qt.FORCE_COLOR, 10), 3);
+function Ht() {
+	if ("FORCE_COLOR" in Bt) return Bt.FORCE_COLOR === "true" ? 1 : Bt.FORCE_COLOR === "false" ? 0 : Bt.FORCE_COLOR.length === 0 ? 1 : Math.min(Number.parseInt(Bt.FORCE_COLOR, 10), 3);
 }
-function tn(e) {
+function Ut(e) {
 	return e !== 0 && {
 		level: e,
 		hasBasic: !0,
@@ -28531,52 +28509,52 @@ function tn(e) {
 		has16m: e >= 3
 	};
 }
-function nn(e, { streamIsTTY: t, sniffFlags: n = !0 } = {}) {
-	let r = en();
-	r !== void 0 && ($t = r);
-	let i = n ? $t : r;
+function Wt(e, { streamIsTTY: t, sniffFlags: n = !0 } = {}) {
+	let r = Ht();
+	r !== void 0 && (Vt = r);
+	let i = n ? Vt : r;
 	if (i === 0) return 0;
 	if (n) {
-		if (Zt("color=16m") || Zt("color=full") || Zt("color=truecolor")) return 3;
-		if (Zt("color=256")) return 2;
+		if (zt("color=16m") || zt("color=full") || zt("color=truecolor")) return 3;
+		if (zt("color=256")) return 2;
 	}
-	if ("TF_BUILD" in Qt && "AGENT_NAME" in Qt) return 1;
+	if ("TF_BUILD" in Bt && "AGENT_NAME" in Bt) return 1;
 	if (e && !t && i === void 0) return 0;
 	let a = i || 0;
-	if (Qt.TERM === "dumb") return a;
+	if (Bt.TERM === "dumb") return a;
 	if (node_process.default.platform === "win32") {
 		let e = node_os.default.release().split(".");
 		return Number(e[0]) >= 10 && Number(e[2]) >= 10586 ? Number(e[2]) >= 14931 ? 3 : 2 : 1;
 	}
-	if ("CI" in Qt) return [
+	if ("CI" in Bt) return [
 		"GITHUB_ACTIONS",
 		"GITEA_ACTIONS",
 		"CIRCLECI"
-	].some((e) => e in Qt) ? 3 : [
+	].some((e) => e in Bt) ? 3 : [
 		"TRAVIS",
 		"APPVEYOR",
 		"GITLAB_CI",
 		"BUILDKITE",
 		"DRONE"
-	].some((e) => e in Qt) || Qt.CI_NAME === "codeship" ? 1 : a;
-	if ("TEAMCITY_VERSION" in Qt) return +!!/^(9\.(0*[1-9]\d*)\.|\d{2,}\.)/.test(Qt.TEAMCITY_VERSION);
-	if (Qt.COLORTERM === "truecolor" || Qt.TERM === "xterm-kitty" || Qt.TERM === "xterm-ghostty" || Qt.TERM === "wezterm") return 3;
-	if ("TERM_PROGRAM" in Qt) {
-		let e = Number.parseInt((Qt.TERM_PROGRAM_VERSION || "").split(".")[0], 10);
-		switch (Qt.TERM_PROGRAM) {
+	].some((e) => e in Bt) || Bt.CI_NAME === "codeship" ? 1 : a;
+	if ("TEAMCITY_VERSION" in Bt) return +!!/^(9\.(0*[1-9]\d*)\.|\d{2,}\.)/.test(Bt.TEAMCITY_VERSION);
+	if (Bt.COLORTERM === "truecolor" || Bt.TERM === "xterm-kitty" || Bt.TERM === "xterm-ghostty" || Bt.TERM === "wezterm") return 3;
+	if ("TERM_PROGRAM" in Bt) {
+		let e = Number.parseInt((Bt.TERM_PROGRAM_VERSION || "").split(".")[0], 10);
+		switch (Bt.TERM_PROGRAM) {
 			case "iTerm.app": return e >= 3 ? 3 : 2;
 			case "Apple_Terminal": return 2;
 		}
 	}
-	return /-256(color)?$/i.test(Qt.TERM) ? 2 : /^screen|^xterm|^vt100|^vt220|^rxvt|color|ansi|cygwin|linux/i.test(Qt.TERM) || "COLORTERM" in Qt ? 1 : a;
+	return /-256(color)?$/i.test(Bt.TERM) ? 2 : /^screen|^xterm|^vt100|^vt220|^rxvt|color|ansi|cygwin|linux/i.test(Bt.TERM) || "COLORTERM" in Bt ? 1 : a;
 }
-function rn(e, t = {}) {
-	return tn(nn(e, {
+function Gt(e, t = {}) {
+	return Ut(Wt(e, {
 		streamIsTTY: e && e.isTTY,
 		...t
 	}));
 }
-function on(e, t, n) {
+function qt(e, t, n) {
 	let r = e.indexOf(t);
 	if (r === -1) return e;
 	let i = t.length, a = 0, o = "";
@@ -28585,7 +28563,7 @@ function on(e, t, n) {
 	while (r !== -1);
 	return o += e.slice(a), o;
 }
-function sn(e, t, n, r) {
+function Jt(e, t, n, r) {
 	let i = 0, a = "";
 	do {
 		let o = e[r - 1] === "\r";
@@ -28593,8 +28571,8 @@ function sn(e, t, n, r) {
 	} while (r !== -1);
 	return a += e.slice(i), a;
 }
-function vn(e) {
-	return _n(e);
+function on(e) {
+	return an(e);
 }
 function G(e, t, n = {}) {
 	let r = Array.isArray(e);
@@ -28603,25 +28581,34 @@ function G(e, t, n = {}) {
 		for (let [e, t] of Object.entries(o || {})) n[e] = t;
 	}), n;
 }
-async function Pn(e, { pkgFile: t } = {}) {
-	let n = Nn.resolve.paths(e) || [], r = t ? [node_path.default.join(node_path.default.dirname(t), "node_modules")] : [], i = [node_path.default.join(process.cwd(), "node_modules")], a = [
+function Sn(e) {
+	let t = typeof e == "string" && /^\d+$/.test(e) ? Number(e) : e, n = (new Date(t).getTime() - Date.now()) / 1e3;
+	if (Math.abs(n) < 10) return "just now";
+	for (let { amount: e, unit: t } of bn) {
+		if (Math.abs(n) < e) return xn.format(Math.trunc(n), t);
+		n /= e;
+	}
+	return xn.format(Math.trunc(n), "year");
+}
+async function Tn(e, { pkgFile: t } = {}) {
+	let n = wn.resolve.paths(e) || [], r = t ? [node_path.default.join(node_path.default.dirname(t), "node_modules")] : [], i = [node_path.default.join(process.cwd(), "node_modules")], a = [
 		...r,
 		...i,
 		...n
 	];
 	for (let t of a) {
 		let n = node_path.default.join(t, e, "package.json");
-		if (await Mn(n)) try {
+		if (await Cn(n)) try {
 			return JSON.parse(await node_fs_promises.default.readFile(n, "utf-8"));
 		} catch {}
 	}
 	return null;
 }
-async function Vn(e, { pkgFile: t } = {}) {
-	return (await Pn(e, { pkgFile: t }))?.repository ?? null;
+async function Mn(e, { pkgFile: t } = {}) {
+	return (await Tn(e, { pkgFile: t }))?.repository ?? null;
 }
-async function Hn(e, t, { pkgFile: n } = {}) {
-	let r = t ? t.repository ? t.repository : null : await Vn(e, { pkgFile: n });
+async function Nn(e, t, { pkgFile: n } = {}) {
+	let r = t ? t.repository ? t.repository : null : await Mn(e, { pkgFile: n });
 	if (!r) return null;
 	let i, a = "";
 	if (typeof r == "string") {
@@ -28632,66 +28619,66 @@ async function Hn(e, t, { pkgFile: n } = {}) {
 		} catch {}
 	} else typeof r.url == "string" && (i = r.url, typeof r.directory == "string" && (a = r.directory));
 	if (typeof i == "string" && typeof a == "string") {
-		let e = Bn.default.fromUrl(i)?.browse(a);
+		let e = jn.default.fromUrl(i)?.browse(a);
 		return e === void 0 ? i : e.replace(/\/$/, "").replace(/\/tree\/HEAD$/, "");
 	}
 	return null;
 }
-function Un(e) {
+function Pn(e) {
 	return e.startsWith("file:") || e.startsWith("link:") || e.startsWith("workspace:") || e.startsWith("catalog:") || e.startsWith("portal:");
 }
-function Wn(e) {
-	return !Un(e) && !/^[^/:@]+\/\w+/.test(e);
+function Fn(e) {
+	return !Pn(e) && !/^[^/:@]+\/\w+/.test(e);
 }
-function Kn(e) {
-	let t = e.match(Gn);
+function Ln(e) {
+	let t = e.match(In);
 	if (!t) return null;
 	let n = parseFloat(t[1]), r = t[2];
 	return r === "d" ? n : r === "h" ? n / 24 : n / 1440;
 }
-function Yn(e) {
+function Bn(e) {
 	return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
-function Xn(e, t) {
+function Vn(e, t) {
 	return e ? e.map((e) => ({
 		item: e,
 		key: t(e)
 	})).sort((e, t) => e.key > t.key ? 1 : e.key < t.key ? -1 : 0).map(({ item: e }) => e) : [];
 }
-function ir(e) {
+function Yn(e) {
 	let [t] = me.default.parseRange(e);
 	if (!t) throw Error((0, node_util.format)("semverutils.parseRange returned null when trying to parse \"%s\". This is probably a problem with the \"semver-utils\" dependency. Please report an issue at https://github.com/raineorshine/npm-check-updates/issues.", e));
-	return $n.reduce((e, n) => t[n] ? e + 1 : e, 0);
+	return Wn.reduce((e, n) => t[n] ? e + 1 : e, 0);
 }
-function ar(e, t) {
-	return (t ? $n.slice(0, $n.indexOf(t) + 1) : $n).filter((n) => t && Zn.includes(t) || e[n]).map((t) => er[t] + (e[t] || "0")).join("");
+function Xn(e, t) {
+	return (t ? Wn.slice(0, Wn.indexOf(t) + 1) : Wn).filter((n) => t && Hn.includes(t) || e[n]).map((t) => Gn[t] + (e[t] || "0")).join("");
 }
-function or(e) {
+function Zn(e) {
 	let [t] = me.default.parseRange(e);
-	return $n.slice().reverse().find((e) => t?.[e]);
+	return Wn.slice().reverse().find((e) => t?.[e]);
 }
-function sr(e, t) {
+function Qn(e, t) {
 	let [n] = me.default.parseRange(e);
-	return ar(n, t);
+	return Xn(n, t);
 }
-function cr(e, t) {
-	return t === "^" || t === "~" ? t + e : sr(e, "major") + t;
+function $n(e, t) {
+	return t === "^" || t === "~" ? t + e : Qn(e, "major") + t;
 }
-function lr(e) {
-	return nr.test(e);
+function er(e) {
+	return qn.test(e);
 }
-function ur(e) {
+function tr(e) {
 	return e === "*" || e === "x";
 }
-function fr(e, t) {
+function rr(e, t) {
 	if (e === t) return "none";
-	t = dr(t), e = dr(e);
+	t = nr(t), e = nr(e);
 	let n = t.split("."), r = e.split("."), i = n.findIndex((e, t) => e !== r[t]);
 	return i = i >= 0 ? i : n.length, n[0] === "0" ? "majorVersionZero" : i === 0 ? "major" : i === 1 ? "minor" : "patch";
 }
-function pr(e, t, n) {
+function ir(e, t, n) {
 	let r = G(e, (r, i, a) => {
-		let o = t[r], s = fr(o, i), c = n.groupFunction?.(r, s, (0, me.parseRange)(o), (0, me.parseRange)(i), (0, me.parse)(e[r])) ?? s;
+		let o = t[r], s = rr(o, i), c = n.groupFunction?.(r, s, (0, me.parseRange)(o), (0, me.parseRange)(i), (0, me.parse)(e[r])) ?? s;
 		return c === "none" ? a : {
 			...a,
 			[c]: {
@@ -28717,71 +28704,71 @@ function pr(e, t, n) {
 		packages: r[e]
 	}));
 }
-function mr(e, t) {
+function ar(e, t) {
 	let n = "";
 	/^[~^]/.test(t) && (n = t[0], t = t.slice(1));
-	let r = t.split("."), i = dr(e).split("."), a = dr(t).split("."), o = a.findIndex((e, t) => e !== i[t]);
+	let r = t.split("."), i = nr(e).split("."), a = nr(t).split("."), o = a.findIndex((e, t) => e !== i[t]);
 	o = o >= 0 ? o : a.length;
 	let s = o === 0 || a[0] === "0" ? "red" : o === 1 ? "cyan" : "green", c = o > 0 && o < r.length ? "." : "";
 	return n + r.slice(0, o).join(".") + c + K[s](r.slice(o).join("."));
 }
-function gr(e, t) {
-	let n = hr(e), r = hr(t);
+function sr(e, t) {
+	let n = or(e), r = or(t);
 	return typeof n != "string" || typeof r != "string" || n === r;
 }
-function _r(e, t) {
+function cr(e, t) {
 	return (W.default.valid(e) && W.default.valid(t) ? W.default.gt(e, t) : e > t) ? 1 : e === t ? 0 : -1;
 }
-function vr(e, t, n) {
+function lr(e, t, n) {
 	let r = W.default.parse(e);
 	return r && (n === "major" || r.major === t?.major) && (n === "major" || n === "minor" || r.minor === t?.minor);
 }
-function yr(e, t, n) {
+function ur(e, t, n) {
 	if (!W.default.validRange(t)) return null;
 	let r = W.default.minVersion(t);
-	return [...e].sort(_r).filter((e) => vr(e, r, n)).at(-1) || null;
+	return [...e].sort(cr).filter((e) => lr(e, r, n)).at(-1) || null;
 }
-function br(e, t) {
+function dr(e, t) {
 	if (!W.default.validRange(e)) return () => !1;
 	let n = W.default.minVersion(e);
-	return (e) => vr(e, n, t);
+	return (e) => lr(e, n, t);
 }
-function xr(e) {
+function fr(e) {
 	return (t) => W.default.satisfies(t, e);
 }
-function Sr(e) {
-	return or(e) === "release";
+function pr(e) {
+	return Zn(e) === "release";
 }
-function kr(e) {
+function br(e) {
 	return e && (e[0] === "v" || e[1] === "v") ? "v" : "";
 }
-function Ir(e, t, n = {}) {
+function Dr(e, t, n = {}) {
 	if (n.wildcard = n.wildcard || "^", !t) return e;
 	let [r] = me.default.parseRange(t);
 	if (!r) return e;
 	if (n.removeRange) return t;
-	if (lr(e)) return e;
-	let i = Xn(me.default.parseRange(e).filter((e) => e.operator !== "||" && e.operator !== "-"), (e) => ir(ar(e))), [a] = i, o = i.find((e) => e.operator === "<" || e.operator === "<="), s = i.find((e) => e.operator === "^" || e.operator === "~");
-	if (o && s && W.default.valid(t) && W.default.satisfies(t, e)) return `${Ir(s.semver, t, n)} ${o.semver}`;
+	if (er(e)) return e;
+	let i = Vn(me.default.parseRange(e).filter((e) => e.operator !== "||" && e.operator !== "-"), (e) => Yn(Xn(e))), [a] = i, o = i.find((e) => e.operator === "<" || e.operator === "<="), s = i.find((e) => e.operator === "^" || e.operator === "~");
+	if (o && s && W.default.valid(t) && W.default.satisfies(t, e)) return `${Dr(s.semver, t, n)} ${o.semver}`;
 	function c(e) {
-		return (ur(a[e]) ? a[e] : Zn.includes(e) && a[e] || Qn.includes(e) ? r[e] : null) || null;
+		return (tr(a[e]) ? a[e] : Hn.includes(e) && a[e] || Un.includes(e) ? r[e] : null) || null;
 	}
-	let l = ar(G($n, (e) => ({ [e]: c(e) }))), u = kr(a.semver) + l, d = Array.from(new Set(i.map((e) => e.operator))), f = d[0] || "", p = tr.some((e) => l.includes(e)), m = d[0] === "<" || d[0] === "<=", h = d[0] === ">", g = d.length > 1;
-	return !p && (m || g) ? cr(u, n.wildcard) : (h ? ">=" : f) + u;
+	let l = Xn(G(Wn, (e) => ({ [e]: c(e) }))), u = br(a.semver) + l, d = Array.from(new Set(i.map((e) => e.operator))), f = d[0] || "", p = Kn.some((e) => l.includes(e)), m = d[0] === "<" || d[0] === "<=", h = d[0] === ">", g = d.length > 1;
+	return !p && (m || g) ? $n(u, n.wildcard) : (h ? ">=" : f) + u;
 }
 function q(e, t, n = null, r = "log") {
-	!e.json && e.loglevel !== "silent" && (n == null || zr[e.loglevel ?? "warn"] >= zr[n]) && console[r](t);
+	!e.json && e.loglevel !== "silent" && (n == null || Ar[e.loglevel ?? "warn"] >= Ar[n]) && console[r](t);
 }
-function Br(e, t) {
+function jr(e, t) {
 	e.loglevel !== "silent" && console.log(JSON.stringify(t, null, 2));
 }
-function Vr(e, t) {
+function Mr(e, t) {
 	console.log(Object.keys(e).map((t) => t + "@" + e[t]).join(t));
 }
-function Hr(e, t, n) {
+function Nr(e, t, n) {
 	q(e, Object.keys(t).sort().reduce((e, n) => (e[n] = t[n], e), {}), n);
 }
-function Ur(e) {
+function Pr(e) {
 	let t = new kt.default({
 		colAligns: [
 			"left",
@@ -28811,12 +28798,12 @@ function Ur(e) {
 	});
 	return t.push(...e), t.toString().split("\n").map((e) => e.trimEnd()).join("\n");
 }
-function Wr(e) {
-	return Pr(e) ? Fr(e) : Mr(e) ? jr(e)[1] : e;
+function Fr(e) {
+	return Tr(e) ? Er(e) : Cr(e) ? Sr(e)[1] : e;
 }
-function Gr(e) {
+function Ir(e) {
 	if (e === void 0 || typeof e == "function") return "cooldown";
-	let t = String(e).trim().toLowerCase(), n = t.match(Gn), r = Number(n ? n[1] : t);
+	let t = String(e).trim().toLowerCase(), n = t.match(In), r = Number(n ? n[1] : t);
 	if (isNaN(r)) return "cooldown";
 	let i = n ? {
 		d: "day",
@@ -28825,13 +28812,13 @@ function Gr(e) {
 	}[n[2]] : "day";
 	return `${+r.toFixed(1)}-${i} cooldown`;
 }
-async function Kr({ from: e, to: t, skippedByCooldown: n, format: r, ownersChangedDeps: i, pkgFile: a, time: o }) {
+async function Lr({ from: e, to: t, skippedByCooldown: n, format: r, ownersChangedDeps: i, pkgFile: a, time: o }) {
 	let c = r?.includes("dep") && a ? JSON.parse(await node_fs_promises.default.readFile(a, "utf-8")) : null, l = Object.keys(n || {}).length > 0;
-	return Ur(await Promise.all(Object.keys(t).sort().map(async (s) => {
-		let u = r?.includes("installedVersion") || r?.includes("homepage") || r?.includes("repo") ? await Pn(s, { pkgFile: a }) : null, d = (r?.includes("installedVersion") ? u?.version : e[s]) || "", f = s in (c?.devDependencies ?? {}) ? "dev" : s in (c?.peerDependencies ?? {}) ? "peer" : s in (c?.optionalDependencies ?? {}) ? "optional" : "", p = Wr(t[s] || ""), m = i ? s in i ? i[s] ? "*owner changed*" : "" : "*unknown*" : "", h = mr(Wr(d), p), g = r?.includes("homepage") && u?.homepage || "", _ = r?.includes("repo") && await Hn(s, u ?? void 0, { pkgFile: a }) || "", v = r?.includes("diff") ? `${process.env.NCU_DIFF || "https://npmdiff.dev"}/${encodeURIComponent(s)}/${d.replace(/^\W+/, "")}/${p.replace(/^\W+/, "")}` : "", y = r?.includes("cooldown"), b = r?.includes("time"), x = (b || y) && !o?.[s] ? "[missing time]" : "", S = b && o?.[s] ? o[s] : null, C = S ? Vt(S, "en_US") : b || !l ? x : "", w = n?.[s]?.version, T = "";
+	return Pr(await Promise.all(Object.keys(t).sort().map(async (s) => {
+		let u = r?.includes("installedVersion") || r?.includes("homepage") || r?.includes("repo") ? await Tn(s, { pkgFile: a }) : null, d = (r?.includes("installedVersion") ? u?.version : e[s]) || "", f = s in (c?.devDependencies ?? {}) ? "dev" : s in (c?.peerDependencies ?? {}) ? "peer" : s in (c?.optionalDependencies ?? {}) ? "optional" : "", p = Fr(t[s] || ""), m = i ? s in i ? i[s] ? "*owner changed*" : "" : "*unknown*" : "", h = ar(Fr(d), p), g = r?.includes("homepage") && u?.homepage || "", _ = r?.includes("repo") && await Nn(s, u ?? void 0, { pkgFile: a }) || "", v = r?.includes("diff") ? `${process.env.NCU_DIFF || "https://npmdiff.dev"}/${encodeURIComponent(s)}/${d.replace(/^\W+/, "")}/${p.replace(/^\W+/, "")}` : "", y = r?.includes("cooldown"), b = r?.includes("time"), x = (b || y) && !o?.[s] ? "[missing time]" : "", S = b && o?.[s] ? o[s] : null, C = S ? Sn(S) : b || !l ? x : "", w = n?.[s]?.version, T = "";
 		if (w) {
-			let e = tr.includes(p[0]) ? p[0] : "", t = W.default.coerce(w);
-			T = `[cooldown] ${mr(p, e + Wr(t && !w.endsWith(t.version) ? `${t.version}-+` : w)).replace(e, "")}`;
+			let e = Kn.includes(p[0]) ? p[0] : "", t = W.default.coerce(w);
+			T = `[cooldown] ${ar(p, e + Fr(t && !w.endsWith(t.version) ? `${t.version}-+` : w)).replace(e, "")}`;
 		} else y && !b && (T = x);
 		return [
 			s,
@@ -28850,31 +28837,31 @@ async function Kr({ from: e, to: t, skippedByCooldown: n, format: r, ownersChang
 		];
 	})));
 }
-async function qr({ skippedByCooldown: e, pkgFile: t, options: n }) {
+async function Rr({ skippedByCooldown: e, pkgFile: t, options: n }) {
 	let r = n.format;
 	if (!e || !r?.includes("cooldown") || r?.includes("lines")) return;
 	let i = {}, a = {}, o = {};
 	for (let t of Object.values(e)) {
 		let { name: e, version: n, currentVersion: r, fallbackVersion: s, time: c } = t;
-		if (!Wn(r) || !n) continue;
-		let l = tr.includes(r[0]) ? r[0] : "", u = l + dr(s ?? r), d = l + dr(n);
-		i[e] = u, a[e] = mr(u, d), o[e] = c || "";
+		if (!Fn(r) || !n) continue;
+		let l = Kn.includes(r[0]) ? r[0] : "", u = l + nr(s ?? r), d = l + nr(n);
+		i[e] = u, a[e] = ar(u, d), o[e] = c || "";
 	}
 	if (!Object.keys(i).length) return !1;
-	let s = await Kr({
+	let s = await Lr({
 		from: i,
 		to: a,
 		format: r.includes("time") ? r : [...r, "time"],
 		pkgFile: t || void 0,
 		time: o
 	}), c = n.raw?.cooldown ?? n.cooldown;
-	return q(n, "\n" + K.yellow(K.bold(`Skipped due to ${Gr(c)}`))), q(n, s), !0;
+	return q(n, "\n" + K.yellow(K.bold(`Skipped due to ${Ir(c)}`))), q(n, s), !0;
 }
-async function Jr({ current: e, upgraded: t, skippedByCooldown: n, ownersChangedDeps: r, pkgFile: i, time: a }, o) {
+async function zr({ current: e, upgraded: t, skippedByCooldown: n, ownersChangedDeps: r, pkgFile: i, time: a }, o) {
 	if (o.format?.includes("group")) {
-		let s = pr(t, e, o), c = await Promise.all(s.map(async ({ heading: t, packages: s }) => ({
+		let s = ir(t, e, o), c = await Promise.all(s.map(async ({ heading: t, packages: s }) => ({
 			heading: t,
-			table: await Kr({
+			table: await Lr({
 				from: e,
 				to: s,
 				skippedByCooldown: n,
@@ -28885,7 +28872,7 @@ async function Jr({ current: e, upgraded: t, skippedByCooldown: n, ownersChanged
 			})
 		})));
 		for (let { heading: e, table: t } of c) q(o, "\n" + e), q(o, t);
-	} else o.format?.includes("lines") ? Vr(t, "\n") : q(o, await Kr({
+	} else o.format?.includes("lines") ? Mr(t, "\n") : q(o, await Lr({
 		from: e,
 		to: t,
 		skippedByCooldown: n,
@@ -28895,7 +28882,7 @@ async function Jr({ current: e, upgraded: t, skippedByCooldown: n, ownersChanged
 		time: a
 	}));
 }
-function Yr(e, t) {
+function Br(e, t) {
 	if (t && Object.keys(t).length > 0) {
 		let n = new kt.default({
 			colAligns: [
@@ -28927,56 +28914,56 @@ function Yr(e, t) {
 		n.push(...Object.entries(t).map(([e, t]) => [e, K.yellow(t)])), q(e, "\n" + n.toString());
 	}
 }
-async function Xr(e, { current: t, latest: n, upgraded: r, skippedByCooldown: i, total: a, numCooldown: o, ownersChangedDeps: s, pkgFile: c, time: l, errors: u }) {
-	let d = Object.keys(r).length, f = await qr({
+async function Vr(e, { current: t, latest: n, upgraded: r, skippedByCooldown: i, total: a, numCooldown: o, ownersChangedDeps: s, pkgFile: c, time: l, errors: u }) {
+	let d = Object.keys(r).length, f = await Rr({
 		skippedByCooldown: i,
 		pkgFile: c,
 		options: e
 	});
 	!e.deep && !e.format?.includes("group") && (f && d ? q(e, "\n" + K.blue(K.bold("Updates"))) : q(e, ""));
 	let p = K.green.bold(":)"), m = Object.keys(u || {}).length, h = typeof e.target == "string" ? e.target : "target";
-	d === 0 && a === 0 && m === 0 ? Object.keys(t).length === 0 ? q(e, "No dependencies.") : n && Object.keys(n).length === 0 && !o && Object.values(jn(t, (e, t) => Wn(t))).length > 0 ? q(e, `No package versions were returned. This may be a problem with your installed ${e.packageManager}, the npm registry, or your Internet connection. Make sure ${K.cyan("npx pacote packument ncu-test-v2")} is working before reporting an issue.`) : e.global ? q(e, `All global packages are up-to-date ${p}`) : q(e, `All dependencies ${o ? "not in cooldown " : ""}match the ${h} package versions ${p}`) : d === 0 && a > 0 ? q(e, `No dependencies upgraded ${p}`) : d > 0 && await Jr({
+	d === 0 && a === 0 && m === 0 ? Object.keys(t).length === 0 ? q(e, "No dependencies.") : n && Object.keys(n).length === 0 && !o && Object.values(yn(t, (e, t) => Fn(t))).length > 0 ? q(e, `No package versions were returned. This may be a problem with your installed ${e.packageManager}, the npm registry, or your Internet connection. Make sure ${K.cyan("npx pacote packument ncu-test-v2")} is working before reporting an issue.`) : e.global ? q(e, `All global packages are up-to-date ${p}`) : q(e, `All dependencies ${o ? "not in cooldown " : ""}match the ${h} package versions ${p}`) : d === 0 && a > 0 ? q(e, `No dependencies upgraded ${p}`) : d > 0 && await zr({
 		current: t,
 		upgraded: r,
 		skippedByCooldown: i,
 		ownersChangedDeps: s,
 		pkgFile: c,
 		time: l
-	}, e), Yr(e, u);
+	}, e), Br(e, u);
 }
-function Zr(e, t) {
-	q(e, "\nIgnored incompatible updates (peer dependencies):\n"), q(e, Ur(Object.entries(t).map(([e, { from: t, to: n, reason: r }]) => {
+function Hr(e, t) {
+	q(e, "\nIgnored incompatible updates (peer dependencies):\n"), q(e, Pr(Object.entries(t).map(([e, { from: t, to: n, reason: r }]) => {
 		let i = "reason: " + Object.entries(r).map(([e, t]) => e + " requires " + t).join(", ");
 		return [
 			e,
 			t,
 			"→",
-			mr(t, n),
+			ar(t, n),
 			i
 		];
 	})));
 }
-function Qr(e, t) {
-	q(e, "\nIgnored incompatible updates (engines node):\n"), q(e, Ur(Object.entries(t).map(([e, { from: t, to: n, enginesNode: r }]) => [
+function Ur(e, t) {
+	q(e, "\nIgnored incompatible updates (engines node):\n"), q(e, Pr(Object.entries(t).map(([e, { from: t, to: n, enginesNode: r }]) => [
 		e,
 		t,
 		"→",
-		mr(t, n),
+		ar(t, n),
 		`reason: requires node ${r}`
 	])));
 }
-function $r(e, t = 10) {
+function Wr(e, t = 10) {
 	return e.schema !== 1 || typeof e.timestamp == "number" && e.timestamp + 60 * 1e3 * t < Date.now();
 }
-function ri(e) {
-	return e === ti ? ni : e;
+function Jr(e) {
+	return e === Kr ? qr : e;
 }
-async function ii(e) {
-	e.cacheFile && await node_fs_promises.default.rm(ri(e.cacheFile), { force: !0 });
+async function Yr(e) {
+	e.cacheFile && await node_fs_promises.default.rm(Jr(e.cacheFile), { force: !0 });
 }
-async function ai(e) {
+async function Xr(e) {
 	if (!e.cache || !e.cacheFile) return;
-	let t = ri(e.cacheFile), n = /* @__PURE__ */ new Set(), r = {
+	let t = Jr(e.cacheFile), n = /* @__PURE__ */ new Set(), r = {
 		schema: 1,
 		timestamp: Date.now(),
 		packages: {},
@@ -28984,7 +28971,7 @@ async function ai(e) {
 	};
 	try {
 		let n = await node_fs_promises.default.readFile(t, "utf-8"), i = JSON.parse(n);
-		if ($r(i, e.cacheExpiration)) await node_fs_promises.default.rm(t, { force: !0 });
+		if (Wr(i, e.cacheExpiration)) await node_fs_promises.default.rm(t, { force: !0 });
 		else {
 			let { schema: e, timestamp: t, packages: n = {}, peers: a = {} } = i;
 			r = {
@@ -29025,15 +29012,15 @@ async function ai(e) {
 		}
 	};
 }
-function Fi(e) {
+function Di(e) {
 	return e;
 }
-async function Li(e, t = node_fs_promises.default.readdir) {
+async function ki(e, t = node_fs_promises.default.readdir) {
 	try {
 		let n = node_os.default.homedir(), r = node_os.default.tmpdir(), i = e.cwd ? e.cwd : e.packageFile ? node_path.default.dirname(e.packageFile) : ".";
 		for (i = node_path.default.resolve(i);;) {
 			let e = await t(i);
-			for (let t of Ii) if (e.includes(t)) return {
+			for (let t of Oi) if (e.includes(t)) return {
 				directoryPath: i,
 				filename: t
 			};
@@ -29048,10 +29035,10 @@ async function Li(e, t = node_fs_promises.default.readdir) {
 	} catch {}
 	return null;
 }
-function oa(e) {
+function Qi(e) {
 	return (/* @__PURE__ */ "START.ENDED.ERROR.TRUE1.TRUE2.TRUE3.FALSE1.FALSE2.FALSE3.FALSE4.NULL1.NULL2.NULL3.STRING_DEFAULT.STRING_AFTER_BACKSLASH.STRING_UNICODE_DIGIT_1.STRING_UNICODE_DIGIT_2.STRING_UNICODE_DIGIT_3.STRING_UNICODE_DIGIT_4.STRING_INCOMPLETE_CHAR.NUMBER_AFTER_INITIAL_MINUS.NUMBER_AFTER_INITIAL_ZERO.NUMBER_AFTER_INITIAL_NON_ZERO.NUMBER_AFTER_FULL_STOP.NUMBER_AFTER_DECIMAL.NUMBER_AFTER_E.NUMBER_AFTER_E_AND_SIGN.NUMBER_AFTER_E_AND_DIGIT.SEPARATOR.BOM_OR_START.BOM".split("."))[e];
 }
-function da(e) {
+function ra(e) {
 	return [
 		"VALUE",
 		"KEY",
@@ -29062,7 +29049,7 @@ function da(e) {
 		"SEPARATOR"
 	][e];
 }
-function Oa(e, t) {
+function ba(e, t) {
 	if (!(typeof e == "string" || Array.isArray(e))) throw TypeError("Expected the input to be `string | string[]`");
 	if (t = {
 		pascalCase: !1,
@@ -29073,21 +29060,11 @@ function Oa(e, t) {
 	let n = e.match(/^[_$]*/)[0];
 	if (e = e.slice(n.length), e.length === 0) return n;
 	let r = t.locale === !1 ? (e) => e.toLowerCase() : (e) => e.toLocaleLowerCase(t.locale), i = t.locale === !1 ? (e) => e.toUpperCase() : (e) => e.toLocaleUpperCase(t.locale);
-	return e.length === 1 ? ya.test(e) ? n : n + (t.pascalCase ? i(e) : r(e)) : (e !== r(e) && (e = wa(e, r, i, t.preserveConsecutiveUppercase)), e = e.replace(xa, ""), e = t.capitalizeAfterNumber ? t.preserveConsecutiveUppercase ? Ta(e, r) : r(e) : Ea(e, r, t.preserveConsecutiveUppercase), t.pascalCase && e.length > 0 && (e = i(e[0]) + e.slice(1)), n + Da(e, i, t));
+	return e.length === 1 ? da.test(e) ? n : n + (t.pascalCase ? i(e) : r(e)) : (e !== r(e) && (e = ga(e, r, i, t.preserveConsecutiveUppercase)), e = e.replace(pa, ""), e = t.capitalizeAfterNumber ? t.preserveConsecutiveUppercase ? _a(e, r) : r(e) : va(e, r, t.preserveConsecutiveUppercase), t.pascalCase && e.length > 0 && (e = i(e[0]) + e.slice(1)), n + ya(e, i, t));
 }
-function Fa(e) {
-	if (typeof e != "string") throw TypeError(`Expected a string, got ${typeof e}`);
-	if (Na === void 0 && (Na = node_os.default.homedir()), Na && /^~(?=$|\/|\\)/.test(e)) return e.replace(/^~/, Na);
-	let t = e.match(/^~([^/\\]+)(.*)/);
-	if (t && (Pa === void 0 && (Pa = node_os.default.userInfo().username), Pa)) {
-		let e = t[1], n = t[2];
-		if (e === Pa) return Na + n;
-	}
-	return e;
-}
-function Ra(e) {
+function wa(e) {
 	if (!((Number.isInteger(e) || e === Infinity) && e > 0)) throw TypeError("Expected `concurrency` to be a number from 1 and up");
-	let t = new La(), n = 0, r = () => {
+	let t = new Ca(), n = 0, r = () => {
 		n--, t.size > 0 && t.dequeue()();
 	}, i = async (e, t, i) => {
 		n++;
@@ -29112,24 +29089,24 @@ function Ra(e) {
 		} }
 	}), o;
 }
-async function Ha(e, t, { concurrency: n = Infinity, preserveOrder: r = !0 } = {}) {
-	let i = Ra(n), a = [...e].map((e) => [e, i(Ba, e, t)]), o = Ra(r ? 1 : Infinity);
+async function Oa(e, t, { concurrency: n = Infinity, preserveOrder: r = !0 } = {}) {
+	let i = wa(n), a = [...e].map((e) => [e, i(Ea, e, t)]), o = wa(r ? 1 : Infinity);
 	try {
-		await Promise.all(a.map((e) => o(Va, e)));
+		await Promise.all(a.map((e) => o(Da, e)));
 	} catch (e) {
-		if (e instanceof za) return e.value;
+		if (e instanceof Ta) return e.value;
 		throw e;
 	}
 }
-function Wa(e) {
-	if (!(e === "both" || Object.hasOwn(Ua, e))) throw Error(`Invalid type specified: ${e}`);
+function Aa(e) {
+	if (!(e === "both" || Object.hasOwn(ka, e))) throw Error(`Invalid type specified: ${e}`);
 }
-async function qa(e, { cwd: t = node_process.default.cwd(), type: n = "file", allowSymlinks: r = !0, concurrency: i, preserveOrder: a } = {}) {
-	Wa(n), t = Ka(t);
+async function Na(e, { cwd: t = node_process.default.cwd(), type: n = "file", allowSymlinks: r = !0, concurrency: i, preserveOrder: a } = {}) {
+	Aa(n), t = Ma(t);
 	let s = r ? node_fs.promises.stat : node_fs.promises.lstat;
-	return Ha(e, async (e) => {
+	return Oa(e, async (e) => {
 		try {
-			return Ga(n, await s(node_path.default.resolve(t, e)));
+			return ja(n, await s(node_path.default.resolve(t, e)));
 		} catch {
 			return !1;
 		}
@@ -29138,151 +29115,107 @@ async function qa(e, { cwd: t = node_process.default.cwd(), type: n = "file", al
 		preserveOrder: a
 	});
 }
-function Ja(e, { cwd: t = node_process.default.cwd(), type: n = "file", allowSymlinks: r = !0 } = {}) {
-	Wa(n), t = Ka(t);
+function Pa(e, { cwd: t = node_process.default.cwd(), type: n = "file", allowSymlinks: r = !0 } = {}) {
+	Aa(n), t = Ma(t);
 	let i = r ? node_fs.default.statSync : node_fs.default.lstatSync;
 	for (let r of e) try {
 		let e = i(node_path.default.resolve(t, r), { throwIfNoEntry: !1 });
 		if (!e) continue;
-		if (Ga(n, e)) return r;
+		if (ja(n, e)) return r;
 	} catch {}
 }
-function Ya(e) {
+function Fa(e) {
 	return e instanceof URL ? (0, node_url.fileURLToPath)(e) : e;
 }
-async function Za(e, t = {}) {
-	let n = node_path.default.resolve(Ya(t.cwd) ?? ""), { root: r } = node_path.default.parse(n), i = node_path.default.resolve(n, Ya(t.stopAt) ?? r), a = t.limit ?? Infinity, s = [e].flat(), c = async (t) => {
-		if (typeof e != "function") return qa(s, t);
+async function La(e, t = {}) {
+	let n = node_path.default.resolve(Fa(t.cwd) ?? ""), { root: r } = node_path.default.parse(n), i = node_path.default.resolve(n, Fa(t.stopAt) ?? r), a = t.limit ?? Infinity, s = [e].flat(), c = async (t) => {
+		if (typeof e != "function") return Na(s, t);
 		let n = await e(t.cwd);
-		return typeof n == "string" ? qa([n], t) : n;
+		return typeof n == "string" ? Na([n], t) : n;
 	}, l = [];
 	for (;;) {
 		let e = await c({
 			...t,
 			cwd: n
 		});
-		if (e === Xa || (e && l.push(node_path.default.resolve(n, e)), n === i || l.length >= a)) break;
+		if (e === Ia || (e && l.push(node_path.default.resolve(n, e)), n === i || l.length >= a)) break;
 		n = node_path.default.dirname(n);
 	}
 	return l;
 }
-function Qa(e, t = {}) {
-	let n = node_path.default.resolve(Ya(t.cwd) ?? ""), { root: r } = node_path.default.parse(n), i = node_path.default.resolve(n, Ya(t.stopAt) ?? r), a = t.limit ?? Infinity, s = [e].flat(), c = (t) => {
-		if (typeof e != "function") return Ja(s, t);
+function Ra(e, t = {}) {
+	let n = node_path.default.resolve(Fa(t.cwd) ?? ""), { root: r } = node_path.default.parse(n), i = node_path.default.resolve(n, Fa(t.stopAt) ?? r), a = t.limit ?? Infinity, s = [e].flat(), c = (t) => {
+		if (typeof e != "function") return Pa(s, t);
 		let n = e(t.cwd);
-		return typeof n == "string" ? Ja([n], t) : n;
+		return typeof n == "string" ? Pa([n], t) : n;
 	}, l = [];
 	for (;;) {
 		let e = c({
 			...t,
 			cwd: n
 		});
-		if (e === Xa || (e && l.push(node_path.default.resolve(n, e)), n === i || l.length >= a)) break;
+		if (e === Ia || (e && l.push(node_path.default.resolve(n, e)), n === i || l.length >= a)) break;
 		n = node_path.default.dirname(n);
 	}
 	return l;
 }
-async function $a(e, t = {}) {
-	return (await Za(e, {
+async function za(e, t = {}) {
+	return (await La(e, {
 		...t,
 		limit: 1
 	}))[0];
 }
-function eo(e, t = {}) {
-	return Qa(e, {
+function Ba(e, t = {}) {
+	return Ra(e, {
 		...t,
 		limit: 1
 	})[0];
 }
-function no(e, t, n) {
-	let r = e.__specs[t];
-	r ||= {};
-	let i;
-	for (let n of e.__providers) if (i = ro(t, n), i !== void 0) break;
-	return i === void 0 && r.default !== void 0 ? typeof r.default == "function" ? r.default(e) : r.default : i;
-}
-function ro(e, t) {
-	let n;
-	return n = t.__isFiggyPudding ? no(t, e, !1) : t[e], n;
-}
-function ao(e, t) {
-	function n(...n) {
-		return new Proxy(new to(e, t, n), io);
+function Wa(e) {
+	if (typeof e != "string") throw TypeError(`Expected a string, got ${typeof e}`);
+	if (Ha === void 0 && (Ha = node_os.default.homedir()), Ha && /^~(?=$|\/|\\)/.test(e)) return e.replace(/^~/, Ha);
+	let t = e.match(/^~([^/\\]+)(.*)/);
+	if (t && (Ua === void 0 && (Ua = node_os.default.userInfo().username), Ua)) {
+		let e = t[1], n = t[2];
+		if (e === Ua) return Ha + n;
 	}
-	return n;
+	return e;
 }
-function oo(e) {
-	let t = [];
-	return e.forEach((e) => t.unshift(e)), t;
-}
-function so(e) {
-	return Object.keys(e).map((t) => [t, e[t]]);
-}
-function uo(e, t) {
-	let n = lo(t), r = {};
-	Object.keys(process.env).forEach((e) => {
-		if (!e.match(n.envPrefix)) return;
-		let t = e.toLowerCase().replace(n.envPrefix, "").replace(/(?!^)_/g, "-");
-		r[t] = process.env[e];
-	});
-	let i = co(e), a = n.userconfig || i.userconfig || r.userconfig, s = a && fo(a), c = n.globalconfig || i.globalconfig || r.globalconfig, l = c && fo(c), u = eo(n.configNames, { cwd: n.cwd }), d = {};
-	u && u !== a && (d = fo(u));
-	let f = co(n, l, s, d, r, i);
-	return f.cache ? f.concat({ cache: node_path.default.resolve(i.cache || r.cache ? n.cwd : d.cache ? node_path.default.dirname(u) : s.cache ? node_path.default.dirname(a) : l.cache ? node_path.default.dirname(c) : node_path.default.dirname(a), f.cache) }) : f;
-}
-function fo(e) {
-	let t;
-	try {
-		t = node_fs.default.readFileSync(e, "utf8");
-	} catch (e) {
-		if (e.code === "ENOENT") return "";
-		throw e;
-	}
-	return Ma.default.parse(t);
-}
-function po() {
-	if (process.env.PREFIX) return process.env.PREFIX;
-	if (process.platform === "win32") return node_path.default.dirname(process.execPath);
-	{
-		let e = node_path.default.dirname(node_path.default.dirname(process.execPath));
-		return process.env.DESTDIR && (e = node_path.default.join(process.env.DESTDIR, e)), e;
-	}
-}
-async function ho(e, t, n, r) {
-	let i = mo(e);
+async function Ka(e, t, n, r) {
+	let i = Ga(e);
 	for (let [e, a] of i.entries()) try {
-		return await (0, ta.default)(a, t, n, r);
+		return await (0, qi.default)(a, t, n, r);
 	} catch (t) {
 		if (t.code !== "ENOENT" || e === i.length - 1) throw t;
 	}
 	throw Error(`No spawn commands available for ${e}`);
 }
-function go(e, t) {
+function qa(e, t) {
 	return t.deprecated || !e.deprecated;
 }
-function _o(e, t) {
-	return t.pre ? !0 : !e.version || !Sr(e.version);
+function Ja(e, t) {
+	return t.pre ? !0 : !e.version || !pr(e.version);
 }
-function vo(e, t) {
+function Ya(e, t) {
 	if (!t) return !0;
 	let n = W.default.minVersion(t)?.version;
 	if (!n) return !0;
 	let r = e?.engines?.node;
 	return !r || W.default.satisfies(n, r);
 }
-function yo(e, t) {
+function Xa(e, t) {
 	return !t || Object.values(t).every((t) => t[e.name] === void 0 || W.default.satisfies(e.version, t[e.name]));
 }
-function xo(e) {
+function Qa(e) {
 	let t = [
-		(t) => go(t, e),
-		(t) => _o(t, e),
-		e.enginesNode ? (t) => vo(t, e.nodeEngineVersion) : null,
-		e.peerDependencies ? (t) => yo(t, e.peerDependencies) : null
+		(t) => qa(t, e),
+		(t) => Ja(t, e),
+		e.enginesNode ? (t) => Ya(t, e.nodeEngineVersion) : null,
+		e.peerDependencies ? (t) => Xa(t, e.peerDependencies) : null
 	];
 	return (e) => t.every((t) => !t || t(e));
 }
-function Fo(e, t) {
+function go(e, t) {
 	let n;
 	try {
 		n = JSON.parse(e);
@@ -29291,10 +29224,10 @@ function Fo(e, t) {
 	}
 	return n;
 }
-async function Ro(e, t, n, r = {}, i) {
-	let a = await Ao(e, ["versions"], null, Lo({
+async function yo(e, t, n, r = {}, i) {
+	let a = await so(e, ["versions"], null, vo({
 		npmConfigUser: {
-			...Po.findNpmConfig(),
+			...fo.findNpmConfig(),
 			fullMetadata: !0
 		},
 		npmConfigLocal: i
@@ -29305,16 +29238,16 @@ async function Ro(e, t, n, r = {}, i) {
 	}
 	return !1;
 }
-async function zo(e, t, n, r, i = 0, a, o) {
+async function bo(e, t, n, r, i = 0, a, o) {
 	let s = `STUB_VERSIONS_${process.env.VITEST_POOL_ID ?? "0"}`;
 	if (process.env[s]) {
 		let i = JSON.parse(process.env[s]);
-		return Po.mockFetchUpgradedPackument(i)(e, t, n, r);
+		return fo.mockFetchUpgradedPackument(i)(e, t, n, r);
 	}
-	if (ko(n)) return {};
-	let c = r.format?.includes("time") && !t.includes("time") ? [...t, "time"] : t, l = c.includes("time"), u = Lo({
+	if (oo(n)) return {};
+	let c = r.format?.includes("time") && !t.includes("time") ? [...t, "time"] : t, l = c.includes("time"), u = vo({
 		npmConfigUser: {
-			...Po.findNpmConfig(),
+			...fo.findNpmConfig(),
 			fullMetadata: l
 		},
 		npmConfigLocal: a,
@@ -29322,20 +29255,20 @@ async function zo(e, t, n, r, i = 0, a, o) {
 	}, r), d;
 	try {
 		let n = r.distTag || "latest";
-		d = await Ao(e, Array.from(/* @__PURE__ */ new Set([
+		d = await so(e, Array.from(/* @__PURE__ */ new Set([
 			"dist-tags",
 			...t,
 			...r.deprecated ? [] : ["deprecated", "versions"],
 			...r.enginesNode ? ["engines", "versions"] : []
 		])), l ? null : n, u);
 	} catch (t) {
-		if (r.retry && ++i <= r.retry) return zo(e, c, n, r, i, a);
+		if (r.retry && ++i <= r.retry) return bo(e, c, n, r, i, a);
 		throw t;
 	}
 	return d;
 }
-async function Bo(e, t = {}, n = {}, r = {}) {
-	let { stdout: i } = await ho("npm", [
+async function xo(e, t = {}, n = {}, r = {}) {
+	let { stdout: i } = await Ka("npm", [
 		...t.global ? ["--global"] : [],
 		...t.prefix ? [`--prefix=${t.prefix}`] : [],
 		"--json",
@@ -29343,11 +29276,11 @@ async function Bo(e, t = {}, n = {}, r = {}) {
 	], n, r);
 	return i;
 }
-async function Vo(e) {
+async function So(e) {
 	if (e.prefix) return e.prefix;
 	let t;
 	try {
-		let { stdout: e } = await ho("npm", [
+		let { stdout: e } = await Ka("npm", [
 			"config",
 			"get",
 			"prefix"
@@ -29358,15 +29291,15 @@ async function Vo(e) {
 	}
 	return e.global && t?.match("Cellar") ? "/usr/local" : process.platform === "win32" && e.global && !process.env.prefix ? t ? t.trim() : `${process.env.AppData}\\npm` : void 0;
 }
-async function $o(e, t = {}, n = {}, r = {}) {
-	return (0, ta.default)("bun", [
+async function Po(e, t = {}, n = {}, r = {}) {
+	return (0, qi.default)("bun", [
 		...t.global ? ["--global"] : [],
 		...t.prefix ? [`--prefix=${t.prefix}`] : [],
 		...Array.isArray(e) ? e : [e]
 	], n, r);
 }
-async function ns(e, t, n = {}, { rejectOnError: r = !1 } = {}) {
-	let { stdout: i } = await $o([
+async function Lo(e, t, n = {}, { rejectOnError: r = !1 } = {}) {
+	let { stdout: i } = await Po([
 		"info",
 		e,
 		...t ? [t] : [],
@@ -29379,20 +29312,20 @@ async function ns(e, t, n = {}, { rejectOnError: r = !1 } = {}) {
 		return null;
 	}
 }
-async function Vc(e, t = {}, n, r) {
-	let { stdout: i } = await ho("pnpm", [
+async function Sc(e, t = {}, n, r) {
+	let { stdout: i } = await Ka("pnpm", [
 		...t.global ? "global" : [],
 		...Array.isArray(e) ? e : [e],
 		...t.prefix ? `--prefix=${t.prefix}` : []
 	], r, n);
 	return i;
 }
-async function qc(e, t = node_fs_promises.default.readdir) {
+async function Oc(e, t = node_fs_promises.default.readdir) {
 	if (e.global) return;
-	let n = (await Li(e, t))?.directoryPath;
+	let n = (await ki(e, t))?.directoryPath;
 	if (n) return node_path.default.join(n, ".yarnrc.yml");
 }
-function Xc(e) {
+function jc(e) {
 	let t = {};
 	for (let n of e.split("\n")) {
 		if (!n.trim()) continue;
@@ -29407,12 +29340,12 @@ function Xc(e) {
 	}
 	return { dependencies: t };
 }
-function Zc(e) {
+function Mc(e) {
 	for (let t of e.split("\n")) if (t.trim()) return JSON.stringify(JSON.parse(t));
 	throw Error("No JSON line found");
 }
-async function Qc(e, t = {}, n = {}, r = {}) {
-	let { stdout: i } = await ho("yarn", [
+async function Nc(e, t = {}, n = {}, r = {}) {
+	let { stdout: i } = await Ka("yarn", [
 		...t.global ? ["global"] : [],
 		...t.prefix ? [`--prefix=${t.prefix}`] : [],
 		"--depth=0",
@@ -29422,11 +29355,11 @@ async function Qc(e, t = {}, n = {}, r = {}) {
 	], n, r);
 	return i;
 }
-async function $c(e) {
+async function Pc(e) {
 	if (e.prefix) return e.prefix;
 	let t;
 	try {
-		t = (await ho("yarn", ["global", "dir"])).stdout;
+		t = (await Ka("yarn", ["global", "dir"])).stdout;
 	} catch {
 		t = null;
 	}
@@ -29437,33 +29370,33 @@ function $(e, t, { color: n = !0 } = {}) {
 	else throw Error(t);
 }
 /* @__NO_SIDE_EFFECTS__ */
-function gl(e) {
-	return !e && !ml ? hl : {
-		lang: e?.lang ?? ml?.lang,
+function Zc(e) {
+	return !e && !Yc ? Xc : {
+		lang: e?.lang ?? Yc?.lang,
 		message: e?.message,
-		abortEarly: e?.abortEarly ?? ml?.abortEarly,
-		abortPipeEarly: e?.abortPipeEarly ?? ml?.abortPipeEarly
+		abortEarly: e?.abortEarly ?? Yc?.abortEarly,
+		abortPipeEarly: e?.abortPipeEarly ?? Yc?.abortPipeEarly
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function vl(e) {
-	return _l?.get(e);
+function $c(e) {
+	return Qc?.get(e);
 }
 /* @__NO_SIDE_EFFECTS__ */
-function bl(e) {
-	return yl?.get(e);
+function tl(e) {
+	return el?.get(e);
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Sl(e, t) {
-	return xl?.get(e)?.get(t);
+function rl(e, t) {
+	return nl?.get(e)?.get(t);
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Cl(e) {
+function il(e) {
 	let t = typeof e;
 	return t === "string" ? `"${e}"` : t === "number" || t === "bigint" || t === "boolean" ? `${e}` : t === "object" || t === "function" ? (e && Object.getPrototypeOf(e)?.constructor?.name) ?? "null" : t;
 }
-function wl(e, t, n, r, i) {
-	let a = i && "input" in i ? i.input : n.value, o = i?.expected ?? e.expects ?? null, s = i?.received ?? /* @__PURE__ */ Cl(a), c = {
+function al(e, t, n, r, i) {
+	let a = i && "input" in i ? i.input : n.value, o = i?.expected ?? e.expects ?? null, s = i?.received ?? /* @__PURE__ */ il(a), c = {
 		kind: e.kind,
 		type: e.type,
 		input: a,
@@ -29476,66 +29409,66 @@ function wl(e, t, n, r, i) {
 		lang: r.lang,
 		abortEarly: r.abortEarly,
 		abortPipeEarly: r.abortPipeEarly
-	}, l = e.kind === "schema", u = i?.message ?? e.message ?? /* @__PURE__ */ Sl(e.reference, c.lang) ?? (l ? /* @__PURE__ */ bl(c.lang) : null) ?? r.message ?? /* @__PURE__ */ vl(c.lang);
+	}, l = e.kind === "schema", u = i?.message ?? e.message ?? /* @__PURE__ */ rl(e.reference, c.lang) ?? (l ? /* @__PURE__ */ tl(c.lang) : null) ?? r.message ?? /* @__PURE__ */ $c(c.lang);
 	u !== void 0 && (c.message = typeof u == "function" ? u(c) : u), l && (n.typed = !1), n.issues ? n.issues.push(c) : n.issues = [c];
 }
 /* @__NO_SIDE_EFFECTS__ */
-function El(e) {
-	let t = Tl.get(e);
+function sl(e) {
+	let t = ol.get(e);
 	return t || (t = {
 		version: 1,
 		vendor: "valibot",
 		validate(t) {
-			return e["~run"]({ value: t }, /* @__PURE__ */ gl());
+			return e["~run"]({ value: t }, /* @__PURE__ */ Zc());
 		}
-	}, Tl.set(e, t)), t;
+	}, ol.set(e, t)), t;
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Dl(e, t) {
+function cl(e, t) {
 	return Object.prototype.hasOwnProperty.call(e, t) && t !== "__proto__" && t !== "prototype" && t !== "constructor";
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Ol(e, t) {
+function ll(e, t) {
 	let n = [...new Set(e)];
 	return n.length > 1 ? `(${n.join(` ${t} `)})` : n[0] ?? "never";
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Al(e, t, n) {
+function dl(e, t, n) {
 	return typeof e.fallback == "function" ? e.fallback(t, n) : e.fallback;
 }
 /* @__NO_SIDE_EFFECTS__ */
-function jl(e, t) {
+function fl(e, t) {
 	return {
 		...e,
 		fallback: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(t, n) {
 			let r = e["~run"](t, n);
 			return r.issues ? {
 				typed: !0,
-				value: /* @__PURE__ */ Al(this, r, n)
+				value: /* @__PURE__ */ dl(this, r, n)
 			} : r;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Ml(e, t, n) {
+function pl(e, t, n) {
 	return typeof e.default == "function" ? e.default(t, n) : e.default;
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Nl(e, t) {
+function ml(e, t) {
 	return {
 		kind: "schema",
 		type: "array",
-		reference: Nl,
+		reference: ml,
 		expects: "Array",
 		async: !1,
 		item: e,
 		message: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
 			let n = e.value;
@@ -29559,23 +29492,23 @@ function Nl(e, t) {
 					}
 					a.typed || (e.typed = !1), e.value.push(a.value);
 				}
-			} else wl(this, "type", e, t);
+			} else al(this, "type", e, t);
 			return e;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Pl(e, t) {
+function hl(e, t) {
 	return {
 		kind: "schema",
 		type: "loose_object",
-		reference: Pl,
+		reference: hl,
 		expects: "Object",
 		async: !1,
 		entries: e,
 		message: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
 			let n = e.value;
@@ -29584,7 +29517,7 @@ function Pl(e, t) {
 				for (let r in this.entries) {
 					let i = this.entries[r];
 					if (r in n || (i.type === "exact_optional" || i.type === "optional" || i.type === "nullish") && i.default !== void 0) {
-						let a = r in n ? n[r] : /* @__PURE__ */ Ml(i), o = i["~run"]({ value: a }, t);
+						let a = r in n ? n[r] : /* @__PURE__ */ pl(i), o = i["~run"]({ value: a }, t);
 						if (o.issues) {
 							let i = {
 								type: "object",
@@ -29600,8 +29533,8 @@ function Pl(e, t) {
 							}
 						}
 						o.typed || (e.typed = !1), e.value[r] = o.value;
-					} else if (i.fallback !== void 0) e.value[r] = /* @__PURE__ */ Al(i);
-					else if (i.type !== "exact_optional" && i.type !== "optional" && i.type !== "nullish" && (wl(this, "key", e, t, {
+					} else if (i.fallback !== void 0) e.value[r] = /* @__PURE__ */ dl(i);
+					else if (i.type !== "exact_optional" && i.type !== "optional" && i.type !== "nullish" && (al(this, "key", e, t, {
 						input: void 0,
 						expected: `"${r}"`,
 						path: [{
@@ -29613,24 +29546,24 @@ function Pl(e, t) {
 						}]
 					}), t.abortEarly)) break;
 				}
-				if (!e.issues || !t.abortEarly) for (let t in n) /* @__PURE__ */ Dl(n, t) && !(t in this.entries) && (e.value[t] = n[t]);
-			} else wl(this, "type", e, t);
+				if (!e.issues || !t.abortEarly) for (let t in n) /* @__PURE__ */ cl(n, t) && !(t in this.entries) && (e.value[t] = n[t]);
+			} else al(this, "type", e, t);
 			return e;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Fl(e, t) {
+function gl(e, t) {
 	return {
 		kind: "schema",
 		type: "object",
-		reference: Fl,
+		reference: gl,
 		expects: "Object",
 		async: !1,
 		entries: e,
 		message: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
 			let n = e.value;
@@ -29639,7 +29572,7 @@ function Fl(e, t) {
 				for (let r in this.entries) {
 					let i = this.entries[r];
 					if (r in n || (i.type === "exact_optional" || i.type === "optional" || i.type === "nullish") && i.default !== void 0) {
-						let a = r in n ? n[r] : /* @__PURE__ */ Ml(i), o = i["~run"]({ value: a }, t);
+						let a = r in n ? n[r] : /* @__PURE__ */ pl(i), o = i["~run"]({ value: a }, t);
 						if (o.issues) {
 							let i = {
 								type: "object",
@@ -29655,8 +29588,8 @@ function Fl(e, t) {
 							}
 						}
 						o.typed || (e.typed = !1), e.value[r] = o.value;
-					} else if (i.fallback !== void 0) e.value[r] = /* @__PURE__ */ Al(i);
-					else if (i.type !== "exact_optional" && i.type !== "optional" && i.type !== "nullish" && (wl(this, "key", e, t, {
+					} else if (i.fallback !== void 0) e.value[r] = /* @__PURE__ */ dl(i);
+					else if (i.type !== "exact_optional" && i.type !== "optional" && i.type !== "nullish" && (al(this, "key", e, t, {
 						input: void 0,
 						expected: `"${r}"`,
 						path: [{
@@ -29668,48 +29601,48 @@ function Fl(e, t) {
 						}]
 					}), t.abortEarly)) break;
 				}
-			} else wl(this, "type", e, t);
+			} else al(this, "type", e, t);
 			return e;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Il(e, t) {
+function _l(e, t) {
 	return {
 		kind: "schema",
 		type: "optional",
-		reference: Il,
+		reference: _l,
 		expects: `(${e.expects} | undefined)`,
 		async: !1,
 		wrapped: e,
 		default: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
-			return e.value === void 0 && (this.default !== void 0 && (e.value = /* @__PURE__ */ Ml(this, e, t)), e.value === void 0) ? (e.typed = !0, e) : this.wrapped["~run"](e, t);
+			return e.value === void 0 && (this.default !== void 0 && (e.value = /* @__PURE__ */ pl(this, e, t)), e.value === void 0) ? (e.typed = !0, e) : this.wrapped["~run"](e, t);
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Ll(e, t, n) {
+function vl(e, t, n) {
 	return {
 		kind: "schema",
 		type: "record",
-		reference: Ll,
+		reference: vl,
 		expects: "Object",
 		async: !1,
 		key: e,
 		value: t,
 		message: n,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
 			let n = e.value;
 			if (n && typeof n == "object") {
 				e.typed = !0, e.value = {};
-				for (let r in n) if (/* @__PURE__ */ Dl(n, r)) {
+				for (let r in n) if (/* @__PURE__ */ cl(n, r)) {
 					let i = n[r], a = this.key["~run"]({ value: r }, t);
 					if (a.issues) {
 						let o = {
@@ -29742,47 +29675,47 @@ function Ll(e, t, n) {
 					}
 					(!a.typed || !o.typed) && (e.typed = !1), a.typed && (e.value[a.value] = o.value);
 				}
-			} else wl(this, "type", e, t);
+			} else al(this, "type", e, t);
 			return e;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Rl(e) {
+function yl(e) {
 	return {
 		kind: "schema",
 		type: "string",
-		reference: Rl,
+		reference: yl,
 		expects: "string",
 		async: !1,
 		message: e,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
-			return typeof e.value == "string" ? e.typed = !0 : wl(this, "type", e, t), e;
+			return typeof e.value == "string" ? e.typed = !0 : al(this, "type", e, t), e;
 		}
 	};
 }
 /* @__NO_SIDE_EFFECTS__ */
-function zl(e) {
+function bl(e) {
 	let t;
 	if (e) for (let n of e) if (t) for (let e of n.issues) t.push(e);
 	else t = n.issues;
 	return t;
 }
 /* @__NO_SIDE_EFFECTS__ */
-function Bl(e, t) {
+function xl(e, t) {
 	return {
 		kind: "schema",
 		type: "union",
-		reference: Bl,
-		expects: /* @__PURE__ */ Ol(e.map((e) => e.expects), "|"),
+		reference: xl,
+		expects: /* @__PURE__ */ ll(e.map((e) => e.expects), "|"),
 		async: !1,
 		options: e,
 		message: t,
 		get "~standard"() {
-			return /* @__PURE__ */ El(this);
+			return /* @__PURE__ */ sl(this);
 		},
 		"~run"(e, t) {
 			let n, r, i;
@@ -29798,24 +29731,24 @@ function Bl(e, t) {
 			if (n) return n;
 			if (r) {
 				if (r.length === 1) return r[0];
-				wl(this, "type", e, t, { issues: /* @__PURE__ */ zl(r) }), e.typed = !0;
+				al(this, "type", e, t, { issues: /* @__PURE__ */ bl(r) }), e.typed = !0;
 			} else if (i?.length === 1) return i[0];
-			else wl(this, "type", e, t, { issues: /* @__PURE__ */ zl(i) });
+			else al(this, "type", e, t, { issues: /* @__PURE__ */ bl(i) });
 			return e;
 		}
 	};
 }
-function Vl(e, t, n) {
-	let r = e["~run"]({ value: t }, /* @__PURE__ */ gl(n));
-	if (r.issues) throw new kl(r.issues);
+function Sl(e, t, n) {
+	let r = e["~run"]({ value: t }, /* @__PURE__ */ Zc(n));
+	if (r.issues) throw new ul(r.issues);
 	return r.value;
 }
-function Gl(e, t) {
+function El(e, t) {
 	let n = {};
 	for (let r of t) n[r] = e[r];
 	return n;
 }
-function Kl(e, t) {
+function Dl(e, t) {
 	let n = {};
 	for (let [r, i] of Object.entries(e ?? {})) {
 		let e = r;
@@ -29823,42 +29756,42 @@ function Kl(e, t) {
 	}
 	return n;
 }
-function Yl(e) {
+function Al(e) {
 	if (Object.keys(e).length === 0) return null;
 	let t = Object.values(e).reduce((e, t) => {
-		let n = tr.find((e) => t && t.includes(e));
+		let n = Kn.find((e) => t && t.includes(e));
 		return n !== void 0 && (e[n] ||= [], e[n].push(t)), e;
-	}, {}), n = Xn(Object.entries(t).map(([e, t]) => ({
+	}, {}), n = Vn(Object.entries(t).map(([e, t]) => ({
 		wildcard: e,
 		instances: t
 	})), (e) => -e.instances.length);
 	return n.length > 0 ? n[0].wildcard : null;
 }
-function Xl(e, t, { downgrade: n } = {}) {
-	if (!W.default.validRange(e) || lr(e)) return !1;
+function jl(e, t, { downgrade: n } = {}) {
+	if (!W.default.validRange(e) || er(e)) return !1;
 	let [r] = me.default.parseRange(e);
 	if (!r) throw Error(`"${e}" could not be parsed by semver-utils. This is probably a bug. Please file an issue at https://github.com/raineorshine/npm-check-updates.`);
-	let i = Or(t), a = ar(r), o = !!W.default.validRange(a), s = !!W.default.valid(i);
-	return o && s && (!gr(i, a) || !W.default.satisfies(i, r.operator === "<" ? e : a) && (n || !W.default.ltr(i, a)));
+	let i = yr(t), a = Xn(r), o = !!W.default.validRange(a), s = !!W.default.valid(i);
+	return o && s && (!sr(i, a) || !W.default.satisfies(i, r.operator === "<" ? e : a) && (n || !W.default.ltr(i, a)));
 }
-function Zl(e, t, n = {}) {
+function Ml(e, t, n = {}) {
 	let r = n.target || "latest";
-	e = jn(e, (e, t) => !!t);
-	let i = Yl(e) || "^", a = (e, t) => Ir(e, t, {
+	e = yn(e, (e, t) => !!t);
+	let i = Al(e) || "^", a = (e, t) => Dr(e, t, {
 		wildcard: i,
 		removeRange: n.removeRange
 	});
 	return [
-		(e) => Kl(e, (e, n) => n in t),
+		(e) => Dl(e, (e, n) => n in t),
 		(e) => Object.entries(e).reduce((e, [n, r]) => {
 			let i = t[n], a = null, o = null;
-			if (Mr(r) && (a = jr(r)[1]), Mr(i) && (o = jr(i)[1]), Pr(r)) {
-				let [e] = (0, me.parseRange)(Fr(r));
-				a = ar(e);
+			if (Cr(r) && (a = Sr(r)[1]), Cr(i) && (o = Sr(i)[1]), Tr(r)) {
+				let [e] = (0, me.parseRange)(Er(r));
+				a = Xn(e);
 			}
-			if (Pr(i)) {
-				let [e] = (0, me.parseRange)(Fr(i));
-				o = ar(e);
+			if (Tr(i)) {
+				let [e] = (0, me.parseRange)(Er(i));
+				o = Xn(e);
 			}
 			return e[n] = {
 				current: r,
@@ -29867,17 +29800,17 @@ function Zl(e, t, n = {}) {
 				latestParsed: o
 			}, e;
 		}, {}),
-		(e) => Kl(e, ({ current: e, currentParsed: t, latest: n, latestParsed: i }, a) => {
-			let o = Sr(e) && (typeof r == "string" ? r : r(a, (0, me.parseRange)(e))).startsWith("@");
-			return Xl(t || e, i || n, { downgrade: o });
+		(e) => Dl(e, ({ current: e, currentParsed: t, latest: n, latestParsed: i }, a) => {
+			let o = pr(e) && (typeof r == "string" ? r : r(a, (0, me.parseRange)(e))).startsWith("@");
+			return jl(t || e, i || n, { downgrade: o });
 		}),
 		(e) => Object.entries(e).reduce((e, [t, { current: n, currentParsed: r, latest: i, latestParsed: o }]) => {
 			let s = a(r || n, o || i);
-			return e[t] = Mr(n) ? Nr(n, s) : Pr(n) ? Rr(n, s) : s, e;
+			return e[t] = Cr(n) ? wr(n, s) : Tr(n) ? kr(n, s) : s, e;
 		}, {})
 	].reduce((e, t) => t(e), e);
 }
-function Ql(e, t = !1) {
+function Nl(e, t = !1) {
 	let n = e.length, r = 0, i = "", a = 0, o = 16, s = 0, c = 0, l = 0, u = 0, d = 0;
 	function f(t, n) {
 		let i = 0, a = 0;
@@ -29897,12 +29830,12 @@ function Ql(e, t = !1) {
 	function m() {
 		let t = r;
 		if (e.charCodeAt(r) === 48) r++;
-		else for (r++; r < e.length && tu(e.charCodeAt(r));) r++;
-		if (r < e.length && e.charCodeAt(r) === 46) if (r++, r < e.length && tu(e.charCodeAt(r))) for (r++; r < e.length && tu(e.charCodeAt(r));) r++;
+		else for (r++; r < e.length && Il(e.charCodeAt(r));) r++;
+		if (r < e.length && e.charCodeAt(r) === 46) if (r++, r < e.length && Il(e.charCodeAt(r))) for (r++; r < e.length && Il(e.charCodeAt(r));) r++;
 		else return d = 3, e.substring(t, r);
 		let n = r;
-		if (r < e.length && (e.charCodeAt(r) === 69 || e.charCodeAt(r) === 101)) if (r++, (r < e.length && e.charCodeAt(r) === 43 || e.charCodeAt(r) === 45) && r++, r < e.length && tu(e.charCodeAt(r))) {
-			for (r++; r < e.length && tu(e.charCodeAt(r));) r++;
+		if (r < e.length && (e.charCodeAt(r) === 69 || e.charCodeAt(r) === 101)) if (r++, (r < e.length && e.charCodeAt(r) === 43 || e.charCodeAt(r) === 45) && r++, r < e.length && Il(e.charCodeAt(r))) {
+			for (r++; r < e.length && Il(e.charCodeAt(r));) r++;
 			n = r;
 		} else d = 3;
 		return e.substring(t, n);
@@ -29958,7 +29891,7 @@ function Ql(e, t = !1) {
 				i = r;
 				continue;
 			}
-			if (a >= 0 && a <= 31) if (eu(a)) {
+			if (a >= 0 && a <= 31) if (Fl(a)) {
 				t += e.substring(i, r), d = 2;
 				break;
 			} else d = 6;
@@ -29969,13 +29902,13 @@ function Ql(e, t = !1) {
 	function g() {
 		if (i = "", d = 0, a = r, c = s, u = l, r >= n) return a = n, o = 17;
 		let t = e.charCodeAt(r);
-		if ($l(t)) {
+		if (Pl(t)) {
 			do
 				r++, i += String.fromCharCode(t), t = e.charCodeAt(r);
-			while ($l(t));
+			while (Pl(t));
 			return o = 15;
 		}
-		if (eu(t)) return r++, i += String.fromCharCode(t), t === 13 && e.charCodeAt(r) === 10 && (r++, i += "\n"), s++, l = r, o = 14;
+		if (Fl(t)) return r++, i += String.fromCharCode(t), t === 13 && e.charCodeAt(r) === 10 && (r++, i += "\n"), s++, l = r, o = 14;
 		switch (t) {
 			case 123: return r++, o = 1;
 			case 125: return r++, o = 2;
@@ -29987,7 +29920,7 @@ function Ql(e, t = !1) {
 			case 47:
 				let c = r - 1;
 				if (e.charCodeAt(r + 1) === 47) {
-					for (r += 2; r < n && !eu(e.charCodeAt(r));) r++;
+					for (r += 2; r < n && !Fl(e.charCodeAt(r));) r++;
 					return i = e.substring(c, r), o = 12;
 				}
 				if (e.charCodeAt(r + 1) === 42) {
@@ -29999,12 +29932,12 @@ function Ql(e, t = !1) {
 							r += 2, a = !0;
 							break;
 						}
-						r++, eu(t) && (t === 13 && e.charCodeAt(r) === 10 && r++, s++, l = r);
+						r++, Fl(t) && (t === 13 && e.charCodeAt(r) === 10 && r++, s++, l = r);
 					}
 					return a || (r++, d = 1), i = e.substring(c, r), o = 13;
 				}
 				return i += String.fromCharCode(t), r++, o = 16;
-			case 45: if (i += String.fromCharCode(t), r++, r === n || !tu(e.charCodeAt(r))) return o = 16;
+			case 45: if (i += String.fromCharCode(t), r++, r === n || !Il(e.charCodeAt(r))) return o = 16;
 			case 48:
 			case 49:
 			case 50:
@@ -30029,7 +29962,7 @@ function Ql(e, t = !1) {
 		}
 	}
 	function _(e) {
-		if ($l(e) || eu(e)) return !1;
+		if (Pl(e) || Fl(e)) return !1;
 		switch (e) {
 			case 125:
 			case 93:
@@ -30062,21 +29995,21 @@ function Ql(e, t = !1) {
 		getTokenError: () => d
 	};
 }
-function $l(e) {
+function Pl(e) {
 	return e === 32 || e === 9;
 }
-function eu(e) {
+function Fl(e) {
 	return e === 10 || e === 13;
 }
-function tu(e) {
+function Il(e) {
 	return e >= 48 && e <= 57;
 }
-function au(e, t = [], n = iu.DEFAULT) {
+function Bl(e, t = [], n = zl.DEFAULT) {
 	let r = null, i = [], a = [];
 	function o(e) {
 		Array.isArray(i) ? i.push(e) : r !== null && (i[r] = e);
 	}
-	return cu(e, {
+	return Ul(e, {
 		onObjectBegin: () => {
 			let e = {};
 			o(e), a.push(i), i = e, r = null;
@@ -30104,7 +30037,7 @@ function au(e, t = [], n = iu.DEFAULT) {
 		}
 	}, n), i[0];
 }
-function ou(e, t = [], n = iu.DEFAULT) {
+function Vl(e, t = [], n = zl.DEFAULT) {
 	let r = {
 		type: "array",
 		offset: -1,
@@ -30118,7 +30051,7 @@ function ou(e, t = [], n = iu.DEFAULT) {
 	function a(e) {
 		return r.children.push(e), e;
 	}
-	cu(e, {
+	Ul(e, {
 		onObjectBegin: (e) => {
 			r = a({
 				type: "object",
@@ -30160,7 +30093,7 @@ function ou(e, t = [], n = iu.DEFAULT) {
 		},
 		onLiteralValue: (e, t, n) => {
 			a({
-				type: uu(e),
+				type: Gl(e),
 				offset: t,
 				length: n,
 				parent: r,
@@ -30181,7 +30114,7 @@ function ou(e, t = [], n = iu.DEFAULT) {
 	let o = r.children[0];
 	return o && delete o.parent, o;
 }
-function su(e, t) {
+function Hl(e, t) {
 	if (!e) return;
 	let n = e;
 	for (let e of t) if (typeof e == "string") {
@@ -30199,8 +30132,8 @@ function su(e, t) {
 	}
 	return n;
 }
-function cu(e, t, n = iu.DEFAULT) {
-	let r = Ql(e, !1), i = [], a = 0;
+function Ul(e, t, n = zl.DEFAULT) {
+	let r = Nl(e, !1), i = [], a = 0;
 	function o(e) {
 		return e ? () => a === 0 && e(r.getTokenOffset(), r.getTokenLength(), r.getTokenStartLine(), r.getTokenStartCharacter()) : () => !0;
 	}
@@ -30328,8 +30261,8 @@ function cu(e, t, n = iu.DEFAULT) {
 	}
 	return S(), r.getToken() === 17 ? n.allowEmptyContent ? !0 : (C(4, [], []), !1) : k() ? (r.getToken() !== 17 && C(9, [], []), !0) : (C(4, [], []), !1);
 }
-function lu(e, t) {
-	let n = Ql(e), r = [], i, a = 0, o;
+function Wl(e, t) {
+	let n = Nl(e), r = [], i, a = 0, o;
 	do
 		switch (o = n.getPosition(), i = n.scan(), i) {
 			case 12:
@@ -30341,7 +30274,7 @@ function lu(e, t) {
 	while (i !== 17);
 	return r.join("");
 }
-function uu(e) {
+function Gl(e) {
 	switch (typeof e) {
 		case "boolean": return "boolean";
 		case "number": return "number";
@@ -30350,10 +30283,10 @@ function uu(e) {
 		default: return "null";
 	}
 }
-function du(e, t) {
+function Kl(e, t) {
 	return e.substring(0, t.offset) + t.content + e.substring(t.offset + t.length);
 }
-function yu(e) {
+function eu(e) {
 	switch (e) {
 		case 1: return "InvalidSymbol";
 		case 2: return "InvalidNumberFormat";
@@ -30374,34 +30307,34 @@ function yu(e) {
 	}
 	return "<unknown ParseErrorCode>";
 }
-function bu(e, t) {
+function tu(e, t) {
 	let n = t.slice(0).sort((e, t) => {
 		let n = e.offset - t.offset;
 		return n === 0 ? e.length - t.length : n;
 	}), r = e.length;
 	for (let t = n.length - 1; t >= 0; t--) {
 		let i = n[t];
-		if (i.offset + i.length <= r) e = du(e, i);
+		if (i.offset + i.length <= r) e = Kl(e, i);
 		else throw Error("Overlapping edit");
 		r = i.offset;
 	}
 	return e;
 }
-function xu(e, t) {
-	let n = hu(e);
+function nu(e, t) {
+	let n = Xl(e);
 	if (!n) return e;
 	let r = [];
 	for (let { path: e, value: i } of t) {
-		let t = gu(n, e);
+		let t = Zl(n, e);
 		t && r.push({
 			offset: t.offset,
 			length: t.length,
 			content: JSON.stringify(i)
 		});
 	}
-	return bu(e, r);
+	return tu(e, r);
 }
-function Su(e, t, n, r) {
+function ru(e, t, n, r) {
 	if (!e || typeof e != "object" || Array.isArray(e)) return [];
 	let i = [];
 	for (let [a, o] of Object.entries(e)) a in r && (typeof o == "string" && o === n[a] ? i.push({
@@ -30414,29 +30347,29 @@ function Su(e, t, n, r) {
 			"."
 		],
 		value: r[a]
-	})), i.push(...Su(o, [...t, a], n, r));
+	})), i.push(...ru(o, [...t, a], n, r));
 	return i;
 }
-function wu(e) {
-	return `${e.length ? e.slice(0, Math.min(e.length, Cu)) : "<empty>"}\n`;
+function au(e) {
+	return `${e.length ? e.slice(0, Math.min(e.length, iu)) : "<empty>"}\n`;
 }
-function Tu(e) {
-	return e > Cu ? "" : `${" ".repeat(e - 1)}^\n`;
+function ou(e) {
+	return e > iu ? "" : `${" ".repeat(e - 1)}^\n`;
 }
-function Eu(e, t, n) {
+function su(e, t, n) {
 	let r = e.length;
 	if (r === 0) return "<empty>";
-	if (r === 1) return `${wu(e[0])}${Tu(n)}`;
+	if (r === 1) return `${au(e[0])}${ou(n)}`;
 	let i = Math.min(t + 2, r), a = "";
-	for (let r = Math.max(t - 2, 1); r <= i; r++) a += wu(e[r - 1]), r === t && (a += Tu(n));
+	for (let r = Math.max(t - 2, 1); r <= i; r++) a += au(e[r - 1]), r === t && (a += ou(n));
 	return `${a}\n`;
 }
-function Du(e) {
-	e = _u(e);
+function cu(e) {
+	e = Ql(e);
 	try {
 		return JSON.parse(e);
 	} catch {
-		let t = [], n = mu(e, t);
+		let t = [], n = Yl(e, t);
 		if (t.length === 0) return n;
 		let r = "", i = e.split("\n");
 		for (let e of t) {
@@ -30448,84 +30381,84 @@ function Du(e) {
 				}
 				o += e.length + 1, n++;
 			}
-			r += `Error at line ${n}, column ${a}: ${yu(e.error)}\n${Eu(i, n, a)}\n`;
+			r += `Error at line ${n}, column ${a}: ${eu(e.error)}\n${su(i, n, a)}\n`;
 		}
 		throw SyntaxError(r);
 	}
 }
-async function Ou(e, t, n) {
+async function lu(e, t, n) {
 	let r = await node_fs_promises.default.readFile(e, "utf-8");
-	return xu(r, Su(Du(r), [], t, n));
+	return nu(r, ru(cu(r), [], t, n));
 }
-function ku(e, { options: t, filePath: n }) {
+function uu(e, { options: t, filePath: n }) {
 	let r = e instanceof Error ? e.message : String(e), i = `Invalid YAML syntax${n ? ` in ${n}` : ""}. Unable to read catalog dependencies.\n${r}`;
 	throw t && $(t, i), Error(i);
 }
-function Au(e, t, { newName: n, newValue: r }) {
+function du(e, t, { newName: n, newValue: r }) {
 	let i = t.slice(0, -1), a = t.at(-1), o = e.getIn(i);
-	if (!o || !(0, wc.isCollection)(o)) return !1;
-	let s = o.items.find((e) => (0, wc.isPair)(e) && (0, wc.isScalar)(e.key) && e.key.value === a);
-	if (!s || !(0, wc.isPair)(s)) return !1;
-	if (n && wc.CST.setScalarValue(s.srcToken.key, n), r) {
-		if (!wc.CST.isScalar(s.srcToken?.value)) return !1;
-		wc.CST.setScalarValue(s.srcToken.value, r);
+	if (!o || !(0, ac.isCollection)(o)) return !1;
+	let s = o.items.find((e) => (0, ac.isPair)(e) && (0, ac.isScalar)(e.key) && e.key.value === a);
+	if (!s || !(0, ac.isPair)(s)) return !1;
+	if (n && ac.CST.setScalarValue(s.srcToken.key, n), r) {
+		if (!ac.CST.isScalar(s.srcToken?.value)) return !1;
+		ac.CST.setScalarValue(s.srcToken.value, r);
 	}
 	return !0;
 }
-function ju({ fileContent: e, upgrade: t, options: n, filePath: r }) {
+function fu({ fileContent: e, upgrade: t, options: n, filePath: r }) {
 	let { path: i } = t;
 	if (!(i.length > 1) && i[0] !== "catalog" && i[0] !== "catalogs") return null;
 	let { newValue: a } = t, o, s, c;
 	try {
-		o = [...new wc.Parser().parse(e)], s = [...new wc.Composer({ keepSourceTokens: !0 }).compose(o)][0];
+		o = [...new ac.Parser().parse(e)], s = [...new ac.Composer({ keepSourceTokens: !0 }).compose(o)][0];
 	} catch (e) {
-		ku(e, {
+		uu(e, {
 			options: n,
 			filePath: r
 		});
 	}
-	s || ku(/* @__PURE__ */ Error("No YAML document found."), {
+	s || uu(/* @__PURE__ */ Error("No YAML document found."), {
 		options: n,
 		filePath: r
-	}), s.errors.length > 0 && ku(s.errors[0], {
+	}), s.errors.length > 0 && uu(s.errors[0], {
 		options: n,
 		filePath: r
 	});
 	try {
-		c = Wl(s.toJSON());
+		c = Tl(s.toJSON());
 	} catch {
 		return null;
 	}
 	let l = c.workspaces && !Array.isArray(c.workspaces) ? c.workspaces : void 0;
-	return (i[0] === "catalog" ? c.catalog?.[i[1]] : i[0] === "catalogs" ? c.catalogs?.[i[1]]?.[i[2]] : i[0] === "workspaces" && i[1] === "catalog" ? l?.catalog?.[i[2]] : i[0] === "workspaces" && i[1] === "catalogs" ? l?.catalogs?.[i[2]]?.[i[3]] : void 0) === a ? e : Au(s, i, {
+	return (i[0] === "catalog" ? c.catalog?.[i[1]] : i[0] === "catalogs" ? c.catalogs?.[i[1]]?.[i[2]] : i[0] === "workspaces" && i[1] === "catalog" ? l?.catalog?.[i[2]] : i[0] === "workspaces" && i[1] === "catalogs" ? l?.catalogs?.[i[2]]?.[i[3]] : void 0) === a ? e : du(s, i, {
 		newValue: a,
 		newName: t.path.at(-1)
-	}) ? o.map((e) => wc.CST.stringify(e)).join("") : null;
+	}) ? o.map((e) => ac.CST.stringify(e)).join("") : null;
 }
-function Mu(e, t, n, r, i, a) {
-	let o = Du(e), s = (e) => {
+function pu(e, t, n, r, i, a) {
+	let o = cu(e), s = (e) => {
 		let t = o?.[e];
 		if (!(a && e !== "overrides" && e !== "packageManager" && t && typeof t == "object" && !Array.isArray(t) && Object.values(t).every((e) => typeof e == "string"))) return [n, r];
 		let s = t;
-		return [s, Kl(Zl(s, a, i), (e, t) => t in r)];
+		return [s, Dl(Ml(s, a, i), (e, t) => t in r)];
 	}, c = [];
 	for (let e of t) {
 		let t = o?.[e];
 		if (!t || typeof t != "object" || Array.isArray(t)) continue;
 		let [n, r] = s(e);
-		c.push(...Su(t, [e], n, r));
+		c.push(...ru(t, [e], n, r));
 	}
-	return xu(e, c);
+	return nu(e, c);
 }
-async function Nu(e, t, n, r, i, a) {
+async function mu(e, t, n, r, i, a) {
 	if (i) {
 		let a = node_path.default.basename(i), c = node_path.default.extname(i);
 		if (i.includes("#catalog")) {
 			let e = i.replace("#catalog", "");
-			if (node_path.default.extname(e) === ".json") return Ou(e, t, n);
+			if (node_path.default.extname(e) === ".json") return lu(e, t, n);
 		}
 		if (a === "pnpm-workspace.yaml" || a === ".yarnrc.yml") {
-			let e = await node_fs_promises.default.readFile(i, "utf-8"), t = Wl((0, wc.parseDocument)(e).toJSON()), a = [];
+			let e = await node_fs_promises.default.readFile(i, "utf-8"), t = Tl((0, ac.parseDocument)(e).toJSON()), a = [];
 			if (t.catalogs) for (let [e, r] of Object.entries(t.catalogs)) for (let [t, i] of Object.entries(n)) r[t] && a.push({
 				path: [
 					"catalogs",
@@ -30560,7 +30493,7 @@ async function Nu(e, t, n, r, i, a) {
 			}
 			let c = e;
 			for (let e of a) {
-				let t = ju({
+				let t = fu({
 					fileContent: c,
 					upgrade: e,
 					options: r,
@@ -30572,15 +30505,15 @@ async function Nu(e, t, n, r, i, a) {
 		}
 		if (c === ".json") {
 			let r = JSON.parse(e), a = r.catalog || r.catalogs, o = r.workspaces && !Array.isArray(r.workspaces) && (r.workspaces.catalog || r.workspaces.catalogs);
-			if (a || o) return Ou(i, t, n);
+			if (a || o) return lu(i, t, n);
 		}
 	}
-	let c = [...Jl(r.dep), "overrides"], l = Mu(e, c, t, n, r, a);
+	let c = [...kl(r.dep), "overrides"], l = pu(e, c, t, n, r, a);
 	if (c.includes("packageManager")) {
-		let t = Du(e);
+		let t = cu(e);
 		if (t.packageManager) {
 			let [e] = t.packageManager.split("@");
-			n[e] && (l = xu(l, [{
+			n[e] && (l = nu(l, [{
 				path: ["packageManager"],
 				value: `${e}@${n[e]}`
 			}]));
@@ -30588,7 +30521,7 @@ async function Nu(e, t, n, r, i, a) {
 	}
 	return l;
 }
-async function Ru(e) {
+async function yu(e) {
 	let t, n = null, r = e.packageFile || "package.json";
 	async function i(t, n) {
 		if (t != null) {
@@ -30606,10 +30539,10 @@ async function Ru(e) {
 	else if (e.stdin) {
 		q(e, "Waiting for package data on stdin", "verbose");
 		let a = await (0, node_stream_consumers.text)(process.stdin), o = a.trim().length > 0 ? a : null;
-		n = o || !r ? null : await $a(r), t = o || i(n, r);
+		n = o || !r ? null : await za(r), t = o || i(n, r);
 	} else {
 		let a = e.cwd || process.cwd();
-		n = r ? !e.packageFile && e.packageManager === "deno" && await $a(["deno.json", "deno.jsonc"], { cwd: a }) || await $a(r, { cwd: a }) : null, t = i(n, r);
+		n = r ? !e.packageFile && e.packageManager === "deno" && await za(["deno.json", "deno.jsonc"], { cwd: a }) || await za(r, { cwd: a }) : null, t = i(n, r);
 	}
 	return {
 		pkgData: await t,
@@ -30617,22 +30550,22 @@ async function Ru(e) {
 		pkgPath: r
 	};
 }
-async function lf(e, t, n, r) {
-	let { pkgData: i, pkgPath: a } = await Ru({
+async function Ud(e, t, n, r) {
+	let { pkgData: i, pkgPath: a } = await yu({
 		...e,
 		packageFile: n,
 		loglevel: "silent"
-	}), s = (typeof i == "string" ? JSON.parse(i) : i).workspaces || await of(a || ""), c = Array.isArray(s) ? s : s?.packages;
+	}), s = (typeof i == "string" ? JSON.parse(i) : i).workspaces || await Bd(a || ""), c = Array.isArray(s) ? s : s?.packages;
 	c || $(e, `workspaces property missing from package.json. --workspace${e.workspaces ? "s" : ""} only works when you specify a "workspaces" property in your package.json.`);
-	let l = e.packageFile ? node_path.default.dirname(node_path.default.resolve(e.packageFile)) : r, u = await (0, rf.default)((c || []).map((e) => node_path.default.join(l, e, "package.json").replace(/\\/g, "/")), af), d = await Promise.all(u.map(async (t) => {
-		let n = await pl(e, t);
+	let l = e.packageFile ? node_path.default.dirname(node_path.default.resolve(e.packageFile)) : r, u = await (0, Rd.default)((c || []).map((e) => node_path.default.join(l, e, "package.json").replace(/\\/g, "/")), zd), d = await Promise.all(u.map(async (t) => {
+		let n = await Jc(e, t);
 		return n.name = n.pkg.name || t.split("/").slice(-2)[0], n;
 	})), f = d.map((e) => e.name || "");
 	return e.workspaces === !0 ? [d, f] : [d.filter((n) => e.workspace?.some((e) => c?.some((r) => n.name === e || n.filepath === node_path.default.join(l, node_path.default.dirname(r), e, t).replace(/\\/g, "/")))), f];
 }
-async function uf(e, t) {
+async function Wd(e, t) {
 	if (!t) return null;
-	let n = await cf(e, t);
+	let n = await Hd(e, t);
 	if (!n) return null;
 	let r = {
 		name: "catalog-dependencies",
@@ -30646,31 +30579,31 @@ async function uf(e, t) {
 		name: "catalogs"
 	};
 }
-async function df(e) {
-	let t = e.packageFile || "package.json", n = e.cwd ? Fa(e.cwd) : "./", r = e.packageFile || (e.cwd ? node_path.default.join(n, "package.json") : "package.json"), i = e.workspaces === !0 || e.workspace !== void 0 && e.workspace.length !== 0, a = [];
+async function Gd(e) {
+	let t = e.packageFile || "package.json", n = e.cwd ? Wa(e.cwd) : "./", r = e.packageFile || (e.cwd ? node_path.default.join(n, "package.json") : "package.json"), i = e.workspaces === !0 || e.workspace !== void 0 && e.workspace.length !== 0, a = [];
 	if (!i || e.root === !0) {
-		let t = await (0, rf.default)(r.replace(/\\/g, "/"), af), n = await Promise.all(t.map(async (t) => await pl(e, t)));
+		let t = await (0, Rd.default)(r.replace(/\\/g, "/"), zd), n = await Promise.all(t.map(async (t) => await Jc(e, t)));
 		a = [...a, ...n];
 	}
 	if (!i) return [a, []];
 	let s = null;
 	if (i) {
-		let { pkgPath: t } = await Ru({
+		let { pkgPath: t } = await yu({
 			...e,
 			packageFile: r,
 			loglevel: "silent"
 		});
-		t && (s = await uf(e, t));
+		t && (s = await Wd(e, t));
 	}
-	let [c, l] = await lf(e, t, r, n);
+	let [c, l] = await Ud(e, t, r, n);
 	return a = [...a, ...c], s && (a = [...a, s]), [a, l];
 }
-function mf(e, t) {
+function Jd(e, t) {
 	let n = node_path.default.basename(t), r = e.includes("__filename is not defined") || e.includes("__dirname is not defined") || e.includes("require is not defined") || e.includes("module is not defined") || e.includes("exports is not defined"), i = e.includes("Cannot use import statement outside a module") || e.includes("Unexpected token 'export'") || e.includes("Unexpected token 'import'") || e.includes("SyntaxError: export ") || e.includes("SyntaxError") && e.includes("import"), a = t.endsWith(".js") && !t.endsWith(".cjs") && !t.endsWith(".mjs");
 	return r && a ? `${n} uses CommonJS syntax (require/module.exports) but your package.json has "type": "module".\n\nRecommended: Convert to ESM syntax:\n  import { ... } from '...'\n  export default { ... }\n\nAlternative: Rename to ${n.replace(".js", ".cjs")} to keep CommonJS syntax.` : i && a ? `${n} uses ESM syntax (import/export) but your package.json has "type": "commonjs".\n\nRecommended: Add "type": "module" to your package.json to use ESM throughout your project.\n\nAlternative: Rename to ${n.replace(".js", ".mjs")} to keep CommonJS in package.json.` : null;
 }
-async function hf({ configFileName: e, configFilePath: t, packageFile: n, global: r, options: i }) {
-	let a = On(i?.color), s = (0, ff.lilconfig)("ncu", {
+async function Yd({ configFileName: e, configFilePath: t, packageFile: n, global: r, options: i }) {
+	let a = gn(i?.color), s = (0, Kd.lilconfig)("ncu", {
 		searchPlaces: [
 			".ncurc",
 			".ncurc.json",
@@ -30681,9 +30614,9 @@ async function hf({ configFileName: e, configFilePath: t, packageFile: n, global
 			".ncurc.js"
 		],
 		loaders: {
-			noExt: pf,
-			".yaml": pf,
-			".yml": pf
+			noExt: qd,
+			".yaml": qd,
+			".yml": qd
 		}
 	}), l = t || (r ? node_os.default.homedir() : n ? node_path.default.dirname(n) : process.cwd()), u = null, d;
 	try {
@@ -30691,20 +30624,20 @@ async function hf({ configFileName: e, configFilePath: t, packageFile: n, global
 	} catch (t) {
 		let n = t.message || "", r = d || e || ".ncurc.js";
 		e && (t.code === "ENOENT" || n.includes("no such file or directory")) && $(i, `Config file ${e} not found in ${l}`);
-		let a = mf(n, r);
+		let a = Jd(n, r);
 		a && $(i, a), $(i, `Config file error: ${n}`);
 	}
 	let f = u?.filepath, { $schema: p, ...m } = u?.config || {}, h = m || {};
-	typeof h.format == "string" && (h.format = Ni.format.parse(h.format));
-	let g = Object.keys(h).filter((e) => !Ni[e]);
+	typeof h.format == "string" && (h.format = Ti.format.parse(h.format));
+	let g = Object.keys(h).filter((e) => !Ti[e]);
 	return g.length > 0 && (console.error(a.red(`Unknown option${g.length === 1 ? "" : "s"} found in config file:`), a.gray(g.join(", "))), console.info("Using config file " + f), console.info(`You can change the config file path with ${a.blue("--configFilePath")}`)), {
 		filePath: f,
-		args: Object.entries(h).flatMap(([e, t]) => typeof t == "boolean" || Ni[e]?.type === "boolean" ? t ? [`--${e}`] : [] : [`--${e}`, t]),
+		args: Object.entries(h).flatMap(([e, t]) => typeof t == "boolean" || Ti[e]?.type === "boolean" ? t ? [`--${e}`] : [] : [`--${e}`, t]),
 		config: h
 	};
 }
-async function wf(e) {
-	let t = (await Cf("git", [
+async function af(e) {
+	let t = (await rf("git", [
 		"ls-remote",
 		"--tags",
 		e
@@ -30715,41 +30648,41 @@ async function wf(e) {
 	}
 	return n;
 }
-async function Tf(e, t, n) {
+async function of(e, t, n) {
 	t = t.replace(/^github:/, "");
-	let { auth: r, protocol: i, host: a, path: o } = (0, Jn.default)(t), s;
+	let { auth: r, protocol: i, host: a, path: o } = (0, zn.default)(t), s;
 	try {
-		if (i !== null) s = await wf(`${i ? i.replace("git+", "") : "https:"}//${r ? r + "@" : ""}${a}/${o?.replace(/^:/, "")}`);
+		if (i !== null) s = await af(`${i ? i.replace("git+", "") : "https:"}//${r ? r + "@" : ""}${a}/${o?.replace(/^:/, "")}`);
 		else try {
-			s = await wf(`ssh://git@${a}/${o?.replace(/^:/, "")}`);
+			s = await af(`ssh://git@${a}/${o?.replace(/^:/, "")}`);
 		} catch {
-			s = await wf(`https://${r ? r + "@" : ""}${a}/${o}`);
+			s = await af(`https://${r ? r + "@" : ""}${a}/${o}`);
 		}
 	} catch {
 		q(n ?? {}, `Invalid, private repo, or no tags for ${e}: ${t}`, "verbose");
 		return;
 	}
-	return Object.keys(s).map(Or).filter((e) => W.default.valid(e)).sort(_r);
+	return Object.keys(s).map(yr).filter((e) => W.default.valid(e)).sort(cr);
 }
-function zf(e) {
+function bf(e) {
 	if (typeof e == "string") return e.trim();
 	if (Array.isArray(e) && (e.length === 0 || typeof e[0] == "string")) {
 		let t = e.map((e) => typeof e == "string" ? e.trim() : e).filter((e) => e);
 		return t.length > 0 ? t : void 0;
 	} else return e;
 }
-function Bf(e) {
+function xf(e) {
 	try {
 		return new URL(e), !0;
 	} catch {
 		return !1;
 	}
 }
-async function Hf(e, { cli: t } = {}) {
-	let n = On(e.color), r, i;
+async function Cf(e, { cli: t } = {}) {
+	let n = gn(e.color), r, i;
 	if (!t) {
 		r = { ...e }, i = Object.keys(e);
-		let t = Pi.reduce((e, t) => ({
+		let t = Ei.reduce((e, t) => ({
 			...e,
 			...t.default == null ? null : { [t.long]: t.default }
 		}), {}), n = {
@@ -30773,7 +30706,7 @@ async function Hf(e, { cli: t } = {}) {
 		}
 	}, o = a.silent || a.format?.includes("lines") ? "silent" : a.verbose ? "verbose" : a.loglevel, s = Object.keys(a).filter((e) => e.startsWith("json")).some((e) => a[e]);
 	!s && o !== "silent" && a.rcConfigPath && !a.doctor && q(a, `Using config file ${a.rcConfigPath}`);
-	let c = Pi.filter(({ long: e, deprecated: t }) => t && a[e] || e === "packageManager" && a.packageManager === "staticRegistry");
+	let c = Ei.filter(({ long: e, deprecated: t }) => t && a[e] || e === "packageManager" && a.packageManager === "staticRegistry");
 	if (c.length > 0) {
 		for (let { long: e, description: t } of c) {
 			let r = e === "packageManager" ? "--packageManager staticRegistry is deprecated. Use --registryType json." : `--${e}: ${t}`;
@@ -30781,43 +30714,43 @@ async function Hf(e, { cli: t } = {}) {
 		}
 		q(a, "", "warn");
 	}
-	for (let { long: e, choices: t } of Pi) {
+	for (let { long: e, choices: t } of Ei) {
 		if (!t || t.length === 0) continue;
 		let n = a[e], r = Array.isArray(n) ? n : [n];
 		r.length !== 0 && r.every((e) => !t.includes(e)) && $(a, `Invalid option value: --${e} ${n}. Valid values are: ${t.join(", ")}.`);
 	}
-	a.cwd && !await Mn(a.cwd) && $(a, `No such directory: ${a.cwd}`);
-	let l = zf(a.args), u = zf(a.filter), d = zf(a.filterVersion), f = zf(a.reject), p = zf(a.rejectVersion), m = a.registryType || (a.registry?.endsWith(".json") ? "json" : "npm");
-	a.filter && l && l.join(" ") !== (Array.isArray(u) ? u.join(" ") : u) ? $(a, "Cannot specify a filter using both --filter and args. Did you forget to quote an argument?\nSee: https://github.com/raineorshine/npm-check-updates/issues/759#issuecomment-723587297") : a.packageFile && a.deep ? $(a, "Cannot specify both --packageFile and --deep. --deep is an alias for --packageFile '**/package.json'") : a.format?.includes("lines") && a.jsonUpgraded ? $(a, "Cannot specify both --format lines and --jsonUpgraded.") : a.format?.includes("lines") && a.jsonAll ? $(a, "Cannot specify both --format lines and --jsonAll.") : a.format?.includes("lines") && a.format.length > 1 ? $(a, "Cannot use --format lines with other formatting options.") : a.workspace?.length && a.workspaces ? $(a, "Cannot specify both --workspace and --workspaces.") : a.deep && (a.workspace?.length || a.workspaces) ? $(a, `Cannot specify both --deep and --workspace${a.workspaces ? "s" : ""}.`) : a.doctor && (a.workspace?.length || a.workspaces) ? $(a, `Doctor mode is not currently supported with --workspace${a.workspaces ? "s" : ""}.`) : a.packageManager === "staticRegistry" && !a.registry ? $(a, "When --package-manager staticRegistry is specified, you must provide the path for the registry file with --registry.") : a.registryType === "json" && !a.registry ? $(a, "When --registryType json is specified, you must provide the path for the registry file with --registry. Run \"ncu --help registryType\" for details.") : m !== "json" && a.registry && !Bf(a.registry) && $(a, `--registry must be a valid URL. Invalid value: "${a.registry}"`);
-	let h = await Vi(a);
+	a.cwd && !await Cn(a.cwd) && $(a, `No such directory: ${a.cwd}`);
+	let l = bf(a.args), u = bf(a.filter), d = bf(a.filterVersion), f = bf(a.reject), p = bf(a.rejectVersion), m = a.registryType || (a.registry?.endsWith(".json") ? "json" : "npm");
+	a.filter && l && l.join(" ") !== (Array.isArray(u) ? u.join(" ") : u) ? $(a, "Cannot specify a filter using both --filter and args. Did you forget to quote an argument?\nSee: https://github.com/raineorshine/npm-check-updates/issues/759#issuecomment-723587297") : a.packageFile && a.deep ? $(a, "Cannot specify both --packageFile and --deep. --deep is an alias for --packageFile '**/package.json'") : a.format?.includes("lines") && a.jsonUpgraded ? $(a, "Cannot specify both --format lines and --jsonUpgraded.") : a.format?.includes("lines") && a.jsonAll ? $(a, "Cannot specify both --format lines and --jsonAll.") : a.format?.includes("lines") && a.format.length > 1 ? $(a, "Cannot use --format lines with other formatting options.") : a.workspace?.length && a.workspaces ? $(a, "Cannot specify both --workspace and --workspaces.") : a.deep && (a.workspace?.length || a.workspaces) ? $(a, `Cannot specify both --deep and --workspace${a.workspaces ? "s" : ""}.`) : a.doctor && (a.workspace?.length || a.workspaces) ? $(a, `Doctor mode is not currently supported with --workspace${a.workspaces ? "s" : ""}.`) : a.packageManager === "staticRegistry" && !a.registry ? $(a, "When --package-manager staticRegistry is specified, you must provide the path for the registry file with --registry.") : a.registryType === "json" && !a.registry ? $(a, "When --registryType json is specified, you must provide the path for the registry file with --registry. Run \"ncu --help registryType\" for details.") : m !== "json" && a.registry && !xf(a.registry) && $(a, `--registry must be a valid URL. Invalid value: "${a.registry}"`);
+	let h = await Ni(a);
 	if (a.cooldown != null) {
 		if (typeof a.cooldown == "string") {
-			let e = Kn(a.cooldown);
+			let e = Ln(a.cooldown);
 			e === null ? $(a, `Invalid cooldown value: "${a.cooldown}". Use a number (days) or a string like "7d", "12h", or "30m".`) : a.cooldown = e;
 		}
 		let e = typeof a.cooldown == "number" && !isNaN(a.cooldown) && a.cooldown >= 0, t = typeof a.cooldown == "function";
 		!e && !t && $(a, "Cooldown must be a non-negative number (days), a string like \"7d\", \"12h\", or \"30m\", or a predicate function.");
 	} else if (h === "pnpm") {
-		let e = await Hc.getPnpmWorkspaceMinimumReleaseAge();
+		let e = await Cc.getPnpmWorkspaceMinimumReleaseAge();
 		if (e != null) {
 			let { minimumReleaseAge: t, minimumReleaseAgeExclude: n } = e, r = t / 1440;
 			if (n.length > 0) {
-				let e = n.map((e) => (0, xf.default)(e));
+				let e = n.map((e) => (0, tf.default)(e));
 				a.cooldown = (t) => e.some((e) => e(t)) ? null : r, q({
 					...a,
 					json: s
-				}, `Using minimumReleaseAge from pnpm-workspace.yaml: ${Vf(r)} (${n.length} excluded pattern${n.length === 1 ? "" : "s"})`);
+				}, `Using minimumReleaseAge from pnpm-workspace.yaml: ${Sf(r)} (${n.length} excluded pattern${n.length === 1 ? "" : "s"})`);
 			} else a.cooldown = r, q({
 				...a,
 				json: s
-			}, `Using minimumReleaseAge from pnpm-workspace.yaml: ${Vf(r)}`);
+			}, `Using minimumReleaseAge from pnpm-workspace.yaml: ${Sf(r)}`);
 		}
 	} else if (h === "yarn") {
-		let e = await fl.getYarnMinimalAgeGate(a);
+		let e = await qc.getYarnMinimalAgeGate(a);
 		if (e != null) {
 			let { npmMinimalAgeGate: t, npmPreapprovedPackages: n } = e, r = t / 1440;
 			if (n.length > 0) {
-				let e = n.map((e) => (0, xf.default)(e));
+				let e = n.map((e) => (0, tf.default)(e));
 				a.cooldown = (t) => e.some((e) => e(t)) ? null : r, q({
 					...a,
 					json: s
@@ -30825,18 +30758,18 @@ async function Hf(e, { cli: t } = {}) {
 			} else a.cooldown = r, q({
 				...a,
 				json: s
-			}, `Using npmMinimalAgeGate from .yarnrc.yml: ${Vf(r)}`);
+			}, `Using npmMinimalAgeGate from .yarnrc.yml: ${Sf(r)}`);
 		}
 	} else {
-		let e = Po.findNpmConfig(), t = e?.minReleaseAge;
+		let e = fo.findNpmConfig(), t = e?.minReleaseAge;
 		if (t != null) {
-			let n = typeof t == "string" ? Kn(t) ?? parseInt(t, 10) : typeof t == "number" ? t : null;
+			let n = typeof t == "string" ? Ln(t) ?? parseInt(t, 10) : typeof t == "number" ? t : null;
 			if (n != null && !isNaN(n)) {
 				let t = e?.minReleaseAgeExclude, r = [...new Set((Array.isArray(t) ? t : typeof t == "string" ? [t] : []).flatMap((e) => e.split(",")).map((e) => e.trim()).filter((e) => e))];
 				if (r.length > 0) {
 					let e = r.map((e) => ({
 						pattern: e,
-						match: (0, xf.default)(e, {
+						match: (0, tf.default)(e, {
 							nonegate: !0,
 							noext: !0
 						})
@@ -30844,11 +30777,11 @@ async function Hf(e, { cli: t } = {}) {
 					a.cooldown = (t) => e.some(({ pattern: e, match: n }) => t === e || n(t)) ? null : n, q({
 						...a,
 						json: s
-					}, `Using min-release-age from .npmrc: ${Vf(n)} (${r.length} excluded pattern${r.length === 1 ? "" : "s"})`);
+					}, `Using min-release-age from .npmrc: ${Sf(n)} (${r.length} excluded pattern${r.length === 1 ? "" : "s"})`);
 				} else a.cooldown = n, q({
 					...a,
 					json: s
-				}, `Using min-release-age from .npmrc: ${Vf(n)}`);
+				}, `Using min-release-age from .npmrc: ${Sf(n)}`);
 			}
 		}
 	}
@@ -30874,25 +30807,25 @@ async function Hf(e, { cli: t } = {}) {
 		target: g,
 		...a.interactive && a.upgrade === void 0 ? { upgrade: !s } : null,
 		packageManager: h,
-		...a.prefix ? { prefix: await (Lf[h || ""]?.defaultPrefix || Lf.npm.defaultPrefix)(a) } : null,
+		...a.prefix ? { prefix: await (vf[h || ""]?.defaultPrefix || vf.npm.defaultPrefix)(a) } : null,
 		registryType: m
 	};
-	v.cacher = await ai(v);
+	v.cacher = await Xr(v);
 	let y = G(v, (e, t) => t === void 0 ? null : { [e]: t });
 	return !a.packageManager && h !== "npm" && q(y, `Using ${h}`), y;
 }
-function Uf(e, t) {
+function wf(e, t) {
 	return Array.from(/* @__PURE__ */ new Set([...e || [], ...t || []]));
 }
-function Wf(e, t) {
+function Tf(e, t) {
 	let n = e || {}, r = t || {}, i = {
 		...n,
 		...r
 	};
-	for (let e of Object.keys(i)) Array.isArray(n[e]) && Array.isArray(r[e]) && (i[e] = Uf(n[e], r[e]));
+	for (let e of Object.keys(i)) Array.isArray(n[e]) && Array.isArray(r[e]) && (i[e] = wf(n[e], r[e]));
 	return i;
 }
-function Kf(e, { allowFunction: t = !0 } = {}) {
+function Df(e, { allowFunction: t = !0 } = {}) {
 	let n;
 	if (!e) n = () => !0;
 	else if (typeof e == "string") if (e[0] === "/" && e.at(-1) === "/") {
@@ -30900,9 +30833,9 @@ function Kf(e, { allowFunction: t = !0 } = {}) {
 		n = (e) => t.test(e);
 	} else {
 		let t = e.split(/[\s,]+/);
-		n = (e) => t.some((0, Gf.or)((t) => (0, xf.default)(t)(e), (t) => !t.includes("/") && e.includes("/") && (0, xf.default)(t)(e.replace(/\//g, "_"))));
+		n = (e) => t.some((0, Ef.or)((t) => (0, tf.default)(t)(e), (t) => !t.includes("/") && e.includes("/") && (0, tf.default)(t)(e.replace(/\//g, "_"))));
 	}
-	else if (Array.isArray(e)) n = (n, r) => e.some((e) => Kf(e, { allowFunction: t })(n, r));
+	else if (Array.isArray(e)) n = (n, r) => e.some((e) => Df(e, { allowFunction: t })(n, r));
 	else if (e instanceof RegExp) n = (t) => e.test(t);
 	else if (typeof e == "function") {
 		if (!t) throw TypeError("filterVersion and rejectVersion do not support predicate functions. Use filter or reject instead, which receive the package name and parsed current version.");
@@ -30910,28 +30843,28 @@ function Kf(e, { allowFunction: t = !0 } = {}) {
 	} else throw TypeError("Invalid filter. Must be a RegExp, array, or comma-or-space-delimited list.");
 	return n;
 }
-function qf(e, t, n, r) {
-	return (0, Gf.and)((n, r) => (0, Gf.and)(!e || Kf(e), t ? (...e) => !Kf(t)(...e) : !0)(n, r), (e, t) => (0, Gf.and)(!n || Kf(n, { allowFunction: !1 }), r ? (...e) => !Kf(r, { allowFunction: !1 })(...e) : !0)(t));
+function Of(e, t, n, r) {
+	return (0, Ef.and)((n, r) => (0, Ef.and)(!e || Df(e), t ? (...e) => !Df(t)(...e) : !0)(n, r), (e, t) => (0, Ef.and)(!n || Df(n, { allowFunction: !1 }), r ? (...e) => !Df(r, { allowFunction: !1 })(...e) : !0)(t));
 }
-function Jf(e, t) {
-	return !t || t === "deno" ? Lf.npm : e.registryType === "json" ? Lf.staticRegistry : (Lf[t] || $(e, `Invalid package manager: ${t}`), Lf[t]);
+function kf(e, t) {
+	return !t || t === "deno" ? vf.npm : e.registryType === "json" ? vf.staticRegistry : (vf[t] || $(e, `Invalid package manager: ${t}`), vf[t]);
 }
-async function Yf(e = {}) {
-	let t = await Jf(e, e.packageManager).list?.({
+async function Af(e = {}) {
+	let t = await kf(e, e.packageManager).list?.({
 		cwd: e.cwd,
 		prefix: e.prefix,
 		global: e.global
 	});
 	t || $(e, "Unable to retrieve package list");
-	let n = qf(e.filter, e.reject, e.filterVersion, e.rejectVersion), r = {};
+	let n = Of(e.filter, e.reject, e.filterVersion, e.rejectVersion), r = {};
 	try {
-		r = jn(t, (e, t) => !!t && !ur(t) && n(e, t));
+		r = yn(t, (e, t) => !!t && !tr(t) && n(e, t));
 	} catch (t) {
 		$(e, "Invalid filter: " + t.message || t);
 	}
 	return r;
 }
-async function Qf(e, t, { concurrency: n = Infinity, stopOnError: r = !0, signal: i } = {}) {
+async function Nf(e, t, { concurrency: n = Infinity, stopOnError: r = !0, signal: i } = {}) {
 	return new Promise((a, o) => {
 		if (e[Symbol.iterator] === void 0 && e[Symbol.asyncIterator] === void 0) throw TypeError(`Expected \`input\` to be either an \`Iterable\` or \`AsyncIterable\`, got (${typeof e})`);
 		if (typeof t != "function") throw TypeError("Mapper function is required");
@@ -30966,7 +30899,7 @@ async function Qf(e, t, { concurrency: n = Infinity, stopOnError: r = !0, signal
 						return;
 					}
 					let e = [];
-					for (let [t, n] of s.entries()) l.get(t) !== $f && e.push(n);
+					for (let [t, n] of s.entries()) l.get(t) !== Pf && e.push(n);
 					v(e);
 				}
 				return;
@@ -30976,7 +30909,7 @@ async function Qf(e, t, { concurrency: n = Infinity, stopOnError: r = !0, signal
 					let r = await e.value;
 					if (d) return;
 					let i = await t(r, n);
-					i === $f && l.set(n, i), s[n] = i, p--, await b();
+					i === Pf && l.set(n, i), s[n] = i, p--, await b();
 				} catch (e) {
 					if (r) y(e);
 					else {
@@ -31003,7 +30936,7 @@ async function Qf(e, t, { concurrency: n = Infinity, stopOnError: r = !0, signal
 		})();
 	});
 }
-function ip(e, t) {
+function zf(e, t) {
 	let n = /* @__PURE__ */ new Set(), r = [[t]];
 	for (; r.length > 0;) {
 		let t = [];
@@ -31024,15 +30957,15 @@ function ip(e, t) {
 	}
 	return { isCircular: !1 };
 }
-async function ap(e, t) {
-	let n = Jf(t, t.packageManager);
+async function Bf(e, t) {
+	let n = kf(t, t.packageManager);
 	if (!n.getPeerDependencies) return {};
 	let r = Object.keys(e).length, i;
-	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r > 0 && (i = new rp.default("[:bar] :current/:total :percent", {
+	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r > 0 && (i = new Rf.default("[:bar] :current/:total :percent", {
 		total: r,
 		width: 20
 	}), i.render());
-	let a = await Qf(Object.entries(e), async ([e, r]) => {
+	let a = await Nf(Object.entries(e), async ([e, r]) => {
 		let a, o = t.cacher?.getPeers(e, r);
 		return o ? a = o : (a = await n.getPeerDependencies(e, r, { cwd: t.cwd }), t.cacher?.setPeers(e, r, a)), i && i.tick(), {
 			pkg: e,
@@ -31041,28 +30974,28 @@ async function ap(e, t) {
 	}, { concurrency: t.concurrency }), o = {};
 	for (let { pkg: e, dependencies: t } of a) {
 		o[e] = t;
-		let n = ip(o, e);
+		let n = zf(o, e);
 		n.isCircular && delete o[e][n.offendingPackage];
 	}
 	return await t.cacher?.save(), t.cacher?.log(!0), o;
 }
-async function op(e, t = {}) {
-	let n = On(t.color), r = Object.keys(e), i = Jf(t, t.packageManager), a;
-	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r.length > 0 && (a = new rp.default("[:bar] :current/:total :percent", {
+async function Vf(e, t = {}) {
+	let n = gn(t.color), r = Object.keys(e), i = kf(t, t.packageManager), a;
+	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r.length > 0 && (a = new Rf.default("[:bar] :current/:total :percent", {
 		total: r.length,
 		width: 20
 	}), a.render());
 	async function o(r) {
-		let o = jr(e[r]), [s, c] = o || [r, e[r]];
-		if (Un(c)) return a?.tick(), { version: null };
+		let o = Sr(e[r]), [s, c] = o || [r, e[r]];
+		if (Pn(c)) return a?.tick(), { version: null };
 		let l = t.target || "latest", u = typeof l == "string" ? l : l(s, (0, me.parseRange)(c)), [d, f] = u.startsWith("@") ? ["distTag", u.slice(1)] : [u, "latest"];
 		if (!t.cooldown) {
 			let e = t.cacher?.get(s, d);
 			if (e?.version && (e?.time || !t.format?.includes("time"))) return a?.tick(), e;
 		}
-		let p, m = Pr(e[r]), h = m ? Lf.gitTags : i, g = m ? "github urls" : t.packageManager || "npm", _ = h[d];
+		let p, m = Tr(e[r]), h = m ? vf.gitTags : i, g = m ? "github urls" : t.packageManager || "npm", _ = h[d];
 		if (!_) {
-			let e = Rf.filter((e) => e in h);
+			let e = yf.filter((e) => e in h);
 			$(t, n.red(`\nUnsupported target "${d}" using ${g}`) + "\nSupported version targets are: " + e.join(", ") + (m ? "" : ", and tags (e.g. @next)"), { color: !1 });
 		}
 		try {
@@ -31070,13 +31003,13 @@ async function op(e, t = {}) {
 				p = await _(s, c, {
 					...t,
 					distTag: f,
-					pre: t.pre == null ? u.startsWith("@") || Sr(c) : t.pre,
+					pre: t.pre == null ? u.startsWith("@") || pr(c) : t.pre,
 					retry: t.retry ?? 2
 				});
 			} catch (e) {
 				p = { error: e?.body?.error || e.toString() };
 			}
-			p.version = !m && o && p?.version ? Ar(s, p.version) : p?.version ?? null;
+			p.version = !m && o && p?.version ? xr(s, p.version) : p?.version ?? null;
 		} catch (e) {
 			let r = e ? (e.message || e).toString() : "";
 			if (r.match(/E504|Gateway Timeout/i)) return { error: `${r}. All ${t.retry} retry attempts failed.` };
@@ -31086,28 +31019,28 @@ async function op(e, t = {}) {
 		}
 		return a?.tick(), p.version && !t.cooldown && t.cacher?.set(s, d, p.version, p.time), p;
 	}
-	let s = await Qf(r, o, { concurrency: t.concurrency });
+	let s = await Nf(r, o, { concurrency: t.concurrency });
 	return await t.cacher?.save(), t.cacher?.log(), G(s, (e, t) => e.version || e.error || e.cooldownInfo ? { [r[t]]: e } : null);
 }
-async function cp(e, t) {
-	let n = await op(e, t), r = G(n, (n, r) => r?.version && (!t.filterResults || t.filterResults(n, {
+async function Uf(e, t) {
+	let n = await Vf(e, t), r = G(n, (n, r) => r?.version && (!t.filterResults || t.filterResults(n, {
 		currentVersion: e[n],
 		currentVersionSemver: (0, me.parseRange)(e[n]),
 		upgradedVersion: r.version,
 		upgradedVersionSemver: (0, me.parse)(r.version)
-	})) ? { [n]: r.version } : null), i = Kl(Zl(e, r, t), (n, i) => !t.jsonUpgraded || !t.minimal || !W.default.satisfies(r[i], e[i])), a = Kl(r, (e, t) => i[t]), o = [
+	})) ? { [n]: r.version } : null), i = Dl(Ml(e, r, t), (n, i) => !t.jsonUpgraded || !t.minimal || !W.default.satisfies(r[i], e[i])), a = Dl(r, (e, t) => i[t]), o = [
 		i,
 		n,
 		t.peerDependencies
 	];
 	if (!t.peer || Object.keys(a).length === 0) return o;
 	if (t.peer && Object.keys(a).length > 0) {
-		let r = await ap(a, t), s;
+		let r = await Bf(a, t), s;
 		if ((0, node_util.isDeepStrictEqual)(t.peerDependencies, {
 			...t.peerDependencies,
 			...r
 		})) {
-			if (s = sp(e, i, t.peerDependencies), !s.violated) return o;
+			if (s = Hf(e, i, t.peerDependencies), !s.violated) return o;
 		} else s = {
 			violated: !1,
 			filteredUpgradedDependencies: i,
@@ -31125,7 +31058,7 @@ async function cp(e, t) {
 				n,
 				t.peerDependencies
 			];
-			let [i, a, l] = await cp({
+			let [i, a, l] = await Uf({
 				...e,
 				...s.filteredUpgradedDependencies
 			}, {
@@ -31143,17 +31076,17 @@ async function cp(e, t) {
 					...a
 				},
 				l
-			], s = sp(e, o[0], o[2]);
+			], s = Hf(e, o[0], o[2]);
 		} while (s.violated);
 	}
 	return o;
 }
-async function lp(e) {
-	q(e, "\nOptions:", "verbose"), Hr(e, e, "verbose"), q(e, "\nGetting installed packages", "verbose");
+async function Wf(e) {
+	q(e, "\nOptions:", "verbose"), Nr(e, e, "verbose"), q(e, "\nGetting installed packages", "verbose");
 	let t = {};
 	try {
 		let { cli: n, cwd: r, filter: i, filterVersion: a, global: o, packageManager: s, prefix: c, reject: l, rejectVersion: u } = e;
-		t = await Yf({
+		t = await Af({
 			cli: n,
 			cwd: r,
 			filter: i,
@@ -31168,13 +31101,13 @@ async function lp(e) {
 		$(e, t.message);
 	}
 	q(e, "globalPackages:", "verbose"), q(e, t, "verbose"), q(e, "", "verbose"), q(e, `Fetching ${e.target} versions`, "verbose");
-	let [n, r] = await cp(t, e);
+	let [n, r] = await Uf(t, e);
 	q(e, r, "verbose");
 	let i = G(r, (e, t) => {
 		let n = t.time ?? t.cooldownInfo?.currentVersionTime;
 		return n ? { [e]: n } : null;
 	}), a = G(r, (e, t) => t.cooldownInfo ? { [e]: t.cooldownInfo } : null), o = Object.values(a).length, s = Object.keys(n);
-	await Xr(e, {
+	await Vr(e, {
 		current: t,
 		upgraded: n,
 		skippedByCooldown: a,
@@ -31183,31 +31116,31 @@ async function lp(e) {
 		total: s.length,
 		time: i
 	});
-	let c = n ? s.map((e) => Xf(e + "@" + n[e])).join(" ") : "[package]";
-	if (e.json) Br(e, n);
+	let c = n ? s.map((e) => jf(e + "@" + n[e])).join(" ") : "[package]";
+	if (e.json) jr(e, n);
 	else if (c.length) {
 		let t = e.packageManager === "yarn" ? "yarn global upgrade" : e.packageManager === "pnpm" ? "pnpm -g add" : e.packageManager === "bun" ? "bun add -g" : "npm -g install";
 		q(e, "\n" + K.cyan("ncu") + " itself cannot upgrade global packages. Run the following to upgrade all global packages: \n\n" + K.cyan(`${t} ` + c) + "\n");
 	}
 	return e.cli && e.errorLevel === 2 && s.length > 0 && process.exit(1), n;
 }
-function fp(e = {}, t = {}) {
-	let n = Jl(t.dep).reduce((t, n) => ({
+function qf(e = {}, t = {}) {
+	let n = kl(t.dep).reduce((t, n) => ({
 		...t,
-		...n === "packageManager" ? dp(e) : jn(e[n] || {}, (e, n) => !up(n, t[e]))
+		...n === "packageManager" ? Kf(e) : yn(e[n] || {}, (e, n) => !Gf(n, t[e]))
 	}), {}), r = G(t.workspacePackages || []), i = {};
 	try {
-		i = jn(jn(n, (e) => !r[e]), qf(t.filter || null, t.reject || null, t.filterVersion || null, t.rejectVersion || null));
+		i = yn(yn(n, (e) => !r[e]), Of(t.filter || null, t.reject || null, t.filterVersion || null, t.rejectVersion || null));
 	} catch (e) {
 		$(t, "Invalid filter: " + e.message || e);
 	}
 	return i;
 }
-async function pp(e, t) {
-	let n = Jf(t, t.packageManager);
+async function Jf(e, t) {
+	let n = kf(t, t.packageManager);
 	if (!n.getEngines) return {};
 	let r = Object.keys(e).length, i;
-	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r > 0 && (i = new rp.default("[:bar] :current/:total :percent", {
+	!t.json && t.loglevel !== "silent" && t.loglevel !== "verbose" && r > 0 && (i = new Rf.default("[:bar] :current/:total :percent", {
 		total: r,
 		width: 20
 	}), i.render());
@@ -31218,33 +31151,33 @@ async function pp(e, t) {
 	}
 	return a;
 }
-async function hp(e, t, n = {}) {
+async function Xf(e, t, n = {}) {
 	if (!n.nodeEngineVersion) return {};
 	let r = W.default.minVersion(n.nodeEngineVersion)?.version;
 	if (!r) return {};
-	let [i, a] = await cp(e, {
+	let [i, a] = await Uf(e, {
 		...n,
 		enginesNode: !1,
 		nodeEngineVersion: void 0,
 		loglevel: "silent"
-	}), o = await pp(G(a, (e, t) => i[e] && t?.version ? { [e]: t.version } : null), n), s = {};
-	for (let [n, a] of Object.entries(i)) t[n] === a || mp(o[n], r) || (s[n] = {
+	}), o = await Jf(G(a, (e, t) => i[e] && t?.version ? { [e]: t.version } : null), n), s = {};
+	for (let [n, a] of Object.entries(i)) t[n] === a || Yf(o[n], r) || (s[n] = {
 		from: e[n],
 		to: a,
 		enginesNode: o[n]
 	});
 	return s;
 }
-async function gp(e, t, n, r = {}) {
+async function Zf(e, t, n, r = {}) {
 	let i = {
 		...e,
 		...t
-	}, [a, o] = await cp(e, {
+	}, [a, o] = await Uf(e, {
 		...r,
 		peer: !1,
 		peerDependencies: void 0,
 		loglevel: "silent"
-	}), s = await ap(Object.fromEntries(Object.entries(a).map(([e, t]) => [e, W.default.validRange(t) ? W.default.minVersion(t)?.version ?? t : t])), r), c = {};
+	}), s = await Bf(Object.fromEntries(Object.entries(a).map(([e, t]) => [e, W.default.validRange(t) ? W.default.minVersion(t)?.version ?? t : t])), r), c = {};
 	for (let [r, l] of Object.entries(a)) {
 		if (t[r] === l) continue;
 		let a = {};
@@ -31261,36 +31194,36 @@ async function gp(e, t, n, r = {}) {
 	}
 	return c;
 }
-function vp(e, t) {
-	let n = e ? _p.split("\n").length : 0;
+function $f(e, t) {
+	let n = e ? Qf.split("\n").length : 0;
 	return process.stdout.rows ? Math.max(3, process.stdout.rows - n - 1 - (t?.length ?? 0) * 2) : 50;
 }
-async function yp(e, t, n) {
-	let r = Jf(n, n.packageManager), i = {};
+async function ep(e, t, n) {
+	let r = kf(n, n.packageManager), i = {};
 	for (let a of Object.keys(t)) {
 		let o = e[a] || null, s = t[a] || null;
 		i[a] = await r.packageAuthorChanged(a, o, s, n);
 	}
 	return i;
 }
-async function xp(e, t, n) {
-	q(e, "\nOptions:", "verbose"), Hr(e, e, "verbose");
+async function np(e, t, n) {
+	q(e, "\nOptions:", "verbose"), Nr(e, e, "verbose");
 	let r;
 	try {
-		t ? r = Du(t) : $(e, "Missing package data");
+		t ? r = cu(t) : $(e, "Missing package data");
 	} catch (t) {
 		$(e, `Invalid package file${n ? `: ${n}` : " from stdin"}. Error details:\n${t.message}`);
 	}
-	let i = fp(r, e);
-	q(e, "\nCurrent versions:", "verbose"), q(e, i, "verbose"), e.enginesNode && (e.nodeEngineVersion = r.engines?.node), e.peer && (e.peerDependencies = await ap(Object.fromEntries(Object.entries(i).map(([e, t]) => [e, W.default.validRange(t) ? W.default.minVersion(t)?.version ?? t : t])), e));
-	let [a, o, c] = await cp(i, e), l = G(o, (e, t) => t.version ? { [e]: t.version } : null), u = G(o, (e, t) => t.error ? { [e]: t.error } : null), d = G(o, (e, t) => {
+	let i = qf(r, e);
+	q(e, "\nCurrent versions:", "verbose"), q(e, i, "verbose"), e.enginesNode && (e.nodeEngineVersion = r.engines?.node), e.peer && (e.peerDependencies = await Bf(Object.fromEntries(Object.entries(i).map(([e, t]) => [e, W.default.validRange(t) ? W.default.minVersion(t)?.version ?? t : t])), e));
+	let [a, o, c] = await Uf(i, e), l = G(o, (e, t) => t.version ? { [e]: t.version } : null), u = G(o, (e, t) => t.error ? { [e]: t.error } : null), d = G(o, (e, t) => {
 		let n = t.time ?? t.cooldownInfo?.currentVersionTime;
 		return n ? { [e]: n } : null;
 	}), f = G(o, (e, t) => t.cooldownInfo ? { [e]: t.cooldownInfo } : null), p = Object.values(f).length;
 	e.peer && (q(e, "\nupgradedPeerDependencies:", "verbose"), q(e, c, "verbose")), q(e, `\n${typeof e.target == "string" ? `${e.target[0].toUpperCase()}${e.target.slice(1)}` : "Fetched"} versions:`, "verbose"), q(e, l, "verbose"), q(e, "\nUpgraded versions:", "verbose"), q(e, a, "verbose");
-	let m = e.minimal ? G(a, (e, t) => W.default.satisfies(l[e], i[e]) ? null : { [e]: t }) : a, h = (e.format || []).includes("ownerChanged") ? await yp(i, m, e) : void 0, g = e.interactive ? await bp(i, m, f, d, n, e) : m;
+	let m = e.minimal ? G(a, (e, t) => W.default.satisfies(l[e], i[e]) ? null : { [e]: t }) : a, h = (e.format || []).includes("ownerChanged") ? await ep(i, m, e) : void 0, g = e.interactive ? await tp(i, m, f, d, n, e) : m;
 	if (!e.json || e.deep) {
-		if (await Xr(e.interactive ? {
+		if (await Vr(e.interactive ? {
 			...e,
 			format: (e.format || []).filter((e) => e !== "group")
 		} : e, {
@@ -31305,44 +31238,44 @@ async function xp(e, t, n) {
 			errors: u,
 			time: d
 		}), e.peer) {
-			let t = await gp(i, a, c, e);
-			Object.keys(t).length > 0 && Zr(e, t);
+			let t = await Zf(i, a, c, e);
+			Object.keys(t).length > 0 && Hr(e, t);
 		}
 		if (e.enginesNode) {
-			let t = await hp(i, a, e);
-			Object.keys(t).length > 0 && Qr(e, t);
+			let t = await Xf(i, a, e);
+			Object.keys(t).length > 0 && Ur(e, t);
 		}
 	}
-	let _ = await Nu(t, i, g, e, n || void 0, l), v = e.jsonAll ? n?.endsWith(".yaml") || n?.endsWith(".yml") ? (0, wc.parseDocument)(_).toJSON() : Du(_) : e.jsonDeps && n?.endsWith(".json") ? Gl(Du(_), Jl(e.dep)) : g, y;
-	if (e.json && !e.deep && Br(e, v), Object.keys(m).length > 0 && n) if (e.upgrade) y = node_fs_promises.default.writeFile(n.replace("#catalog", ""), _);
+	let _ = await mu(t, i, g, e, n || void 0, l), v = e.jsonAll ? n?.endsWith(".yaml") || n?.endsWith(".yml") ? (0, ac.parseDocument)(_).toJSON() : cu(_) : e.jsonDeps && n?.endsWith(".json") ? El(cu(_), kl(e.dep)) : g, y;
+	if (e.json && !e.deep && jr(e, v), Object.keys(m).length > 0 && n) if (e.upgrade) y = node_fs_promises.default.writeFile(n.replace("#catalog", ""), _);
 	else {
 		let t = process.env.npm_lifecycle_event === "npx" ? "npx npm-check-updates" : "ncu", n = process.argv.slice(2).map((e) => e.includes(" ") ? `"${e}"` : e).join(" "), r = n && " " + n;
 		q(e, `\nRun ${K.cyan(`${t}${r} -u`)} to upgrade ${e.packageFile || "package.json"}`);
 	}
 	return await y, v;
 }
-function Tp() {
-	wp || (wp = !0, process.env.INJECT_PROMPTS && fe.default.inject(JSON.parse(process.env.INJECT_PROMPTS)), process.on("unhandledRejection", (e) => {
-		console.error(e), Sp = !0;
+function op() {
+	ap || (ap = !0, process.env.INJECT_PROMPTS && fe.default.inject(JSON.parse(process.env.INJECT_PROMPTS)), process.on("unhandledRejection", (e) => {
+		console.error(e), rp = !0;
 	}), process.on("exit", () => {
-		Sp && Cp && $(Cp, `Unhandled Rejection! This is a bug and should be reported: ${pe.bugs.url}`);
+		rp && ip && $(ip, `Unhandled Rejection! This is a bug and should be reported: ${pe.bugs.url}`);
 	}));
 }
-async function Ap(e, t) {
-	let [n, r] = await df(e), i = n.map((e) => e.filepath), a = e.workspaces || !!e.workspace?.length;
+async function dp(e, t) {
+	let [n, r] = await Gd(e), i = n.map((e) => e.filepath), a = e.workspaces || !!e.workspace?.length;
 	e.deep = e.deep || a || n.length > 1;
 	let s;
 	if (e.global) {
-		let n = await lp(e);
+		let n = await Wf(e);
 		return clearTimeout(t), n;
 	} else if (e.deep) {
 		let t = {};
 		for (let [i, a] of n.entries()) {
-			let n = i > 0, s = (await hf({
+			let n = i > 0, s = (await Yd({
 				packageFile: a.filepath,
 				options: e
 			})).config;
-			e.mergeConfig && Object.keys(s).length && (s = Wf(e, s));
+			e.mergeConfig && Object.keys(s).length && (s = Tf(e, s));
 			let c = {
 				...e,
 				...s
@@ -31356,24 +31289,24 @@ async function Ap(e, t) {
 				n && q(c, ""), q(c, `${c.upgrade ? "Upgrading" : "Checking"} ${e} catalog dependencies`);
 			} else {
 				n && q(c, "");
-				let e = await Ru(c);
+				let e = await yu(c);
 				l = e.pkgData, u = e.pkgFile || a.filepath, d = u;
 			}
 			let f = c.cwd ? node_path.default.relative(node_path.default.resolve(c.cwd), d).replace(/\\/g, "/") : d;
-			t[f] = await xp(c, l, u);
+			t[f] = await np(c, l, u);
 		}
-		s = t, e.json && Br(e, s);
+		s = t, e.json && jr(e, s);
 	} else {
 		n.length === 1 && n[0].filepath !== (e.packageFile || "package.json") && (e.packageFile = n[0].filepath);
-		let { pkgData: t, pkgFile: r } = await Ru(e);
-		i.length === 0 && r && (i = [r]), s = await xp(e, t, r);
+		let { pkgData: t, pkgFile: r } = await yu(e);
+		i.length === 0 && r && (i = [r]), s = await np(e, t, r);
 	}
-	return clearTimeout(t), e.errorLevel === 2 && Op(i, s, e) && $(e, "\nDependencies not up-to-date"), e.upgrade && (e.packageManager === "deno" ? q(e, "") : await kp(i, s, e)), s;
+	return clearTimeout(t), e.errorLevel === 2 && lp(i, s, e) && $(e, "\nDependencies not up-to-date"), e.upgrade && (e.packageManager === "deno" ? q(e, "") : await up(i, s, e)), s;
 }
-async function jp(e = {}, { cli: t } = {}) {
-	t && Tp(), Sp = !1;
-	let n = await Hf(e, { cli: t });
-	Cp = n, kn(n.color), Ep(n), q(n, "Initializing", "verbose"), n.cacheClear && await ii(n);
+async function fp(e = {}, { cli: t } = {}) {
+	t && op(), rp = !1;
+	let n = await Cf(e, { cli: t });
+	ip = n, _n(n.color), sp(n), q(n, "Initializing", "verbose"), n.cacheClear && await Yr(n);
 	let r, i = new Promise(() => null);
 	if (n.timeout) {
 		let e = typeof n.timeout == "string" ? Number.parseInt(n.timeout, 10) : n.timeout;
@@ -31388,11 +31321,11 @@ async function jp(e = {}, { cli: t } = {}) {
 		});
 	}
 	if (n.doctor) {
-		if (n.upgrade) return Promise.race([i, Lu(jp, n)]);
-		q(n, `Usage: ncu --doctor\n\n${typeof Ni.doctor.help == "function" ? Ni.doctor.help({}) : Ni.doctor.help}`, "warn");
-	} else return Promise.race([i, Ap(n, r)]);
+		if (n.upgrade) return Promise.race([i, vu(fp, n)]);
+		q(n, `Usage: ncu --doctor\n\n${typeof Ti.doctor.help == "function" ? Ti.doctor.help({}) : Ti.doctor.help}`, "warn");
+	} else return Promise.race([i, dp(n, r)]);
 }
-var S, C, w, T, E, D, O, k, A, ee, j, te, ne, re, ie, M, N, P, ae, F, I, L, R, z, B, V, oe, se, ce, le, H, U, ue, de, fe, pe, me, he, ge, _e, ve, ye, be, xe, Se, Ce, we, Te, Ee, De, Oe, ke, Ae, je, Me, Ne, Pe, Fe, Ie, Le, Re, ze, Be, Ve, He, Ue, We, Ge, Ke, qe, Je, Ye, Xe, Ze, Qe, $e, et, tt, nt, rt, it, at, ot, st, ct, lt, ut, dt, ft, pt, mt, ht, gt, _t, vt, yt, bt, xt, St, Ct, wt, Tt, Et, Dt, Ot, kt, W, At, Mt, Pt, Ft, It, Lt, Vt, Ht, Ut, Wt, Gt, Kt, qt, Jt, Xt, Qt, $t, an, cn, ln, un, dn, fn, pn, mn, hn, gn, _n, yn, bn, xn, Sn, Cn, wn, Tn, En, Dn, On, kn, An, K, jn, Mn, Nn, Fn, In, Ln, Rn, zn, Bn, Gn, qn, Jn, Zn, Qn, $n, er, tr, nr, rr, dr, hr, Cr, wr, Tr, Er, Dr, Or, Ar, jr, Mr, Nr, Pr, Fr, Lr, Rr, zr, ei, ti, ni, oi, si, ci, li, ui, di, fi, pi, mi, hi, gi, _i, vi, yi, bi, xi, Si, Ci, wi, Ti, Ei, Di, Oi, ki, Ai, ji, Mi, Ni, Pi, Ii, Ri, zi, Bi, Vi, Hi, Ui, Wi, Gi, Ki, qi, Ji, Yi, Xi, Zi, Qi, $i, ea, ta, J, na, ra, ia, aa, Y, X, sa, ca, la, ua, Z, fa, pa, ma, ha, ga, _a, va, ya, ba, xa, Sa, Ca, wa, Ta, Ea, Da, ka, Aa, ja, Ma, Na, Pa, Ia, La, za, Ba, Va, Ua, Ga, Ka, Xa, to, io, co, lo, mo, bo, So, Co, wo, To, Eo, Do, Oo, ko, Ao, jo, Mo, No, Po, Io, Lo, Ho, Uo, Wo, Go, Ko, qo, Jo, Yo, Xo, Zo, Qo, es, ts, rs, is, as, Q, os$1, ss, cs, ls, us, ds, fs$1, ps, ms, hs, gs, _s, vs, ys, bs, xs, Ss, Cs, ws, Ts, Es, Ds, Os, ks, As, js, Ms, Ns, Ps, Fs, Is, Ls, Rs, zs, Bs, Vs, Hs, Us, Ws, Gs, Ks, qs, Js, Ys, Xs, Zs, Qs, $s, ec, tc, nc, rc, ic, ac, oc, sc, cc, lc, uc, dc, fc, pc, mc, hc, gc, _c, vc, yc, bc, xc, Sc, Cc, wc, Tc, Ec, Dc, Oc, kc, Ac, jc, Mc, Nc, Pc, Fc, Ic, Lc, Rc, zc, Bc, Hc, Uc, Wc, Gc, Kc, Jc, Yc, el, tl, nl, rl, il, al, ol, sl, cl, ll, ul, dl, fl, pl, ml, hl, _l, yl, xl, Tl, kl, Hl, Ul, Wl, ql, Jl, nu, ru, iu, fu, pu, mu, hu, gu, _u, vu, Cu, Pu, Fu, Iu, Lu, zu, Bu, Vu, Hu, Uu, Wu, Gu, Ku, qu, Ju, Yu, Xu, Zu, Qu, $u, ed, td, nd, rd, id, ad, od, sd, cd, ld, ud, dd, fd, pd, md, hd, gd, _d, vd, yd, bd, xd, Sd, Cd, wd, Td, Ed, Dd, Od, kd, Ad, jd, Md, Nd, Pd, Fd, Id, Ld, Rd, zd, Bd, Vd, Hd, Ud, Wd, Gd, Kd, qd, Jd, Yd, Xd, Zd, Qd, $d, ef, tf, nf, rf, af, of, sf, cf, ff, pf, gf, _f, vf, yf, bf, xf, Sf, Cf, Ef, Df, Of, kf, Af, jf, Mf, Nf, Pf, Ff, If, Lf, Rf, Vf, Gf, Xf, Zf, $f, ep, tp, np, rp, sp, up, dp, mp, _p, bp, Sp, Cp, wp, Ep, Dp, Op, kp, Mp;
+var S, C, w, T, E, D, O, k, A, ee, j, te, ne, re, ie, M, N, P, ae, F, I, L, R, z, B, V, oe, se, ce, le, H, U, ue, de, fe, pe, me, he, ge, _e, ve, ye, be, xe, Se, Ce, we, Te, Ee, De, Oe, ke, Ae, je, Me, Ne, Pe, Fe, Ie, Le, Re, ze, Be, Ve, He, Ue, We, Ge, Ke, qe, Je, Ye, Xe, Ze, Qe, $e, et, tt, nt, rt, it, at, ot, st, ct, lt, ut, dt, ft, pt, mt, ht, gt, _t, vt, yt, bt, xt, St, Ct, wt, Tt, Et, Dt, Ot, kt, W, At, jt, Mt, Nt, Pt, Ft, It, Rt, Bt, Vt, Kt, Yt, Xt, Zt, Qt, $t, en, tn, nn, rn, an, sn, cn, ln, un, dn, fn, pn, mn, hn, gn, _n, vn, K, yn, bn, xn, Cn, wn, En, Dn, On, kn, An, jn, In, Rn, zn, Hn, Un, Wn, Gn, Kn, qn, Jn, nr, or, mr, hr, gr, _r, vr, yr, xr, Sr, Cr, wr, Tr, Er, Or, kr, Ar, Gr, Kr, qr, Zr, Qr, $r, ei, ti, ni, ri, ii, ai, oi, si, ci, li, ui, di, fi, pi, mi, hi, gi, _i, vi, yi, bi, xi, Si, Ci, wi, Ti, Ei, Oi, Ai, ji, Mi, Ni, Pi, Fi, Ii, Li, Ri, zi, Bi, Vi, Hi, Ui, Wi, Gi, Ki, qi, J, Ji, Yi, Xi, Zi, Y, X, $i, ea, ta, na, Z, ia, aa, oa, sa, ca, la, ua, da, fa, pa, ma, ha, ga, _a, va, ya, xa, Sa, Ca, Ta, Ea, Da, ka, ja, Ma, Ia, Va, Ha, Ua, Ga, Za, $a, eo, to, no, ro, io, ao, oo, so, co, lo, uo, fo, po, mo, ho, _o, vo, Co, wo, To, Eo, Do, Oo, ko, Ao, jo, Mo, No, Fo, Io, Ro, zo, Bo, Q, Vo, Ho, Uo, Wo, Go, Ko, qo, Jo, Yo, Xo, Zo, Qo, $o, es, ts, ns, rs, is, as, os$1, ss, cs, ls, us, ds, fs$1, ps, ms, hs, gs, _s, vs, ys, bs, xs, Ss, Cs, ws, Ts, Es, Ds, Os, ks, As, js, Ms, Ns, Ps, Fs, Is, Ls, Rs, zs, Bs, Vs, Hs, Us, Ws, Gs, Ks, qs, Js, Ys, Xs, Zs, Qs, $s, ec, tc, nc, rc, ic, ac, oc, sc, cc, lc, uc, dc, fc, pc, mc, hc, gc, _c, vc, yc, bc, xc, Cc, wc, Tc, Ec, Dc, kc, Ac, Fc, Ic, Lc, Rc, zc, Bc, Vc, Hc, Uc, Wc, Gc, Kc, qc, Jc, Yc, Xc, Qc, el, nl, ol, ul, Cl, wl, Tl, Ol, kl, Ll, Rl, zl, ql, Jl, Yl, Xl, Zl, Ql, $l, iu, hu, gu, _u, vu, bu, xu, Su, Cu, wu, Tu, Eu, Du, Ou, ku, Au, ju, Mu, Nu, Pu, Fu, Iu, Lu, Ru, zu, Bu, Vu, Hu, Uu, Wu, Gu, Ku, qu, Ju, Yu, Xu, Zu, Qu, $u, ed, td, nd, rd, id, ad, od, sd, cd, ld, ud, dd, fd, pd, md, hd, gd, _d, vd, yd, bd, xd, Sd, Cd, wd, Td, Ed, Dd, Od, kd, Ad, jd, Md, Nd, Pd, Fd, Id, Ld, Rd, zd, Bd, Vd, Hd, Kd, qd, Xd, Zd, Qd, $d, ef, tf, nf, rf, sf, cf, lf, uf, df, ff, pf, mf, hf, gf, _f, vf, yf, Sf, Ef, jf, Mf, Pf, Ff, If, Lf, Rf, Hf, Gf, Kf, Yf, Qf, tp, rp, ip, ap, sp, cp, lp, up, pp;
 var init_build = __esmMin((() => {
 	init_rolldown_runtime_C6GIJ8is();
 	S = /* @__PURE__ */ c$1(((e, t) => {
@@ -32696,7 +32629,7 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 	})))(), 1);
 	pe = {
 		name: "npm-check-updates",
-		version: "23.0.0",
+		version: "23.0.1",
 		author: "Tomas Junnonen <tomas1@gmail.com>",
 		license: "Apache-2.0",
 		contributors: ["Raine Revere (https://github.com/raineorshine)", "Imamuzzaki Abu Salam <imamuzzaki@gmail.com>"],
@@ -32769,7 +32702,7 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			"@types/bun": "^1.3.14",
 			"@types/hosted-git-info": "^3.0.5",
 			"@types/ini": "^4.1.1",
-			"@types/node": "^26.1.1",
+			"@types/node": "^26.1.2",
 			"@types/npm-registry-fetch": "^8.0.9",
 			"@types/parse-github-url": "^1.0.3",
 			"@types/picomatch": "^4.0.3",
@@ -32790,20 +32723,20 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			"eslint-config-standard": "^17.1.0",
 			"eslint-import-resolver-typescript": "^4.4.5",
 			"eslint-plugin-import-x": "^4.17.1",
-			"eslint-plugin-jsdoc": "^63.3.0",
+			"eslint-plugin-jsdoc": "^63.3.1",
 			"eslint-plugin-n": "^18.2.2",
 			"eslint-plugin-promise": "^7.3.0",
 			"fast-glob": "^3.3.3",
 			"fast-memoize": "^2.5.2",
 			"find-up": "^8.0.0",
 			"fp-and-or": "^1.0.2",
-			globals: "^17.7.0",
+			globals: "^17.8.0",
 			"hosted-git-info": "^10.1.1",
 			ini: "^7.0.0",
 			"jsonc-parser": "^3.3.1",
 			lilconfig: "^3.1.3",
 			"lockfile-lint": "^5.0.0",
-			"markdownlint-cli2": "^0.23.1",
+			"markdownlint-cli2": "^0.23.2",
 			"npm-registry-fetch": "^20.0.1",
 			"npm-run-all2": "^9.0.2",
 			"p-map": "^7.0.6",
@@ -32815,14 +32748,13 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			semver: "^7.8.5",
 			"semver-utils": "^1.1.4",
 			"spawn-please": "^3.0.0",
-			"timeago.js": "^4.0.2",
 			"ts-json-schema-generator": "^2.9.0",
 			typescript: "^6.0.3",
 			"unplugin-dts": "^1.0.3",
 			untildify: "^6.0.0",
 			"update-notifier": "^7.3.1",
 			valibot: "^1.4.2",
-			verdaccio: "^6.8.0",
+			verdaccio: "^6.9.0",
 			vite: "^8.1.5",
 			"vite-bundle-analyzer": "^1.3.9",
 			vitest: "^4.1.10",
@@ -34779,48 +34711,11 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 	}));
 	kt = /* @__PURE__ */ d$2(Ie(), 1);
 	W = /* @__PURE__ */ d$2(Ot(), 1);
-	At = [
-		"second",
-		"minute",
-		"hour",
-		"day",
-		"week",
-		"month",
-		"year"
-	];
-	Mt = [
-		"秒",
-		"分钟",
-		"小时",
-		"天",
-		"周",
-		"个月",
-		"年"
-	];
-	Pt = {};
-	Ft = function(e, t) {
-		Pt[e] = t;
-	};
-	It = function(e) {
-		return Pt[e] || Pt.en_US;
-	};
-	Lt = [
-		60,
-		60,
-		24,
-		7,
-		365 / 7 / 12,
-		12
-	];
-	Vt = function(e, t, n) {
-		return zt(Bt(e, n && n.relativeDate), It(t));
-	};
-	Ft("en_US", jt), Ft("zh_CN", Nt);
-	Ht = 10;
-	Ut = (e = 0) => (t) => `\u001B[${t + e}m`;
-	Wt = (e = 0) => (t) => `\u001B[${38 + e};5;${t}m`;
-	Gt = (e = 0) => (t, n, r) => `\u001B[${38 + e};2;${t};${n};${r}m`;
-	Kt = {
+	At = 10;
+	jt = (e = 0) => (t) => `\u001B[${t + e}m`;
+	Mt = (e = 0) => (t) => `\u001B[${38 + e};5;${t}m`;
+	Nt = (e = 0) => (t, n, r) => `\u001B[${38 + e};2;${t};${n};${r}m`;
+	Pt = {
 		modifier: {
 			reset: [0, 0],
 			bold: [1, 22],
@@ -34873,78 +34768,78 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			bgWhiteBright: [107, 49]
 		}
 	};
-	Object.keys(Kt.modifier);
-	qt = Object.keys(Kt.color);
-	Jt = Object.keys(Kt.bgColor);
-	[...qt, ...Jt];
-	Xt = Yt();
-	({env: Qt} = node_process.default);
-	Zt("no-color") || Zt("no-colors") || Zt("color=false") || Zt("color=never") ? $t = 0 : (Zt("color") || Zt("colors") || Zt("color=true") || Zt("color=always")) && ($t = 1);
-	an = {
-		stdout: rn({ isTTY: node_tty.default.isatty(1) }),
-		stderr: rn({ isTTY: node_tty.default.isatty(2) })
+	Object.keys(Pt.modifier);
+	Ft = Object.keys(Pt.color);
+	It = Object.keys(Pt.bgColor);
+	[...Ft, ...It];
+	Rt = Lt();
+	({env: Bt} = node_process.default);
+	zt("no-color") || zt("no-colors") || zt("color=false") || zt("color=never") ? Vt = 0 : (zt("color") || zt("colors") || zt("color=true") || zt("color=always")) && (Vt = 1);
+	Kt = {
+		stdout: Gt({ isTTY: node_tty.default.isatty(1) }),
+		stderr: Gt({ isTTY: node_tty.default.isatty(2) })
 	};
-	({stdout: cn, stderr: ln} = an), un = Symbol("GENERATOR"), dn = Symbol("STYLER"), fn = Symbol("IS_EMPTY"), pn = [
+	({stdout: Yt, stderr: Xt} = Kt), Zt = Symbol("GENERATOR"), Qt = Symbol("STYLER"), $t = Symbol("IS_EMPTY"), en = [
 		"ansi",
 		"ansi",
 		"ansi256",
 		"ansi16m"
-	], mn = Object.create(null), hn = (e, t = {}) => {
+	], tn = Object.create(null), nn = (e, t = {}) => {
 		if (t.level && !(Number.isInteger(t.level) && t.level >= 0 && t.level <= 3)) throw Error("The `level` option should be an integer from 0 to 3");
-		let n = cn ? cn.level : 0;
+		let n = Yt ? Yt.level : 0;
 		e.level = t.level === void 0 ? n : t.level;
-	}, gn = class {
+	}, rn = class {
 		constructor(e) {
-			return _n(e);
+			return an(e);
 		}
-	}, _n = (e) => {
+	}, an = (e) => {
 		let t = (...e) => e.join(" ");
-		return hn(t, e), Object.setPrototypeOf(t, vn.prototype), t;
+		return nn(t, e), Object.setPrototypeOf(t, on.prototype), t;
 	};
-	Object.setPrototypeOf(vn.prototype, Function.prototype);
-	for (let [e, t] of Object.entries(Xt)) mn[e] = { get() {
-		let n = Sn(this, xn(t.open, t.close, this[dn]), this[fn]);
+	Object.setPrototypeOf(on.prototype, Function.prototype);
+	for (let [e, t] of Object.entries(Rt)) tn[e] = { get() {
+		let n = un(this, ln(t.open, t.close, this[Qt]), this[$t]);
 		return Object.defineProperty(this, e, { value: n }), n;
 	} };
-	mn.visible = { get() {
-		let e = Sn(this, this[dn], !0);
+	tn.visible = { get() {
+		let e = un(this, this[Qt], !0);
 		return Object.defineProperty(this, "visible", { value: e }), e;
 	} };
-	yn = (e, t, n, ...r) => e === "rgb" ? t === "ansi16m" ? Xt[n].ansi16m(...r) : t === "ansi256" ? Xt[n].ansi256(Xt.rgbToAnsi256(...r)) : Xt[n].ansi(Xt.rgbToAnsi(...r)) : e === "hex" ? yn("rgb", t, n, ...Xt.hexToRgb(...r)) : Xt[n][e](...r);
+	sn = (e, t, n, ...r) => e === "rgb" ? t === "ansi16m" ? Rt[n].ansi16m(...r) : t === "ansi256" ? Rt[n].ansi256(Rt.rgbToAnsi256(...r)) : Rt[n].ansi(Rt.rgbToAnsi(...r)) : e === "hex" ? sn("rgb", t, n, ...Rt.hexToRgb(...r)) : Rt[n][e](...r);
 	for (let e of [
 		"rgb",
 		"hex",
 		"ansi256"
 	]) {
-		mn[e] = { get() {
+		tn[e] = { get() {
 			let { level: t } = this;
 			return function(...n) {
-				let r = xn(yn(e, pn[t], "color", ...n), Xt.color.close, this[dn]);
-				return Sn(this, r, this[fn]);
+				let r = ln(sn(e, en[t], "color", ...n), Rt.color.close, this[Qt]);
+				return un(this, r, this[$t]);
 			};
 		} };
 		let t = "bg" + e[0].toUpperCase() + e.slice(1);
-		mn[t] = { get() {
+		tn[t] = { get() {
 			let { level: t } = this;
 			return function(...n) {
-				let r = xn(yn(e, pn[t], "bgColor", ...n), Xt.bgColor.close, this[dn]);
-				return Sn(this, r, this[fn]);
+				let r = ln(sn(e, en[t], "bgColor", ...n), Rt.bgColor.close, this[Qt]);
+				return un(this, r, this[$t]);
 			};
 		} };
 	}
-	bn = Object.defineProperties(() => {}, {
-		...mn,
+	cn = Object.defineProperties(() => {}, {
+		...tn,
 		level: {
 			enumerable: !0,
 			get() {
-				return this[un].level;
+				return this[Zt].level;
 			},
 			set(e) {
-				this[un].level = e;
+				this[Zt].level = e;
 			}
 		}
 	});
-	xn = (e, t, n) => {
+	ln = (e, t, n) => {
 		let r, i;
 		return n === void 0 ? (r = e, i = t) : (r = n.openAll + e, i = t + n.closeAll), {
 			open: e,
@@ -34954,23 +34849,23 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			parent: n
 		};
 	};
-	Sn = (e, t, n) => {
-		let r = (...e) => Cn(r, e.length === 1 ? "" + e[0] : e.join(" "));
-		return Object.setPrototypeOf(r, bn), r[un] = e, r[dn] = t, r[fn] = n, r;
+	un = (e, t, n) => {
+		let r = (...e) => dn(r, e.length === 1 ? "" + e[0] : e.join(" "));
+		return Object.setPrototypeOf(r, cn), r[Zt] = e, r[Qt] = t, r[$t] = n, r;
 	};
-	Cn = (e, t) => {
-		if (e.level <= 0 || !t) return e[fn] ? "" : t;
-		let n = e[dn];
+	dn = (e, t) => {
+		if (e.level <= 0 || !t) return e[$t] ? "" : t;
+		let n = e[Qt];
 		if (n === void 0) return t;
 		let { openAll: r, closeAll: i } = n;
-		if (t.includes("\x1B")) for (; n !== void 0;) t = on(t, n.close, n.open), n = n.parent;
+		if (t.includes("\x1B")) for (; n !== void 0;) t = qt(t, n.close, n.open), n = n.parent;
 		let a = t.indexOf("\n");
-		return a !== -1 && (t = sn(t, i, r, a)), r + t + i;
+		return a !== -1 && (t = Jt(t, i, r, a)), r + t + i;
 	};
-	Object.defineProperties(vn.prototype, mn);
-	wn = vn();
-	vn({ level: ln ? ln.level : 0 });
-	Tn = {
+	Object.defineProperties(on.prototype, tn);
+	fn = on();
+	on({ level: Xt ? Xt.level : 0 });
+	pn = {
 		blue: !0,
 		bold: !0,
 		cyan: !0,
@@ -34983,31 +34878,58 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		underline: !0,
 		yellow: !0
 	};
-	En = G(Tn, (e) => ({ [e]: Object.assign((e) => e.toString(), {
+	mn = G(pn, (e) => ({ [e]: Object.assign((e) => e.toString(), {
 		bold: (e) => e.toString(),
 		underline: (e) => e.toString()
 	}) }));
-	On = (e) => e === !0 ? new gn({ level: 1 }) : e === null ? En : wn;
-	kn = (e) => {
-		Dn = On(e);
+	gn = (e) => e === !0 ? new rn({ level: 1 }) : e === null ? mn : fn;
+	_n = (e) => {
+		hn = gn(e);
 	};
-	An = () => {
-		if (!Dn) throw Error("Chalk has not been imported yet.");
+	vn = () => {
+		if (!hn) throw Error("Chalk has not been imported yet.");
 	};
-	K = G(Tn, (e) => {
-		let t = (t) => (An(), Dn[e](t));
-		return t.bold = (t) => (An(), Dn[e].bold(t)), t.underline = (t) => (An(), Dn[e].underline(t)), { [e]: t };
+	K = G(pn, (e) => {
+		let t = (t) => (vn(), hn[e](t));
+		return t.bold = (t) => (vn(), hn[e].bold(t)), t.underline = (t) => (vn(), hn[e].underline(t)), { [e]: t };
 	});
-	jn = (e, t) => G(e, (e, n) => t(e, n) ? { [e]: n } : null);
-	Mn = async (e) => {
+	yn = (e, t) => G(e, (e, n) => t(e, n) ? { [e]: n } : null);
+	bn = [
+		{
+			amount: 60,
+			unit: "second"
+		},
+		{
+			amount: 60,
+			unit: "minute"
+		},
+		{
+			amount: 24,
+			unit: "hour"
+		},
+		{
+			amount: 7,
+			unit: "day"
+		},
+		{
+			amount: 365 / 7 / 12,
+			unit: "week"
+		},
+		{
+			amount: 12,
+			unit: "month"
+		}
+	];
+	xn = new Intl.RelativeTimeFormat("en", { numeric: "always" });
+	Cn = async (e) => {
 		try {
 			return await node_fs_promises.default.stat(e), !0;
 		} catch {
 			return !1;
 		}
 	};
-	Nn = (0, node_module.createRequire)(require("url").pathToFileURL(__filename).href);
-	Fn = /* @__PURE__ */ c$1(((t) => {
+	wn = (0, node_module.createRequire)(require("url").pathToFileURL(__filename).href);
+	En = /* @__PURE__ */ c$1(((t) => {
 		var n = (e, t) => () => (t || e((t = { exports: {} }).exports, t), t.exports), r = n((t) => {
 			Object.defineProperty(t, "__esModule", { value: !0 }), t.tracing = t.metrics = void 0;
 			var n = p$1("node:diagnostics_channel");
@@ -35651,7 +35573,7 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			}
 		};
 	}));
-	In = /* @__PURE__ */ c$1(((e, t) => {
+	Dn = /* @__PURE__ */ c$1(((e, t) => {
 		var n = (...e) => e.every((e) => e) ? e.join("") : "", r = (e) => e ? encodeURIComponent(e) : "", i = (e) => e.toLowerCase().replace(/^\W+/g, "").replace(/(?<!\W)\W+$/, "").replace(/\//g, "").replace(/\W+/g, "-"), a = {
 			sshtemplate: ({ domain: e, user: t, project: r, committish: i }) => `git@${e}:${t}/${r}.git${n("#", i)}`,
 			sshurltemplate: ({ domain: e, user: t, project: r, committish: i }) => `git+ssh://git@${e}/${t}/${r}.git${n("#", i)}`,
@@ -35798,7 +35720,7 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		for (let [e, t] of Object.entries(o)) o[e] = Object.assign({}, a, t);
 		t.exports = o;
 	}));
-	Ln = /* @__PURE__ */ c$1(((e, t) => {
+	On = /* @__PURE__ */ c$1(((e, t) => {
 		var n = (e, t, n) => {
 			let r = e.indexOf(n);
 			return e.lastIndexOf(t, r > -1 ? r : Infinity);
@@ -35820,8 +35742,8 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			return r(n) || r(a(n));
 		};
 	}));
-	Rn = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Ln(), r = (e) => {
+	kn = /* @__PURE__ */ c$1(((e, t) => {
+		var n = On(), r = (e) => {
 			let t = e.indexOf("#"), n = e.indexOf("/"), r = e.indexOf("/", n + 1), i = e.indexOf(":"), a = /\s/.exec(e), o = e.indexOf("@"), s = !a || t > -1 && a.index > t, c = o === -1 || t > -1 && o > t, l = i === -1 || t > -1 && i > t, u = r === -1 || t > -1 && r > t, d = n > 0, f = t > -1 ? e[t - 1] !== "/" : !e.endsWith("/"), p = !e.startsWith(".");
 			return s && d && f && p && c && l && u;
 		};
@@ -35862,8 +35784,8 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			];
 		};
 	}));
-	zn = /* @__PURE__ */ c$1(((e, t) => {
-		var { LRUCache: n } = Fn(), r = In(), i = Rn(), a = Ln(), o = new n({ max: 1e3 });
+	An = /* @__PURE__ */ c$1(((e, t) => {
+		var { LRUCache: n } = En(), r = Dn(), i = kn(), a = On(), o = new n({ max: 1e3 });
 		function s(e) {
 			try {
 				let { protocol: t, hostname: n, pathname: r } = new URL(e);
@@ -36013,9 +35935,9 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		for (let [e, t] of Object.entries(r)) c.addHost(e, t);
 		t.exports = c;
 	}));
-	Bn = /* @__PURE__ */ d$2(zn(), 1);
-	Gn = /^(\d+(?:\.\d+)?)(d|h|m)$/;
-	qn = /* @__PURE__ */ c$1(((t, n) => {
+	jn = /* @__PURE__ */ d$2(An(), 1);
+	In = /^(\d+(?:\.\d+)?)(d|h|m)$/;
+	Rn = /* @__PURE__ */ c$1(((t, n) => {
 		var r = p$1("url"), i = typeof URL > "u" ? r.URL || null : URL, a = i ? null : r.parse;
 		function o(e) {
 			try {
@@ -36060,8 +35982,8 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		}
 		n.exports = i ? o : a;
 	}));
-	Jn = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
-		var n = qn(), r = { __proto__: null };
+	zn = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
+		var n = Rn(), r = { __proto__: null };
 		function i(e) {
 			return /^[a-f0-9]{40}$/i.test(e);
 		}
@@ -36119,27 +36041,27 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 			return r[e] || (r[e] = u(e)), r[e];
 		};
 	})))(), 1);
-	Zn = [
+	Hn = [
 		"major",
 		"minor",
 		"patch"
 	];
-	Qn = ["release", "build"];
-	$n = [...Zn, ...Qn];
-	er = {
+	Un = ["release", "build"];
+	Wn = [...Hn, ...Un];
+	Gn = {
 		major: "",
 		minor: ".",
 		patch: ".",
 		release: "-",
 		build: "+"
 	};
-	tr = [
+	Kn = [
 		"^",
 		"~",
 		".*",
 		".x"
 	];
-	nr = RegExp(`^(${[
+	qn = RegExp(`^(${[
 		"^",
 		"~",
 		"^*",
@@ -36147,57 +36069,57 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		"x",
 		"x.x",
 		"x.x.x"
-	].map(Yn).join("|")})$`);
-	rr = /^npm:(.*)@(.*)/;
-	dr = (e) => e.replace(/^[~^<>=]+/, "");
-	hr = (e) => {
+	].map(Bn).join("|")})$`);
+	Jn = /^npm:(.*)@(.*)/;
+	nr = (e) => e.replace(/^[~^<>=]+/, "");
+	or = (e) => {
 		let t = W.default.prerelease(e);
 		return t && t.slice(0, -1).join(".");
 	};
-	Cr = (e) => /^[vV]?\d+$/.test(e);
-	wr = (e) => /^[vV]?\d+\.\d+$/.test(e);
-	Tr = (e) => e.replace(/^[vV]/, "");
-	Er = (e) => Cr(e) ? e + ".0.0" : e;
-	Dr = (e) => wr(e) ? e + ".0" : e;
-	Or = (e) => Dr(Er(Tr(e)));
-	Ar = (e, t) => `npm:${e}@${t}`;
-	jr = (e) => {
-		let t = e && e.match && e.match(rr);
+	mr = (e) => /^[vV]?\d+$/.test(e);
+	hr = (e) => /^[vV]?\d+\.\d+$/.test(e);
+	gr = (e) => e.replace(/^[vV]/, "");
+	_r = (e) => mr(e) ? e + ".0.0" : e;
+	vr = (e) => hr(e) ? e + ".0" : e;
+	yr = (e) => vr(_r(gr(e)));
+	xr = (e, t) => `npm:${e}@${t}`;
+	Sr = (e) => {
+		let t = e && e.match && e.match(Jn);
 		return t && t.slice(1);
 	};
-	Mr = (e) => e && !!e.match(rr);
-	Nr = (e, t) => {
-		let n = jr(e);
-		return n ? Ar(n[0], t) : null;
+	Cr = (e) => e && !!e.match(Jn);
+	wr = (e, t) => {
+		let n = Sr(e);
+		return n ? xr(n[0], t) : null;
 	};
-	Pr = (e) => {
+	Tr = (e) => {
 		if (!e) return !1;
 		let t = null;
 		try {
-			t = (0, Jn.default)(e);
+			t = (0, zn.default)(e);
 		} catch {}
 		if (!t || !t.branch) return !1;
 		let n = decodeURIComponent(t.branch).replace(/^semver:/, "");
 		return !!W.default.validRange(n);
 	};
-	Fr = (e) => {
+	Er = (e) => {
 		if (!e) return null;
-		let t = (0, Jn.default)(e);
+		let t = (0, zn.default)(e);
 		if (!t || !t.branch) return null;
 		let n = decodeURIComponent(t.branch).replace(/^semver:/, "");
 		return t && t.branch && W.default.validRange(n) ? n : null;
 	};
-	Lr = (e, t) => {
-		let n = kr(e), r = n ? n + t : t;
-		return r = Cr(e) ? r.slice(0, r.length - 4) : r, r = wr(e) ? r.slice(0, r.length - 2) : r, r;
+	Or = (e, t) => {
+		let n = br(e), r = n ? n + t : t;
+		return r = mr(e) ? r.slice(0, r.length - 4) : r, r = hr(e) ? r.slice(0, r.length - 2) : r, r;
 	};
-	Rr = (e, t) => {
-		let n = Or(t), r = (0, Jn.default)(e);
+	kr = (e, t) => {
+		let n = yr(t), r = (0, zn.default)(e);
 		if (!r) return e;
 		let i = decodeURIComponent(r.branch).replace(/^semver:/, "");
-		return e.replace(i, Ir(i, Lr(i, n)));
+		return e.replace(i, Dr(i, Or(i, n)));
 	};
-	zr = {
+	Ar = {
 		silent: 0,
 		error: 1,
 		minimal: 2,
@@ -36206,11 +36128,11 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		verbose: 5,
 		silly: 6
 	};
-	ei = ".ncu-cache.json";
-	ti = `~/${ei}`;
-	ni = node_path.default.join(node_os.default.homedir(), ei);
-	oi = (e) => e.replaceAll("`", "");
-	si = (e, t = 92) => {
+	Gr = ".ncu-cache.json";
+	Kr = `~/${Gr}`;
+	qr = node_path.default.join(node_os.default.homedir(), Gr);
+	Zr = (e) => e.replaceAll("`", "").replaceAll(/\*\*(.+?)\*\*/g, "$1").replaceAll(/_(.+?)_/g, "$1");
+	Qr = (e, t = 92) => {
 		let n = e.split("\n"), r = [];
 		for (let e of n) {
 			let n = 0;
@@ -36231,17 +36153,17 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		}
 		return r.join("\n").trim();
 	};
-	ci = (e) => e.map(([e, t]) => [e, si(t)]);
-	li = (e) => e.replace(/`(.+?)`/g, "<code>$1</code>");
-	ui = (e) => "\n  <tr>" + e.map((e) => `<td>${li(e)}</td>`).join("") + "</tr>";
-	di = ({ colAligns: e, markdown: t, rows: n }) => {
-		if (t) return `<table>${n.map(ui).join("")}\n</table>`;
+	$r = (e) => e.map(([e, t]) => [e, Qr(t)]);
+	ei = (e) => e.replace(/`(.+?)`/g, "<code>$1</code>");
+	ti = (e) => "\n  <tr>" + e.map((e) => `<td>${ei(e)}</td>`).join("") + "</tr>";
+	ni = ({ colAligns: e, markdown: t, rows: n }) => {
+		if (t) return `<table>${n.map(ti).join("")}\n</table>`;
 		{
-			let t = n.map((e) => e.map((e) => oi(e))), r = new kt.default({ ...e ? { colAligns: e } : null });
-			return r.push(...ci(t)), r.toString();
+			let t = n.map((e) => e.map((e) => Zr(e))), r = new kt.default({ ...e ? { colAligns: e } : null });
+			return r.push(...$r(t)), r.toString();
 		}
 	};
-	fi = [
+	ri = [
 		"latest",
 		"newest",
 		"greatest",
@@ -36249,9 +36171,10 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		"patch",
 		"semver"
 	];
-	pi = (e, t) => e.split("\n").map((e) => e && `${"".padStart(t, " ")}${e}`).join("\n");
-	mi = (e, { markdown: t } = {}) => `${t ? "```js\n" : ""}${pi(e, t ? 0 : 4)}${t ? "\n```" : ""}`;
-	hi = (e) => (t) => {
+	ii = (e, t) => e.split("\n").map((e) => e && `${"".padStart(t, " ")}${e}`).join("\n");
+	ai = (e, { markdown: t, lang: n = "js" } = {}) => `${t ? "```" + n + "\n" : ""}${ii(e, t ? 0 : 4)}${t ? "\n```" : ""}`;
+	oi = (e, t, { markdown: n } = {}) => n ? `[${e}](#${t})` : `https://github.com/raineorshine/npm-check-updates#${t}`;
+	si = (e) => (t) => {
 		if (typeof t == "number") return t;
 		if (typeof t == "string") {
 			let e = parseInt(t, 10);
@@ -36259,20 +36182,18 @@ Filtered results for: ${this.inputValue ? this.inputValue : n.gray("Enter someth
 		}
 		throw Error(`${e} must be a number`);
 	};
-	gi = (e, { markdown: t } = {}) => {
-		let n = "";
-		if (e.cli !== !1 && (n = `Usage:
-
-    ncu --${e.long}${e.arg ? ` [${e.arg}]` : ""}${e.long === "doctor" ? " -u" : ""}\n`), e.type === "boolean" && (n += `    ncu --no-${e.long}\n`), e.short && (n += `    ncu -${e.short}${e.arg ? ` [${e.arg}]` : ""}${e.long === "doctor" ? "u" : ""}\n`), e.default !== void 0 && !(Array.isArray(e.default) && e.default.length === 0) && (n += `\nDefault: ${e.default}\n`), e.help) {
-			let r = typeof e.help == "function" ? t ? e.help({ markdown: t }) : oi(e.help({ markdown: t })) : e.help;
-			n += `\n${r.trim()}\n\n`;
-		} else if (e.description) {
-			let r = t ? e.description : oi(e.description);
-			n += `\n${oi(r)}\n`;
-		}
+	ci = (e, { markdown: t } = {}) => {
+		let n = "", r = [];
+		if (e.cli !== !1 && r.push(`ncu --${e.long}${e.arg ? ` [${e.arg}]` : ""}${e.long === "doctor" ? " -u" : ""}`), e.type === "boolean" && r.push(`ncu --no-${e.long}`), e.short && r.push(`ncu -${e.short}${e.arg ? ` [${e.arg}]` : ""}${e.long === "doctor" ? "u" : ""}`), r.length > 0 && (n = `Usage:\n\n${ai(r.join("\n"), {
+			markdown: t,
+			lang: "sh"
+		})}\n`), e.default !== void 0 && !(Array.isArray(e.default) && e.default.length === 0) && (n += `\nDefault: ${e.default}\n`), e.help) {
+			let r = typeof e.help == "function" ? e.help({ markdown: t }) : e.help;
+			n += `\n${(t ? r : Zr(r)).trim()}\n\n`;
+		} else e.description && (n += `\n${t ? e.description : Zr(e.description)}\n`);
 		return n.trim();
 	};
-	_i = ({ markdown: e }) => `Iteratively installs upgrades and runs your project's tests to identify breaking upgrades. Reverts broken upgrades and updates package.json with working upgrades.
+	li = ({ markdown: e }) => `Iteratively installs upgrades and runs your project's tests to identify breaking upgrades. Reverts broken upgrades and updates package.json with working upgrades.
 
 ${K.yellow("Requires `-u` to execute")} (modifies your package file, lock file, and node_modules)
 
@@ -36288,49 +36209,25 @@ To be more precise:
 
 Additional options:
 
-${di({
+${ni({
 		markdown: e,
 		rows: [[K.cyan("--doctorInstall"), "specify a custom install script (default: `npm install` or `yarn`)"], [K.cyan("--doctorTest"), "specify a custom test script (default: `npm test`)"]]
 	})}
 
 Example:
 
-    $ ncu --doctor -u
-    Running tests before upgrading
-    npm install
-    npm run test
-    Upgrading all dependencies and re-running tests
-    ncu -u
-    npm install
-    npm run test
-    Tests failed
-    Identifying broken dependencies
-    npm install
-    npm install --no-save react@16.0.0
-    npm run test
-      ✓ react 15.0.0 → 16.0.0
-    npm install --no-save react-redux@7.0.0
-    npm run test
-      ✗ react-redux 6.0.0 → 7.0.0
-
-    /projects/myproject/test.js:13
-      throw new Error('Test failed!')
-      ^
-
-    npm install --no-save react-dnd@11.1.3
-    npm run test
-      ✓ react-dnd 10.0.0 → 11.1.3
-    Saving partially upgraded package.json
+${ai("$ ncu --doctor -u\nRunning tests before upgrading\nnpm install\nnpm run test\nUpgrading all dependencies and re-running tests\nncu -u\nnpm install\nnpm run test\nTests failed\nIdentifying broken dependencies\nnpm install\nnpm install --no-save react@16.0.0\nnpm run test\n  ✓ react 15.0.0 → 16.0.0\nnpm install --no-save react-redux@7.0.0\nnpm run test\n  ✗ react-redux 6.0.0 → 7.0.0\n\n/projects/myproject/test.js:13\n  throw new Error('Test failed!')\n  ^\n\nnpm install --no-save react-dnd@11.1.3\nnpm run test\n  ✓ react-dnd 10.0.0 → 11.1.3\nSaving partially upgraded package.json", {
+		markdown: e,
+		lang: "console"
+	})}
 `;
-	vi = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `Filters results based on a user provided predicate function after fetching new versions.
+	ui = ({ markdown: e }) => `Filters results based on a user provided predicate function after fetching new versions.
 
-${t("filterResults")} runs _after_ new versions are fetched, in contrast to ${t("filter")}, ${t("reject")}, ${t("filterVersion")}, and ${t("rejectVersion")}, which run _before_. This allows you to exclude upgrades with ${t("filterResults")} based on how the version has changed (e.g. a major version change).
+\`filterResults\` runs _after_ new versions are fetched, in contrast to \`filter\`, \`reject\`, \`filterVersion\`, and \`rejectVersion\`, which run _before_. This allows you to exclude upgrades with \`filterResults\` based on how the version has changed (e.g. a major version change).
 
-> :warning: The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
+> ⚠️ The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-${mi(`${K.gray("/** Exclude major version updates. Note this could also be achieved with --target semver.\n  @param {string} packageName               The name of the dependency.\n  @param {string} current                   Current version declaration (may be a range).\n  @param {SemVer[]} currentVersionSemver    Current version declaration in semantic versioning format (may be a range).\n  @param {string} upgraded                  Upgraded version.\n  @param {SemVer} upgradedVersionSemver     Upgraded version in semantic versioning format.\n  @returns {boolean}                        Return true if the upgrade should be kept; otherwise, it will be ignored.\n*/")}
+${ai(`${K.gray("/** Exclude major version updates. Note this could also be achieved with --target semver.\n  @param {string} packageName               The name of the dependency.\n  @param {string} current                   Current version declaration (may be a range).\n  @param {SemVer[]} currentVersionSemver    Current version declaration in semantic versioning format (may be a range).\n  @param {string} upgraded                  Upgraded version.\n  @param {SemVer} upgradedVersionSemver     Upgraded version in semantic versioning format.\n  @returns {boolean}                        Return true if the upgrade should be kept; otherwise, it will be ignored.\n*/")}
 ${K.green("filterResults")}: (packageName, { current, currentVersionSemver, upgraded, upgradedVersionSemver }) ${K.cyan("=>")} {
   ${K.cyan("const")} currentMajor ${K.red("=")} parseInt(currentVersionSemver[${K.cyan("0")}]?.major, ${K.cyan("10")})
   ${K.cyan("const")} upgradedMajor ${K.red("=")} parseInt(upgradedVersionSemver?.major, ${K.cyan("10")})
@@ -36343,8 +36240,7 @@ ${K.green("filterResults")}: (packageName, { current, currentVersionSemver, upgr
 For the SemVer type definition, see: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring
 
 `;
-	};
-	yi = ({ markdown: e }) => `Modify the output formatting or show additional information. Specify one or more comma-delimited values.\n\n${pi(di({
+	di = ({ markdown: e }) => `Modify the output formatting or show additional information. Specify one or more comma-delimited values.\n\n${ii(ni({
 		colAligns: ["right", "left"],
 		markdown: e,
 		rows: [
@@ -36360,9 +36256,10 @@ For the SemVer type definition, see: https://git.coolaj86.com/coolaj86/semver-ut
 			["cooldown", "Shows a list of packages that were skipped due to the --cooldown threshold."]
 		]
 	}), e ? 0 : 4)}
+
 \`group\` is the only value included by default. Prefix it with "no-" to remove it instead of replacing the entire list, e.g. \`--format no-group\` to disable the default grouping.
 `;
-	bi = ({ markdown: e }) => `Control the auto-install behavior.\n\n${pi(di({
+	fi = ({ markdown: e }) => `Control the auto-install behavior.\n\n${ii(ni({
 		colAligns: ["right", "left"],
 		markdown: e,
 		rows: [
@@ -36372,17 +36269,15 @@ For the SemVer type definition, see: https://git.coolaj86.com/coolaj86/semver-ut
 		]
 	}), e ? 0 : 4)}
 `;
-	xi = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `Include only package names matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function. Only included packages will be checked with ${t("--peer")}.
+	pi = ({ markdown: e }) => `Include only package names matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function. Only included packages will be checked with \`--peer\`.
 
-${t("--filter")} runs _before_ new versions are fetched, in contrast to ${t("--filterResults")} which runs _after_.
+\`--filter\` runs _before_ new versions are fetched, in contrast to \`--filterResults\` which runs _after_.
 
 You can also specify a custom function in your .ncurc.js file, or when importing npm-check-updates as a module.
 
-> :warning: The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
+> ⚠️ The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-${mi(`${K.gray("/**\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver array of the current version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        True if the package should be included, false if it should be excluded.\n*/")}
+${ai(`${K.gray("/**\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver array of the current version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        True if the package should be included, false if it should be excluded.\n*/")}
 ${K.green("filter")}: (name, semver) ${K.cyan("=>")} {
   ${K.red("if")} (name.startsWith(${K.yellow("'@myorg/'")})) {
     ${K.red("return")} ${K.cyan("false")}
@@ -36391,27 +36286,16 @@ ${K.green("filter")}: (name, semver) ${K.cyan("=>")} {
 }`, { markdown: e })}
 
 `;
-	};
-	Si = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `Include only versions matching the given string, wildcard, glob, comma-or-space-delimited list, or /regex/.
+	mi = () => "Include only versions matching the given string, wildcard, glob, comma-or-space-delimited list, or /regex/.\n\n`--filterVersion` runs _before_ new versions are fetched, in contrast to `--filterResults` which runs _after_.\n\nTo filter with a predicate function, use `filter` instead. It receives the package name and the parsed current version, so it can match on both name and version.\n";
+	hi = ({ markdown: e }) => `The inverse of \`--filter\`. Exclude package names matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function. This will also exclude them from the \`--peer\` check.
 
-${t("--filterVersion")} runs _before_ new versions are fetched, in contrast to ${t("--filterResults")} which runs _after_.
-
-To filter with a predicate function, use ${t("filter")} instead. It receives the package name and the parsed current version, so it can match on both name and version.
-`;
-	};
-	Ci = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `The inverse of ${t("--filter")}. Exclude package names matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function. This will also exclude them from the ${t("--peer")} check.
-
-${t("--reject")} runs _before_ new versions are fetched, in contrast to ${t("--filterResults")} which runs _after_.
+\`--reject\` runs _before_ new versions are fetched, in contrast to \`--filterResults\` which runs _after_.
 
 You can also specify a custom function in your .ncurc.js file, or when importing npm-check-updates as a module.
 
-> :warning: The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
+> ⚠️ The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-${mi(`${K.gray("/**\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver array of the current version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        True if the package should be excluded, false if it should be included.\n*/")}
+${ai(`${K.gray("/**\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver array of the current version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        True if the package should be excluded, false if it should be included.\n*/")}
 ${K.green("reject")}: (name, semver) ${K.cyan("=>")} {
   ${K.red("if")} (name.startsWith(${K.yellow("'@myorg/'")})) {
     ${K.red("return")} ${K.cyan("true")}
@@ -36420,22 +36304,12 @@ ${K.green("reject")}: (name, semver) ${K.cyan("=>")} {
 }`, { markdown: e })}
 
 `;
-	};
-	wi = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `The inverse of ${t("--filterVersion")}. Exclude versions matching the given string, wildcard, glob, comma-or-space-delimited list, or /regex/.
+	gi = () => "The inverse of `--filterVersion`. Exclude versions matching the given string, wildcard, glob, comma-or-space-delimited list, or /regex/.\n\n`--rejectVersion` runs _before_ new versions are fetched, in contrast to `--filterResults` which runs _after_.\n\nTo reject with a predicate function, use `reject` instead. It receives the package name and the parsed current version, so it can match on both name and version.\n\n";
+	_i = ({ markdown: e }) => `Customize how packages are divided into groups when using \`--format group\`.
 
-${t("--rejectVersion")} runs _before_ new versions are fetched, in contrast to ${t("--filterResults")} which runs _after_.
+Only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-To reject with a predicate function, use ${t("reject")} instead. It receives the package name and the parsed current version, so it can match on both name and version.
-
-`;
-	};
-	Ti = ({ markdown: e }) => `Customize how packages are divided into groups when using \`--format group\`.
-
-Only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
-
-${mi(`${K.gray("/**\n  @param name             The name of the dependency.\n  @param defaultGroup     The predefined group name which will be used by default.\n  @param currentSpec      The current version range in your package.json.\n  @param upgradedSpec     The upgraded version range that will be written to your package.json.\n  @param upgradedVersion  The upgraded version number returned by the registry.\n  @returns                A predefined group name ('major' | 'minor' | 'patch' | 'majorVersionZero' | 'none') or a custom string to create your own group.\n*/")}
+${ai(`${K.gray("/**\n  @param name             The name of the dependency.\n  @param defaultGroup     The predefined group name which will be used by default.\n  @param currentSpec      The current version range in your package.json.\n  @param upgradedSpec     The upgraded version range that will be written to your package.json.\n  @param upgradedVersion  The upgraded version number returned by the registry.\n  @returns                A predefined group name ('major' | 'minor' | 'patch' | 'majorVersionZero' | 'none') or a custom string to create your own group.\n*/")}
 ${K.green("groupFunction")}: (name, defaultGroup, currentSpec, upgradedSpec, upgradedVersion) ${K.cyan("=>")} {
   ${K.red("if")} (name ${K.red("===")} ${K.yellow("'typescript'")} ${K.red("&&")} defaultGroup ${K.red("===")} ${K.yellow("'minor'")}) {
     ${K.red("return")} ${K.yellow("'major'")}
@@ -36447,9 +36321,9 @@ ${K.green("groupFunction")}: (name, defaultGroup, currentSpec, upgradedSpec, upg
 }`, { markdown: e })}
 
 `;
-	Ei = ({ markdown: e }) => `Determines the version to upgrade to. (default: "latest")
+	vi = ({ markdown: e }) => `Determines the version to upgrade to. (default: "latest")
 
-${pi(di({
+${ii(ni({
 		colAligns: ["right", "left"],
 		markdown: e,
 		rows: [
@@ -36465,19 +36339,22 @@ ${pi(di({
 
 e.g.
 
-${mi("ncu --target semver")}
+${ai("ncu --target semver", {
+		markdown: e,
+		lang: "sh"
+	})}
 
 You can also specify a custom function in your .ncurc.js file, or when importing npm-check-updates as a module.
 
-> :warning: The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
+> ⚠️ The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-${mi(`${K.gray("/** Upgrade major version zero to the next minor version, and everything else to latest.\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver object of the upgraded version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        One of the valid target values (specified in the table above).\n*/")}
+${ai(`${K.gray("/** Upgrade major version zero to the next minor version, and everything else to latest.\n  @param name     The name of the dependency.\n  @param semver   A parsed Semver object of the upgraded version.\n    (See: https://git.coolaj86.com/coolaj86/semver-utils.js#semverutils-parse-semverstring)\n  @returns        One of the valid target values (specified in the table above).\n*/")}
 ${K.green("target")}: (name, semver) ${K.cyan("=>")} {
   ${K.red("if")} (parseInt(semver[0]?.major) ${K.red("===")} ${K.yellow("'0'")}) ${K.red("return")} ${K.yellow("'minor'")}
   ${K.red("return")} ${K.yellow("'latest'")}
 }`, { markdown: e })}
 `;
-	Di = ({ markdown: e }) => `Specifies the package manager to use when looking up versions.\n\n${pi(di({
+	yi = ({ markdown: e }) => `Specifies the package manager to use when looking up versions.\n\n${ii(ni({
 		colAligns: ["right", "left"],
 		markdown: e,
 		rows: [
@@ -36488,36 +36365,37 @@ ${K.green("target")}: (name, semver) ${K.cyan("=>")} {
 		]
 	}), e ? 0 : 4)}
 `;
-	Oi = ({ markdown: e }) => `${`Specify whether ${((t) => e ? `\`${t}\`` : t)("--registry")} refers to a full npm registry or a simple JSON file.`}\n\n${pi(di({
+	bi = ({ markdown: e }) => `Specify whether \`--registry\` refers to a full npm registry or a simple JSON file.
+
+${ii(ni({
 		colAligns: ["right", "left"],
 		markdown: e,
-		rows: [["npm", "Default npm registry"], ["json", `Checks versions from a file or url to a simple JSON registry. Must include the ${K.cyan("`--registry`")} option.
+		rows: [["npm", "Default npm registry"], ["json", `Checks versions from a file or url to a simple JSON registry. Must include the ${K.cyan("`--registry`")} option.`]]
+	}), e ? 0 : 4)}
 
 Example:
 
-    ${K.gray("// local file")}
-    ${K.cyan("$")} ncu --registryType json --registry ./registry.json
+${ai(`${K.gray("# local file")}
+ncu --registryType json --registry ./registry.json
 
-    ${K.gray("// url")}
-    ${K.cyan("$")} ncu --registryType json --registry https://api.mydomain/registry.json
+${K.gray("# url")}
+ncu --registryType json --registry https://api.mydomain/registry.json
 
-    ${K.gray("// you can omit --registryType when the registry ends in .json")}
-    ${K.cyan("$")} ncu --registry ./registry.json
-    ${K.cyan("$")} ncu --registry https://api.mydomain/registry.json
+${K.gray("# you can omit --registryType when the registry ends in .json")}
+ncu --registry ./registry.json
+ncu --registry https://api.mydomain/registry.json`, {
+		markdown: e,
+		lang: "sh"
+	})}
 
 registry.json:
 
-    {
-      "prettier": "2.7.1",
-      "typescript": "4.7.4"
-    }
-
-`]]
-	}), e ? 0 : 4)}
+${ai("{\n  \"prettier\": \"2.7.1\",\n  \"typescript\": \"4.7.4\"\n}", {
+		markdown: e,
+		lang: "json"
+	})}
 `;
-	ki = ({ markdown: e }) => {
-		let t = (t) => e ? `\`${t}\`` : t;
-		return `Check peer dependencies of installed packages and filter updates to compatible versions.
+	xi = ({ markdown: e }) => `Check peer dependencies of installed packages and filter updates to compatible versions.
 
 ${K.bold("Example")}:
 
@@ -36525,42 +36403,51 @@ The following example demonstrates how \`--peer\` works, and how it uses peer de
 
 The package ${K.bold("ncu-test-peer-update")} has two versions published:
 
-- 1.0.0 has peer dependency ${t("\"ncu-test-return-version\": \"1.0.x\"")}
-- 1.1.0 has peer dependency ${t("\"ncu-test-return-version\": \"1.1.x\"")}
+- 1.0.0 has peer dependency \`"ncu-test-return-version": "1.0.x"\`
+- 1.1.0 has peer dependency \`"ncu-test-return-version": "1.1.x"\`
 
 Our test app has the following dependencies:
 
-    "ncu-test-peer-update": "1.0.0",
-    "ncu-test-return-version": "1.0.0"
+${ai("\"ncu-test-peer-update\": \"1.0.0\",\n\"ncu-test-return-version\": \"1.0.0\"", {
+		markdown: e,
+		lang: "json"
+	})}
 
 The latest versions of these packages are:
 
-    "ncu-test-peer-update": "1.1.0",
-    "ncu-test-return-version": "2.0.0"
+${ai("\"ncu-test-peer-update\": \"1.1.0\",\n\"ncu-test-return-version\": \"2.0.0\"", {
+		markdown: e,
+		lang: "json"
+	})}
 
 ${K.bold("With `--peer`")}:
 
 ncu upgrades packages to the highest version that still adheres to the peer dependency constraints:
 
-    ncu-test-peer-update     1.0.0  →  1.${K.cyan("1.0")}
-    ncu-test-return-version  1.0.0  →  1.${K.cyan("1.0")}
+${ai(`ncu-test-peer-update     1.0.0  →  1.${K.cyan("1.0")}
+ncu-test-return-version  1.0.0  →  1.${K.cyan("1.0")}`, {
+		markdown: e,
+		lang: "text"
+	})}
 
 ${K.bold("Without `--peer`")}:
 
 As a comparison: without using the \`--peer\` option, ncu will suggest the latest versions, ignoring peer dependencies:
 
-    ncu-test-peer-update     1.0.0  →  1.${K.cyan("1.0")}
-    ncu-test-return-version  1.0.0  →  ${K.red("2.0.0")}
+${ai(`ncu-test-peer-update     1.0.0  →  1.${K.cyan("1.0")}
+ncu-test-return-version  1.0.0  →  ${K.red("2.0.0")}`, {
+		markdown: e,
+		lang: "text"
+	})}
 `;
-	};
-	Ai = ({ markdown: e }) => `The cooldown option helps protect against supply chain attacks by requiring package versions to be published at least the given amount of time before considering them for upgrade.
+	Si = ({ markdown: e }) => `The cooldown option helps protect against supply chain attacks by requiring package versions to be published at least the given amount of time before considering them for upgrade.
 
 The value can be a plain number (days) or a string with a unit suffix:
 
-    --cooldown 7       7 days
-    --cooldown 7d      7 days (same as above)
-    --cooldown 12h     12 hours
-    --cooldown 30m     30 minutes
+${ai("--cooldown 7       7 days\n--cooldown 7d      7 days (same as above)\n--cooldown 12h     12 hours\n--cooldown 30m     30 minutes", {
+		markdown: e,
+		lang: "text"
+	})}
 
 With the default \`--target latest\`, if the latest dist-tag version is within the cooldown window, ncu falls back to the greatest version that passes the cooldown threshold. To instead skip the package entirely (strict behaviour), use \`--target "@latest"\`.
 
@@ -36568,19 +36455,17 @@ ${K.bold("Example")}:
 
 Let's examine how cooldown works with a package that has these versions available:
 
-    1.0.0          Released 7 days ago    (initial version)
-    1.1.0          Released 6 days ago    (minor update)
-    1.1.1          Released 5 days ago    (patch update)
-    1.2.0          Released 5 days ago    (minor update)
-    2.0.0-beta.1   Released 5 days ago    (beta release)
-    1.2.1          Released 4 days ago    (patch update)
-    1.3.0          Released 4 days ago    (minor update) [latest]
-    2.0.0-beta.2   Released 3 days ago    (beta release)
-    2.0.0-beta.3   Released 2 days ago    (beta release) [beta]
+${ai("1.0.0          Released 7 days ago    (initial version)\n1.1.0          Released 6 days ago    (minor update)\n1.1.1          Released 5 days ago    (patch update)\n1.2.0          Released 5 days ago    (minor update)\n2.0.0-beta.1   Released 5 days ago    (beta release)\n1.2.1          Released 4 days ago    (patch update)\n1.3.0          Released 4 days ago    (minor update) [latest]\n2.0.0-beta.2   Released 3 days ago    (beta release)\n2.0.0-beta.3   Released 2 days ago    (beta release) [beta]", {
+		markdown: e,
+		lang: "text"
+	})}
 
 ${K.bold("With default target (latest)")}:
 
-${mi(`${K.cyan("$")} ncu --cooldown 5`, { markdown: e })}
+${ai("ncu --cooldown 5", {
+		markdown: e,
+		lang: "sh"
+	})}
 
 Falls back to 1.2.0 because:
 
@@ -36589,7 +36474,10 @@ Falls back to 1.2.0 because:
 
 ${K.bold("With `@latest` strict target")}:
 
-${mi(`${K.cyan("$")} ncu --cooldown 5 --target @latest`, { markdown: e })}
+${ai("ncu --cooldown 5 --target @latest", {
+		markdown: e,
+		lang: "sh"
+	})}
 
 No update will be suggested because:
 
@@ -36599,7 +36487,10 @@ No update will be suggested because:
 
 ${K.bold("With `@beta`/`@tag` target")}:
 
-${mi(`${K.cyan("$")} ncu --cooldown 3 --target @beta`, { markdown: e })}
+${ai("ncu --cooldown 3 --target @beta", {
+		markdown: e,
+		lang: "sh"
+	})}
 
 No update will be suggested because:
 
@@ -36609,27 +36500,30 @@ No update will be suggested because:
 
 ${K.bold("With other targets")}:
 
-${mi(`${K.cyan("$")} ncu --cooldown 5 --target greatest|newest|minor|patch|semver`, { markdown: e })}
+${ai("ncu --cooldown 5 --target greatest|newest|minor|patch|semver", {
+		markdown: e,
+		lang: "sh"
+	})}
 
 Each target will select the best version that is at least 5 days old:
 
-    greatest → 1.2.0        (highest version number outside cooldown)
-    newest   → 2.0.0-beta.1 (most recently published version outside cooldown)
-    minor    → 1.2.0        (highest minor version outside cooldown)
-    patch    → 1.1.1        (highest patch version outside cooldown)
+${ai("greatest → 1.2.0        (highest version number outside cooldown)\nnewest   → 2.0.0-beta.1 (most recently published version outside cooldown)\nminor    → 1.2.0        (highest minor version outside cooldown)\npatch    → 1.1.1        (highest patch version outside cooldown)", {
+		markdown: e,
+		lang: "text"
+	})}
 
 You can also provide a custom function in your .ncurc.js file or when importing npm-check-updates as a module.
 
-> :warning: The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at https://github.com/raineorshine/npm-check-updates#config-functions.
+> ⚠️ The predicate function is only available in .ncurc.js or when importing npm-check-updates as a module, not on the command line. To convert a JSON config to a JS config, follow the instructions at ${oi("Config Functions", "config-functions", { markdown: e })}.
 
-${mi(`${K.gray("/** Set cooldown to 3 days but skip it for `@my-company` packages.\n  @param packageName     The name of the dependency.\n  @returns               Cooldown days restriction for given package.\n*/")}
+${ai(`${K.gray("/** Set cooldown to 3 days but skip it for `@my-company` packages.\n  @param packageName     The name of the dependency.\n  @returns               Cooldown days restriction for given package.\n*/")}
 ${K.green("cooldown")}: packageName ${K.cyan("=>")} (packageName.startsWith(${K.yellow("'@my-company'")}) ? ${K.cyan("0")} : ${K.cyan("3")})`, { markdown: e })}
 
 ### Package Manager Configurations
 
 If \`--cooldown\` is not set explicitly, \`ncu\` automatically reads the cooldown configuration from your package manager's own native config — each package manager only consults its own config and these are not cross-applied between package managers:
 
-${di({
+${ni({
 		colAligns: ["right", "left"],
 		markdown: e,
 		rows: [
@@ -36645,17 +36539,16 @@ When using \`--format cooldown\` alongside the \`--cooldown\` option, \`ncu\` wi
 
 Example:
 
-${mi("ncu --format cooldown --cooldown 7", { markdown: e })}
-
-Output:
-
-${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^8.59.1      5 days ago\n eslint                     ^10.0.1  →  ^10.3.0      1 day ago")}
+${ai("$ ncu --format cooldown --cooldown 7\nSkipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^8.59.1      5 days ago\n eslint                     ^10.0.1  →  ^10.3.0      1 day ago", {
+		markdown: e,
+		lang: "console"
+	})}
 `;
-	ji = ["group"];
-	Mi = [
+	Ci = ["group"];
+	wi = [
 		{
 			long: "cache",
-			description: `Cache versions to a local cache file. Default \`--cacheFile\` is ${ti} and default \`--cacheExpiration\` is 10 minutes.`,
+			description: `Cache versions to a local cache file. Default \`--cacheFile\` is ${Kr} and default \`--cacheExpiration\` is 10 minutes.`,
 			type: "boolean"
 		},
 		{
@@ -36667,7 +36560,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			long: "cacheExpiration",
 			arg: "min",
 			description: "Cache expiration in minutes. Only works with `--cache`.",
-			parse: hi("cacheExpiration"),
+			parse: si("cacheExpiration"),
 			default: 10,
 			type: "number"
 		},
@@ -36679,7 +36572,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				if (typeof e != "string") throw Error("cacheFile must be a string");
 				return node_path.default.isAbsolute(e) ? e : node_path.default.join(process.cwd(), e);
 			},
-			default: ti,
+			default: Kr,
 			type: "string"
 		},
 		{
@@ -36691,7 +36584,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			long: "concurrency",
 			arg: "n",
 			description: "Max number of concurrent HTTP requests to registry.",
-			parse: hi("concurrency"),
+			parse: si("concurrency"),
 			default: 8,
 			type: "number"
 		},
@@ -36742,7 +36635,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			short: "d",
 			description: "Iteratively installs upgrades and runs tests to identify breaking upgrades. Requires `-u` to execute.",
 			type: "boolean",
-			help: _i
+			help: li
 		},
 		{
 			long: "doctorInstall",
@@ -36766,7 +36659,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			short: "e",
 			arg: "n",
 			description: "Set the error level. 1: exits with error code 0 if no errors occur. 2: exits with error code 0 if no packages need updating (useful for continuous integration).",
-			parse: hi("errorLevel"),
+			parse: si("errorLevel"),
 			default: 1,
 			type: "number"
 		},
@@ -36777,7 +36670,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			description: "Include only package names matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function.",
 			type: "string | RegExp | readonly (string | RegExp)[] | FilterFunction",
 			parse: (e, t) => [...t || [], e],
-			help: xi
+			help: pi
 		},
 		{
 			long: "filterResults",
@@ -36785,7 +36678,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			cli: !1,
 			description: "Filters results based on a user provided predicate function after fetching new versions.",
 			type: "FilterResultsFunction",
-			help: vi
+			help: ui
 		},
 		{
 			long: "filterVersion",
@@ -36793,7 +36686,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			description: "Filter on package version using comma-or-space-delimited list or /regex/.",
 			type: "string | RegExp | readonly (string | RegExp)[]",
 			parse: (e, t) => [...t || [], e],
-			help: Si
+			help: mi
 		},
 		{
 			long: "format",
@@ -36804,9 +36697,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				let t = e.split(/,|\s/).filter(Boolean), n = t.filter((e) => e.startsWith("no-")).map((e) => e.slice(3));
 				if (n.length === 0) return t;
 				let r = t.filter((e) => !e.startsWith("no-"));
-				return [.../* @__PURE__ */ new Set([...ji.filter((e) => !n.includes(e)), ...r])];
+				return [.../* @__PURE__ */ new Set([...Ci.filter((e) => !n.includes(e)), ...r])];
 			},
-			default: ji,
+			default: Ci,
 			type: "readonly string[]",
 			choices: [
 				"dep",
@@ -36820,7 +36713,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				"installedVersion",
 				"cooldown"
 			],
-			help: yi
+			help: di
 		},
 		{
 			long: "global",
@@ -36834,13 +36727,13 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			cli: !1,
 			description: "Customize how packages are divided into groups when using `--format group`.",
 			type: "GroupFunction",
-			help: Ti
+			help: _i
 		},
 		{
 			long: "install",
 			arg: "value",
 			description: "Control the auto-install behavior: always, never, prompt.",
-			help: bi,
+			help: fi,
 			default: "prompt",
 			choices: [
 				"always",
@@ -36907,14 +36800,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			short: "p",
 			arg: "s",
 			description: "npm, yarn, pnpm, deno, bun, staticRegistry (default: npm).",
-			help: Di,
+			help: yi,
 			type: "'npm' | 'yarn' | 'pnpm' | 'deno' | 'bun' | 'staticRegistry'"
 		},
 		{
 			long: "peer",
 			description: "Check peer dependencies of installed packages and filter updates to compatible versions.",
 			type: "boolean",
-			help: ki
+			help: xi
 		},
 		{
 			long: "pre",
@@ -36944,7 +36837,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			long: "registryType",
 			arg: "type",
 			description: "Specify whether --registry refers to a full npm registry or a simple JSON file or url: npm, json. (default: npm)",
-			help: Oi,
+			help: bi,
 			type: "'npm' | 'json'"
 		},
 		{
@@ -36954,7 +36847,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			description: "Exclude packages matching the given string, wildcard, glob, comma-or-space-delimited list, /regex/, or predicate function.",
 			type: "string | RegExp | readonly (string | RegExp)[] | FilterFunction",
 			parse: (e, t) => [...t || [], e],
-			help: Ci
+			help: hi
 		},
 		{
 			long: "rejectVersion",
@@ -36962,7 +36855,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			description: "Exclude package.json versions using comma-or-space-delimited list or /regex/.",
 			type: "string | RegExp | readonly (string | RegExp)[]",
 			parse: (e, t) => [...t || [], e],
-			help: wi
+			help: gi
 		},
 		{
 			long: "removeRange",
@@ -36979,7 +36872,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			long: "retry",
 			arg: "n",
 			description: "Number of times to retry failed requests for package info.",
-			parse: hi("retry"),
+			parse: si("retry"),
 			default: 3,
 			type: "number"
 		},
@@ -36999,14 +36892,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			short: "t",
 			arg: "value",
 			description: "Determines the version to upgrade to: latest, newest, greatest, minor, patch, semver, `@[tag]`, or [function]. (default: latest)",
-			help: Ei,
-			type: `${fi.map((e) => `'${e}'`).join(" | ")} | \`@\${string}\` | TargetFunction`
+			help: vi,
+			type: `${ri.map((e) => `'${e}'`).join(" | ")} | \`@\${string}\` | TargetFunction`
 		},
 		{
 			long: "timeout",
 			arg: "ms",
 			description: "Global timeout in milliseconds. (default: no global timeout and 30 seconds per npm-registry-fetch)",
-			parse: hi("timeout"),
+			parse: si("timeout"),
 			type: "number"
 		},
 		{
@@ -37040,23 +36933,23 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			arg: "period",
 			description: "Sets a minimum age for package versions to be considered for upgrade. Accepts a number (days) or a string with a unit: \"7d\" (days), \"12h\" (hours), \"30m\" (minutes). Reduces the risk of installing newly published, potentially compromised packages.",
 			type: "number | string | CooldownFunction",
-			help: Ai,
+			help: Si,
 			parse: (e) => {
 				if (typeof e == "number" || typeof e == "function") return e;
 				if (typeof e == "string") {
-					let t = Kn(e);
+					let t = Ln(e);
 					return t === null ? parseInt(e, 10) : t;
 				} else throw Error("cooldown must be a number, string, or function");
 			}
 		}
 	];
-	Ni = Mi.reduce((e, t) => ({
+	Ti = wi.reduce((e, t) => ({
 		...e,
 		...t.short ? { [t.short]: t } : null,
 		...t.long ? { [t.long]: t } : null
 	}), {});
-	Pi = Xn(Mi, (e) => e.long);
-	Ii = [
+	Ei = Vn(wi, (e) => e.long);
+	Oi = [
 		"package-lock.json",
 		"yarn.lock",
 		"pnpm-lock.yaml",
@@ -37065,25 +36958,25 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		"bun.lock",
 		"bun.lockb"
 	];
-	Ri = node_path.default.dirname((0, node_url.fileURLToPath)(require("url").pathToFileURL(__filename).href));
-	zi = {
+	Ai = node_path.default.dirname((0, node_url.fileURLToPath)(require("url").pathToFileURL(__filename).href));
+	ji = {
 		"package-lock": "npm",
 		yarn: "yarn",
 		"pnpm-lock": "pnpm",
 		deno: "deno",
 		bun: "bun"
 	};
-	Bi = () => {
+	Mi = () => {
 		let e = process.env.npm_config_user_agent ?? "", t = process.env.npm_execpath ?? "";
-		return e.startsWith("yarn/") || t.includes("yarn") || Ri.includes("/yarn/") || Ri.includes("\\Yarn\\") ? "yarn" : e.startsWith("pnpm/") || t.includes("pnpm") || Ri.includes("/pnpm/") || Ri.includes("\\pnpm\\") ? "pnpm" : e.startsWith("bun/") || typeof Bun < "u" || process.versions.bun || Ri.includes("/.bun/") || Ri.includes("\\.bun\\") ? "bun" : "npm";
+		return e.startsWith("yarn/") || t.includes("yarn") || Ai.includes("/yarn/") || Ai.includes("\\Yarn\\") ? "yarn" : e.startsWith("pnpm/") || t.includes("pnpm") || Ai.includes("/pnpm/") || Ai.includes("\\pnpm\\") ? "pnpm" : e.startsWith("bun/") || typeof Bun < "u" || process.versions.bun || Ai.includes("/.bun/") || Ai.includes("\\.bun\\") ? "bun" : "npm";
 	};
-	Vi = async (e, t = node_fs_promises.default.readdir) => {
+	Ni = async (e, t = node_fs_promises.default.readdir) => {
 		if (e.packageManager) return e.packageManager;
-		if (e.global) return Bi();
-		let n = (await Li(e, t))?.filename;
-		return n ? zi[n.split(".")[0]] : "npm";
+		if (e.global) return Mi();
+		let n = (await ki(e, t))?.filename;
+		return n ? ji[n.split(".")[0]] : "npm";
 	};
-	Hi = /* @__PURE__ */ c$1(((t, n) => {
+	Pi = /* @__PURE__ */ c$1(((t, n) => {
 		n.exports = o, o.sync = s;
 		var r = p$1("fs");
 		function i(e, t) {
@@ -37107,7 +37000,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return a(r.statSync(e), e, t);
 		}
 	}));
-	Ui = /* @__PURE__ */ c$1(((t, n) => {
+	Fi = /* @__PURE__ */ c$1(((t, n) => {
 		n.exports = i, i.sync = a;
 		var r = p$1("fs");
 		function i(e, t, n) {
@@ -37126,9 +37019,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return n & l || n & c && i === o || n & s && r === a || n & u && a === 0;
 		}
 	}));
-	Wi = /* @__PURE__ */ c$1(((t, n) => {
+	Ii = /* @__PURE__ */ c$1(((t, n) => {
 		p$1("fs");
-		var r = process.platform === "win32" || global.TESTING_WINDOWS ? Hi() : Ui();
+		var r = process.platform === "win32" || global.TESTING_WINDOWS ? Pi() : Fi();
 		n.exports = i, i.sync = a;
 		function i(e, t, n) {
 			if (typeof t == "function" && (n = t, t = {}), !n) {
@@ -37152,8 +37045,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}
 	}));
-	Gi = /* @__PURE__ */ c$1(((t, n) => {
-		var r = process.platform === "win32" || process.env.OSTYPE === "cygwin" || process.env.OSTYPE === "msys", i = p$1("path"), a = r ? ";" : ":", o = Wi(), s = (e) => Object.assign(/* @__PURE__ */ Error(`not found: ${e}`), { code: "ENOENT" }), c = (e, t) => {
+	Li = /* @__PURE__ */ c$1(((t, n) => {
+		var r = process.platform === "win32" || process.env.OSTYPE === "cygwin" || process.env.OSTYPE === "msys", i = p$1("path"), a = r ? ";" : ":", o = Ii(), s = (e) => Object.assign(/* @__PURE__ */ Error(`not found: ${e}`), { code: "ENOENT" }), c = (e, t) => {
 			let n = t.colon || a, i = e.match(/\//) || r && e.match(/\\/) ? [""] : [...r ? [process.cwd()] : [], ...(t.path || process.env.PATH || "").split(n)], o = r ? t.pathExt || process.env.PATHEXT || ".EXE;.CMD;.BAT;.COM" : "", s = r ? o.split(n) : [""];
 			return r && e.indexOf(".") !== -1 && s[0] !== "" && s.unshift(""), {
 				pathEnv: i,
@@ -37195,15 +37088,15 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			throw s(e);
 		};
 	}));
-	Ki = /* @__PURE__ */ c$1(((e, t) => {
+	Ri = /* @__PURE__ */ c$1(((e, t) => {
 		var n = (e = {}) => {
 			let t = e.env || process.env;
 			return (e.platform || process.platform) === "win32" ? Object.keys(t).reverse().find((e) => e.toUpperCase() === "PATH") || "Path" : "PATH";
 		};
 		t.exports = n, t.exports.default = n;
 	}));
-	qi = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("path"), i = Gi(), a = Ki();
+	zi = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("path"), i = Li(), a = Ri();
 		function o(e, t) {
 			let n = e.options.env || process.env, o = process.cwd(), s = e.options.cwd != null, c = s && process.chdir !== void 0 && !process.chdir.disabled;
 			if (c) try {
@@ -37225,7 +37118,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		n.exports = s;
 	}));
-	Ji = /* @__PURE__ */ c$1(((e, t) => {
+	Bi = /* @__PURE__ */ c$1(((e, t) => {
 		var n = /([()\][%!^"`<>&|;, *?])/g;
 		function r(e) {
 			return e = e.replace(n, "^$1"), e;
@@ -37235,11 +37128,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.exports.command = r, t.exports.argument = i;
 	}));
-	Yi = /* @__PURE__ */ c$1(((e, t) => {
+	Vi = /* @__PURE__ */ c$1(((e, t) => {
 		t.exports = /^#!(.*)/;
 	}));
-	Xi = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Yi();
+	Hi = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Vi();
 		t.exports = (e = "") => {
 			let t = e.match(n);
 			if (!t) return null;
@@ -37247,8 +37140,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return a === "env" ? i : i ? `${a} ${i}` : a;
 		};
 	}));
-	Zi = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("fs"), i = Xi();
+	Ui = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("fs"), i = Hi();
 		function a(e) {
 			let t = Buffer.alloc(150), n;
 			try {
@@ -37258,8 +37151,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		n.exports = a;
 	}));
-	Qi = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("path"), i = qi(), a = Ji(), o = Zi(), s = process.platform === "win32", c = /\.(?:com|exe)$/i, l = /node_modules[\\/].bin[\\/][^\\/]+\.cmd$/i;
+	Wi = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("path"), i = zi(), a = Bi(), o = Ui(), s = process.platform === "win32", c = /\.(?:com|exe)$/i, l = /node_modules[\\/].bin[\\/][^\\/]+\.cmd$/i;
 		function u(e) {
 			e.file = i(e);
 			let t = e.file && o(e.file);
@@ -37295,7 +37188,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		n.exports = f;
 	}));
-	$i = /* @__PURE__ */ c$1(((e, t) => {
+	Gi = /* @__PURE__ */ c$1(((e, t) => {
 		var n = process.platform === "win32";
 		function r(e, t) {
 			return Object.assign(/* @__PURE__ */ Error(`${t} ${e.command} ENOENT`), {
@@ -37330,8 +37223,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			notFoundError: r
 		};
 	}));
-	ea = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("child_process"), i = Qi(), a = $i();
+	Ki = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("child_process"), i = Wi(), a = Gi();
 		function o(e, t, n) {
 			let o = i(e, t, n), s = r.spawn(o.command, o.args, o.options);
 			return a.hookChildProcess(s, o), s;
@@ -37342,8 +37235,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		n.exports = o, n.exports.spawn = o, n.exports.sync = s, n.exports._parse = i, n.exports._enoent = a;
 	}));
-	ta = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
-		var n = ea();
+	qi = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
+		var n = Ki();
 		t.exports = (e, t, r = {}, i = {}) => {
 			r.rejectOnError === void 0 && (r.rejectOnError = !0);
 			let a = "", o = "", s = n(e, t, i);
@@ -37364,7 +37257,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 	(function(e) {
 		e[e.BACKSPACE = 8] = "BACKSPACE", e[e.FORM_FEED = 12] = "FORM_FEED", e[e.NEWLINE = 10] = "NEWLINE", e[e.CARRIAGE_RETURN = 13] = "CARRIAGE_RETURN", e[e.TAB = 9] = "TAB", e[e.SPACE = 32] = "SPACE", e[e.EXCLAMATION_MARK = 33] = "EXCLAMATION_MARK", e[e.QUOTATION_MARK = 34] = "QUOTATION_MARK", e[e.NUMBER_SIGN = 35] = "NUMBER_SIGN", e[e.DOLLAR_SIGN = 36] = "DOLLAR_SIGN", e[e.PERCENT_SIGN = 37] = "PERCENT_SIGN", e[e.AMPERSAND = 38] = "AMPERSAND", e[e.APOSTROPHE = 39] = "APOSTROPHE", e[e.LEFT_PARENTHESIS = 40] = "LEFT_PARENTHESIS", e[e.RIGHT_PARENTHESIS = 41] = "RIGHT_PARENTHESIS", e[e.ASTERISK = 42] = "ASTERISK", e[e.PLUS_SIGN = 43] = "PLUS_SIGN", e[e.COMMA = 44] = "COMMA", e[e.HYPHEN_MINUS = 45] = "HYPHEN_MINUS", e[e.FULL_STOP = 46] = "FULL_STOP", e[e.SOLIDUS = 47] = "SOLIDUS", e[e.DIGIT_ZERO = 48] = "DIGIT_ZERO", e[e.DIGIT_ONE = 49] = "DIGIT_ONE", e[e.DIGIT_TWO = 50] = "DIGIT_TWO", e[e.DIGIT_THREE = 51] = "DIGIT_THREE", e[e.DIGIT_FOUR = 52] = "DIGIT_FOUR", e[e.DIGIT_FIVE = 53] = "DIGIT_FIVE", e[e.DIGIT_SIX = 54] = "DIGIT_SIX", e[e.DIGIT_SEVEN = 55] = "DIGIT_SEVEN", e[e.DIGIT_EIGHT = 56] = "DIGIT_EIGHT", e[e.DIGIT_NINE = 57] = "DIGIT_NINE", e[e.COLON = 58] = "COLON", e[e.SEMICOLON = 59] = "SEMICOLON", e[e.LESS_THAN_SIGN = 60] = "LESS_THAN_SIGN", e[e.EQUALS_SIGN = 61] = "EQUALS_SIGN", e[e.GREATER_THAN_SIGN = 62] = "GREATER_THAN_SIGN", e[e.QUESTION_MARK = 63] = "QUESTION_MARK", e[e.COMMERCIAL_AT = 64] = "COMMERCIAL_AT", e[e.LATIN_CAPITAL_LETTER_A = 65] = "LATIN_CAPITAL_LETTER_A", e[e.LATIN_CAPITAL_LETTER_B = 66] = "LATIN_CAPITAL_LETTER_B", e[e.LATIN_CAPITAL_LETTER_C = 67] = "LATIN_CAPITAL_LETTER_C", e[e.LATIN_CAPITAL_LETTER_D = 68] = "LATIN_CAPITAL_LETTER_D", e[e.LATIN_CAPITAL_LETTER_E = 69] = "LATIN_CAPITAL_LETTER_E", e[e.LATIN_CAPITAL_LETTER_F = 70] = "LATIN_CAPITAL_LETTER_F", e[e.LATIN_CAPITAL_LETTER_G = 71] = "LATIN_CAPITAL_LETTER_G", e[e.LATIN_CAPITAL_LETTER_H = 72] = "LATIN_CAPITAL_LETTER_H", e[e.LATIN_CAPITAL_LETTER_I = 73] = "LATIN_CAPITAL_LETTER_I", e[e.LATIN_CAPITAL_LETTER_J = 74] = "LATIN_CAPITAL_LETTER_J", e[e.LATIN_CAPITAL_LETTER_K = 75] = "LATIN_CAPITAL_LETTER_K", e[e.LATIN_CAPITAL_LETTER_L = 76] = "LATIN_CAPITAL_LETTER_L", e[e.LATIN_CAPITAL_LETTER_M = 77] = "LATIN_CAPITAL_LETTER_M", e[e.LATIN_CAPITAL_LETTER_N = 78] = "LATIN_CAPITAL_LETTER_N", e[e.LATIN_CAPITAL_LETTER_O = 79] = "LATIN_CAPITAL_LETTER_O", e[e.LATIN_CAPITAL_LETTER_P = 80] = "LATIN_CAPITAL_LETTER_P", e[e.LATIN_CAPITAL_LETTER_Q = 81] = "LATIN_CAPITAL_LETTER_Q", e[e.LATIN_CAPITAL_LETTER_R = 82] = "LATIN_CAPITAL_LETTER_R", e[e.LATIN_CAPITAL_LETTER_S = 83] = "LATIN_CAPITAL_LETTER_S", e[e.LATIN_CAPITAL_LETTER_T = 84] = "LATIN_CAPITAL_LETTER_T", e[e.LATIN_CAPITAL_LETTER_U = 85] = "LATIN_CAPITAL_LETTER_U", e[e.LATIN_CAPITAL_LETTER_V = 86] = "LATIN_CAPITAL_LETTER_V", e[e.LATIN_CAPITAL_LETTER_W = 87] = "LATIN_CAPITAL_LETTER_W", e[e.LATIN_CAPITAL_LETTER_X = 88] = "LATIN_CAPITAL_LETTER_X", e[e.LATIN_CAPITAL_LETTER_Y = 89] = "LATIN_CAPITAL_LETTER_Y", e[e.LATIN_CAPITAL_LETTER_Z = 90] = "LATIN_CAPITAL_LETTER_Z", e[e.LEFT_SQUARE_BRACKET = 91] = "LEFT_SQUARE_BRACKET", e[e.REVERSE_SOLIDUS = 92] = "REVERSE_SOLIDUS", e[e.RIGHT_SQUARE_BRACKET = 93] = "RIGHT_SQUARE_BRACKET", e[e.CIRCUMFLEX_ACCENT = 94] = "CIRCUMFLEX_ACCENT", e[e.LOW_LINE = 95] = "LOW_LINE", e[e.GRAVE_ACCENT = 96] = "GRAVE_ACCENT", e[e.LATIN_SMALL_LETTER_A = 97] = "LATIN_SMALL_LETTER_A", e[e.LATIN_SMALL_LETTER_B = 98] = "LATIN_SMALL_LETTER_B", e[e.LATIN_SMALL_LETTER_C = 99] = "LATIN_SMALL_LETTER_C", e[e.LATIN_SMALL_LETTER_D = 100] = "LATIN_SMALL_LETTER_D", e[e.LATIN_SMALL_LETTER_E = 101] = "LATIN_SMALL_LETTER_E", e[e.LATIN_SMALL_LETTER_F = 102] = "LATIN_SMALL_LETTER_F", e[e.LATIN_SMALL_LETTER_G = 103] = "LATIN_SMALL_LETTER_G", e[e.LATIN_SMALL_LETTER_H = 104] = "LATIN_SMALL_LETTER_H", e[e.LATIN_SMALL_LETTER_I = 105] = "LATIN_SMALL_LETTER_I", e[e.LATIN_SMALL_LETTER_J = 106] = "LATIN_SMALL_LETTER_J", e[e.LATIN_SMALL_LETTER_K = 107] = "LATIN_SMALL_LETTER_K", e[e.LATIN_SMALL_LETTER_L = 108] = "LATIN_SMALL_LETTER_L", e[e.LATIN_SMALL_LETTER_M = 109] = "LATIN_SMALL_LETTER_M", e[e.LATIN_SMALL_LETTER_N = 110] = "LATIN_SMALL_LETTER_N", e[e.LATIN_SMALL_LETTER_O = 111] = "LATIN_SMALL_LETTER_O", e[e.LATIN_SMALL_LETTER_P = 112] = "LATIN_SMALL_LETTER_P", e[e.LATIN_SMALL_LETTER_Q = 113] = "LATIN_SMALL_LETTER_Q", e[e.LATIN_SMALL_LETTER_R = 114] = "LATIN_SMALL_LETTER_R", e[e.LATIN_SMALL_LETTER_S = 115] = "LATIN_SMALL_LETTER_S", e[e.LATIN_SMALL_LETTER_T = 116] = "LATIN_SMALL_LETTER_T", e[e.LATIN_SMALL_LETTER_U = 117] = "LATIN_SMALL_LETTER_U", e[e.LATIN_SMALL_LETTER_V = 118] = "LATIN_SMALL_LETTER_V", e[e.LATIN_SMALL_LETTER_W = 119] = "LATIN_SMALL_LETTER_W", e[e.LATIN_SMALL_LETTER_X = 120] = "LATIN_SMALL_LETTER_X", e[e.LATIN_SMALL_LETTER_Y = 121] = "LATIN_SMALL_LETTER_Y", e[e.LATIN_SMALL_LETTER_Z = 122] = "LATIN_SMALL_LETTER_Z", e[e.LEFT_CURLY_BRACKET = 123] = "LEFT_CURLY_BRACKET", e[e.VERTICAL_LINE = 124] = "VERTICAL_LINE", e[e.RIGHT_CURLY_BRACKET = 125] = "RIGHT_CURLY_BRACKET", e[e.TILDE = 126] = "TILDE";
 	})(J ||= {});
-	na = {
+	Ji = {
 		[J.QUOTATION_MARK]: J.QUOTATION_MARK,
 		[J.REVERSE_SOLIDUS]: J.REVERSE_SOLIDUS,
 		[J.SOLIDUS]: J.SOLIDUS,
@@ -37374,7 +37267,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		[J.LATIN_SMALL_LETTER_R]: J.CARRIAGE_RETURN,
 		[J.LATIN_SMALL_LETTER_T]: J.TAB
 	};
-	ra = class {
+	Yi = class {
 		constructor() {
 			this.decoder = new TextDecoder("utf-8"), this.strings = [], this.byteLength = 0;
 		}
@@ -37391,7 +37284,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return this.strings.join("");
 		}
 	};
-	ia = class {
+	Xi = class {
 		constructor(e) {
 			this.decoder = new TextDecoder("utf-8"), this.bufferOffset = 0, this.string = "", this.byteLength = 0, this.buffer = new Uint8Array(e);
 		}
@@ -37414,25 +37307,25 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 	};
 	(function(e) {
 		e[e.LEFT_BRACE = 0] = "LEFT_BRACE", e[e.RIGHT_BRACE = 1] = "RIGHT_BRACE", e[e.LEFT_BRACKET = 2] = "LEFT_BRACKET", e[e.RIGHT_BRACKET = 3] = "RIGHT_BRACKET", e[e.COLON = 4] = "COLON", e[e.COMMA = 5] = "COMMA", e[e.TRUE = 6] = "TRUE", e[e.FALSE = 7] = "FALSE", e[e.NULL = 8] = "NULL", e[e.STRING = 9] = "STRING", e[e.NUMBER = 10] = "NUMBER", e[e.SEPARATOR = 11] = "SEPARATOR";
-	})(aa ||= {});
-	Y = aa;
+	})(Zi ||= {});
+	Y = Zi;
 	(function(e) {
 		e[e.START = 0] = "START", e[e.ENDED = 1] = "ENDED", e[e.ERROR = 2] = "ERROR", e[e.TRUE1 = 3] = "TRUE1", e[e.TRUE2 = 4] = "TRUE2", e[e.TRUE3 = 5] = "TRUE3", e[e.FALSE1 = 6] = "FALSE1", e[e.FALSE2 = 7] = "FALSE2", e[e.FALSE3 = 8] = "FALSE3", e[e.FALSE4 = 9] = "FALSE4", e[e.NULL1 = 10] = "NULL1", e[e.NULL2 = 11] = "NULL2", e[e.NULL3 = 12] = "NULL3", e[e.STRING_DEFAULT = 13] = "STRING_DEFAULT", e[e.STRING_AFTER_BACKSLASH = 14] = "STRING_AFTER_BACKSLASH", e[e.STRING_UNICODE_DIGIT_1 = 15] = "STRING_UNICODE_DIGIT_1", e[e.STRING_UNICODE_DIGIT_2 = 16] = "STRING_UNICODE_DIGIT_2", e[e.STRING_UNICODE_DIGIT_3 = 17] = "STRING_UNICODE_DIGIT_3", e[e.STRING_UNICODE_DIGIT_4 = 18] = "STRING_UNICODE_DIGIT_4", e[e.STRING_INCOMPLETE_CHAR = 19] = "STRING_INCOMPLETE_CHAR", e[e.NUMBER_AFTER_INITIAL_MINUS = 20] = "NUMBER_AFTER_INITIAL_MINUS", e[e.NUMBER_AFTER_INITIAL_ZERO = 21] = "NUMBER_AFTER_INITIAL_ZERO", e[e.NUMBER_AFTER_INITIAL_NON_ZERO = 22] = "NUMBER_AFTER_INITIAL_NON_ZERO", e[e.NUMBER_AFTER_FULL_STOP = 23] = "NUMBER_AFTER_FULL_STOP", e[e.NUMBER_AFTER_DECIMAL = 24] = "NUMBER_AFTER_DECIMAL", e[e.NUMBER_AFTER_E = 25] = "NUMBER_AFTER_E", e[e.NUMBER_AFTER_E_AND_SIGN = 26] = "NUMBER_AFTER_E_AND_SIGN", e[e.NUMBER_AFTER_E_AND_DIGIT = 27] = "NUMBER_AFTER_E_AND_DIGIT", e[e.SEPARATOR = 28] = "SEPARATOR", e[e.BOM_OR_START = 29] = "BOM_OR_START", e[e.BOM = 30] = "BOM";
 	})(X ||= {});
-	sa = {
+	$i = {
 		stringBufferSize: 0,
 		numberBufferSize: 0,
 		separator: void 0,
 		emitPartialTokens: !1
 	};
-	ca = class e extends Error {
+	ea = class e extends Error {
 		constructor(t) {
 			super(t), Object.setPrototypeOf(this, e.prototype);
 		}
 	};
-	la = class {
+	ta = class {
 		constructor(e) {
-			this.state = X.BOM_OR_START, this.bomIndex = 0, this.separatorIndex = 0, this.escapedCharsByteLength = 0, this.bytes_remaining = 0, this.bytes_in_sequence = 0, this.char_split_buffer = /* @__PURE__ */ new Uint8Array(4), this.encoder = new TextEncoder(), this.offset = -1, e = Object.assign(Object.assign({}, sa), e), this.emitPartialTokens = e.emitPartialTokens === !0, this.bufferedString = e.stringBufferSize && e.stringBufferSize > 4 ? new ia(e.stringBufferSize) : new ra(), this.bufferedNumber = e.numberBufferSize && e.numberBufferSize > 0 ? new ia(e.numberBufferSize) : new ra(), this.separator = e.separator, this.separatorBytes = e.separator ? this.encoder.encode(e.separator) : void 0;
+			this.state = X.BOM_OR_START, this.bomIndex = 0, this.separatorIndex = 0, this.escapedCharsByteLength = 0, this.bytes_remaining = 0, this.bytes_in_sequence = 0, this.char_split_buffer = /* @__PURE__ */ new Uint8Array(4), this.encoder = new TextEncoder(), this.offset = -1, e = Object.assign(Object.assign({}, $i), e), this.emitPartialTokens = e.emitPartialTokens === !0, this.bufferedString = e.stringBufferSize && e.stringBufferSize > 4 ? new Xi(e.stringBufferSize) : new Yi(), this.bufferedNumber = e.numberBufferSize && e.numberBufferSize > 0 ? new Xi(e.numberBufferSize) : new Yi(), this.separator = e.separator, this.separatorBytes = e.separator ? this.encoder.encode(e.separator) : void 0;
 		}
 		get isEnded() {
 			return this.state === X.ENDED;
@@ -37609,7 +37502,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 							this.char_split_buffer.set(t.subarray(n, n + this.bytes_remaining), this.bytes_in_sequence - this.bytes_remaining), this.bufferedString.appendBuf(this.char_split_buffer, 0, this.bytes_in_sequence), n = this.bytes_remaining - 1, this.state = X.STRING_DEFAULT;
 							continue;
 						case X.STRING_AFTER_BACKSLASH:
-							let i = na[r];
+							let i = Ji[r];
 							if (i) {
 								this.bufferedString.appendChar(i), this.escapedCharsByteLength += 1, this.state = X.STRING_DEFAULT;
 								continue;
@@ -37802,7 +37695,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 							break;
 						case X.ENDED: if (r === J.SPACE || r === J.NEWLINE || r === J.CARRIAGE_RETURN || r === J.TAB) continue;
 					}
-					throw new ca(`Unexpected "${String.fromCharCode(r)}" at position "${n}" in state ${oa(this.state)}`);
+					throw new ea(`Unexpected "${String.fromCharCode(r)}" at position "${n}" in state ${Qi(this.state)}`);
 				}
 				if (this.emitPartialTokens) switch (this.state) {
 					case X.TRUE1:
@@ -37889,11 +37782,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				case X.SEPARATOR:
 					this.state = X.ENDED, this.onEnd();
 					break;
-				default: this.error(new ca(`Tokenizer ended in the middle of a token (state: ${oa(this.state)}). Either not all the data was received or the data was invalid.`));
+				default: this.error(new ea(`Tokenizer ended in the middle of a token (state: ${Qi(this.state)}). Either not all the data was received or the data was invalid.`));
 			}
 		}
 		onToken(e) {
-			throw new ca("Can't emit tokens before the \"onToken\" callback has been set up.");
+			throw new ea("Can't emit tokens before the \"onToken\" callback has been set up.");
 		}
 		onError(e) {
 			throw e;
@@ -37902,28 +37795,28 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 	};
 	(function(e) {
 		e[e.OBJECT = 0] = "OBJECT", e[e.ARRAY = 1] = "ARRAY";
-	})(ua ||= {});
+	})(na ||= {});
 	(function(e) {
 		e[e.VALUE = 0] = "VALUE", e[e.KEY = 1] = "KEY", e[e.COLON = 2] = "COLON", e[e.COMMA = 3] = "COMMA", e[e.ENDED = 4] = "ENDED", e[e.ERROR = 5] = "ERROR", e[e.SEPARATOR = 6] = "SEPARATOR";
 	})(Z ||= {});
-	fa = {
+	ia = {
 		paths: void 0,
 		keepStack: !0,
 		separator: void 0,
 		emitPartialValues: !1
 	};
-	pa = class e extends Error {
+	aa = class e extends Error {
 		constructor(t) {
 			super(t), Object.setPrototypeOf(this, e.prototype);
 		}
 	};
-	ma = class {
+	oa = class {
 		constructor(e) {
-			this.state = Z.VALUE, this.mode = void 0, this.key = void 0, this.value = void 0, this.stack = [], e = Object.assign(Object.assign({}, fa), e), e.paths && (this.paths = e.paths.map((e) => {
+			this.state = Z.VALUE, this.mode = void 0, this.key = void 0, this.value = void 0, this.stack = [], e = Object.assign(Object.assign({}, ia), e), e.paths && (this.paths = e.paths.map((e) => {
 				if (e === void 0 || e === "$*") return;
-				if (!e.startsWith("$")) throw new pa(`Invalid selector "${e}". Should start with "$".`);
+				if (!e.startsWith("$")) throw new aa(`Invalid selector "${e}". Should start with "$".`);
 				let t = e.split(".").slice(1);
-				if (t.includes("")) throw new pa(`Invalid selector "${e}". ".." syntax not supported.`);
+				if (t.includes("")) throw new aa(`Invalid selector "${e}". ".." syntax not supported.`);
 				return t;
 			})), this.keepStack = e.keepStack || !1, this.separator = e.separator, e.emitPartialValues || (this.emitPartial = () => {});
 		}
@@ -37991,28 +37884,28 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				}
 				if (this.state === Z.VALUE) {
 					if (e === Y.STRING || e === Y.NUMBER || e === Y.TRUE || e === Y.FALSE || e === Y.NULL) {
-						this.mode === ua.OBJECT ? (this.value[this.key] = t, this.state = Z.COMMA) : this.mode === ua.ARRAY && (this.value.push(t), this.state = Z.COMMA), this.emit(t, this.shouldEmit());
+						this.mode === na.OBJECT ? (this.value[this.key] = t, this.state = Z.COMMA) : this.mode === na.ARRAY && (this.value.push(t), this.state = Z.COMMA), this.emit(t, this.shouldEmit());
 						return;
 					}
 					if (e === Y.LEFT_BRACE) {
-						if (this.push(), this.mode === ua.OBJECT) this.value = this.value[this.key] = {};
-						else if (this.mode === ua.ARRAY) {
+						if (this.push(), this.mode === na.OBJECT) this.value = this.value[this.key] = {};
+						else if (this.mode === na.ARRAY) {
 							let e = {};
 							this.value.push(e), this.value = e;
 						} else this.value = {};
-						this.mode = ua.OBJECT, this.state = Z.KEY, this.key = void 0, this.emitPartial();
+						this.mode = na.OBJECT, this.state = Z.KEY, this.key = void 0, this.emitPartial();
 						return;
 					}
 					if (e === Y.LEFT_BRACKET) {
-						if (this.push(), this.mode === ua.OBJECT) this.value = this.value[this.key] = [];
-						else if (this.mode === ua.ARRAY) {
+						if (this.push(), this.mode === na.OBJECT) this.value = this.value[this.key] = [];
+						else if (this.mode === na.ARRAY) {
 							let e = [];
 							this.value.push(e), this.value = e;
 						} else this.value = [];
-						this.mode = ua.ARRAY, this.state = Z.VALUE, this.key = 0, this.emitPartial();
+						this.mode = na.ARRAY, this.state = Z.VALUE, this.key = 0, this.emitPartial();
 						return;
 					}
-					if (this.mode === ua.ARRAY && e === Y.RIGHT_BRACKET && this.value.length === 0) {
+					if (this.mode === na.ARRAY && e === Y.RIGHT_BRACKET && this.value.length === 0) {
 						this.pop();
 						return;
 					}
@@ -38033,17 +37926,17 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				}
 				if (this.state === Z.COMMA) {
 					if (e === Y.COMMA) {
-						if (this.mode === ua.ARRAY) {
+						if (this.mode === na.ARRAY) {
 							this.state = Z.VALUE, this.key += 1;
 							return;
 						}
 						/* istanbul ignore else */
-						if (this.mode === ua.OBJECT) {
+						if (this.mode === na.OBJECT) {
 							this.state = Z.KEY;
 							return;
 						}
 					}
-					if (e === Y.RIGHT_BRACE && this.mode === ua.OBJECT || e === Y.RIGHT_BRACKET && this.mode === ua.ARRAY) {
+					if (e === Y.RIGHT_BRACE && this.mode === na.OBJECT || e === Y.RIGHT_BRACKET && this.mode === na.ARRAY) {
 						this.pop();
 						return;
 					}
@@ -38053,7 +37946,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 					return;
 				}
 				if (e === Y.SEPARATOR && this.state !== Z.SEPARATOR && Array.from(t).map((e) => e.charCodeAt(0)).every((e) => e === J.SPACE || e === J.NEWLINE || e === J.CARRIAGE_RETURN || e === J.TAB)) return;
-				throw new pa(`Unexpected ${Y[e]} (${JSON.stringify(t)}) in state ${da(this.state)}`);
+				throw new aa(`Unexpected ${Y[e]} (${JSON.stringify(t)}) in state ${ra(this.state)}`);
 			} catch (e) {
 				this.error(e);
 			}
@@ -38062,19 +37955,19 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			this.state !== Z.ENDED && (this.state = Z.ERROR), this.onError(e);
 		}
 		end() {
-			this.state !== Z.VALUE && this.state !== Z.SEPARATOR || this.stack.length > 0 ? this.error(/* @__PURE__ */ Error(`Parser ended in mid-parsing (state: ${da(this.state)}). Either not all the data was received or the data was invalid.`)) : (this.state = Z.ENDED, this.onEnd());
+			this.state !== Z.VALUE && this.state !== Z.SEPARATOR || this.stack.length > 0 ? this.error(/* @__PURE__ */ Error(`Parser ended in mid-parsing (state: ${ra(this.state)}). Either not all the data was received or the data was invalid.`)) : (this.state = Z.ENDED, this.onEnd());
 		}
 		onValue(e) {
-			throw new pa("Can't emit data before the \"onValue\" callback has been set up.");
+			throw new aa("Can't emit data before the \"onValue\" callback has been set up.");
 		}
 		onError(e) {
 			throw e;
 		}
 		onEnd() {}
 	};
-	ha = class {
+	sa = class {
 		constructor(e = {}) {
-			this.tokenizer = new la(e), this.tokenParser = new ma(e), this.tokenizer.onToken = this.tokenParser.write.bind(this.tokenParser), this.tokenizer.onEnd = () => {
+			this.tokenizer = new ta(e), this.tokenParser = new oa(e), this.tokenizer.onToken = this.tokenParser.write.bind(this.tokenParser), this.tokenizer.onEnd = () => {
 				this.tokenParser.isEnded || this.tokenParser.end();
 			}, this.tokenParser.onError = this.tokenizer.error.bind(this.tokenizer), this.tokenParser.onEnd = () => {
 				this.tokenizer.isEnded || this.tokenizer.end();
@@ -38106,39 +37999,39 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			};
 		}
 	};
-	ga = /[\p{Lu}]/u;
-	_a = /[\p{Ll}]/u;
-	va = /^[\p{Lu}](?![\p{Lu}])/u;
-	ya = /[_.\- ]+/;
-	ba = /([\p{Alpha}\p{N}_]|$)/u;
-	xa = RegExp("^" + ya.source);
-	Sa = new RegExp(ya.source + ba.source, "gu");
-	Ca = new RegExp(String.raw`\d+` + ba.source, "gu");
-	wa = (e, t, n, r) => {
+	ca = /[\p{Lu}]/u;
+	la = /[\p{Ll}]/u;
+	ua = /^[\p{Lu}](?![\p{Lu}])/u;
+	da = /[_.\- ]+/;
+	fa = /([\p{Alpha}\p{N}_]|$)/u;
+	pa = RegExp("^" + da.source);
+	ma = new RegExp(da.source + fa.source, "gu");
+	ha = new RegExp(String.raw`\d+` + fa.source, "gu");
+	ga = (e, t, n, r) => {
 		let i = !1, a = !1, o = !1, s = !1;
 		for (let c = 0; c < e.length; c++) {
 			let l = e[c];
-			s = c > 2 ? e[c - 3] === "-" : !0, i && ga.test(l) ? (e = e.slice(0, c) + "-" + e.slice(c), i = !1, o = a, a = !0, c++) : a && o && _a.test(l) && (!s || r) ? (e = e.slice(0, c - 1) + "-" + e.slice(c - 1), o = a, a = !1, i = !0) : (i = t(l) === l && n(l) !== l, o = a, a = n(l) === l && t(l) !== l);
+			s = c > 2 ? e[c - 3] === "-" : !0, i && ca.test(l) ? (e = e.slice(0, c) + "-" + e.slice(c), i = !1, o = a, a = !0, c++) : a && o && la.test(l) && (!s || r) ? (e = e.slice(0, c - 1) + "-" + e.slice(c - 1), o = a, a = !1, i = !0) : (i = t(l) === l && n(l) !== l, o = a, a = n(l) === l && t(l) !== l);
 		}
 		return e;
 	};
-	Ta = (e, t) => e.replace(va, (e) => t(e));
-	Ea = (e, t, n) => {
+	_a = (e, t) => e.replace(ua, (e) => t(e));
+	va = (e, t, n) => {
 		let r = "", i = !1, a = !1, o = [...e];
 		for (let e = 0; e < o.length; e++) {
-			let s = o[e], c = ga.test(s), l = e + 1 < o.length && ga.test(o[e + 1]);
-			i && /[\p{Alpha}]/u.test(s) ? (r += s, i = !1, a = c) : n && c && (a || l) ? (r += s, a = !0) : /\d/.test(s) ? (r += s, i = !0, a = !1) : ya.test(s) ? (r += s, a = !1) : (r += t(s), i = !1, a = !1);
+			let s = o[e], c = ca.test(s), l = e + 1 < o.length && ca.test(o[e + 1]);
+			i && /[\p{Alpha}]/u.test(s) ? (r += s, i = !1, a = c) : n && c && (a || l) ? (r += s, a = !0) : /\d/.test(s) ? (r += s, i = !0, a = !1) : da.test(s) ? (r += s, a = !1) : (r += t(s), i = !1, a = !1);
 		}
 		return r;
 	};
-	Da = (e, t, { capitalizeAfterNumber: n }) => {
+	ya = (e, t, { capitalizeAfterNumber: n }) => {
 		let r = n ? (e, n, r, i) => {
 			let a = i.charAt(r + e.length);
-			return ya.test(a) ? e : n ? e.slice(0, -n.length) + t(n) : e;
+			return da.test(a) ? e : n ? e.slice(0, -n.length) + t(n) : e;
 		} : (e) => e;
-		return e.replaceAll(Ca, r).replaceAll(Sa, (e, n) => t(n));
+		return e.replaceAll(ha, r).replaceAll(ma, (e, n) => t(n));
 	};
-	ka = /* @__PURE__ */ c$1(((e, t) => {
+	xa = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
 		function n(e, t) {
 			var n = t && t.cache ? t.cache : f, r = t && t.serializer ? t.serializer : u;
 			return (t && t.strategy ? t.strategy : s)(e, {
@@ -38192,8 +38085,66 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			variadic: c,
 			monadic: l
 		};
-	}));
-	Aa = /* @__PURE__ */ c$1(((e, t) => {
+	})))(), 1);
+	Sa = class {
+		value;
+		next;
+		constructor(e) {
+			this.value = e;
+		}
+	};
+	Ca = class {
+		#e;
+		#t;
+		#n;
+		constructor() {
+			this.clear();
+		}
+		enqueue(e) {
+			let t = new Sa(e);
+			this.#e ? (this.#t.next = t, this.#t = t) : (this.#e = t, this.#t = t), this.#n++;
+		}
+		dequeue() {
+			let e = this.#e;
+			if (e) return this.#e = this.#e.next, this.#n--, this.#e || (this.#t = void 0), e.value;
+		}
+		peek() {
+			if (this.#e) return this.#e.value;
+		}
+		clear() {
+			this.#e = void 0, this.#t = void 0, this.#n = 0;
+		}
+		get size() {
+			return this.#n;
+		}
+		*[Symbol.iterator]() {
+			let e = this.#e;
+			for (; e;) yield e.value, e = e.next;
+		}
+		*drain() {
+			for (; this.#e;) yield this.dequeue();
+		}
+	};
+	Ta = class extends Error {
+		constructor(e) {
+			super(), this.value = e;
+		}
+	};
+	Ea = async (e, t) => t(await e);
+	Da = async (e) => {
+		let t = await Promise.all(e);
+		if (t[1] === !0) throw new Ta(t[0]);
+		return !1;
+	};
+	ka = {
+		directory: "isDirectory",
+		file: "isFile"
+	};
+	ja = (e, t) => e === "both" ? t.isFile() || t.isDirectory() : t[ka[e]]();
+	Ma = (e) => e instanceof URL ? (0, node_url.fileURLToPath)(e) : e;
+	(0, node_util.promisify)(node_child_process.execFile);
+	Ia = Symbol("findUpStop");
+	Va = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
 		var { hasOwnProperty: n } = Object.prototype, r = (e, t = {}) => {
 			typeof t == "string" && (t = { section: t }), t.align = t.align === !0, t.newline = t.newline === !0, t.sort = t.sort === !0, t.whitespace = t.whitespace === !0 || t.align === !0, t.platform = t.platform || typeof process < "u" && process.platform, t.bracketedArray = t.bracketedArray !== !1;
 			/* istanbul ignore next */
@@ -38284,140 +38235,35 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			safe: s,
 			unsafe: c
 		};
-	}));
-	ja = /* @__PURE__ */ d$2(ka(), 1);
-	Ma = /* @__PURE__ */ d$2(Aa(), 1);
-	Ia = class {
-		value;
-		next;
-		constructor(e) {
-			this.value = e;
-		}
-	};
-	La = class {
-		#e;
-		#t;
-		#n;
-		constructor() {
-			this.clear();
-		}
-		enqueue(e) {
-			let t = new Ia(e);
-			this.#e ? (this.#t.next = t, this.#t = t) : (this.#e = t, this.#t = t), this.#n++;
-		}
-		dequeue() {
-			let e = this.#e;
-			if (e) return this.#e = this.#e.next, this.#n--, this.#e || (this.#t = void 0), e.value;
-		}
-		peek() {
-			if (this.#e) return this.#e.value;
-		}
-		clear() {
-			this.#e = void 0, this.#t = void 0, this.#n = 0;
-		}
-		get size() {
-			return this.#n;
-		}
-		*[Symbol.iterator]() {
-			let e = this.#e;
-			for (; e;) yield e.value, e = e.next;
-		}
-		*drain() {
-			for (; this.#e;) yield this.dequeue();
-		}
-	};
-	za = class extends Error {
-		constructor(e) {
-			super(), this.value = e;
-		}
-	};
-	Ba = async (e, t) => t(await e);
-	Va = async (e) => {
-		let t = await Promise.all(e);
-		if (t[1] === !0) throw new za(t[0]);
-		return !1;
-	};
-	Ua = {
-		directory: "isDirectory",
-		file: "isFile"
-	};
-	Ga = (e, t) => e === "both" ? t.isFile() || t.isDirectory() : t[Ua[e]]();
-	Ka = (e) => e instanceof URL ? (0, node_url.fileURLToPath)(e) : e;
-	(0, node_util.promisify)(node_child_process.execFile);
-	Xa = Symbol("findUpStop");
-	to = class e {
-		constructor(e, t, n) {
-			this.__specs = e || {}, this.__opts = t || {}, this.__providers = oo(n.filter((e) => typeof e == "object" && !!e)), this.__isFiggyPudding = !0;
-		}
-		get(e) {
-			return no(this, e, !0);
-		}
-		toJSON() {
-			let e = {};
-			return this.forEach((t, n) => {
-				e[n] = t;
-			}), e;
-		}
-		forEach(e, t = this) {
-			for (let [n, r] of this.entries()) e.call(t, r, n, this);
-		}
-		*entries(e) {
-			for (let e of Object.keys(this.__specs)) yield [e, this.get(e)];
-			let t = e || this.__opts.other;
-			if (t) {
-				let e = /* @__PURE__ */ new Set();
-				for (let n of this.__providers) {
-					let r = n.entries ? n.entries(t) : so(n);
-					for (let [n, i] of r) t(n) && !e.has(n) && (e.add(n), yield [n, i]);
-				}
-			}
-		}
-		concat(...t) {
-			return new Proxy(new e(this.__specs, this.__opts, oo(this.__providers).concat(t)), io);
-		}
-	};
-	io = { get(e, t) {
-		return typeof t == "symbol" || t.slice(0, 2) === "__" || t in to.prototype ? e[t] : e.get(t);
-	} };
-	co = ao({}, { other() {
-		return !0;
-	} });
-	lo = ao({
-		cache: { default: node_path.default.join(process.env.HOME || node_os.default.homedir(), ".npm") },
-		configNames: { default: ["npmrc", ".npmrc"] },
-		envPrefix: { default: /^npm_config_/i },
-		cwd: { default: () => process.cwd() },
-		globalconfig: { default: () => node_path.default.join(po(), "etc", "npmrc") },
-		userconfig: { default: node_path.default.join(process.env.HOME || node_os.default.homedir(), ".npmrc") }
-	});
-	mo = (e, t = process.platform) => t === "win32" && e !== "bun" ? [`${e}.cmd`, e] : [e];
-	bo = (e, t, n, r) => {
+	})))(), 1);
+	Ga = (e, t = process.platform) => t === "win32" && e !== "bun" ? [`${e}.cmd`, e] : [e];
+	Za = (e, t, n, r) => {
 		if (!t) return !1;
 		if (!r || !n) return !0;
-		let i = new Date(n), a = typeof r == "function" ? r(e ?? "") ?? 0 : r, o = typeof a == "string" ? Kn(a) ?? 0 : a;
+		let i = new Date(n), a = typeof r == "function" ? r(e ?? "") ?? 0 : r, o = typeof a == "string" ? Ln(a) ?? 0 : a;
 		return Date.now() - i.getTime() >= o * 864e5;
 	};
-	So = /* @__PURE__ */ l$2({
-		default: () => Bo,
-		defaultPrefix: () => Vo,
-		distTag: () => Ko,
-		getEngines: () => Wo,
-		getPeerDependencies: () => Uo,
-		greatest: () => Ho,
-		latest: () => qo,
-		list: () => Go,
-		minor: () => Yo,
-		newest: () => Jo,
-		normalizeNpmConfig: () => No,
-		npmApi: () => Po,
-		packageAuthorChanged: () => Ro,
-		parseJson: () => Fo,
-		patch: () => Xo,
-		semver: () => Zo
+	$a = /* @__PURE__ */ l$2({
+		default: () => xo,
+		defaultPrefix: () => So,
+		distTag: () => Do,
+		getEngines: () => To,
+		getPeerDependencies: () => wo,
+		greatest: () => Co,
+		latest: () => Oo,
+		list: () => Eo,
+		minor: () => Ao,
+		newest: () => ko,
+		normalizeNpmConfig: () => uo,
+		npmApi: () => fo,
+		packageAuthorChanged: () => yo,
+		parseJson: () => go,
+		patch: () => jo,
+		semver: () => Mo
 	});
-	Co = () => Promise.resolve().then(() => (init_lib_CsU_nP_S(), lib_CsU_nP_S_exports)).then((e) => /* @__PURE__ */ d$2(e.default, 1));
-	To = async () => (await (wo ??= Co())).default;
-	Eo = /* @__PURE__ */ new Set([
+	eo = () => Promise.resolve().then(() => (init_lib_CsU_nP_S(), lib_CsU_nP_S_exports)).then((e) => /* @__PURE__ */ d$2(e.default, 1));
+	no = async () => (await (to ??= eo())).default;
+	ro = /* @__PURE__ */ new Set([
 		"-",
 		"||",
 		"&&",
@@ -38426,11 +38272,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		">",
 		">="
 	]);
-	Do = (e) => (0, me.parseRange)(e).some((e) => Eo.has(e.operator || ""));
-	Oo = (e) => (0, me.parseRange)(e).some((e) => e.operator === "^" || e.operator === "~");
-	ko = (e) => e && (!W.default.validRange(e) || lr(e));
-	Ao = async (e, t, n, r = {}, i) => {
-		let a = await To(), o = a.pickRegistry(e, r), s = {
+	io = (e) => (0, me.parseRange)(e).some((e) => ro.has(e.operator || ""));
+	ao = (e) => (0, me.parseRange)(e).some((e) => e.operator === "^" || e.operator === "~");
+	oo = (e) => e && (!W.default.validRange(e) || er(e));
+	so = async (e, t, n, r = {}, i) => {
+		let a = await no(), o = a.pickRegistry(e, r), s = {
 			"user-agent": r.userAgent || `npm-check-updates/${pe.version} node/${process.version}`,
 			"ncu-version": pe.version,
 			"ncu-pkg-id": `registry:${e}`,
@@ -38450,7 +38296,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				let r = new AbortController(), i = await a(c.href, {
 					...l,
 					signal: r.signal
-				}), o = new ha({
+				}), o = new sa({
 					paths: ["$.*"],
 					keepStack: !1
 				}), s = { name: e }, u = !1, d = null;
@@ -38469,20 +38315,20 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		} catch (a) {
 			if (a.code !== "E404" || r.fullMetadata) throw a;
-			return Ao(e, t, n, {
+			return so(e, t, n, {
 				...r,
 				fullMetadata: !0
 			}, i);
 		}
 	};
-	jo = ({ packageName: e, currentVersion: t, options: n, versions: r, time: i, filter: a = () => !0, compare: o = _r }) => {
-		let s = xo(n), c = W.default.validRange(t) ? W.default.minVersion(t)?.version : null;
+	co = ({ packageName: e, currentVersion: t, options: n, versions: r, time: i, filter: a = () => !0, compare: o = cr }) => {
+		let s = Qa(n), c = W.default.validRange(t) ? W.default.minVersion(t)?.version : null;
 		if (!c) return {
 			targetVersion: null,
 			fallbackVersion: null,
 			targetBlockedByCooldown: !1
 		};
-		let l = !bo(e, c, i?.[c], n.cooldown), u = r.reduce((t, r) => {
+		let l = !Za(e, c, i?.[c], n.cooldown), u = r.reduce((t, r) => {
 			let c = r.version;
 			if (!c || o(c, t.fallbackVersion) <= 0) return t;
 			let l = {
@@ -38490,7 +38336,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				name: e
 			};
 			if (!s(l) || !a?.(c)) return t;
-			let u = i?.[c], d = !n.cooldown || bo(e, c, u, n.cooldown);
+			let u = i?.[c], d = !n.cooldown || Za(e, c, u, n.cooldown);
 			return o(c, t.targetVersion) > 0 && (t.targetVersion = c, t.targetBlockedByCooldown = !d), d && (t.fallbackVersion = c), t;
 		}, {
 			targetVersion: c,
@@ -38503,7 +38349,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			fallbackVersion: f
 		};
 	};
-	Mo = ({ packageName: e, currentVersion: t, options: n, time: r, targetVersion: i, fallbackVersion: a, targetBlockedByCooldown: o }) => {
+	lo = ({ packageName: e, currentVersion: t, options: n, time: r, targetVersion: i, fallbackVersion: a, targetBlockedByCooldown: o }) => {
 		let s = {
 			version: i,
 			...i && r?.[i] ? { time: r[i] } : null
@@ -38527,11 +38373,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return s;
 	};
-	No = (e, t) => {
+	uo = (e, t) => {
 		let n = {
 			cafile: (e) => {
 				if (!e) return;
-				let n = node_fs.default.readFileSync(node_path.default.resolve(t || "", Fa(e)), "utf8"), r = "-----END CERTIFICATE-----";
+				let n = node_fs.default.readFileSync(node_path.default.resolve(t || "", Wa(e)), "utf8"), r = "-----END CERTIFICATE-----";
 				return { ca: n.split(r).filter((e) => !!e.trim()).map((e) => `${e.trimStart()}${r}`) };
 			},
 			maxsockets: "maxSockets",
@@ -38612,68 +38458,95 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}, i = (e) => !!e && e !== "false" && e !== "0", a = (e) => parseInt(e) || 0;
 		return G(e, (e, t) => {
 			let o = typeof t == "string" ? r[e.replace(/-/g, "").toLowerCase()] === "boolean" ? i(t) : r[e.replace(/-/g, "").toLowerCase()] === "number" ? a(t) : t.replace(/\${([^}]+)}/g, (e, t) => process.env[t]) : t, { [e]: s } = n;
-			return typeof s == "string" ? { [s]: o } : typeof s == "function" ? { ...s(o.toString()) } : { [e.match(/^[a-z]/i) ? Oa(e) : e]: o };
+			return typeof s == "string" ? { [s]: o } : typeof s == "function" ? { ...s(o.toString()) } : { [e.match(/^[a-z]/i) ? ba(e) : e]: o };
 		});
 	};
-	Po = {};
-	Po.findNpmConfig = (0, ja.default)((e) => {
+	fo = {};
+	po = (0, xa.default)((e) => {
 		let t;
-		if (e) try {
-			t = Ma.default.parse(node_fs.default.readFileSync(e, "utf-8"));
+		try {
+			let n = node_fs.default.readFileSync(e, "utf-8");
+			t = Va.default.parse(n);
 		} catch (e) {
 			if (e.code === "ENOENT") return null;
 			throw e;
 		}
-		else t = {
-			...uo(null, { userconfig: process.env.npm_config_userconfig || process.env.NPM_CONFIG_USERCONFIG }).toJSON(),
-			cache: !1
-		};
-		return No(t, e);
+		return uo(t, e);
 	});
-	Io = (e) => !!(e && (e.name || e.engines || e.version || e.versions));
-	Po.mockFetchUpgradedPackument = (e) => (t, n, r, i) => {
-		let a = typeof e == "function" ? e(i)?.[t] : typeof e == "string" || Io(e) ? e : e[t], o = Io(a) ? a.version : a;
+	mo = (e) => {
+		try {
+			return Va.default.parse(node_fs.default.readFileSync(e, "utf-8"));
+		} catch (e) {
+			if (e.code === "ENOENT") return {};
+			throw e;
+		}
+	};
+	ho = () => {
+		if (process.env.PREFIX) return process.env.PREFIX;
+		if (process.platform === "win32") return node_path.default.dirname(process.execPath);
+		let e = node_path.default.dirname(node_path.default.dirname(process.execPath));
+		return process.env.DESTDIR ? node_path.default.join(process.env.DESTDIR, e) : e;
+	};
+	fo.findNpmConfig = (0, xa.default)(() => {
+		let e = /^npm_config_/i, t = {};
+		for (let n of Object.keys(process.env)) {
+			if (!e.test(n)) continue;
+			let r = n.toLowerCase().replace(e, "").replace(/(?!^)_/g, "-");
+			t[r] = process.env[n];
+		}
+		let n = process.env.npm_config_userconfig || process.env.NPM_CONFIG_USERCONFIG || node_path.default.join(process.env.HOME || node_os.default.homedir(), ".npmrc"), r = mo(node_path.default.join(ho(), "etc", "npmrc")), i = mo(n), a = Ba(["npmrc", ".npmrc"]), s = a && a !== n ? mo(a) : {};
+		return uo({
+			...r,
+			...i,
+			...s,
+			...t,
+			cache: !1
+		});
+	});
+	_o = (e) => !!(e && (e.name || e.engines || e.version || e.versions));
+	fo.mockFetchUpgradedPackument = (e) => (t, n, r, i) => {
+		let a = typeof e == "function" ? e(i)?.[t] : typeof e == "string" || _o(e) ? e : e[t], o = _o(a) ? a.version : a;
 		if (!o) throw Error(`fetchUpgradedPackument is mocked, but no mock version was supplied for ${t}. Make sure that all dependencies are mocked. `);
-		let s = Io(a) && a.time ? a.time?.[o] : (/* @__PURE__ */ new Date()).toISOString(), c = {
+		let s = _o(a) && a.time ? a.time?.[o] : (/* @__PURE__ */ new Date()).toISOString(), c = {
 			name: t,
 			"dist-tags": { [i.distTag || "latest"]: o },
 			engines: { node: "" },
 			time: { [o]: s },
 			version: o,
 			versions: {},
-			...Io(a) ? a : null
+			..._o(a) ? a : null
 		}, { versions: l, ...u } = c;
 		return Promise.resolve({
 			...c,
-			versions: { ...Io(a) && a.versions || { [o]: u } }
+			versions: { ..._o(a) && a.versions || { [o]: u } }
 		});
 	};
-	Lo = (0, ja.default)(({ npmConfigLocal: e, npmConfigUser: t, npmConfigWorkspaceProject: n }, r) => {
-		let i = r.packageFile ? node_path.default.join(r.packageFile, "../.npmrc") : null, a = r.packageFile ? Po.findNpmConfig(i || void 0) : null, s = r.cwd ? node_path.default.join(r.cwd, ".npmrc") : null, c = r.cwd ? Po.findNpmConfig(s) : null;
+	vo = (0, xa.default)(({ npmConfigLocal: e, npmConfigUser: t, npmConfigWorkspaceProject: n }, r) => {
+		let i = r.packageFile ? node_path.default.join(r.packageFile, "../.npmrc") : void 0, a = i ? po(i) : null, s = r.cwd ? node_path.default.join(r.cwd, ".npmrc") : void 0, c = s ? po(s) : null;
 		if (n && Object.keys(n).length > 0) {
 			q(r, "\nnpm config (workspace project):", "verbose");
 			let { cache: e, ...t } = n;
-			Hr(r, t, "verbose");
+			Nr(r, t, "verbose");
 		}
 		if (t && Object.keys(t).length > 0) {
 			q(r, "\nnpm config (user):", "verbose");
 			let { cache: e, ...n } = t;
-			Hr(r, n, "verbose");
+			Nr(r, n, "verbose");
 		}
 		if (e && Object.keys(e).length > 0) {
 			q(r, "\nnpm config (local override):", "verbose");
 			let { cache: t, ...n } = e;
-			Hr(r, n, "verbose");
+			Nr(r, n, "verbose");
 		}
 		if (a && Object.keys(a).length > 0) {
 			q(r, `\nnpm config (project: ${i}):`, "verbose");
 			let { cache: e, ...t } = a;
-			Hr(r, t, "verbose");
+			Nr(r, t, "verbose");
 		}
 		if (c && Object.keys(c).length > 0) {
 			q(r, `\nnpm config (cwd: ${s}):`, "verbose");
 			let { cache: e, ...t } = c;
-			Hr(r, t, "verbose");
+			Nr(r, t, "verbose");
 		}
 		let l = {
 			...n,
@@ -38690,32 +38563,32 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		if (n || e || a || c) {
 			q(r, "\nmerged npm config:", "verbose");
 			let { cache: e, ...t } = l;
-			Hr(r, t, "verbose");
+			Nr(r, t, "verbose");
 		}
 		return l;
 	});
-	Po.fetchUpgradedPackumentMemo = (0, ja.default)(zo, { serializer: (([e, t, n, r, i, a, o]) => {
+	fo.fetchUpgradedPackumentMemo = (0, xa.default)(bo, { serializer: (([e, t, n, r, i, a, o]) => {
 		let { packageFile: s, ...c } = r;
 		return JSON.stringify([
 			e,
 			t,
-			ko(n),
+			oo(n),
 			c,
 			i,
 			a,
 			o
 		]);
 	}) });
-	Ho = async (e, t, n = {}, r, i, a) => {
+	Co = async (e, t, n = {}, r, i, a) => {
 		let o = ["versions"];
 		n.cooldown && o.push("time");
-		let s = await Po.fetchUpgradedPackumentMemo(e, o, t, n, 0, r, i), c = {
+		let s = await fo.fetchUpgradedPackumentMemo(e, o, t, n, 0, r, i), c = {
 			packageName: e,
 			currentVersion: t,
 			options: n,
 			versions: Object.values(s?.versions ?? {}),
 			time: s?.time
-		}, l = jo(c);
+		}, l = co(c);
 		if (a) {
 			let e = l.targetBlockedByCooldown ? l.fallbackVersion : l.targetVersion;
 			return {
@@ -38723,40 +38596,40 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				...e && s?.time?.[e] ? { time: s.time[e] } : null
 			};
 		}
-		return Mo({
+		return lo({
 			...c,
 			...l
 		});
 	};
-	Uo = async (e, t, n) => {
+	wo = async (e, t, n) => {
 		let r = [
 			"view",
 			`${e}@${t}`,
 			"peerDependencies"
-		], i = await Bo(r, {}, { rejectOnError: !1 }, n);
-		return i ? Fo(i, { command: [...r, "--json"].join(" ") }) : {};
+		], i = await xo(r, {}, { rejectOnError: !1 }, n);
+		return i ? go(i, { command: [...r, "--json"].join(" ") }) : {};
 	};
-	Wo = async (e, t, n = {}, r) => (await Ao(e, ["engines"], null, Lo({
-		npmConfigUser: { ...Po.findNpmConfig() },
+	To = async (e, t, n = {}, r) => (await so(e, ["engines"], null, vo({
+		npmConfigUser: { ...fo.findNpmConfig() },
 		npmConfigLocal: r
 	}, n), t)).engines || {};
-	Go = async (e = {}) => {
-		let t = Fo(await Bo(["ls", "--depth=0"], {
+	Eo = async (e = {}) => {
+		let t = go(await xo(["ls", "--depth=0"], {
 			...e.global ? { global: !0 } : null,
 			...e.prefix ? { prefix: e.prefix } : null
 		}, { rejectOnError: !1 }, { ...e.cwd ? { cwd: e.cwd } : null }), { command: `npm${process.platform === "win32" ? ".cmd" : ""} ls --json${e.global ? " --global" : ""}` }).dependencies;
 		return G(t, (e, t) => ({ [e]: t.version || t.required?.version }));
 	};
-	Ko = async (e, t, n = {}, r, i) => {
+	Do = async (e, t, n = {}, r, i) => {
 		let a = ["dist-tags"];
 		n.cooldown && a.push("time");
-		let o = await Po.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = o?.["dist-tags"]?.[n.distTag || "latest"];
+		let o = await fo.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = o?.["dist-tags"]?.[n.distTag || "latest"];
 		if (!s) return {};
 		let c = o?.versions ? o.versions?.[s] : {
 			name: e,
 			version: s
-		}, l = o?.time?.[s], u = l ? { time: l } : null, d = W.default.validRange(t) && W.default.minVersion(t)?.version || "0.0.0", f = c.version === d || c && bo(e, c.version, l, n.cooldown);
-		return f && xo(n)(c) ? {
+		}, l = o?.time?.[s], u = l ? { time: l } : null, d = W.default.validRange(t) && W.default.minVersion(t)?.version || "0.0.0", f = c.version === d || c && Za(e, c.version, l, n.cooldown);
+		return f && Qa(n)(c) ? {
 			version: c.version,
 			...u
 		} : n.cooldown && !f ? (s && c && q(n, `Skipping ${e}@${s} due to cooldown${l ? ` (published ${l})` : ""}.`, "verbose"), { cooldownInfo: {
@@ -38765,15 +38638,15 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			currentVersionTime: o?.time?.[d],
 			version: c.version,
 			...u
-		} }) : n.distTag && n.distTag !== "latest" ? {} : Ho(e, t, n, r, i, "distTag");
+		} }) : n.distTag && n.distTag !== "latest" ? {} : Co(e, t, n, r, i, "distTag");
 	};
-	qo = async (e, t, n = {}, r, i) => {
-		let a = await Ko(e, t, {
+	Oo = async (e, t, n = {}, r, i) => {
+		let a = await Do(e, t, {
 			...n,
 			distTag: "latest"
 		}, r, i);
 		if (a.cooldownInfo) {
-			let o = await Ho(e, t, n, r, i, "latest");
+			let o = await Co(e, t, n, r, i, "latest");
 			if (o.version) return a.cooldownInfo.fallbackVersion = o.version, {
 				...o,
 				...a
@@ -38781,8 +38654,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return a;
 	};
-	Jo = async (e, t, n = {}, r, i) => {
-		let a = await Po.fetchUpgradedPackumentMemo(e, ["time", "versions"], t, n, 0, r, i), o = Object.values(a?.versions ?? {}), s = a?.time, c = !s || Object.keys(s).length === 0, l = {
+	ko = async (e, t, n = {}, r, i) => {
+		let a = await fo.fetchUpgradedPackumentMemo(e, ["time", "versions"], t, n, 0, r, i), o = Object.values(a?.versions ?? {}), s = a?.time, c = !s || Object.keys(s).length === 0, l = {
 			packageName: e,
 			currentVersion: t,
 			options: n,
@@ -38792,95 +38665,95 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			targetVersion: t,
 			fallbackVersion: null,
 			targetBlockedByCooldown: !1
-		} : jo({
+		} : co({
 			...l,
 			compare: (e, t) => {
 				let n = a?.time?.[e] || "", r = a?.time?.[t] || "";
 				return n > r ? 1 : n < r ? -1 : 0;
 			}
 		});
-		return Mo({
+		return lo({
 			...l,
 			...u
 		});
 	};
-	Yo = async (e, t, n = {}, r, i) => {
+	Ao = async (e, t, n = {}, r, i) => {
 		let a = ["versions"];
 		n.cooldown && a.push("time");
-		let o = await Po.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
+		let o = await fo.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
 			packageName: e,
 			currentVersion: t,
 			options: n,
 			versions: Object.values(o?.versions ?? {}),
 			time: o?.time
-		}, c = jo({
+		}, c = co({
 			...s,
-			filter: br(t, "minor")
+			filter: dr(t, "minor")
 		});
-		return Mo({
+		return lo({
 			...s,
 			...c
 		});
 	};
-	Xo = async (e, t, n = {}, r, i) => {
+	jo = async (e, t, n = {}, r, i) => {
 		let a = ["versions"];
 		n.cooldown && a.push("time");
-		let o = await Po.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
+		let o = await fo.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
 			packageName: e,
 			currentVersion: t,
 			options: n,
 			versions: Object.values(o?.versions ?? {}),
 			time: o?.time
-		}, c = jo({
+		}, c = co({
 			...s,
-			filter: br(t, "patch")
+			filter: dr(t, "patch")
 		});
-		return Mo({
+		return lo({
 			...s,
 			...c
 		});
 	};
-	Zo = async (e, t, n = {}, r, i) => {
-		if (Do(t) && !Oo(t)) return { version: null };
+	Mo = async (e, t, n = {}, r, i) => {
+		if (io(t) && !ao(t)) return { version: null };
 		let a = ["versions"];
 		n.cooldown && a.push("time");
-		let o = await Po.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
+		let o = await fo.fetchUpgradedPackumentMemo(e, a, t, n, 0, r, i), s = {
 			packageName: e,
 			currentVersion: t,
 			options: n,
 			versions: Object.values(o?.versions ?? {}),
 			time: o?.time
-		}, c = jo({
+		}, c = co({
 			...s,
-			filter: xr(t)
+			filter: fr(t)
 		});
-		return Mo({
+		return lo({
 			...s,
 			...c
 		});
 	};
-	Qo = /* @__PURE__ */ l$2({
-		default: () => $o,
-		defaultPrefix: () => es,
-		distTag: () => Ko,
-		getEngines: () => as,
-		getPeerDependencies: () => is,
-		greatest: () => Ho,
-		latest: () => qo,
-		list: () => ts,
-		minor: () => Yo,
-		newest: () => Jo,
-		packageAuthorChanged: () => rs,
-		patch: () => Xo,
-		semver: () => Zo
+	No = /* @__PURE__ */ l$2({
+		default: () => Po,
+		defaultPrefix: () => Fo,
+		distTag: () => Do,
+		getEngines: () => Bo,
+		getPeerDependencies: () => zo,
+		greatest: () => Co,
+		latest: () => Oo,
+		list: () => Io,
+		minor: () => Ao,
+		newest: () => ko,
+		packageAuthorChanged: () => Ro,
+		patch: () => jo,
+		semver: () => Mo
 	});
-	es = async (e) => e.global ? e.prefix || process.env.BUN_INSTALL || node_path.default.dirname((await (0, ta.default)("bun", [
+	Fo = async (e) => e.global ? e.prefix || process.env.BUN_INSTALL || node_path.default.dirname((await (0, qi.default)("bun", [
 		"pm",
 		"-g",
 		"bin"
 	])).stdout) : void 0;
-	ts = async (e = {}) => {
-		let { stdout: t } = await $o(["pm", "ls"], {
+	Io = async (e = {}) => {
+		let { stdout: t } = await Po(["pm", "ls"], {
 			...e.global ? { global: !0 } : null,
 			...e.prefix ? { prefix: e.prefix } : null
 		}, { rejectOnError: !1 }, {
@@ -38899,16 +38772,16 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return null;
 		});
 	};
-	rs = async (e, t, n, r = {}) => {
-		let i = await ns(e, "versions", r);
+	Ro = async (e, t, n, r = {}) => {
+		let i = await Lo(e, "versions", r);
 		if (!Array.isArray(i)) return !1;
 		let a = W.default.minSatisfying(i, t), o = W.default.maxSatisfying(i, n);
 		if (!a || !o) return !1;
-		let [s, c] = await Promise.all([ns(`${e}@${a}`, void 0, r), ns(`${e}@${o}`, void 0, r)]), l = s?._npmUser?.name, u = c?._npmUser?.name;
+		let [s, c] = await Promise.all([Lo(`${e}@${a}`, void 0, r), Lo(`${e}@${o}`, void 0, r)]), l = s?._npmUser?.name, u = c?._npmUser?.name;
 		return !l || !u ? !1 : l !== u;
 	};
-	is = async (e, t, n) => (await ns(`${e}@${t}`, void 0, { cwd: n.cwd }))?.peerDependencies || {};
-	as = async (e, t, n = {}) => (await ns(`${e}@${t}`, void 0, n, { rejectOnError: !0 }))?.engines || {};
+	zo = async (e, t, n) => (await Lo(`${e}@${t}`, void 0, { cwd: n.cwd }))?.peerDependencies || {};
+	Bo = async (e, t, n = {}) => (await Lo(`${e}@${t}`, void 0, n, { rejectOnError: !0 }))?.engines || {};
 	Q = /* @__PURE__ */ c$1(((e) => {
 		var t = Symbol.for("yaml.alias"), n = Symbol.for("yaml.document"), r = Symbol.for("yaml.map"), i = Symbol.for("yaml.pair"), a = Symbol.for("yaml.scalar"), o = Symbol.for("yaml.seq"), s = Symbol.for("yaml.node.type"), c = (e) => !!e && typeof e == "object" && e[s] === t, l = (e) => !!e && typeof e == "object" && e[s] === n, u = (e) => !!e && typeof e == "object" && e[s] === r, d = (e) => !!e && typeof e == "object" && e[s] === i, f = (e) => !!e && typeof e == "object" && e[s] === a, p = (e) => !!e && typeof e == "object" && e[s] === o;
 		function m(e) {
@@ -38929,7 +38802,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.ALIAS = t, e.DOC = n, e.MAP = r, e.NODE_TYPE = s, e.PAIR = i, e.SCALAR = a, e.SEQ = o, e.hasAnchor = (e) => (f(e) || m(e)) && !!e.anchor, e.isAlias = c, e.isCollection = m, e.isDocument = l, e.isMap = u, e.isNode = h, e.isPair = d, e.isScalar = f, e.isSeq = p;
 	}));
-	os$1 = /* @__PURE__ */ c$1(((e) => {
+	Vo = /* @__PURE__ */ c$1(((e) => {
 		var t = Q(), n = Symbol("break visit"), r = Symbol("skip children"), i = Symbol("remove node");
 		function a(e, n) {
 			let r = l(n);
@@ -39024,8 +38897,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.visit = a, e.visitAsync = s;
 	}));
-	ss = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = os$1(), r = {
+	Ho = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Vo(), r = {
 			"!": "%21",
 			",": "%2C",
 			"[": "%5B",
@@ -39117,8 +38990,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			version: "1.2"
 		}, a.defaultTags = { "!!": "tag:yaml.org,2002:" }, e.Directives = a;
 	}));
-	cs = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = os$1();
+	Uo = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Vo();
 		function r(e) {
 			if (/[\x00-\x19\s,[\]{}]/.test(e)) {
 				let t = `Anchor must not contain whitespace or control characters: ${JSON.stringify(e)}`;
@@ -39161,7 +39034,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.anchorIsValid = r, e.anchorNames = i, e.createNodeAnchors = o, e.findNewAnchor = a;
 	}));
-	ls = /* @__PURE__ */ c$1(((e) => {
+	Wo = /* @__PURE__ */ c$1(((e) => {
 		function t(e, n, r, i) {
 			if (i && typeof i == "object") if (Array.isArray(i)) for (let n = 0, r = i.length; n < r; ++n) {
 				let r = i[n], a = t(e, i, String(n), r);
@@ -39183,7 +39056,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.applyReviver = t;
 	}));
-	us = /* @__PURE__ */ c$1(((e) => {
+	Go = /* @__PURE__ */ c$1(((e) => {
 		var t = Q();
 		function n(e, r, i) {
 			if (Array.isArray(e)) return e.map((e, t) => n(e, String(t), i));
@@ -39204,8 +39077,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.toJS = n;
 	}));
-	ds = /* @__PURE__ */ c$1(((e) => {
-		var t = ls(), n = Q(), r = us();
+	Ko = /* @__PURE__ */ c$1(((e) => {
+		var t = Wo(), n = Q(), r = Go();
 		e.NodeBase = class {
 			constructor(e) {
 				Object.defineProperty(this, n.NODE_TYPE, { value: e });
@@ -39229,8 +39102,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	fs$1 = /* @__PURE__ */ c$1(((e) => {
-		var t = cs(), n = os$1(), r = Q(), i = ds(), a = us(), o = class extends i.NodeBase {
+	qo = /* @__PURE__ */ c$1(((e) => {
+		var t = Uo(), n = Vo(), r = Q(), i = Ko(), a = Go(), o = class extends i.NodeBase {
 			constructor(e) {
 				super(r.ALIAS), this.source = e, Object.defineProperty(this, "tag", { set() {
 					throw Error("Alias nodes cannot have tags");
@@ -39293,8 +39166,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.Alias = o;
 	}));
-	ps = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ds(), r = us(), i = (e) => !e || typeof e != "function" && typeof e != "object", a = class extends n.NodeBase {
+	Jo = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Ko(), r = Go(), i = (e) => !e || typeof e != "function" && typeof e != "object", a = class extends n.NodeBase {
 			constructor(e) {
 				super(t.SCALAR), this.value = e;
 			}
@@ -39307,8 +39180,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		a.BLOCK_FOLDED = "BLOCK_FOLDED", a.BLOCK_LITERAL = "BLOCK_LITERAL", a.PLAIN = "PLAIN", a.QUOTE_DOUBLE = "QUOTE_DOUBLE", a.QUOTE_SINGLE = "QUOTE_SINGLE", e.Scalar = a, e.isScalarValue = i;
 	}));
-	ms = /* @__PURE__ */ c$1(((e) => {
-		var t = fs$1(), n = Q(), r = ps(), i = "tag:yaml.org,2002:";
+	Yo = /* @__PURE__ */ c$1(((e) => {
+		var t = qo(), n = Q(), r = Jo(), i = "tag:yaml.org,2002:";
 		function a(e, t, n) {
 			if (t) {
 				let e = n.filter((e) => e.tag === t), r = e.find((e) => !e.format) ?? e[0];
@@ -39347,8 +39220,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createNode = o;
 	}));
-	hs = /* @__PURE__ */ c$1(((e) => {
-		var t = ms(), n = Q(), r = ds();
+	Xo = /* @__PURE__ */ c$1(((e) => {
+		var t = Yo(), n = Q(), r = Ko();
 		function i(e, n, r) {
 			let i = r;
 			for (let e = n.length - 1; e >= 0; --e) {
@@ -39427,14 +39300,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, e.collectionFromPath = i, e.isEmptyPath = a;
 	}));
-	gs = /* @__PURE__ */ c$1(((e) => {
+	Zo = /* @__PURE__ */ c$1(((e) => {
 		var t = (e) => e.replace(/^(?!$)(?: $)?/gm, "#");
 		function n(e, t) {
 			return /^\n+$/.test(e) ? e.substring(1) : t ? e.replace(/^(?! *$)/gm, t) : e;
 		}
 		e.indentComment = n, e.lineComment = (e, t, r) => e.endsWith("\n") ? n(r, t) : r.includes("\n") ? "\n" + n(r, t) : (e.endsWith(" ") ? "" : " ") + r, e.stringifyComment = t;
 	}));
-	_s = /* @__PURE__ */ c$1(((e) => {
+	Qo = /* @__PURE__ */ c$1(((e) => {
 		var t = "flow", n = "block", r = "quoted";
 		function i(e, t, i = "flow", { indentAtStart: o, lineWidth: s = 80, minContentWidth: c = 20, onFold: l, onOverflow: u } = {}) {
 			if (!s || s < 0) return e;
@@ -39499,8 +39372,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.FOLD_BLOCK = n, e.FOLD_FLOW = t, e.FOLD_QUOTED = r, e.foldFlowLines = i;
 	}));
-	vs = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = _s(), r = (e, t) => ({
+	$o = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = Qo(), r = (e, t) => ({
 			indentAtStart: t ? e.indent.length : e.indentAtStart,
 			lineWidth: e.options.lineWidth,
 			minContentWidth: e.options.minContentWidth
@@ -39654,8 +39527,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringifyString = f;
 	}));
-	ys = /* @__PURE__ */ c$1(((e) => {
-		var t = cs(), n = Q(), r = gs(), i = vs();
+	es = /* @__PURE__ */ c$1(((e) => {
+		var t = Uo(), n = Q(), r = Zo(), i = $o();
 		function a(e, t) {
 			let n = Object.assign({
 				blockQuote: !0,
@@ -39740,8 +39613,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createStringifyContext = a, e.stringify = c;
 	}));
-	bs = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ps(), r = ys(), i = gs();
+	ts = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Jo(), r = es(), i = Zo();
 		function a({ key: e, value: a }, o, s, c) {
 			let { allNullValues: l, doc: u, indent: d, indentStep: f, options: { commentString: p, indentSeq: m, simpleKeys: h } } = o, g = t.isNode(e) && e.comment || null;
 			if (h) {
@@ -39787,7 +39660,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringifyPair = a;
 	}));
-	xs = /* @__PURE__ */ c$1(((t) => {
+	ns = /* @__PURE__ */ c$1(((t) => {
 		var n = p$1("process");
 		function r(e, ...t) {
 			e === "debug" && console.log(...t);
@@ -39797,8 +39670,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.debug = r, t.warn = i;
 	}));
-	Ss = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ps(), r = "<<", i = {
+	rs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Jo(), r = "<<", i = {
 			identify: (e) => e === r || typeof e == "symbol" && e.description === r,
 			default: "key",
 			tag: "tag:yaml.org,2002:merge",
@@ -39829,8 +39702,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.addMergeToJSMap = o, e.isMergeKey = a, e.merge = i;
 	}));
-	Cs = /* @__PURE__ */ c$1(((e) => {
-		var t = xs(), n = Ss(), r = ys(), i = Q(), a = us();
+	is = /* @__PURE__ */ c$1(((e) => {
+		var t = ns(), n = rs(), r = es(), i = Q(), a = Go();
 		function o(e, t, { key: r, value: o }) {
 			if (i.isNode(r) && r.addToJSMap) r.addToJSMap(e, t, o);
 			else if (n.isMergeKey(e, r)) n.addMergeToJSMap(e, t, o);
@@ -39869,8 +39742,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.addPairToJSMap = o;
 	}));
-	ws = /* @__PURE__ */ c$1(((e) => {
-		var t = ms(), n = bs(), r = Cs(), i = Q();
+	as = /* @__PURE__ */ c$1(((e) => {
+		var t = Yo(), n = ts(), r = is(), i = Q();
 		function a(e, n, r) {
 			return new o(t.createNode(e, void 0, r), t.createNode(n, void 0, r));
 		}
@@ -39892,8 +39765,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.Pair = o, e.createPair = a;
 	}));
-	Ts = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ys(), r = gs();
+	os$1 = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = es(), r = Zo();
 		function i(e, t, n) {
 			return (t.inFlow ?? e.flow ? o : a)(e, t, n);
 		}
@@ -39965,8 +39838,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringifyCollection = i;
 	}));
-	Es = /* @__PURE__ */ c$1(((e) => {
-		var t = Ts(), n = Cs(), r = hs(), i = Q(), a = ws(), o = ps();
+	ss = /* @__PURE__ */ c$1(((e) => {
+		var t = os$1(), n = is(), r = Xo(), i = Q(), a = as(), o = Jo();
 		function s(e, t) {
 			let n = i.isScalar(t) ? t.value : t;
 			for (let r of e) if (i.isPair(r) && (r.key === t || r.key === n || i.isScalar(r.key) && r.key.value === n)) return r;
@@ -40036,8 +39909,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, e.findPair = s;
 	}));
-	Ds = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = Es();
+	cs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = ss();
 		e.map = {
 			collection: "map",
 			default: !0,
@@ -40049,8 +39922,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			createNode: (e, t, r) => n.YAMLMap.from(e, t, r)
 		};
 	}));
-	Os = /* @__PURE__ */ c$1(((e) => {
-		var t = ms(), n = Ts(), r = hs(), i = Q(), a = ps(), o = us(), s = class extends r.Collection {
+	ls = /* @__PURE__ */ c$1(((e) => {
+		var t = Yo(), n = os$1(), r = Xo(), i = Q(), a = Jo(), o = Go(), s = class extends r.Collection {
 			static get tagName() {
 				return "tag:yaml.org,2002:seq";
 			}
@@ -40120,8 +39993,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.YAMLSeq = s;
 	}));
-	ks = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = Os();
+	us = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = ls();
 		e.seq = {
 			collection: "seq",
 			default: !0,
@@ -40133,8 +40006,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			createNode: (e, t, r) => n.YAMLSeq.from(e, t, r)
 		};
 	}));
-	As = /* @__PURE__ */ c$1(((e) => {
-		var t = vs();
+	ds = /* @__PURE__ */ c$1(((e) => {
+		var t = $o();
 		e.string = {
 			identify: (e) => typeof e == "string",
 			default: !0,
@@ -40145,8 +40018,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	js = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = {
+	fs$1 = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = {
 			identify: (e) => e == null,
 			createNode: () => new t.Scalar(null),
 			default: !0,
@@ -40157,8 +40030,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.nullTag = n;
 	}));
-	Ms = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = {
+	ps = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = {
 			identify: (e) => typeof e == "boolean",
 			default: !0,
 			tag: "tag:yaml.org,2002:bool",
@@ -40170,7 +40043,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.boolTag = n;
 	}));
-	Ns = /* @__PURE__ */ c$1(((e) => {
+	ms = /* @__PURE__ */ c$1(((e) => {
 		function t({ format: e, minFractionDigits: t, tag: n, value: r }) {
 			if (typeof r == "bigint") return String(r);
 			let i = typeof r == "number" ? r : Number(r);
@@ -40186,8 +40059,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringifyNumber = t;
 	}));
-	Ps = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = Ns(), r = {
+	hs = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = ms(), r = {
 			identify: (e) => typeof e == "number",
 			default: !0,
 			tag: "tag:yaml.org,2002:float",
@@ -40218,8 +40091,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, e.floatNaN = r;
 	}));
-	Fs = /* @__PURE__ */ c$1(((e) => {
-		var t = Ns(), n = (e) => typeof e == "bigint" || Number.isInteger(e), r = (e, t, n, { intAsBigInt: r }) => r ? BigInt(e) : parseInt(e.substring(t), n);
+	gs = /* @__PURE__ */ c$1(((e) => {
+		var t = ms(), n = (e) => typeof e == "bigint" || Number.isInteger(e), r = (e, t, n, { intAsBigInt: r }) => r ? BigInt(e) : parseInt(e.substring(t), n);
 		function i(e, r, i) {
 			let { value: a } = e;
 			return n(a) && a >= 0 ? i + a.toString(r) : t.stringifyNumber(e);
@@ -40249,8 +40122,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			stringify: (e) => i(e, 8, "0o")
 		};
 	}));
-	Is = /* @__PURE__ */ c$1(((e) => {
-		var t = Ds(), n = js(), r = ks(), i = As(), a = Ms(), o = Ps(), s = Fs();
+	_s = /* @__PURE__ */ c$1(((e) => {
+		var t = cs(), n = fs$1(), r = us(), i = ds(), a = ps(), o = hs(), s = gs();
 		e.schema = [
 			t.map,
 			r.seq,
@@ -40265,8 +40138,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			o.float
 		];
 	}));
-	Ls = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = Ds(), r = ks();
+	vs = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = cs(), r = us();
 		function i(e) {
 			return typeof e == "bigint" || Number.isInteger(e);
 		}
@@ -40321,8 +40194,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		});
 	}));
-	Rs = /* @__PURE__ */ c$1(((t) => {
-		var n = p$1("buffer"), r = ps(), i = vs();
+	ys = /* @__PURE__ */ c$1(((t) => {
+		var n = p$1("buffer"), r = Jo(), i = $o();
 		t.binary = {
 			identify: (e) => e instanceof Uint8Array,
 			default: !1,
@@ -40357,8 +40230,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	zs = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ws(), r = ps(), i = Os();
+	bs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = as(), r = Jo(), i = ls();
 		function a(e, i) {
 			if (t.isSeq(e)) for (let a = 0; a < e.items.length; ++a) {
 				let o = e.items[a];
@@ -40405,8 +40278,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.createPairs = o, e.pairs = s, e.resolvePairs = a;
 	}));
-	Bs = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = us(), r = Es(), i = Os(), a = zs(), o = class e extends i.YAMLSeq {
+	xs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Go(), r = ss(), i = ls(), a = bs(), o = class e extends i.YAMLSeq {
 			constructor() {
 				super(), this.add = r.YAMLMap.prototype.add.bind(this), this.delete = r.YAMLMap.prototype.delete.bind(this), this.get = r.YAMLMap.prototype.get.bind(this), this.has = r.YAMLMap.prototype.has.bind(this), this.set = r.YAMLMap.prototype.set.bind(this), this.tag = e.tag;
 			}
@@ -40442,8 +40315,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.YAMLOMap = o, e.omap = s;
 	}));
-	Vs = /* @__PURE__ */ c$1(((e) => {
-		var t = ps();
+	Ss = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo();
 		function n({ value: e, source: t }, n) {
 			return t && (e ? r : i).test.test(t) ? t : e ? n.options.trueStr : n.options.falseStr;
 		}
@@ -40464,8 +40337,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.falseTag = i, e.trueTag = r;
 	}));
-	Hs = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = Ns(), r = {
+	Cs = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = ms(), r = {
 			identify: (e) => typeof e == "number",
 			default: !0,
 			tag: "tag:yaml.org,2002:float",
@@ -40500,8 +40373,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, e.floatNaN = r;
 	}));
-	Us = /* @__PURE__ */ c$1(((e) => {
-		var t = Ns(), n = (e) => typeof e == "bigint" || Number.isInteger(e);
+	ws = /* @__PURE__ */ c$1(((e) => {
+		var t = ms(), n = (e) => typeof e == "bigint" || Number.isInteger(e);
 		function r(e, t, n, { intAsBigInt: r }) {
 			let i = e[0];
 			if ((i === "-" || i === "+") && (t += 1), e = e.substring(t).replace(/_/g, ""), r) {
@@ -40564,8 +40437,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.int = s, e.intBin = a, e.intHex = c, e.intOct = o;
 	}));
-	Ws = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ws(), r = Es(), i = class e extends r.YAMLMap {
+	Ts = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = as(), r = ss(), i = class e extends r.YAMLMap {
 			constructor(t) {
 				super(t), this.tag = e.tag;
 			}
@@ -40614,8 +40487,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.YAMLSet = i, e.set = a;
 	}));
-	Gs = /* @__PURE__ */ c$1(((e) => {
-		var t = Ns();
+	Es = /* @__PURE__ */ c$1(((e) => {
+		var t = ms();
 		function n(e, t) {
 			let n = e[0], r = n === "-" || n === "+" ? e.substring(1) : e, i = (e) => t ? BigInt(e) : Number(e), a = r.replace(/_/g, "").split(":").reduce((e, t) => e * i(60) + i(t), i(0));
 			return n === "-" ? i(-1) * a : a;
@@ -40664,8 +40537,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		e.floatTime = a, e.intTime = i, e.timestamp = o;
 	}));
-	Ks = /* @__PURE__ */ c$1(((e) => {
-		var t = Ds(), n = js(), r = ks(), i = As(), a = Rs(), o = Vs(), s = Hs(), c = Us(), l = Ss(), u = Bs(), d = zs(), f = Ws(), p = Gs();
+	Ds = /* @__PURE__ */ c$1(((e) => {
+		var t = cs(), n = fs$1(), r = us(), i = ds(), a = ys(), o = Ss(), s = Cs(), c = ws(), l = rs(), u = xs(), d = bs(), f = Ts(), p = Es();
 		e.schema = [
 			t.map,
 			r.seq,
@@ -40690,8 +40563,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			p.timestamp
 		];
 	}));
-	qs = /* @__PURE__ */ c$1(((e) => {
-		var t = Ds(), n = js(), r = ks(), i = As(), a = Ms(), o = Ps(), s = Fs(), c = Is(), l = Ls(), u = Rs(), d = Ss(), f = Bs(), p = zs(), m = Ks(), h = Ws(), g = Gs(), _ = /* @__PURE__ */ new Map([
+	Os = /* @__PURE__ */ c$1(((e) => {
+		var t = cs(), n = fs$1(), r = us(), i = ds(), a = ps(), o = hs(), s = gs(), c = _s(), l = vs(), u = ys(), d = rs(), f = xs(), p = bs(), m = Ds(), h = Ts(), g = Es(), _ = /* @__PURE__ */ new Map([
 			["core", c.schema],
 			["failsafe", [
 				t.map,
@@ -40750,8 +40623,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.coreKnownTags = y, e.getTags = b;
 	}));
-	Js = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = Ds(), r = ks(), i = As(), a = qs(), o = (e, t) => e.key < t.key ? -1 : +(e.key > t.key);
+	ks = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = cs(), r = us(), i = ds(), a = Os(), o = (e, t) => e.key < t.key ? -1 : +(e.key > t.key);
 		e.Schema = class e {
 			constructor({ compat: e, customTags: s, merge: c, resolveKnownTags: l, schema: u, sortMapEntries: d, toStringDefaults: f }) {
 				this.compat = Array.isArray(e) ? a.getTags(e, "compat") : e ? a.getTags(null, e) : null, this.name = typeof u == "string" && u || "core", this.knownTags = l ? a.coreKnownTags : {}, this.tags = a.getTags(s, this.name, c), this.toStringOptions = f ?? null, Object.defineProperty(this, t.MAP, { value: n.map }), Object.defineProperty(this, t.SCALAR, { value: i.string }), Object.defineProperty(this, t.SEQ, { value: r.seq }), this.sortMapEntries = typeof d == "function" ? d : d === !0 ? o : null;
@@ -40762,8 +40635,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Ys = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ys(), r = gs();
+	As = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = es(), r = Zo();
 		function i(e, i) {
 			let a = [], o = i.directives === !0;
 			if (i.directives !== !1 && e.directives) {
@@ -40801,8 +40674,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringifyDocument = i;
 	}));
-	Xs = /* @__PURE__ */ c$1(((e) => {
-		var t = fs$1(), n = hs(), r = Q(), i = ws(), a = us(), o = Js(), s = Ys(), c = cs(), l = ls(), u = ms(), d = ss(), f = class e {
+	js = /* @__PURE__ */ c$1(((e) => {
+		var t = qo(), n = Xo(), r = Q(), i = as(), a = Go(), o = ks(), s = As(), c = Uo(), l = Wo(), u = Yo(), d = Ho(), f = class e {
 			constructor(e, t, n) {
 				this.commentBefore = null, this.comment = null, this.errors = [], this.warnings = [], Object.defineProperty(this, r.NODE_TYPE, { value: r.DOC });
 				let i = null;
@@ -40948,7 +40821,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.Document = f;
 	}));
-	Zs = /* @__PURE__ */ c$1(((e) => {
+	Ms = /* @__PURE__ */ c$1(((e) => {
 		var t = class extends Error {
 			constructor(e, t, n, r) {
 				super(), this.name = e, this.code = n, this.message = r, this.pos = t;
@@ -40984,7 +40857,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Qs = /* @__PURE__ */ c$1(((e) => {
+	Ns = /* @__PURE__ */ c$1(((e) => {
 		function t(e, { flow: t, indicator: n, next: r, offset: i, onError: a, parentIndent: o, startOnNewline: s }) {
 			let c = !1, l = s, u = s, d = "", f = "", p = !1, m = !1, h = null, g = null, _ = null, v = null, y = null, b = null, x = null;
 			for (let i of e) switch (m &&= (i.type !== "space" && i.type !== "newline" && i.type !== "comma" && a(i.offset, "MISSING_CHAR", "Tags and anchors must be separated from the next token by white space"), !1), h &&= (l && i.type !== "comment" && i.type !== "newline" && a(h, "TAB_AS_INDENT", "Tabs are not allowed as indentation"), null), i.type) {
@@ -41031,7 +40904,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveProps = t;
 	}));
-	$s = /* @__PURE__ */ c$1(((e) => {
+	Ps = /* @__PURE__ */ c$1(((e) => {
 		function t(e) {
 			if (!e) return null;
 			switch (e.type) {
@@ -41058,8 +40931,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.containsNewline = t;
 	}));
-	ec = /* @__PURE__ */ c$1(((e) => {
-		var t = $s();
+	Fs = /* @__PURE__ */ c$1(((e) => {
+		var t = Ps();
 		function n(e, n, r) {
 			if (n?.type === "flow-collection") {
 				let i = n.end[0];
@@ -41068,7 +40941,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.flowIndentCheck = n;
 	}));
-	tc = /* @__PURE__ */ c$1(((e) => {
+	Is = /* @__PURE__ */ c$1(((e) => {
 		var t = Q();
 		function n(e, n, r) {
 			let { uniqueKeys: i } = e.options;
@@ -41078,8 +40951,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.mapIncludes = n;
 	}));
-	nc = /* @__PURE__ */ c$1(((e) => {
-		var t = ws(), n = Es(), r = Qs(), i = $s(), a = ec(), o = tc(), s = "All mapping items must start at the same column";
+	Ls = /* @__PURE__ */ c$1(((e) => {
+		var t = as(), n = ss(), r = Ns(), i = Ps(), a = Fs(), o = Is(), s = "All mapping items must start at the same column";
 		function c({ composeNode: e, composeEmptyNode: c }, l, u, d, f) {
 			let p = new ((f?.nodeClass) ?? n.YAMLMap)(l.schema);
 			l.atRoot &&= !1;
@@ -41131,8 +41004,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveBlockMap = c;
 	}));
-	rc = /* @__PURE__ */ c$1(((e) => {
-		var t = Os(), n = Qs(), r = ec();
+	Rs = /* @__PURE__ */ c$1(((e) => {
+		var t = ls(), n = Ns(), r = Fs();
 		function i({ composeNode: e, composeEmptyNode: i }, a, o, s, c) {
 			let l = new ((c?.nodeClass) ?? t.YAMLSeq)(a.schema);
 			a.atRoot &&= !1, a.atKey &&= !1;
@@ -41162,7 +41035,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveBlockSeq = i;
 	}));
-	ic = /* @__PURE__ */ c$1(((e) => {
+	zs = /* @__PURE__ */ c$1(((e) => {
 		function t(e, t, n, r) {
 			let i = "";
 			if (e) {
@@ -41194,8 +41067,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveEnd = t;
 	}));
-	ac = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ws(), r = Es(), i = Os(), a = ic(), o = Qs(), s = $s(), c = tc(), l = "Block collections are not allowed within flow collections", u = (e) => e && (e.type === "block-map" || e.type === "block-seq");
+	Bs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = as(), r = ss(), i = ls(), a = zs(), o = Ns(), s = Ps(), c = Is(), l = "Block collections are not allowed within flow collections", u = (e) => e && (e.type === "block-map" || e.type === "block-seq");
 		function d({ composeNode: e, composeEmptyNode: d }, f, p, m, h) {
 			let g = p.start.source === "{", _ = g ? "flow map" : "flow sequence", v = new ((h?.nodeClass) ?? (g ? r.YAMLMap : i.YAMLSeq))(f.schema);
 			v.flow = !0;
@@ -41304,8 +41177,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveFlowCollection = d;
 	}));
-	oc = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ps(), r = Es(), i = Os(), a = nc(), o = rc(), s = ac();
+	Vs = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Jo(), r = ss(), i = ls(), a = Ls(), o = Rs(), s = Bs();
 		function c(e, t, n, r, i, c) {
 			let l = n.type === "block-map" ? a.resolveBlockMap(e, t, n, r, c) : n.type === "block-seq" ? o.resolveBlockSeq(e, t, n, r, c) : s.resolveFlowCollection(e, t, n, r, c), u = l.constructor;
 			return i === "!" || i === u.tagName ? (l.tag = u.tagName, l) : (i && (l.tag = i), l);
@@ -41329,8 +41202,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.composeCollection = l;
 	}));
-	sc = /* @__PURE__ */ c$1(((e) => {
-		var t = ps();
+	Hs = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo();
 		function n(e, n, a) {
 			let o = n.offset, s = r(n, e.options.strict, a);
 			if (!s) return {
@@ -41456,8 +41329,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveBlockScalar = n;
 	}));
-	cc = /* @__PURE__ */ c$1(((e) => {
-		var t = ps(), n = ic();
+	Us = /* @__PURE__ */ c$1(((e) => {
+		var t = Jo(), n = zs();
 		function r(e, r, o) {
 			let { offset: c, type: l, source: u, end: d } = e, f, p, m = (e, t, n) => o(c + e, t, n);
 			switch (l) {
@@ -41601,8 +41474,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.resolveFlowScalar = r;
 	}));
-	lc = /* @__PURE__ */ c$1(((e) => {
-		var t = Q(), n = ps(), r = sc(), i = cc();
+	Ws = /* @__PURE__ */ c$1(((e) => {
+		var t = Q(), n = Jo(), r = Hs(), i = Us();
 		function a(e, a, c, l) {
 			let { value: u, type: d, comment: f, range: p } = a.type === "block-scalar" ? r.resolveBlockScalar(e, a, l) : i.resolveFlowScalar(a, e.options.strict, l), m = c ? e.directives.tagName(c.source, (e) => l(c, "TAG_RESOLVE_FAILED", e)) : null, h;
 			h = e.options.stringKeys && e.atKey ? e.schema[t.SCALAR] : m ? o(e.schema, u, m, c, l) : a.type === "scalar" ? s(e, u, a, l) : e.schema[t.SCALAR];
@@ -41638,7 +41511,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.composeScalar = a;
 	}));
-	uc = /* @__PURE__ */ c$1(((e) => {
+	Gs = /* @__PURE__ */ c$1(((e) => {
 		function t(e, t, n) {
 			if (t) {
 				n ??= t.length;
@@ -41659,8 +41532,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.emptyScalarPosition = t;
 	}));
-	dc = /* @__PURE__ */ c$1(((e) => {
-		var t = fs$1(), n = Q(), r = oc(), i = lc(), a = ic(), o = uc(), s = {
+	Ks = /* @__PURE__ */ c$1(((e) => {
+		var t = qo(), n = Q(), r = Vs(), i = Ws(), a = zs(), o = Gs(), s = {
 			composeNode: c,
 			composeEmptyNode: l
 		};
@@ -41710,8 +41583,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.composeEmptyNode = l, e.composeNode = c;
 	}));
-	fc = /* @__PURE__ */ c$1(((e) => {
-		var t = Xs(), n = dc(), r = ic(), i = Qs();
+	qs = /* @__PURE__ */ c$1(((e) => {
+		var t = js(), n = Ks(), r = zs(), i = Ns();
 		function a(e, a, { offset: o, start: s, value: c, end: l }, u) {
 			let d = Object.assign({ _directives: a }, e), f = new t.Document(void 0, d), p = {
 				atKey: !1,
@@ -41737,8 +41610,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.composeDoc = a;
 	}));
-	pc = /* @__PURE__ */ c$1(((t) => {
-		var n = p$1("process"), r = ss(), i = Xs(), a = Zs(), o = Q(), s = fc(), c = ic();
+	Js = /* @__PURE__ */ c$1(((t) => {
+		var n = p$1("process"), r = Ho(), i = js(), a = Ms(), o = Q(), s = qs(), c = zs();
 		function l(e) {
 			if (typeof e == "number") return [e, e + 1];
 			if (Array.isArray(e)) return e.length === 2 ? e : [e[0], e[1]];
@@ -41859,8 +41732,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	mc = /* @__PURE__ */ c$1(((e) => {
-		var t = sc(), n = cc(), r = Zs(), i = vs();
+	Ys = /* @__PURE__ */ c$1(((e) => {
+		var t = Hs(), n = Us(), r = Ms(), i = $o();
 		function a(e, i = !0, a) {
 			if (e) {
 				let o = (e, t, n) => {
@@ -42068,7 +41941,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createScalarToken = o, e.resolveAsScalar = a, e.setScalarValue = s;
 	}));
-	hc = /* @__PURE__ */ c$1(((e) => {
+	Xs = /* @__PURE__ */ c$1(((e) => {
 		var t = (e) => "type" in e ? n(e) : r(e);
 		function n(e) {
 			switch (e.type) {
@@ -42109,7 +41982,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.stringify = t;
 	}));
-	gc = /* @__PURE__ */ c$1(((e) => {
+	Zs = /* @__PURE__ */ c$1(((e) => {
 		var t = Symbol("break visit"), n = Symbol("skip children"), r = Symbol("remove item");
 		function i(e, t) {
 			"type" in e && e.type === "document" && (e = {
@@ -42149,8 +42022,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.visit = i;
 	}));
-	_c = /* @__PURE__ */ c$1(((e) => {
-		var t = mc(), n = hc(), r = gc(), i = "﻿", a = "", o = "", s = "", c = (e) => !!e && "items" in e, l = (e) => !!e && (e.type === "scalar" || e.type === "single-quoted-scalar" || e.type === "double-quoted-scalar" || e.type === "block-scalar");
+	Qs = /* @__PURE__ */ c$1(((e) => {
+		var t = Ys(), n = Xs(), r = Zs(), i = "﻿", a = "", o = "", s = "", c = (e) => !!e && "items" in e, l = (e) => !!e && (e.type === "scalar" || e.type === "single-quoted-scalar" || e.type === "double-quoted-scalar" || e.type === "block-scalar");
 		/* istanbul ignore next */
 		function u(e) {
 			switch (e) {
@@ -42198,8 +42071,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createScalarToken = t.createScalarToken, e.resolveAsScalar = t.resolveAsScalar, e.setScalarValue = t.setScalarValue, e.stringify = n.stringify, e.visit = r.visit, e.BOM = i, e.DOCUMENT = a, e.FLOW_END = o, e.SCALAR = s, e.isCollection = c, e.isScalar = l, e.prettyToken = u, e.tokenType = d;
 	}));
-	vc = /* @__PURE__ */ c$1(((e) => {
-		var t = _c();
+	$s = /* @__PURE__ */ c$1(((e) => {
+		var t = Qs();
 		function n(e) {
 			switch (e) {
 				case void 0:
@@ -42528,7 +42401,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	yc = /* @__PURE__ */ c$1(((e) => {
+	ec = /* @__PURE__ */ c$1(((e) => {
 		e.LineCounter = class {
 			constructor() {
 				this.lineStarts = [], this.addNewLine = (e) => this.lineStarts.push(e), this.linePos = (e) => {
@@ -42554,8 +42427,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	bc = /* @__PURE__ */ c$1(((t) => {
-		var n = p$1("process"), r = _c(), i = vc();
+	tc = /* @__PURE__ */ c$1(((t) => {
+		var n = p$1("process"), r = Qs(), i = $s();
 		function a(e, t) {
 			for (let n = 0; n < e.length; ++n) if (e[n].type === t) return !0;
 			return !1;
@@ -43227,8 +43100,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	xc = /* @__PURE__ */ c$1(((e) => {
-		var t = pc(), n = Xs(), r = Zs(), i = xs(), a = Q(), o = yc(), s = bc();
+	nc = /* @__PURE__ */ c$1(((e) => {
+		var t = Js(), n = js(), r = Ms(), i = ns(), a = Q(), o = ec(), s = tc();
 		function c(e) {
 			let t = e.prettyErrors !== !1;
 			return {
@@ -43275,29 +43148,29 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.parse = d, e.parseAllDocuments = l, e.parseDocument = u, e.stringify = f;
 	}));
-	Sc = /* @__PURE__ */ c$1(((e) => {
-		var t = pc(), n = Xs(), r = Js(), i = Zs(), a = fs$1(), o = Q(), s = ws(), c = ps(), l = Es(), u = Os(), d = _c(), f = vc(), p = yc(), m = bc(), h = xc(), g = os$1();
+	rc = /* @__PURE__ */ c$1(((e) => {
+		var t = Js(), n = js(), r = ks(), i = Ms(), a = qo(), o = Q(), s = as(), c = Jo(), l = ss(), u = ls(), d = Qs(), f = $s(), p = ec(), m = tc(), h = nc(), g = Vo();
 		e.Composer = t.Composer, e.Document = n.Document, e.Schema = r.Schema, e.YAMLError = i.YAMLError, e.YAMLParseError = i.YAMLParseError, e.YAMLWarning = i.YAMLWarning, e.Alias = a.Alias, e.isAlias = o.isAlias, e.isCollection = o.isCollection, e.isDocument = o.isDocument, e.isMap = o.isMap, e.isNode = o.isNode, e.isPair = o.isPair, e.isScalar = o.isScalar, e.isSeq = o.isSeq, e.Pair = s.Pair, e.Scalar = c.Scalar, e.YAMLMap = l.YAMLMap, e.YAMLSeq = u.YAMLSeq, e.CST = d, e.Lexer = f.Lexer, e.LineCounter = p.LineCounter, e.Parser = m.Parser, e.parse = h.parse, e.parseAllDocuments = h.parseAllDocuments, e.parseDocument = h.parseDocument, e.stringify = h.stringify, e.visit = g.visit, e.visitAsync = g.visitAsync;
 	}));
-	Cc = /* @__PURE__ */ l$2({
-		default: () => Vc,
-		defaultPrefix: () => Vo,
-		distTag: () => Pc,
-		getEngines: () => Wo,
-		getPeerDependencies: () => Uo,
-		greatest: () => Fc,
-		latest: () => Ic,
-		list: () => Mc,
-		minor: () => Lc,
-		newest: () => Rc,
-		packageAuthorChanged: () => Ro,
-		patch: () => zc,
-		pnpmApi: () => Hc,
-		semver: () => Bc
+	ic = /* @__PURE__ */ l$2({
+		default: () => Sc,
+		defaultPrefix: () => So,
+		distTag: () => hc,
+		getEngines: () => To,
+		getPeerDependencies: () => wo,
+		greatest: () => gc,
+		latest: () => _c,
+		list: () => pc,
+		minor: () => vc,
+		newest: () => yc,
+		packageAuthorChanged: () => yo,
+		patch: () => bc,
+		pnpmApi: () => Cc,
+		semver: () => xc
 	});
-	wc = Sc();
-	Tc = (0, ja.default)(async (e) => {
-		let t = await $a("pnpm-workspace.yaml");
+	ac = rc();
+	oc = (0, xa.default)(async (e) => {
+		let t = await za("pnpm-workspace.yaml");
 		if (!t) return {};
 		let n = node_path.default.dirname(t), r = node_path.default.join(n, ".npmrc"), i;
 		try {
@@ -43306,14 +43179,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return {};
 		}
 		q(e, `\nUsing pnpm workspace config at ${r}:`, "verbose");
-		let a = No(Ma.default.parse(i), n);
+		let a = uo(Va.default.parse(i), n);
 		return q(e, a, "verbose"), a;
 	});
-	Ec = (e) => {
+	sc = (e) => {
 		let t = typeof e == "number" ? e : typeof e == "string" && e.trim() !== "" ? Number(e) : NaN;
 		return typeof t == "number" && !isNaN(t) && t >= 0 ? t : void 0;
 	};
-	Dc = (e) => {
+	cc = (e) => {
 		if (Array.isArray(e)) return e.filter((e) => typeof e == "string");
 		if (typeof e == "string") {
 			let t = e.trim();
@@ -43325,11 +43198,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return [];
 	};
-	Oc = (e) => ({
-		minimumReleaseAge: Ec(e.minimumReleaseAge ?? e["minimum-release-age"]),
-		minimumReleaseAgeExclude: Dc(e.minimumReleaseAgeExclude ?? e["minimum-release-age-exclude"])
+	lc = (e) => ({
+		minimumReleaseAge: sc(e.minimumReleaseAge ?? e["minimum-release-age"]),
+		minimumReleaseAgeExclude: cc(e.minimumReleaseAgeExclude ?? e["minimum-release-age-exclude"])
 	});
-	kc = () => {
+	uc = () => {
 		if (process.env.XDG_CONFIG_HOME) return node_path.default.join(process.env.XDG_CONFIG_HOME, "pnpm");
 		if (process.platform === "win32") {
 			let e = process.env.LOCALAPPDATA || node_path.default.join(node_os.default.homedir(), "AppData", "Local");
@@ -43337,7 +43210,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return process.platform === "darwin" ? node_path.default.join(node_os.default.homedir(), "Library", "Preferences", "pnpm") : node_path.default.join(node_os.default.homedir(), ".config", "pnpm");
 	};
-	Ac = async (e, t) => {
+	dc = async (e, t) => {
 		let n;
 		try {
 			n = await node_fs_promises.default.readFile(e, "utf-8");
@@ -43346,89 +43219,89 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		let r;
 		try {
-			r = (t === "yaml" ? (0, wc.parse)(n) : Ma.default.parse(n)) ?? {};
+			r = (t === "yaml" ? (0, ac.parse)(n) : Va.default.parse(n)) ?? {};
 		} catch {
 			return null;
 		}
-		return Oc(r);
+		return lc(r);
 	};
-	jc = async () => {
-		let e = kc(), t = await $a("pnpm-workspace.yaml"), n = await Promise.all([
-			t ? Ac(t, "yaml") : Promise.resolve(null),
-			Ac(node_path.default.join(e, "config.yaml"), "yaml"),
-			Ac(node_path.default.join(e, "rc"), "ini")
+	fc = async () => {
+		let e = uc(), t = await za("pnpm-workspace.yaml"), n = await Promise.all([
+			t ? dc(t, "yaml") : Promise.resolve(null),
+			dc(node_path.default.join(e, "config.yaml"), "yaml"),
+			dc(node_path.default.join(e, "rc"), "ini")
 		]), r = n.find((e) => e?.minimumReleaseAge != null)?.minimumReleaseAge;
 		return r == null ? null : {
 			minimumReleaseAge: r,
 			minimumReleaseAgeExclude: [...new Set(n.flatMap((e) => e?.minimumReleaseAgeExclude ?? []))]
 		};
 	};
-	Mc = async (e = {}) => {
-		if (!e.global) return Go(e);
-		let { stdout: t } = await ho("pnpm", [
+	pc = async (e = {}) => {
+		if (!e.global) return Eo(e);
+		let { stdout: t } = await Ka("pnpm", [
 			"ls",
 			"-g",
 			"--json"
 		]);
 		return G(JSON.parse(t)[0].dependencies || {}, (e, { version: t }) => ({ [e]: t }));
 	};
-	Nc = (e) => async (t, n, r = {}) => e(t, n, r, {}, await Tc(r));
-	Pc = Nc(Ko);
-	Fc = Nc(Ho);
-	Ic = Nc(qo);
-	Lc = Nc(Yo);
-	Rc = Nc(Jo);
-	zc = Nc(Xo);
-	Bc = Nc(Zo);
-	Hc = { getPnpmWorkspaceMinimumReleaseAge: jc };
-	Uc = /* @__PURE__ */ l$2({
-		default: () => Qc,
-		defaultPrefix: () => $c,
-		distTag: () => nl,
-		getEngines: () => ul,
-		getPathToLookForYarnrc: () => qc,
-		getPeerDependencies: () => ll,
-		greatest: () => rl,
-		latest: () => il,
-		list: () => el,
-		minor: () => al,
-		newest: () => ol,
-		npmAuthTokenKeyValue: () => Gc,
-		packageAuthorChanged: () => dl,
-		patch: () => sl,
-		semver: () => cl,
-		yarnApi: () => fl
+	mc = (e) => async (t, n, r = {}) => e(t, n, r, {}, await oc(r));
+	hc = mc(Do);
+	gc = mc(Co);
+	_c = mc(Oo);
+	vc = mc(Ao);
+	yc = mc(ko);
+	bc = mc(jo);
+	xc = mc(Mo);
+	Cc = { getPnpmWorkspaceMinimumReleaseAge: fc };
+	wc = /* @__PURE__ */ l$2({
+		default: () => Nc,
+		defaultPrefix: () => Pc,
+		distTag: () => Lc,
+		getEngines: () => Gc,
+		getPathToLookForYarnrc: () => Oc,
+		getPeerDependencies: () => Wc,
+		greatest: () => Rc,
+		latest: () => zc,
+		list: () => Fc,
+		minor: () => Bc,
+		newest: () => Vc,
+		npmAuthTokenKeyValue: () => Ec,
+		packageAuthorChanged: () => Kc,
+		patch: () => Hc,
+		semver: () => Uc,
+		yarnApi: () => qc
 	});
-	Wc = (e, t) => e.replace(/\$\{(\w+)(?:(:)?-([^}]*))?\}/g, (e, n, r, i = "") => {
+	Tc = (e, t) => e.replace(/\$\{(\w+)(?:(:)?-([^}]*))?\}/g, (e, n, r, i = "") => {
 		let a = t[n];
 		return r ? a || i : a ?? i;
 	});
-	Gc = (e) => (t, n) => {
+	Ec = (e) => (t, n) => {
 		if (n.npmAuthToken) {
 			let r = n.npmRegistryServer || e[`@${t}:registry`];
 			if (r) {
 				let e = r.replace(/^https?:/, "");
-				return e.endsWith("/") && (e = e.slice(0, -1)), { [`${e}/:_authToken`]: Wc(n.npmAuthToken, process.env) };
+				return e.endsWith("/") && (e = e.slice(0, -1)), { [`${e}/:_authToken`]: Tc(n.npmAuthToken, process.env) };
 			}
 		}
 		return null;
 	};
-	Kc = (e, t) => t.npmRegistryServer ? { [`@${e}:registry`]: Wc(t.npmRegistryServer, process.env) } : null;
-	Jc = (0, ja.default)(async (e) => {
-		let t = await qc(e), n = node_path.default.join(node_os.default.homedir(), ".yarnrc.yml"), r = typeof t == "string" && await Mn(t), i = await Mn(n), a = r ? await node_fs_promises.default.readFile(t, "utf-8") : "", l = i ? await node_fs_promises.default.readFile(n, "utf-8") : "", u = (0, wc.parse)(a), d = (0, wc.parse)(l), f = {
-			...G(d?.npmScopes || {}, Kc),
-			...G(u?.npmScopes || {}, Kc)
+	Dc = (e, t) => t.npmRegistryServer ? { [`@${e}:registry`]: Tc(t.npmRegistryServer, process.env) } : null;
+	kc = (0, xa.default)(async (e) => {
+		let t = await Oc(e), n = node_path.default.join(node_os.default.homedir(), ".yarnrc.yml"), r = typeof t == "string" && await Cn(t), i = await Cn(n), a = r ? await node_fs_promises.default.readFile(t, "utf-8") : "", l = i ? await node_fs_promises.default.readFile(n, "utf-8") : "", u = (0, ac.parse)(a), d = (0, ac.parse)(l), f = {
+			...G(d?.npmScopes || {}, Dc),
+			...G(u?.npmScopes || {}, Dc)
 		};
 		return f = {
 			...f,
-			...G(d?.npmScopes || {}, Gc(f)),
-			...G(u?.npmScopes || {}, Gc(f))
+			...G(d?.npmScopes || {}, Ec(f)),
+			...G(u?.npmScopes || {}, Ec(f))
 		}, r && (q(e, `\nUsing local yarn config at ${t}:`, "verbose"), q(e, u, "verbose")), i && (q(e, `\nUsing user yarn config at ${n}:`, "verbose"), q(e, d, "verbose")), Object.keys(f) && (q(e, "\nMerged yarn config in npm format:", "verbose"), q(e, f, "verbose")), f;
 	});
-	Yc = (0, ja.default)(async (e) => {
-		let t = await qc(e), n = node_path.default.join(node_os.default.homedir(), ".yarnrc.yml");
+	Ac = (0, xa.default)(async (e) => {
+		let t = await Oc(e), n = node_path.default.join(node_os.default.homedir(), ".yarnrc.yml");
 		for (let e of [t, n]) {
-			if (!e || !await Mn(e)) continue;
+			if (!e || !await Cn(e)) continue;
 			let t;
 			try {
 				t = await node_fs_promises.default.readFile(e, "utf-8");
@@ -43437,7 +43310,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 			let n;
 			try {
-				n = (0, wc.parse)(t) ?? {};
+				n = (0, ac.parse)(t) ?? {};
 			} catch {
 				continue;
 			}
@@ -43446,7 +43319,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				if (isNaN(r) || r <= 0) continue;
 				i = r;
 			} else if (typeof r == "string") {
-				let e = Kn(r);
+				let e = Ln(r);
 				if (e === null || e <= 0) continue;
 				i = e * 1440;
 			} else continue;
@@ -43458,28 +43331,28 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return null;
 	});
-	el = async (e = {}, t) => G(Xc(await Qc("list", e, {}, {
+	Fc = async (e = {}, t) => G(jc(await Nc("list", e, {}, {
 		...e.cwd ? { cwd: e.cwd } : {},
 		...t
 	})).dependencies, (e, t) => ({ [e]: t.version || t.required?.version }));
-	tl = (e) => async (t, n, r = {}) => e(t, n, r, await Jc(r));
-	nl = tl(Ko);
-	rl = tl(Ho);
-	il = tl(qo);
-	al = tl(Yo);
-	ol = tl(Jo);
-	sl = tl(Xo);
-	cl = tl(Zo);
-	ll = async (e, t, n) => {
-		let { stdout: r } = await ho("yarn", ["--version"], { rejectOnError: !1 }, n);
+	Ic = (e) => async (t, n, r = {}) => e(t, n, r, await kc(r));
+	Lc = Ic(Do);
+	Rc = Ic(Co);
+	zc = Ic(Oo);
+	Bc = Ic(Ao);
+	Vc = Ic(ko);
+	Hc = Ic(jo);
+	Uc = Ic(Mo);
+	Wc = async (e, t, n) => {
+		let { stdout: r } = await Ka("yarn", ["--version"], { rejectOnError: !1 }, n);
 		if (r.startsWith("1")) {
 			let r = [
 				"--json",
 				"info",
 				`${e}@${t}`,
 				"peerDependencies"
-			], { stdout: i } = await ho("yarn", r, { rejectOnError: !1 }, n);
-			return i && Fo(i, { command: r.join(" ") }).data || {};
+			], { stdout: i } = await Ka("yarn", r, { rejectOnError: !1 }, n);
+			return i && go(i, { command: r.join(" ") }).data || {};
 		} else {
 			let r = [
 				"--json",
@@ -43488,23 +43361,23 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				`${e}@${t}`,
 				"--fields",
 				"peerDependencies"
-			], { stdout: i } = await ho("yarn", r, { rejectOnError: !1 }, n);
+			], { stdout: i } = await Ka("yarn", r, { rejectOnError: !1 }, n);
 			if (!i) return {};
 			try {
-				return Fo(i, { command: r.join(" ") }).peerDependencies || {};
+				return go(i, { command: r.join(" ") }).peerDependencies || {};
 			} catch (e) {
 				try {
-					let e = Zc(i);
-					if (e) return Fo(e, { command: r.join(" ") }).peerDependencies || {};
+					let e = Mc(i);
+					if (e) return go(e, { command: r.join(" ") }).peerDependencies || {};
 				} catch {}
 				throw e;
 			}
 		}
 	};
-	ul = async (e, t, n = {}) => Wo(e, t, n, await Jc(n));
-	dl = async (e, t, n, r = {}) => Ro(e, t, n, r, await Jc(r));
-	fl = { getYarnMinimalAgeGate: Yc };
-	pl = async (e, t) => {
+	Gc = async (e, t, n = {}) => To(e, t, n, await kc(n));
+	Kc = async (e, t, n, r = {}) => yo(e, t, n, r, await kc(r));
+	qc = { getYarnMinimalAgeGate: Ac };
+	Jc = async (e, t) => {
 		let n, r;
 		try {
 			r = await node_fs_promises.default.readFile(t, "utf-8"), n = JSON.parse(r);
@@ -43518,62 +43391,62 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			filepath: t
 		};
 	};
-	hl = {
+	Xc = {
 		lang: void 0,
 		message: void 0,
 		abortEarly: void 0,
 		abortPipeEarly: void 0
 	};
-	Tl = /* @__PURE__ */ new WeakMap();
-	kl = class extends Error {
+	ol = /* @__PURE__ */ new WeakMap();
+	ul = class extends Error {
 		constructor(e) {
 			super(e[0].message), this.name = "ValiError", this.issues = e;
 		}
 	};
-	Hl = {
-		catalog: /* @__PURE__ */ Il(/* @__PURE__ */ Ll(/* @__PURE__ */ Rl(), /* @__PURE__ */ Rl())),
-		catalogs: /* @__PURE__ */ jl(/* @__PURE__ */ Il(/* @__PURE__ */ Ll(/* @__PURE__ */ Rl(), /* @__PURE__ */ Ll(/* @__PURE__ */ Rl(), /* @__PURE__ */ Rl()))), void 0)
+	Cl = {
+		catalog: /* @__PURE__ */ _l(/* @__PURE__ */ vl(/* @__PURE__ */ yl(), /* @__PURE__ */ yl())),
+		catalogs: /* @__PURE__ */ fl(/* @__PURE__ */ _l(/* @__PURE__ */ vl(/* @__PURE__ */ yl(), /* @__PURE__ */ vl(/* @__PURE__ */ yl(), /* @__PURE__ */ yl()))), void 0)
 	};
-	Ul = /* @__PURE__ */ Fl({
-		...Hl,
-		workspaces: /* @__PURE__ */ jl(/* @__PURE__ */ Il(/* @__PURE__ */ Bl([/* @__PURE__ */ Nl(/* @__PURE__ */ Rl()), /* @__PURE__ */ Pl(Hl)])), void 0)
+	wl = /* @__PURE__ */ gl({
+		...Cl,
+		workspaces: /* @__PURE__ */ fl(/* @__PURE__ */ _l(/* @__PURE__ */ xl([/* @__PURE__ */ ml(/* @__PURE__ */ yl()), /* @__PURE__ */ hl(Cl)])), void 0)
 	});
-	Wl = (e) => Vl(Ul, e);
-	ql = {
+	Tl = (e) => Sl(wl, e);
+	Ol = {
 		dev: "devDependencies",
 		peer: "peerDependencies",
 		prod: "dependencies",
 		optional: "optionalDependencies"
 	};
-	Jl = (e) => (e ? typeof e == "string" ? e.split(",") : e : Ni.dep.default).map((e) => ql[e] || e);
+	kl = (e) => (e ? typeof e == "string" ? e.split(",") : e : Ti.dep.default).map((e) => Ol[e] || e);
 	(function(e) {
 		e[e.lineFeed = 10] = "lineFeed", e[e.carriageReturn = 13] = "carriageReturn", e[e.space = 32] = "space", e[e._0 = 48] = "_0", e[e._1 = 49] = "_1", e[e._2 = 50] = "_2", e[e._3 = 51] = "_3", e[e._4 = 52] = "_4", e[e._5 = 53] = "_5", e[e._6 = 54] = "_6", e[e._7 = 55] = "_7", e[e._8 = 56] = "_8", e[e._9 = 57] = "_9", e[e.a = 97] = "a", e[e.b = 98] = "b", e[e.c = 99] = "c", e[e.d = 100] = "d", e[e.e = 101] = "e", e[e.f = 102] = "f", e[e.g = 103] = "g", e[e.h = 104] = "h", e[e.i = 105] = "i", e[e.j = 106] = "j", e[e.k = 107] = "k", e[e.l = 108] = "l", e[e.m = 109] = "m", e[e.n = 110] = "n", e[e.o = 111] = "o", e[e.p = 112] = "p", e[e.q = 113] = "q", e[e.r = 114] = "r", e[e.s = 115] = "s", e[e.t = 116] = "t", e[e.u = 117] = "u", e[e.v = 118] = "v", e[e.w = 119] = "w", e[e.x = 120] = "x", e[e.y = 121] = "y", e[e.z = 122] = "z", e[e.A = 65] = "A", e[e.B = 66] = "B", e[e.C = 67] = "C", e[e.D = 68] = "D", e[e.E = 69] = "E", e[e.F = 70] = "F", e[e.G = 71] = "G", e[e.H = 72] = "H", e[e.I = 73] = "I", e[e.J = 74] = "J", e[e.K = 75] = "K", e[e.L = 76] = "L", e[e.M = 77] = "M", e[e.N = 78] = "N", e[e.O = 79] = "O", e[e.P = 80] = "P", e[e.Q = 81] = "Q", e[e.R = 82] = "R", e[e.S = 83] = "S", e[e.T = 84] = "T", e[e.U = 85] = "U", e[e.V = 86] = "V", e[e.W = 87] = "W", e[e.X = 88] = "X", e[e.Y = 89] = "Y", e[e.Z = 90] = "Z", e[e.asterisk = 42] = "asterisk", e[e.backslash = 92] = "backslash", e[e.closeBrace = 125] = "closeBrace", e[e.closeBracket = 93] = "closeBracket", e[e.colon = 58] = "colon", e[e.comma = 44] = "comma", e[e.dot = 46] = "dot", e[e.doubleQuote = 34] = "doubleQuote", e[e.minus = 45] = "minus", e[e.openBrace = 123] = "openBrace", e[e.openBracket = 91] = "openBracket", e[e.plus = 43] = "plus", e[e.slash = 47] = "slash", e[e.formFeed = 12] = "formFeed", e[e.tab = 9] = "tab";
-	})(nu ||= {}), Array(20).fill(0).map((e, t) => " ".repeat(t));
-	ru = 200;
-	Array(ru).fill(0).map((e, t) => "\n" + " ".repeat(t)), Array(ru).fill(0).map((e, t) => "\r" + " ".repeat(t)), Array(ru).fill(0).map((e, t) => "\r\n" + " ".repeat(t)), Array(ru).fill(0).map((e, t) => "\n" + "	".repeat(t)), Array(ru).fill(0).map((e, t) => "\r" + "	".repeat(t)), Array(ru).fill(0).map((e, t) => "\r\n" + "	".repeat(t));
+	})(Ll ||= {}), Array(20).fill(0).map((e, t) => " ".repeat(t));
+	Rl = 200;
+	Array(Rl).fill(0).map((e, t) => "\n" + " ".repeat(t)), Array(Rl).fill(0).map((e, t) => "\r" + " ".repeat(t)), Array(Rl).fill(0).map((e, t) => "\r\n" + " ".repeat(t)), Array(Rl).fill(0).map((e, t) => "\n" + "	".repeat(t)), Array(Rl).fill(0).map((e, t) => "\r" + "	".repeat(t)), Array(Rl).fill(0).map((e, t) => "\r\n" + "	".repeat(t));
 	(function(e) {
 		e.DEFAULT = { allowTrailingComma: !1 };
-	})(iu ||= {});
+	})(zl ||= {});
 	(function(e) {
 		e[e.None = 0] = "None", e[e.UnexpectedEndOfComment = 1] = "UnexpectedEndOfComment", e[e.UnexpectedEndOfString = 2] = "UnexpectedEndOfString", e[e.UnexpectedEndOfNumber = 3] = "UnexpectedEndOfNumber", e[e.InvalidUnicode = 4] = "InvalidUnicode", e[e.InvalidEscapeCharacter = 5] = "InvalidEscapeCharacter", e[e.InvalidCharacter = 6] = "InvalidCharacter";
-	})(fu ||= {});
+	})(ql ||= {});
 	(function(e) {
 		e[e.OpenBraceToken = 1] = "OpenBraceToken", e[e.CloseBraceToken = 2] = "CloseBraceToken", e[e.OpenBracketToken = 3] = "OpenBracketToken", e[e.CloseBracketToken = 4] = "CloseBracketToken", e[e.CommaToken = 5] = "CommaToken", e[e.ColonToken = 6] = "ColonToken", e[e.NullKeyword = 7] = "NullKeyword", e[e.TrueKeyword = 8] = "TrueKeyword", e[e.FalseKeyword = 9] = "FalseKeyword", e[e.StringLiteral = 10] = "StringLiteral", e[e.NumericLiteral = 11] = "NumericLiteral", e[e.LineCommentTrivia = 12] = "LineCommentTrivia", e[e.BlockCommentTrivia = 13] = "BlockCommentTrivia", e[e.LineBreakTrivia = 14] = "LineBreakTrivia", e[e.Trivia = 15] = "Trivia", e[e.Unknown = 16] = "Unknown", e[e.EOF = 17] = "EOF";
-	})(pu ||= {});
-	mu = au;
-	hu = ou;
-	gu = su;
-	_u = lu;
+	})(Jl ||= {});
+	Yl = Bl;
+	Xl = Vl;
+	Zl = Hl;
+	Ql = Wl;
 	(function(e) {
 		e[e.InvalidSymbol = 1] = "InvalidSymbol", e[e.InvalidNumberFormat = 2] = "InvalidNumberFormat", e[e.PropertyNameExpected = 3] = "PropertyNameExpected", e[e.ValueExpected = 4] = "ValueExpected", e[e.ColonExpected = 5] = "ColonExpected", e[e.CommaExpected = 6] = "CommaExpected", e[e.CloseBraceExpected = 7] = "CloseBraceExpected", e[e.CloseBracketExpected = 8] = "CloseBracketExpected", e[e.EndOfFileExpected = 9] = "EndOfFileExpected", e[e.InvalidCommentToken = 10] = "InvalidCommentToken", e[e.UnexpectedEndOfComment = 11] = "UnexpectedEndOfComment", e[e.UnexpectedEndOfString = 12] = "UnexpectedEndOfString", e[e.UnexpectedEndOfNumber = 13] = "UnexpectedEndOfNumber", e[e.InvalidUnicode = 14] = "InvalidUnicode", e[e.InvalidEscapeCharacter = 15] = "InvalidEscapeCharacter", e[e.InvalidCharacter = 16] = "InvalidCharacter";
-	})(vu ||= {});
-	Cu = process.stdout.columns || 80;
-	Pu = /* @__PURE__ */ new Set([
+	})($l ||= {});
+	iu = process.stdout.columns || 80;
+	hu = /* @__PURE__ */ new Set([
 		"yarn",
 		"pnpm",
 		"bun"
 	]);
-	Fu = (e, t, n, { spawnOptions: r, spawnPleaseOptions: i } = {}) => {
+	gu = (e, t, n, { spawnOptions: r, spawnPleaseOptions: i } = {}) => {
 		n && console.log(K.blue([t.packageManager, ...e].join(" ")));
 		let a = {
 			cwd: t.cwd || process.cwd(),
@@ -43588,29 +43461,29 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			...t.global ? { global: !0 } : null,
 			...t.prefix ? { prefix: t.prefix } : null
 		};
-		return (t.packageManager === "pnpm" ? Vc : t.packageManager === "yarn" ? Qc : t.packageManager === "bun" ? $o : Bo)(e, o, i, a);
+		return (t.packageManager === "pnpm" ? Sc : t.packageManager === "yarn" ? Nc : t.packageManager === "bun" ? Po : xo)(e, o, i, a);
 	};
-	Iu = async (e) => {
+	_u = async (e) => {
 		(e.packageData || e.packageFile) && (console.error("--packageData and --packageFile are not allowed with --doctor. You must execute \"ncu --doctor\" in a directory with a package file so it can install dependencies and test them."), process.exit(1));
 		let t;
 		try {
-			t = await pl(e, "package.json");
+			t = await Jc(e, "package.json");
 		} catch {
 			console.error("Missing or invalid package.json"), process.exit(1);
 		}
 		return !e.doctorTest && !t.pkg.scripts?.test && (console.error("No npm \"test\" script defined. You must define a \"test\" script in the \"scripts\" section of your package.json to use --doctor."), process.exit(1)), t;
 	};
-	Lu = async (e, t) => {
-		kn();
-		let n = t.packageManager === "yarn" ? "yarn.lock" : t.packageManager === "pnpm" ? "pnpm-lock.yaml" : t.packageManager === "bun" ? "bun.lock" : "package-lock.json", { pkg: r, pkgFile: i } = await Iu(t), a = {
+	vu = async (e, t) => {
+		_n();
+		let n = t.packageManager === "yarn" ? "yarn.lock" : t.packageManager === "pnpm" ? "pnpm-lock.yaml" : t.packageManager === "bun" ? "bun.lock" : "package-lock.json", { pkg: r, pkgFile: i } = await _u(t), a = {
 			...r.dependencies,
 			...r.devDependencies,
 			...r.optionalDependencies
 		}, o = async () => {
 			if (t.doctorInstall) {
 				let [e, ...n] = t.doctorInstall.split(" ");
-				console.log(K.blue(t.doctorInstall)), await (0, ta.default)(e, n);
-			} else await Fu(["install"], { packageManager: t.packageManager }, !0);
+				console.log(K.blue(t.doctorInstall)), await (0, qi.default)(e, n);
+			} else await gu(["install"], { packageManager: t.packageManager }, !0);
 		}, c = async () => {
 			let e = {
 				stderr: (e) => {
@@ -43624,8 +43497,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				let n = t.doctorTest.matchAll(/"(.+?)"|'(.+?)'|[^ ]+/g), r = [];
 				for (let e of n) r = [...r, e[2] || e[1] || e[0]];
 				let [i, ...a] = r;
-				console.log(K.blue(t.doctorTest)), await (0, ta.default)(i, a, e);
-			} else await Fu(["run", "test"], { packageManager: t.packageManager }, !0, { spawnPleaseOptions: e });
+				console.log(K.blue(t.doctorTest)), await (0, qi.default)(i, a, e);
+			} else await gu(["run", "test"], { packageManager: t.packageManager }, !0, { spawnPleaseOptions: e });
 		};
 		console.log("Running tests before upgrading"), await o();
 		let l = "";
@@ -43657,7 +43530,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		let d = !1;
 		try {
-			await o(), d = !0, await c(), console.log(`${K.green("✓")} Tests pass`), await Xr(t, {
+			await o(), d = !0, await c(), console.log(`${K.green("✓")} Tests pass`), await Vr(t, {
 				current: a,
 				upgraded: u,
 				total: Object.keys(u || {}).length
@@ -43676,19 +43549,19 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 			let f, p;
 			for ([f, p] of Object.entries(u)) try {
-				if (await Fu([...Pu.has(t.packageManager ?? "") ? ["add"] : ["install", "--no-save"], `${f}@${p}`], { packageManager: t.packageManager }, !0), r.scripts?.prepare) try {
-					await Fu(["run", "prepare"], { packageManager: t.packageManager }, !0);
+				if (await gu([...hu.has(t.packageManager ?? "") ? ["add"] : ["install", "--no-save"], `${f}@${p}`], { packageManager: t.packageManager }, !0), r.scripts?.prepare) try {
+					await gu(["run", "prepare"], { packageManager: t.packageManager }, !0);
 				} catch (e) {
 					throw console.error(K.red("Prepare script failed")), e;
 				}
-				await c(), console.log(`  ${K.green("✓")} ${f} ${a[f]} → ${p}`), e = await Nu(e, { [f]: a[f] }, { [f]: p }, t), l = await node_fs_promises.default.readFile(n, "utf-8");
+				await c(), console.log(`  ${K.green("✓")} ${f} ${a[f]} → ${p}`), e = await mu(e, { [f]: a[f] }, { [f]: p }, t), l = await node_fs_promises.default.readFile(n, "utf-8");
 			} catch (r) {
-				console.error(`  ${K.red("✗")} ${f} ${a[f]} → ${p}\n`), console.error(K.red(r)), await node_fs_promises.default.writeFile(n, l), Pu.has(t.packageManager ?? "") && await node_fs_promises.default.writeFile("package.json", e);
+				console.error(`  ${K.red("✗")} ${f} ${a[f]} → ${p}\n`), console.error(K.red(r)), await node_fs_promises.default.writeFile(n, l), hu.has(t.packageManager ?? "") && await node_fs_promises.default.writeFile("package.json", e);
 			}
 			e !== i && (console.log("Saving partially upgraded package.json"), await node_fs_promises.default.writeFile("package.json", e)), await o();
 		}
 	};
-	zu = /* @__PURE__ */ c$1(((e) => {
+	bu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.splitWhen = e.flatten = void 0;
 		function t(e) {
 			return e.reduce((e, t) => [].concat(e, t), []);
@@ -43701,14 +43574,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.splitWhen = n;
 	}));
-	Bu = /* @__PURE__ */ c$1(((e) => {
+	xu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.isEnoentCodeError = void 0;
 		function t(e) {
 			return e.code === "ENOENT";
 		}
 		e.isEnoentCodeError = t;
 	}));
-	Vu = /* @__PURE__ */ c$1(((e) => {
+	Su = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.createDirentFromStats = void 0;
 		var t = class {
 			constructor(e, t) {
@@ -43720,7 +43593,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createDirentFromStats = n;
 	}));
-	Hu = /* @__PURE__ */ c$1(((t) => {
+	Cu = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 }), t.convertPosixPathToPattern = t.convertWindowsPathToPattern = t.convertPathToPattern = t.escapePosixPath = t.escapeWindowsPath = t.escape = t.removeLeadingDotSegment = t.makeAbsolute = t.unixify = void 0;
 		var n = p$1("os"), r = p$1("path"), i = n.platform() === "win32", a = 2, o = /(\\?)([()*?[\]{|}]|^!|[!+@](?=\()|\\(?![!()*+?@[\]{|}]))/g, s = /(\\?)([()[\]{}]|^!|[!+@](?=\())/g, c = /^\\\\([.?])/, l = /\\(?![!()+@[\]{}])/g;
 		function u(e) {
@@ -43756,7 +43629,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.convertPosixPathToPattern = g;
 	}));
-	Uu = /* @__PURE__ */ c$1(((e, t) => {
+	wu = /* @__PURE__ */ c$1(((e, t) => {
 		t.exports = function(e) {
 			if (typeof e != "string" || e === "") return !1;
 			for (var t; t = /(\\).|([@?!+*]\(.*\))/g.exec(e);) {
@@ -43766,8 +43639,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return !1;
 		};
 	}));
-	Wu = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Uu(), r = {
+	Tu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = wu(), r = {
 			"{": "}",
 			"(": ")",
 			"[": "]"
@@ -43811,8 +43684,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return t && t.strict === !1 && (r = a), r(e);
 		};
 	}));
-	Gu = /* @__PURE__ */ c$1(((t, n) => {
-		var r = Wu(), i = p$1("path").posix.dirname, a = p$1("os").platform() === "win32", o = "/", s = /\\/g, c = /[\{\[].*[\}\]]$/, l = /(^|[^\\])([\{\[]|\([^\)]+$)/, u = /\\([\!\*\?\|\[\]\(\)\{\}])/g;
+	Eu = /* @__PURE__ */ c$1(((t, n) => {
+		var r = Tu(), i = p$1("path").posix.dirname, a = p$1("os").platform() === "win32", o = "/", s = /\\/g, c = /[\{\[].*[\}\]]$/, l = /(^|[^\\])([\{\[]|\([^\)]+$)/, u = /\\([\!\*\?\|\[\]\(\)\{\}])/g;
 		n.exports = function(e, t) {
 			Object.assign({ flipBackslashes: !0 }, t).flipBackslashes && a && e.indexOf(o) < 0 && (e = e.replace(s, o)), c.test(e) && (e += o), e += "a";
 			do
@@ -43821,7 +43694,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return e.replace(u, "$1");
 		};
 	}));
-	Ku = /* @__PURE__ */ c$1(((e) => {
+	Du = /* @__PURE__ */ c$1(((e) => {
 		e.isInteger = (e) => typeof e == "number" ? Number.isInteger(e) : typeof e == "string" && e.trim() !== "" && Number.isInteger(Number(e)), e.find = (e, t) => e.nodes.find((e) => e.type === t), e.exceedsLimit = (t, n, r = 1, i) => i === !1 || !e.isInteger(t) || !e.isInteger(n) ? !1 : (Number(n) - Number(t)) / Number(r) >= i, e.escapeNode = (e, t = 0, n) => {
 			let r = e.nodes[t];
 			r && (n && r.type === n || r.type === "open" || r.type === "close") && r.escaped !== !0 && (r.value = "\\" + r.value, r.escaped = !0);
@@ -43840,8 +43713,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return n(e), t;
 		};
 	}));
-	qu = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Ku();
+	Ou = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Du();
 		t.exports = (e, t = {}) => {
 			let r = (e, i = {}) => {
 				let a = t.escapeInvalid && n.isInvalidBrace(i), o = e.invalid === !0 && t.escapeInvalid === !0, s = "";
@@ -43853,13 +43726,13 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return r(e);
 		};
 	}));
-	Ju = /* @__PURE__ */ c$1(((e, t) => {
+	ku = /* @__PURE__ */ c$1(((e, t) => {
 		t.exports = function(e) {
 			return typeof e == "number" ? e - e === 0 : typeof e == "string" && e.trim() !== "" ? Number.isFinite ? Number.isFinite(+e) : isFinite(+e) : !1;
 		};
 	}));
-	Yu = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Ju(), r = (e, t, a) => {
+	Au = /* @__PURE__ */ c$1(((e, t) => {
+		var n = ku(), r = (e, t, a) => {
 			if (n(e) === !1) throw TypeError("toRegexRange: expected the first argument to be a number");
 			if (t === void 0 || e === t) return String(e);
 			if (n(t) === !1) throw TypeError("toRegexRange: expected the second argument to be a number.");
@@ -43969,8 +43842,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		r.cache = {}, r.clearCache = () => r.cache = {}, t.exports = r;
 	}));
-	Xu = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("util"), i = Yu(), a = (e) => typeof e == "object" && !!e && !Array.isArray(e), o = (e) => (t) => e === !0 ? Number(t) : String(t), s = (e) => typeof e == "number" || typeof e == "string" && e !== "", c = (e) => Number.isInteger(+e), l = (e) => {
+	ju = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("util"), i = Au(), a = (e) => typeof e == "object" && !!e && !Array.isArray(e), o = (e) => (t) => e === !0 ? Number(t) : String(t), s = (e) => typeof e == "number" || typeof e == "string" && e !== "", c = (e) => Number.isInteger(+e), l = (e) => {
 			let t = `${e}`, n = -1;
 			if (t[0] === "-" && (t = t.slice(1)), t === "0") return !1;
 			for (; t[++n] === "0";);
@@ -44048,8 +43921,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		};
 		n.exports = x;
 	}));
-	Zu = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Xu(), r = Ku();
+	Mu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = ju(), r = Du();
 		t.exports = (e, t = {}) => {
 			let i = (e, a = {}) => {
 				let o = r.isInvalidBrace(a), s = e.invalid === !0 && t.escapeInvalid === !0, c = o === !0 || s === !0, l = t.escapeInvalid === !0 ? "\\" : "", u = "";
@@ -44074,8 +43947,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return i(e);
 		};
 	}));
-	Qu = /* @__PURE__ */ c$1(((e, t) => {
-		var n = Xu(), r = qu(), i = Ku(), a = (e = "", t = "", n = !1) => {
+	Nu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = ju(), r = Ou(), i = Du(), a = (e = "", t = "", n = !1) => {
 			let r = [];
 			if (e = [].concat(e), t = [].concat(t), !t.length) return e;
 			if (!e.length) return n ? i.flatten(t).map((e) => `{${e}}`) : t;
@@ -44126,7 +43999,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return i.flatten(s(e));
 		};
 	}));
-	$u = /* @__PURE__ */ c$1(((e, t) => {
+	Pu = /* @__PURE__ */ c$1(((e, t) => {
 		t.exports = {
 			MAX_LENGTH: 1e4,
 			CHAR_0: "0",
@@ -44175,8 +44048,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			CHAR_ZERO_WIDTH_NOBREAK_SPACE: "﻿"
 		};
 	}));
-	ed = /* @__PURE__ */ c$1(((e, t) => {
-		var n = qu(), { MAX_LENGTH: r, CHAR_BACKSLASH: i, CHAR_BACKTICK: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_LEFT_PARENTHESES: c, CHAR_RIGHT_PARENTHESES: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_RIGHT_CURLY_BRACE: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_RIGHT_SQUARE_BRACKET: p, CHAR_DOUBLE_QUOTE: m, CHAR_SINGLE_QUOTE: h, CHAR_NO_BREAK_SPACE: g, CHAR_ZERO_WIDTH_NOBREAK_SPACE: _ } = $u();
+	Fu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Ou(), { MAX_LENGTH: r, CHAR_BACKSLASH: i, CHAR_BACKTICK: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_LEFT_PARENTHESES: c, CHAR_RIGHT_PARENTHESES: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_RIGHT_CURLY_BRACE: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_RIGHT_SQUARE_BRACKET: p, CHAR_DOUBLE_QUOTE: m, CHAR_SINGLE_QUOTE: h, CHAR_NO_BREAK_SPACE: g, CHAR_ZERO_WIDTH_NOBREAK_SPACE: _ } = Pu();
 		t.exports = (e, t = {}) => {
 			if (typeof e != "string") throw TypeError("Expected a string");
 			let v = t || {}, y = typeof v.maxLength == "number" ? Math.min(r, v.maxLength) : r;
@@ -44361,8 +44234,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return A({ type: "eos" }), b;
 		};
 	}));
-	td = /* @__PURE__ */ c$1(((e, t) => {
-		var n = qu(), r = Zu(), i = Qu(), a = ed(), o = (e, t = {}) => {
+	Iu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Ou(), r = Mu(), i = Nu(), a = Fu(), o = (e, t = {}) => {
 			let n = [];
 			if (Array.isArray(e)) for (let r of e) {
 				let e = o.create(r, t);
@@ -44377,7 +44250,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return t.noempty === !0 && (n = n.filter(Boolean)), t.nodupes === !0 && (n = [...new Set(n)]), n;
 		}, o.create = (e, t = {}) => e === "" || e.length < 3 ? [e] : t.expand === !0 ? o.expand(e, t) : o.compile(e, t), t.exports = o;
 	}));
-	nd = /* @__PURE__ */ c$1(((t, n) => {
+	Lu = /* @__PURE__ */ c$1(((t, n) => {
 		var r = p$1("path"), i = "\\\\/", a = `[^${i}]`, o = 0, s = "\\.", c = "\\+", l = "\\?", u = "\\/", d = "(?=.)", f = "[^/]", p = `(?:${u}|$)`, m = `(?:^|${u})`, h = `${s}{1,2}${p}`, g = {
 			DOT_LITERAL: s,
 			PLUS_LITERAL: c,
@@ -44518,8 +44391,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	rd = /* @__PURE__ */ c$1(((t) => {
-		var n = p$1("path"), r = process.platform === "win32", { REGEX_BACKSLASH: i, REGEX_REMOVE_BACKSLASH: a, REGEX_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_GLOBAL: s } = nd();
+	Ru = /* @__PURE__ */ c$1(((t) => {
+		var n = p$1("path"), r = process.platform === "win32", { REGEX_BACKSLASH: i, REGEX_REMOVE_BACKSLASH: a, REGEX_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_GLOBAL: s } = Lu();
 		t.isObject = (e) => typeof e == "object" && !!e && !Array.isArray(e), t.hasRegexChars = (e) => o.test(e), t.isRegexChar = (e) => e.length === 1 && t.hasRegexChars(e), t.escapeRegex = (e) => e.replace(s, "\\$1"), t.toPosixSlashes = (e) => e.replace(i, "/"), t.removeBackslashes = (e) => e.replace(a, (e) => e === "\\" ? "" : e), t.supportsLookbehinds = () => {
 			let e = process.version.slice(1).split(".").map(Number);
 			return e.length === 3 && e[0] >= 9 || e[0] === 8 && e[1] >= 10;
@@ -44534,8 +44407,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return t.negated === !0 && (r = `(?:^(?!${r}).*$)`), r;
 		};
 	}));
-	id = /* @__PURE__ */ c$1(((e, t) => {
-		var n = rd(), { CHAR_ASTERISK: r, CHAR_AT: i, CHAR_BACKWARD_SLASH: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_EXCLAMATION_MARK: c, CHAR_FORWARD_SLASH: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_LEFT_PARENTHESES: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_PLUS: p, CHAR_QUESTION_MARK: m, CHAR_RIGHT_CURLY_BRACE: h, CHAR_RIGHT_PARENTHESES: g, CHAR_RIGHT_SQUARE_BRACKET: _ } = nd(), v = (e) => e === l || e === a, y = (e) => {
+	zu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Ru(), { CHAR_ASTERISK: r, CHAR_AT: i, CHAR_BACKWARD_SLASH: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_EXCLAMATION_MARK: c, CHAR_FORWARD_SLASH: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_LEFT_PARENTHESES: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_PLUS: p, CHAR_QUESTION_MARK: m, CHAR_RIGHT_CURLY_BRACE: h, CHAR_RIGHT_PARENTHESES: g, CHAR_RIGHT_SQUARE_BRACKET: _ } = Lu(), v = (e) => e === l || e === a, y = (e) => {
 			e.isPrefix !== !0 && (e.depth = e.isGlobstar ? Infinity : 1);
 		};
 		t.exports = (e, t) => {
@@ -44685,8 +44558,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return ce;
 		};
 	}));
-	ad = /* @__PURE__ */ c$1(((e, t) => {
-		var n = nd(), r = rd(), { MAX_LENGTH: i, POSIX_REGEX_SOURCE: a, REGEX_NON_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_BACKREF: s, REPLACEMENTS: c } = n, l = (e, t) => {
+	Bu = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Lu(), r = Ru(), { MAX_LENGTH: i, POSIX_REGEX_SOURCE: a, REGEX_NON_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_BACKREF: s, REPLACEMENTS: c } = n, l = (e, t) => {
 			if (typeof t.expandRange == "function") return t.expandRange(...e, t);
 			e.sort();
 			let n = `[${e.join("-")}]`;
@@ -45341,8 +45214,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return E && a.strictSlashes !== !0 && (E += `${d}?`), E;
 		}, t.exports = y;
 	}));
-	od = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("path"), i = id(), a = ad(), o = rd(), s = nd(), c = (e) => e && typeof e == "object" && !Array.isArray(e), l = (e, t, n = !1) => {
+	Vu = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("path"), i = zu(), a = Bu(), o = Ru(), s = Lu(), c = (e) => e && typeof e == "object" && !Array.isArray(e), l = (e, t, n = !1) => {
 			if (Array.isArray(e)) {
 				let r = e.map((e) => l(e, t, n));
 				return (e) => {
@@ -45423,11 +45296,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, l.constants = s, n.exports = l;
 	}));
-	sd = /* @__PURE__ */ c$1(((e, t) => {
-		t.exports = od();
+	Hu = /* @__PURE__ */ c$1(((e, t) => {
+		t.exports = Vu();
 	}));
-	cd = /* @__PURE__ */ c$1(((t, n) => {
-		var r = p$1("util"), i = td(), a = sd(), o = rd(), s = (e) => e === "" || e === "./", c = (e) => {
+	Uu = /* @__PURE__ */ c$1(((t, n) => {
+		var r = p$1("util"), i = Iu(), a = Hu(), o = Ru(), s = (e) => e === "" || e === "./", c = (e) => {
 			let t = e.indexOf("{");
 			return t > -1 && e.indexOf("}", t) > -1;
 		}, l = (e, t, n) => {
@@ -45517,9 +45390,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			});
 		}, l.hasBraces = c, n.exports = l;
 	}));
-	ld = /* @__PURE__ */ c$1(((t) => {
+	Wu = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 }), t.isAbsolute = t.partitionAbsoluteAndRelative = t.removeDuplicateSlashes = t.matchAny = t.convertPatternsToRe = t.makeRe = t.getPatternParts = t.expandBraceExpansion = t.expandPatternsWithBraceExpansion = t.isAffectDepthOfReadingPattern = t.endsWithSlashGlobStar = t.hasGlobStar = t.getBaseDirectory = t.isPatternRelatedToParentDirectory = t.getPatternsOutsideCurrentDirectory = t.getPatternsInsideCurrentDirectory = t.getPositivePatterns = t.getNegativePatterns = t.isPositivePattern = t.isNegativePattern = t.convertToNegativePattern = t.convertToPositivePattern = t.isDynamicPattern = t.isStaticPattern = void 0;
-		var n = p$1("path"), r = Gu(), i = cd(), a = "**", o = "\\", s = /[*?]|^!/, c = /\[[^[]*]/, l = /(?:^|[^!*+?@])\([^(]*\|[^|]*\)/, u = /[!*+?@]\([^(]*\)/, d = /,|\.\./, f = /(?!^)\/{2,}/g;
+		var n = p$1("path"), r = Eu(), i = Uu(), a = "**", o = "\\", s = /[*?]|^!/, c = /\[[^[]*]/, l = /(?:^|[^!*+?@])\([^(]*\|[^|]*\)/, u = /[!*+?@]\([^(]*\)/, d = /,|\.\./, f = /(?!^)\/{2,}/g;
 		function p(e, t = {}) {
 			return !m(e, t);
 		}
@@ -45634,7 +45507,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.isAbsolute = M;
 	}));
-	ud = /* @__PURE__ */ c$1(((t, n) => {
+	Gu = /* @__PURE__ */ c$1(((t, n) => {
 		var r = p$1("stream").PassThrough, i = Array.prototype.slice;
 		n.exports = a;
 		function a() {
@@ -45689,9 +45562,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return e;
 		}
 	}));
-	dd = /* @__PURE__ */ c$1(((e) => {
+	Ku = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.merge = void 0;
-		var t = ud();
+		var t = Gu();
 		function n(e) {
 			let n = t(e);
 			return e.forEach((e) => {
@@ -45703,7 +45576,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			e.forEach((e) => e.emit("close"));
 		}
 	}));
-	fd = /* @__PURE__ */ c$1(((e) => {
+	qu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.isEmpty = e.isString = void 0;
 		function t(e) {
 			return typeof e == "string";
@@ -45714,12 +45587,12 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.isEmpty = n;
 	}));
-	pd = /* @__PURE__ */ c$1(((e) => {
-		Object.defineProperty(e, "__esModule", { value: !0 }), e.string = e.stream = e.pattern = e.path = e.fs = e.errno = e.array = void 0, e.array = zu(), e.errno = Bu(), e.fs = Vu(), e.path = Hu(), e.pattern = ld(), e.stream = dd(), e.string = fd();
+	Ju = /* @__PURE__ */ c$1(((e) => {
+		Object.defineProperty(e, "__esModule", { value: !0 }), e.string = e.stream = e.pattern = e.path = e.fs = e.errno = e.array = void 0, e.array = bu(), e.errno = xu(), e.fs = Su(), e.path = Cu(), e.pattern = Wu(), e.stream = Ku(), e.string = qu();
 	}));
-	md = /* @__PURE__ */ c$1(((e) => {
+	Yu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.convertPatternGroupToTask = e.convertPatternGroupsToTasks = e.groupPatternsByBaseDirectory = e.getNegativePatternsAsPositive = e.getPositivePatterns = e.convertPatternsToTasks = e.generate = void 0;
-		var t = pd();
+		var t = Ju();
 		function n(e, n) {
 			let s = r(e, n), c = r(n.ignore, n), l = a(s), u = o(s, c), d = l.filter((e) => t.pattern.isStaticPattern(e, n)), f = l.filter((e) => t.pattern.isDynamicPattern(e, n)), p = i(d, u, !1), m = i(f, u, !0);
 			return p.concat(m);
@@ -45764,7 +45637,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.convertPatternGroupToTask = l;
 	}));
-	hd = /* @__PURE__ */ c$1(((e) => {
+	Xu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.read = void 0;
 		function t(e, t, i) {
 			t.fs.lstat(e, (a, o) => {
@@ -45797,7 +45670,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			e(null, t);
 		}
 	}));
-	gd = /* @__PURE__ */ c$1(((e) => {
+	Zu = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.read = void 0;
 		function t(e, t) {
 			let n = t.fs.lstatSync(e);
@@ -45812,7 +45685,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.read = t;
 	}));
-	_d = /* @__PURE__ */ c$1(((t) => {
+	Qu = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 }), t.createFileSystemAdapter = t.FILE_SYSTEM_ADAPTER = void 0;
 		var n = p$1("fs");
 		t.FILE_SYSTEM_ADAPTER = {
@@ -45826,9 +45699,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.createFileSystemAdapter = r;
 	}));
-	vd = /* @__PURE__ */ c$1(((e) => {
+	$u = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = _d();
+		var t = Qu();
 		e.default = class {
 			constructor(e = {}) {
 				this._options = e, this.followSymbolicLink = this._getValue(this._options.followSymbolicLink, !0), this.fs = t.createFileSystemAdapter(this._options.fs), this.markSymbolicLink = this._getValue(this._options.markSymbolicLink, !1), this.throwErrorOnBrokenSymbolicLink = this._getValue(this._options.throwErrorOnBrokenSymbolicLink, !0);
@@ -45838,9 +45711,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	yd = /* @__PURE__ */ c$1(((e) => {
+	ed = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.statSync = e.stat = e.Settings = void 0;
-		var t = hd(), n = gd(), r = vd();
+		var t = Xu(), n = Zu(), r = $u();
 		e.Settings = r.default;
 		function i(e, n, r) {
 			if (typeof n == "function") {
@@ -45859,15 +45732,15 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return e instanceof r.default ? e : new r.default(e);
 		}
 	}));
-	bd = /* @__PURE__ */ c$1(((e, t) => {
+	td = /* @__PURE__ */ c$1(((e, t) => {
 		var n;
 		t.exports = typeof queueMicrotask == "function" ? queueMicrotask.bind(typeof window < "u" ? window : global) : (e) => (n ||= Promise.resolve()).then(e).catch((e) => setTimeout(() => {
 			throw e;
 		}, 0));
 	}));
-	xd = /* @__PURE__ */ c$1(((e, t) => {
+	nd = /* @__PURE__ */ c$1(((e, t) => {
 		t.exports = r;
-		var n = bd();
+		var n = td();
 		function r(e, t) {
 			let r, i, a, o = !0;
 			Array.isArray(e) ? (r = [], i = e.length) : (a = Object.keys(e), r = {}, i = a.length);
@@ -45891,14 +45764,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}) : s(null), o = !1;
 		}
 	}));
-	Sd = /* @__PURE__ */ c$1(((e) => {
+	rd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.IS_SUPPORT_READDIR_WITH_FILE_TYPES = void 0;
 		var t = process.versions.node.split(".");
 		if (t[0] === void 0 || t[1] === void 0) throw Error(`Unexpected behavior. The 'process.versions.node' variable has invalid value: ${process.versions.node}`);
 		var n = Number.parseInt(t[0], 10), r = Number.parseInt(t[1], 10), i = 10;
 		e.IS_SUPPORT_READDIR_WITH_FILE_TYPES = n > i || n === i && r >= 10;
 	}));
-	Cd = /* @__PURE__ */ c$1(((e) => {
+	id = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.createDirentFromStats = void 0;
 		var t = class {
 			constructor(e, t) {
@@ -45910,19 +45783,19 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.createDirentFromStats = n;
 	}));
-	wd = /* @__PURE__ */ c$1(((e) => {
-		Object.defineProperty(e, "__esModule", { value: !0 }), e.fs = void 0, e.fs = Cd();
+	ad = /* @__PURE__ */ c$1(((e) => {
+		Object.defineProperty(e, "__esModule", { value: !0 }), e.fs = void 0, e.fs = id();
 	}));
-	Td = /* @__PURE__ */ c$1(((e) => {
+	od = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.joinPathSegments = void 0;
 		function t(e, t, n) {
 			return e.endsWith(n) ? e + t : e + n + t;
 		}
 		e.joinPathSegments = t;
 	}));
-	Ed = /* @__PURE__ */ c$1(((e) => {
+	sd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.readdir = e.readdirWithFileTypes = e.read = void 0;
-		var t = yd(), n = xd(), r = Sd(), i = wd(), a = Td();
+		var t = ed(), n = nd(), r = rd(), i = ad(), a = od();
 		function o(e, t, n) {
 			if (!t.stats && r.IS_SUPPORT_READDIR_WITH_FILE_TYPES) {
 				s(e, t, n);
@@ -46014,9 +45887,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			e(null, t);
 		}
 	}));
-	Dd = /* @__PURE__ */ c$1(((e) => {
+	cd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.readdir = e.readdirWithFileTypes = e.read = void 0;
-		var t = yd(), n = Sd(), r = wd(), i = Td();
+		var t = ed(), n = rd(), r = ad(), i = od();
 		function a(e, t) {
 			return !t.stats && n.IS_SUPPORT_READDIR_WITH_FILE_TYPES ? o(e, t) : s(e, t);
 		}
@@ -46050,7 +45923,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.readdir = s;
 	}));
-	Od = /* @__PURE__ */ c$1(((t) => {
+	ld = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 }), t.createFileSystemAdapter = t.FILE_SYSTEM_ADAPTER = void 0;
 		var n = p$1("fs");
 		t.FILE_SYSTEM_ADAPTER = {
@@ -46066,9 +45939,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.createFileSystemAdapter = r;
 	}));
-	kd = /* @__PURE__ */ c$1(((t) => {
+	ud = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("path"), r = yd(), i = Od();
+		var n = p$1("path"), r = ed(), i = ld();
 		t.default = class {
 			constructor(e = {}) {
 				this._options = e, this.followSymbolicLinks = this._getValue(this._options.followSymbolicLinks, !1), this.fs = i.createFileSystemAdapter(this._options.fs), this.pathSegmentSeparator = this._getValue(this._options.pathSegmentSeparator, n.sep), this.stats = this._getValue(this._options.stats, !1), this.throwErrorOnBrokenSymbolicLink = this._getValue(this._options.throwErrorOnBrokenSymbolicLink, !0), this.fsStatSettings = new r.Settings({
@@ -46082,9 +45955,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Ad = /* @__PURE__ */ c$1(((e) => {
+	dd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.Settings = e.scandirSync = e.scandir = void 0;
-		var t = Ed(), n = Dd(), r = kd();
+		var t = sd(), n = cd(), r = ud();
 		e.Settings = r.default;
 		function i(e, n, r) {
 			if (typeof n == "function") {
@@ -46103,7 +45976,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return e instanceof r.default ? e : new r.default(e);
 		}
 	}));
-	jd = /* @__PURE__ */ c$1(((e, t) => {
+	fd = /* @__PURE__ */ c$1(((e, t) => {
 		function n(e) {
 			var t = new e(), n = t;
 			function r() {
@@ -46120,8 +45993,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.exports = n;
 	}));
-	Md = /* @__PURE__ */ c$1(((e, t) => {
-		var n = jd();
+	pd = /* @__PURE__ */ c$1(((e, t) => {
+		var n = fd();
 		function r(e, t, r) {
 			if (typeof e == "function" && (r = t, t = e, e = null), !(r >= 1)) throw Error("fastqueue concurrency must be equal to or greater than 1");
 			var o = n(a), s = null, c = null, l = 0, u = null, d = {
@@ -46265,7 +46138,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.exports = r, t.exports.promise = o;
 	}));
-	Nd = /* @__PURE__ */ c$1(((e) => {
+	md = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.joinPathSegments = e.replacePathSegmentSeparator = e.isAppliedFilter = e.isFatalError = void 0;
 		function t(e, t) {
 			return e.errorFilter === null || !e.errorFilter(t);
@@ -46284,18 +46157,18 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		e.joinPathSegments = i;
 	}));
-	Pd = /* @__PURE__ */ c$1(((e) => {
+	hd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Nd();
+		var t = md();
 		e.default = class {
 			constructor(e, n) {
 				this._root = e, this._settings = n, this._root = t.replacePathSegmentSeparator(e, n.pathSegmentSeparator);
 			}
 		};
 	}));
-	Fd = /* @__PURE__ */ c$1(((t) => {
+	gd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("events"), r = Ad(), i = Md(), a = Nd(), o = Pd();
+		var n = p$1("events"), r = dd(), i = pd(), a = md(), o = hd();
 		t.default = class extends o.default {
 			constructor(e, t) {
 				super(e, t), this._settings = t, this._scandir = r.scandir, this._emitter = new n.EventEmitter(), this._queue = i(this._worker.bind(this), this._settings.concurrency), this._isFatalError = !1, this._isDestroyed = !1, this._queue.drain = () => {
@@ -46355,9 +46228,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Id = /* @__PURE__ */ c$1(((e) => {
+	_d = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Fd();
+		var t = gd();
 		e.default = class {
 			constructor(e, n) {
 				this._root = e, this._settings = n, this._reader = new t.default(this._root, this._settings), this._storage = [];
@@ -46379,9 +46252,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			e(null, t);
 		}
 	}));
-	Ld = /* @__PURE__ */ c$1(((t) => {
+	vd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("stream"), r = Fd();
+		var n = p$1("stream"), r = gd();
 		t.default = class {
 			constructor(e, t) {
 				this._root = e, this._settings = t, this._reader = new r.default(this._root, this._settings), this._stream = new n.Readable({
@@ -46403,9 +46276,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Rd = /* @__PURE__ */ c$1(((e) => {
+	yd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Ad(), n = Nd(), r = Pd();
+		var t = dd(), n = md(), r = hd();
 		e.default = class extends r.default {
 			constructor() {
 				super(...arguments), this._scandir = t.scandirSync, this._storage = [], this._queue = /* @__PURE__ */ new Set();
@@ -46442,9 +46315,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	zd = /* @__PURE__ */ c$1(((e) => {
+	bd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Rd();
+		var t = yd();
 		e.default = class {
 			constructor(e, n) {
 				this._root = e, this._settings = n, this._reader = new t.default(this._root, this._settings);
@@ -46454,9 +46327,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Bd = /* @__PURE__ */ c$1(((t) => {
+	xd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("path"), r = Ad();
+		var n = p$1("path"), r = dd();
 		t.default = class {
 			constructor(e = {}) {
 				this._options = e, this.basePath = this._getValue(this._options.basePath, void 0), this.concurrency = this._getValue(this._options.concurrency, Infinity), this.deepFilter = this._getValue(this._options.deepFilter, null), this.entryFilter = this._getValue(this._options.entryFilter, null), this.errorFilter = this._getValue(this._options.errorFilter, null), this.pathSegmentSeparator = this._getValue(this._options.pathSegmentSeparator, n.sep), this.fsScandirSettings = new r.Settings({
@@ -46472,9 +46345,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Vd = /* @__PURE__ */ c$1(((e) => {
+	Sd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 }), e.Settings = e.walkStream = e.walkSync = e.walk = void 0;
-		var t = Id(), n = Ld(), r = zd(), i = Bd();
+		var t = _d(), n = vd(), r = bd(), i = xd();
 		e.Settings = i.default;
 		function a(e, n, r) {
 			if (typeof n == "function") {
@@ -46498,9 +46371,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return e instanceof i.default ? e : new i.default(e);
 		}
 	}));
-	Hd = /* @__PURE__ */ c$1(((t) => {
+	Cd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("path"), r = yd(), i = pd();
+		var n = p$1("path"), r = ed(), i = Ju();
 		t.default = class {
 			constructor(e) {
 				this._settings = e, this._fsStatSettings = new r.Settings({
@@ -46525,9 +46398,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Ud = /* @__PURE__ */ c$1(((t) => {
+	wd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("stream"), r = yd(), i = Vd(), a = Hd();
+		var n = p$1("stream"), r = ed(), i = Sd(), a = Cd();
 		t.default = class extends a.default {
 			constructor() {
 				super(...arguments), this._walkStream = i.walkStream, this._stat = r.stat;
@@ -46556,9 +46429,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Wd = /* @__PURE__ */ c$1(((e) => {
+	Td = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Vd(), n = Hd(), r = Ud();
+		var t = Sd(), n = Cd(), r = wd();
 		e.default = class extends n.default {
 			constructor() {
 				super(...arguments), this._walkAsync = t.walk, this._readerStream = new r.default(this._settings);
@@ -46578,9 +46451,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Gd = /* @__PURE__ */ c$1(((e) => {
+	Ed = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = pd();
+		var t = Ju();
 		e.default = class {
 			constructor(e, t, n) {
 				this._patterns = e, this._settings = t, this._micromatchOptions = n, this._storage = [], this._fillStorage();
@@ -46611,9 +46484,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Kd = /* @__PURE__ */ c$1(((e) => {
+	Dd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Gd();
+		var t = Ed();
 		e.default = class extends t.default {
 			match(e) {
 				let t = e.split("/"), n = t.length, r = this._storage.filter((e) => !e.complete || e.segments.length > n);
@@ -46628,9 +46501,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	qd = /* @__PURE__ */ c$1(((e) => {
+	Od = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = pd(), n = Kd();
+		var t = Ju(), n = Dd();
 		e.default = class {
 			constructor(e, t) {
 				this._settings = e, this._micromatchOptions = t;
@@ -46669,9 +46542,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Jd = /* @__PURE__ */ c$1(((e) => {
+	kd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = pd();
+		var t = Ju();
 		e.default = class {
 			constructor(e, t) {
 				this._settings = e, this._micromatchOptions = t, this.index = /* @__PURE__ */ new Map();
@@ -46719,9 +46592,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Yd = /* @__PURE__ */ c$1(((e) => {
+	Ad = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = pd();
+		var t = Ju();
 		e.default = class {
 			constructor(e) {
 				this._settings = e;
@@ -46734,9 +46607,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Xd = /* @__PURE__ */ c$1(((e) => {
+	jd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = pd();
+		var t = Ju();
 		e.default = class {
 			constructor(e) {
 				this._settings = e;
@@ -46750,9 +46623,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Zd = /* @__PURE__ */ c$1(((t) => {
+	Md = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("path"), r = qd(), i = Jd(), a = Yd(), o = Xd();
+		var n = p$1("path"), r = Od(), i = kd(), a = Ad(), o = jd();
 		t.default = class {
 			constructor(e) {
 				this._settings = e, this.errorFilter = new a.default(this._settings), this.entryFilter = new i.default(this._settings, this._getMicromatchOptions()), this.deepFilter = new r.default(this._settings, this._getMicromatchOptions()), this.entryTransformer = new o.default(this._settings);
@@ -46790,9 +46663,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	Qd = /* @__PURE__ */ c$1(((e) => {
+	Nd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = Wd(), n = Zd();
+		var t = Td(), n = Md();
 		e.default = class extends n.default {
 			constructor() {
 				super(...arguments), this._reader = new t.default(this._settings);
@@ -46806,9 +46679,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	$d = /* @__PURE__ */ c$1(((t) => {
+	Pd = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 });
-		var n = p$1("stream"), r = Ud(), i = Zd();
+		var n = p$1("stream"), r = wd(), i = Md();
 		t.default = class extends i.default {
 			constructor() {
 				super(...arguments), this._reader = new r.default(this._settings);
@@ -46825,9 +46698,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	ef = /* @__PURE__ */ c$1(((e) => {
+	Fd = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = yd(), n = Vd(), r = Hd();
+		var t = ed(), n = Sd(), r = Cd();
 		e.default = class extends r.default {
 			constructor() {
 				super(...arguments), this._walkSync = n.walkSync, this._statSync = t.statSync;
@@ -46857,9 +46730,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	tf = /* @__PURE__ */ c$1(((e) => {
+	Id = /* @__PURE__ */ c$1(((e) => {
 		Object.defineProperty(e, "__esModule", { value: !0 });
-		var t = ef(), n = Zd();
+		var t = Fd(), n = Md();
 		e.default = class extends n.default {
 			constructor() {
 				super(...arguments), this._reader = new t.default(this._settings);
@@ -46873,7 +46746,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	nf = /* @__PURE__ */ c$1(((t) => {
+	Ld = /* @__PURE__ */ c$1(((t) => {
 		Object.defineProperty(t, "__esModule", { value: !0 }), t.DEFAULT_FILE_SYSTEM_ADAPTER = void 0;
 		var n = p$1("fs"), r = p$1("os"), i = Math.max(r.cpus().length, 1);
 		t.DEFAULT_FILE_SYSTEM_ADAPTER = {
@@ -46895,8 +46768,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	rf = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
-		var n = md(), r = Qd(), i = $d(), a = tf(), o = nf(), s = pd();
+	Rd = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
+		var n = Yu(), r = Nd(), i = Pd(), a = Id(), o = Ld(), s = Ju();
 		async function c(e, t) {
 			u(e);
 			let n = l(e, r.default, t), i = await Promise.all(n);
@@ -46964,39 +46837,39 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		t.exports = c;
 	})))(), 1);
-	af = { ignore: ["**/node_modules/**", "**/.pnpm-store/**"] };
-	of = async (e) => {
+	zd = { ignore: ["**/node_modules/**", "**/.pnpm-store/**"] };
+	Bd = async (e) => {
 		let t = node_path.default.join(node_path.default.dirname(e), "pnpm-workspace.yaml"), n;
 		try {
 			n = await node_fs_promises.default.readFile(t, "utf-8");
 		} catch {
 			return null;
 		}
-		return (0, wc.parse)(n);
+		return (0, ac.parse)(n);
 	};
-	sf = async (e) => {
+	Vd = async (e) => {
 		let t = node_path.default.join(node_path.default.dirname(e), ".yarnrc.yml"), n;
 		try {
 			n = await node_fs_promises.default.readFile(t, "utf-8");
 		} catch {
 			return null;
 		}
-		return (0, wc.parse)(n);
+		return (0, ac.parse)(n);
 	};
-	cf = async (e, t) => {
+	Hd = async (e, t) => {
 		let n = {};
 		if (e.packageManager === "pnpm") {
-			let e = await of(t);
+			let e = await Bd(t);
 			e && !Array.isArray(e) && (e.catalog && Object.assign(n, e.catalog), e.catalogs && Object.assign(n, ...Object.values(e.catalogs)), e.workspaces && !Array.isArray(e.workspaces) && (e.workspaces.catalog && Object.assign(n, e.workspaces.catalog), e.workspaces.catalogs && Object.assign(n, ...Object.values(e.workspaces.catalogs))));
 		}
 		if (e.packageManager === "yarn") {
-			let e = await sf(t);
+			let e = await Vd(t);
 			e && (e.catalog && Object.assign(n, e.catalog), e.catalogs && Object.assign(n, ...Object.values(e.catalogs)));
 		}
 		let r = JSON.parse(await node_fs_promises.default.readFile(t, "utf-8"));
 		return Object.assign(n, r.catalog, ...Object.values(r.catalogs ?? {})), r.workspaces && !Array.isArray(r.workspaces) && Object.assign(n, r.workspaces.catalog, ...Object.values(r.workspaces.catalogs ?? {})), Object.keys(n).length > 0 ? n : null;
 	};
-	ff = (/* @__PURE__ */ c$1(((t, n) => {
+	Kd = (/* @__PURE__ */ c$1(((t, n) => {
 		var r = p$1("path"), i = p$1("fs"), a = p$1("os"), o = p$1("url"), s = i.promises.readFile;
 		function c(e, t) {
 			return [
@@ -47247,14 +47120,14 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			};
 		};
 	})))();
-	pf = (e, t) => {
+	qd = (e, t) => {
 		try {
-			return (0, wc.parse)(t);
+			return (0, ac.parse)(t);
 		} catch (t) {
 			throw Error(`YAML Error in ${e}:\n${t.message}`, { cause: t });
 		}
 	};
-	gf = /* @__PURE__ */ c$1(((e, t) => {
+	Xd = /* @__PURE__ */ c$1(((e, t) => {
 		var n = "\\\\/", r = `[^${n}]`, i = 0, a = "\\.", o = "\\+", s = "\\?", c = "\\/", l = "(?=.)", u = "[^/]", d = `(?:${c}|$)`, f = `(?:^|${c})`, p = `${a}{1,2}${d}`, m = {
 			DOT_LITERAL: a,
 			PLUS_LITERAL: o,
@@ -47396,8 +47269,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		};
 	}));
-	_f = /* @__PURE__ */ c$1(((e) => {
-		var { REGEX_BACKSLASH: t, REGEX_REMOVE_BACKSLASH: n, REGEX_SPECIAL_CHARS: r, REGEX_SPECIAL_CHARS_GLOBAL: i } = gf();
+	Zd = /* @__PURE__ */ c$1(((e) => {
+		var { REGEX_BACKSLASH: t, REGEX_REMOVE_BACKSLASH: n, REGEX_SPECIAL_CHARS: r, REGEX_SPECIAL_CHARS_GLOBAL: i } = Xd();
 		e.isObject = (e) => typeof e == "object" && !!e && !Array.isArray(e), e.hasRegexChars = (e) => r.test(e), e.isRegexChar = (t) => t.length === 1 && e.hasRegexChars(t), e.escapeRegex = (e) => e.replace(i, "\\$1"), e.toPosixSlashes = (e) => e.replace(t, "/"), e.isWindows = () => {
 			if (typeof navigator < "u" && navigator.platform) {
 				let e = navigator.platform.toLowerCase();
@@ -47418,8 +47291,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return r === "" ? n[n.length - 2] : r;
 		};
 	}));
-	vf = /* @__PURE__ */ c$1(((e, t) => {
-		var n = _f(), { CHAR_ASTERISK: r, CHAR_AT: i, CHAR_BACKWARD_SLASH: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_EXCLAMATION_MARK: c, CHAR_FORWARD_SLASH: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_LEFT_PARENTHESES: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_PLUS: p, CHAR_QUESTION_MARK: m, CHAR_RIGHT_CURLY_BRACE: h, CHAR_RIGHT_PARENTHESES: g, CHAR_RIGHT_SQUARE_BRACKET: _ } = gf(), v = (e) => e === l || e === a, y = (e) => {
+	Qd = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Zd(), { CHAR_ASTERISK: r, CHAR_AT: i, CHAR_BACKWARD_SLASH: a, CHAR_COMMA: o, CHAR_DOT: s, CHAR_EXCLAMATION_MARK: c, CHAR_FORWARD_SLASH: l, CHAR_LEFT_CURLY_BRACE: u, CHAR_LEFT_PARENTHESES: d, CHAR_LEFT_SQUARE_BRACKET: f, CHAR_PLUS: p, CHAR_QUESTION_MARK: m, CHAR_RIGHT_CURLY_BRACE: h, CHAR_RIGHT_PARENTHESES: g, CHAR_RIGHT_SQUARE_BRACKET: _ } = Xd(), v = (e) => e === l || e === a, y = (e) => {
 			e.isPrefix !== !0 && (e.depth = e.isGlobstar ? Infinity : 1);
 		};
 		t.exports = (e, t) => {
@@ -47569,8 +47442,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return ce;
 		};
 	}));
-	yf = /* @__PURE__ */ c$1(((e, t) => {
-		var n = gf(), r = _f(), { MAX_LENGTH: i, POSIX_REGEX_SOURCE: a, REGEX_NON_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_BACKREF: s, REPLACEMENTS: c } = n, l = (e, t) => {
+	$d = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Xd(), r = Zd(), { MAX_LENGTH: i, POSIX_REGEX_SOURCE: a, REGEX_NON_SPECIAL_CHARS: o, REGEX_SPECIAL_CHARS_BACKREF: s, REPLACEMENTS: c } = n, l = (e, t) => {
 			if (typeof t.expandRange == "function") return t.expandRange(...e, t);
 			e.sort();
 			let n = `[${e.join("-")}]`;
@@ -48233,8 +48106,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			return T && a.strictSlashes !== !0 && (T += `${u}?`), T;
 		}, t.exports = b;
 	}));
-	bf = /* @__PURE__ */ c$1(((e, t) => {
-		var n = vf(), r = yf(), i = _f(), a = gf(), o = (e) => e && typeof e == "object" && !Array.isArray(e), s = (e, t, n = !1) => {
+	ef = /* @__PURE__ */ c$1(((e, t) => {
+		var n = Qd(), r = $d(), i = Zd(), a = Xd(), o = (e) => e && typeof e == "object" && !Array.isArray(e), s = (e, t, n = !1) => {
 			if (Array.isArray(e)) {
 				let r = e.map((e) => s(e, t, n));
 				return (e) => {
@@ -48315,8 +48188,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		}, s.constants = a, t.exports = s;
 	}));
-	xf = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
-		var n = bf(), r = _f();
+	tf = /* @__PURE__ */ d$2((/* @__PURE__ */ c$1(((e, t) => {
+		var n = ef(), r = Zd();
 		function i(e, t, i = !1) {
 			return t && (t.windows === null || t.windows === void 0) && (t = {
 				...t,
@@ -48325,43 +48198,43 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		Object.assign(i, n), t.exports = i;
 	})))(), 1);
-	Sf = /* @__PURE__ */ l$2({
-		greatest: () => Df,
-		greatestLevel: () => Of,
-		latest: () => Ef,
-		minor: () => kf,
-		newest: () => Mf,
-		patch: () => Af,
-		semver: () => jf
+	nf = /* @__PURE__ */ l$2({
+		greatest: () => cf,
+		greatestLevel: () => lf,
+		latest: () => sf,
+		minor: () => uf,
+		newest: () => pf,
+		patch: () => df,
+		semver: () => ff
 	});
-	Cf = (0, node_util.promisify)(node_child_process.default.execFile);
-	Ef = async (e, t, n) => {
-		let r = await Tf(e, t, n);
+	rf = (0, node_util.promisify)(node_child_process.default.execFile);
+	sf = async (e, t, n) => {
+		let r = await of(e, t, n);
 		if (!r) return { version: null };
-		let i = n?.pre ? r : r.filter((e) => !Sr(e)), a = i[i.length - 1];
-		return { version: a ? Rr(t, a) : null };
+		let i = n?.pre ? r : r.filter((e) => !pr(e)), a = i[i.length - 1];
+		return { version: a ? kr(t, a) : null };
 	};
-	Df = async (e, t, n) => {
-		let r = await Tf(e, t, n);
+	cf = async (e, t, n) => {
+		let r = await of(e, t, n);
 		if (!r) return { version: null };
 		let i = r[r.length - 1];
-		return { version: i ? Rr(t, i) : null };
+		return { version: i ? kr(t, i) : null };
 	};
-	Of = (e) => async (t, n, r = {}) => {
-		let i = decodeURIComponent((0, Jn.default)(n).branch).replace(/^semver:/, ""), a = await Tf(t, n, r);
+	lf = (e) => async (t, n, r = {}) => {
+		let i = decodeURIComponent((0, zn.default)(n).branch).replace(/^semver:/, ""), a = await of(t, n, r);
 		if (!a) return { version: null };
-		let o = yr(a.map((e) => e.replace(/^v/, "")), i, e);
-		return { version: o ? Rr(n, o) : null };
+		let o = ur(a.map((e) => e.replace(/^v/, "")), i, e);
+		return { version: o ? kr(n, o) : null };
 	};
-	kf = Of("minor");
-	Af = Of("patch");
-	jf = async (e, t, n) => ({ version: null });
-	Mf = Df;
-	Nf = /* @__PURE__ */ l$2({ latest: () => If });
-	Pf = (e) => e && e.startsWith("http://") || e.startsWith("https://");
-	Ff = (0, ja.default)(async (e) => {
+	uf = lf("minor");
+	df = lf("patch");
+	ff = async (e, t, n) => ({ version: null });
+	pf = cf;
+	mf = /* @__PURE__ */ l$2({ latest: () => _f });
+	hf = (e) => e && e.startsWith("http://") || e.startsWith("https://");
+	gf = (0, xa.default)(async (e) => {
 		let t = e.registry, n;
-		if (Pf(t)) n = await (await fetch(t)).text();
+		if (hf(t)) n = await (await fetch(t)).text();
 		else try {
 			n = await node_fs_promises.default.readFile(t, "utf8");
 		} catch {
@@ -48369,16 +48242,16 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		}
 		return JSON.parse(n);
 	});
-	If = async (e, t, n) => ({ version: (await Ff(n || {}))[e] || null });
-	Lf = {
-		npm: So,
-		pnpm: Cc,
-		yarn: Uc,
-		bun: Qo,
-		gitTags: Sf,
-		staticRegistry: Nf
+	_f = async (e, t, n) => ({ version: (await gf(n || {}))[e] || null });
+	vf = {
+		npm: $a,
+		pnpm: ic,
+		yarn: wc,
+		bun: No,
+		gitTags: nf,
+		staticRegistry: mf
 	};
-	Rf = [
+	yf = [
 		"latest",
 		"newest",
 		"greatest",
@@ -48386,23 +48259,23 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		"patch",
 		"semver"
 	];
-	Vf = (e, t = Math.round(e * 10) / 10) => `${t} day${t === 1 ? "" : "s"}`;
-	Gf = (/* @__PURE__ */ c$1(((e, t) => {
+	Sf = (e, t = Math.round(e * 10) / 10) => `${t} day${t === 1 ? "" : "s"}`;
+	Ef = (/* @__PURE__ */ c$1(((e, t) => {
 		var n = (e) => typeof e == "function" ? e : () => e, r = (...e) => (...t) => e.length === 0 || !!n(e[0])(...t) && r(...e.slice(1))(...t), i = (...e) => (...t) => e.length > 0 && (!!n(e[0])(...t) || i(...e.slice(1))(...t));
 		t.exports = {
 			and: r,
 			or: i
 		};
 	})))();
-	Xf = (e) => /^@[^/]*\./.test(e) ? `"${e}"` : e;
-	Zf = /* @__PURE__ */ l$2({
-		default: () => Qf,
-		pMapSkip: () => $f
+	jf = (e) => /^@[^/]*\./.test(e) ? `"${e}"` : e;
+	Mf = /* @__PURE__ */ l$2({
+		default: () => Nf,
+		pMapSkip: () => Pf
 	});
-	ep = s$1((() => {
-		$f = Symbol("skip");
+	Ff = s$1((() => {
+		Pf = Symbol("skip");
 	}));
-	tp = /* @__PURE__ */ c$1(((e, t) => {
+	If = /* @__PURE__ */ c$1(((e, t) => {
 		e = t.exports = n;
 		function n(e, t) {
 			if (this.stream = t.stream || process.stderr, typeof t == "number") {
@@ -48446,36 +48319,36 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			this.clear ? this.stream.clearLine && (this.stream.clearLine(), this.stream.cursorTo(0)) : this.stream.write("\n");
 		};
 	}));
-	np = /* @__PURE__ */ c$1(((e, t) => {
-		t.exports = tp();
+	Lf = /* @__PURE__ */ c$1(((e, t) => {
+		t.exports = If();
 	}));
-	ep();
-	rp = /* @__PURE__ */ d$2(np(), 1);
-	ep();
-	sp = (e, t, n) => {
+	Ff();
+	Rf = /* @__PURE__ */ d$2(Lf(), 1);
+	Ff();
+	Hf = (e, t, n) => {
 		let r = {
 			...e,
 			...t
-		}, i = Kl(t, (e, t) => {
+		}, i = Dl(t, (e, t) => {
 			let i = n[t];
 			return !i || Object.entries(i).every(([e, t]) => r[e] === void 0 || !W.default.validRange(t) || !W.default.validRange(r[e]) || W.default.intersects(r[e], t));
 		}), a = Object.keys(t).length > Object.keys(i).length, o = n;
-		return a && (o = Kl(n, (e, n) => i[n] || !t[n])), {
+		return a && (o = Dl(n, (e, n) => i[n] || !t[n])), {
 			violated: a,
 			filteredUpgradedDependencies: i,
 			upgradedPeerDependencies: o
 		};
 	};
-	up = (e, t) => W.default.validRange(e) && W.default.validRange(t) && W.default.gt(W.default.minVersion(e), W.default.minVersion(t));
-	dp = (e) => {
+	Gf = (e, t) => W.default.validRange(e) && W.default.validRange(t) && W.default.gt(W.default.minVersion(e), W.default.minVersion(t));
+	Kf = (e) => {
 		if (!e.packageManager) return {};
 		let [t, n] = e.packageManager.split("@");
 		return { [t]: n };
 	};
-	mp = (e, t) => !e || W.default.satisfies(t, e);
-	_p = "\n  ↑/↓: Select a package\n  Space: Toggle selection\n  a: Toggle all\n  Esc/q: Quit\n  Enter: Upgrade";
-	bp = async (e, t, n, r, i, a) => {
-		let o = [], s = process.stdout.rows > 18, c = G((await Kr({
+	Yf = (e, t) => !e || W.default.satisfies(t, e);
+	Qf = "\n  ↑/↓: Select a package\n  Space: Toggle selection\n  a: Toggle all\n  Esc/q: Quit\n  Enter: Upgrade";
+	tp = async (e, t, n, r, i, a) => {
+		let o = [], s = process.stdout.rows > 18, c = G((await Lr({
 			from: e,
 			to: t,
 			skippedByCooldown: n,
@@ -48484,7 +48357,7 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			time: r
 		})).toString().split("\n"), (e) => ({ [e.trim().split(" ")[0]]: e.trim() }));
 		if (Object.keys(t).length > 0) if (q(a, ""), a.format?.includes("group")) {
-			let n = pr(t, e, a);
+			let n = ir(t, e, a);
 			o = (await (0, fe.default)({
 				choices: [...n.flatMap(({ heading: e, groupName: t, packages: n }) => [{
 					title: "\n" + e,
@@ -48497,11 +48370,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 					title: " ",
 					heading: !0
 				}],
-				hint: s && _p,
+				hint: s && Qf,
 				instructions: !1,
 				message: "Choose which packages to update",
 				name: "value",
-				optionsPerPage: vp(s, n),
+				optionsPerPage: $f(s, n),
 				type: "multiselect",
 				onState: (e) => {
 					e.aborted && process.nextTick(() => process.exit(1));
@@ -48516,11 +48389,11 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 				title: " ",
 				heading: !0
 			}],
-			hint: s && _p + "\n",
+			hint: s && Qf + "\n",
 			instructions: !1,
 			message: "Choose which packages to update",
 			name: "value",
-			optionsPerPage: vp(s),
+			optionsPerPage: $f(s),
 			type: "multiselect",
 			onState: (e) => {
 				e.aborted && process.nextTick(() => process.exit(1));
@@ -48528,34 +48401,34 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 		})).value;
 		return G(o, (e) => ({ [e]: t[e] }));
 	};
-	Sp = !1;
-	Cp = null;
-	wp = !1;
-	Ep = (e) => {
+	rp = !1;
+	ip = null;
+	ap = !1;
+	sp = (e) => {
 		e.global && (process.env.VOLTA_HOME || process.env.PATH?.includes("\\Volta")) && (q(e, "It appears you are using Volta. `npm-check-updates --global` cannot be used with Volta because Volta has its own system for managing global packages which circumvents npm.\n\nIf you are still receiving this message after uninstalling Volta, ensure your PATH does not contain an entry for Volta and your shell profile does not define VOLTA_HOME. You may need to reboot for changes to your shell profile to take effect.", "error"), process.exit(1));
 	};
-	Dp = async (e, t) => {
+	cp = async (e, t) => {
 		let n = {
 			...e,
 			cwd: e.cwd || node_path.default.resolve(t, ".."),
 			packageFile: t
 		};
-		return e.packageManager === "staticRegistry" ? await Vi({
+		return e.packageManager === "staticRegistry" ? await Ni({
 			...n,
 			packageManager: void 0
-		}) : e.packageManager && e.packageManager !== "npm" ? e.packageManager : await Vi(n);
+		}) : e.packageManager && e.packageManager !== "npm" ? e.packageManager : await Ni(n);
 	};
-	Op = (e, t, n) => {
+	lp = (e, t, n) => {
 		let r = !n.deep && !n.workspaces && !n.workspace ? { [e[0]]: t } : t;
 		return Object.values(r).some((e) => Object.keys(e).length > 0);
 	};
-	kp = async (e, t, n) => {
+	up = async (e, t, n) => {
 		if (n.install === "never") {
 			q(n, "");
 			return;
 		}
-		if (!Op(e, t, n)) return;
-		let r = await Dp(n, e[0]), i = `Run ${K.cyan(r + " install")}${e.length > 1 && !n.workspace && !n.workspaces ? " in each project directory" : ""} to install new versions`, a = n.interactive && (process.env.NCU_TESTS || !process.env.NCU_DOCTOR), s;
+		if (!lp(e, t, n)) return;
+		let r = await cp(n, e[0]), i = `Run ${K.cyan(r + " install")}${e.length > 1 && !n.workspace && !n.workspaces ? " in each project directory" : ""} to install new versions`, a = n.interactive && (process.env.NCU_TESTS || !process.env.NCU_DOCTOR), s;
 		if (a && n.install === "prompt" && (q(n, ""), s = await (0, fe.default)({
 			type: "confirm",
 			name: "value",
@@ -48568,9 +48441,9 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			n.install === "always" && q(n, ""), q(n, "Installing dependencies...");
 			let t = n.workspaces || n.workspace?.length ? ["package.json"] : e;
 			for (let e of t) {
-				let t = await Dp(n, e), r = n.cwd || node_path.default.resolve(e, ".."), i = "";
+				let t = await cp(n, e), r = n.cwd || node_path.default.resolve(e, ".."), i = "";
 				try {
-					await ho(t, ["install"], {
+					await Ka(t, ["install"], {
 						stdout: (e) => {
 							i += e;
 						},
@@ -48591,8 +48464,8 @@ ${mi("Skipped due to 7-day cooldown\n @typescript-eslint/parser  ^8.50.0  →  ^
 			}
 		} else a || q(n, `\n${i}.`);
 	};
-	Mp = jp;
-	Mp.run = Mp, Mp.defineConfig = Fi;
+	pp = fp;
+	pp.run = pp, pp.defineConfig = Di;
 }));
 //#endregion
 //#region src/main.ts
@@ -48614,7 +48487,7 @@ async function run(cwd) {
 		if (ncuOptions.packageManager) debug(`package manager: ${ncuOptions.packageManager}`);
 		if (ncuOptions.workspaces) debug("ncu: workspaces mode enabled");
 		const updateInfos = {};
-		const result = await Mp.run({
+		const result = await pp.run({
 			cwd,
 			filterResults: (packageName) => {
 				if (allDeps) return true;

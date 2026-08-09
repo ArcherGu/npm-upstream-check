@@ -21,12 +21,12 @@ catalogs:
     '@typescript/native':
       specifier: npm:typescript@7.0.2
       version: 7.0.2
+    eslint:
+      specifier: ^10.8.0
+      version: 10.8.1
     lint-staged:
       specifier: ^17.3.0
       version: 17.3.0
-    npm-check-updates:
-      specifier: ^23.0.1
-      version: 23.0.1
     simple-git-hooks:
       specifier: ^2.13.1
       version: 2.13.1
@@ -55,7 +55,7 @@ importers:
         version: 9.1.1
       npm-check-updates:
         specifier: 'catalog:'
-        version: 23.0.1
+        version: 23.0.2
     devDependencies:
       '@lightwing/eslint-config':
         specifier: 'catalog:'
@@ -2359,8 +2359,8 @@ packages:
     resolution: {integrity: sha512-J6l92tKHX6w8Jy5nO1Vuc01NoIiRGi/d6qBKVxh+IQ8Cr3b6HbVNfKiF8ZpFKufTwpwxMmce2W3iQZ861ZRyTg==}
     engines: {node: '>=18'}
 
-  npm-check-updates@23.0.1:
-    resolution: {integrity: sha512-e4hu3Rq4waj7SnhzvqAc5UG557mfP5e3JIFFQd7Fg3RiRkJl8yR90NFoZ1GSWUT3S/QacJndJb+7dLQBPeH+iA==}
+  npm-check-updates@23.0.2:
+    resolution: {integrity: sha512-t5tv+d4sP+WbSwcDAFBwDxSUJRomc+TJoURPu7q5B/19toUsR/7eshRxBdWdE7iYw80iE4O4D/7OvCvIcaG8ug==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0, npm: '>=10.0.0'}
     hasBin: true
 
@@ -3862,7 +3862,7 @@ snapshots:
       '@typescript-eslint/types': 8.65.0
       '@typescript-eslint/visitor-keys': 8.65.0
       debug: 4.4.3
-      minimatch: 10.2.5
+      minimatch: 10.2.6
       semver: 7.8.5
       tinyglobby: 0.2.17
       ts-api-utils: 2.5.0(@typescript/typescript6@6.0.2)
@@ -5282,7 +5282,7 @@ snapshots:
 
   node-releases@2.0.50: {}
 
-  npm-check-updates@23.0.1: {}
+  npm-check-updates@23.0.2: {}
 
   nth-check@2.1.1:
     dependencies:

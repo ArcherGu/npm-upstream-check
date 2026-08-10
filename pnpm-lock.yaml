@@ -13,19 +13,22 @@ catalogs:
       specifier: ^9.1.1
       version: 9.1.1
     '@lightwing/eslint-config':
-      specifier: ^1.0.157
+      specifier: ^1.0.158
       version: 1.0.158
+    '@types/node':
+      specifier: ^26.2.0
+      version: 26.2.0
     '@typescript/native':
       specifier: npm:typescript@7.0.2
       version: 7.0.2
     eslint:
-      specifier: ^10.8.0
+      specifier: ^10.8.1
       version: 10.8.1
     lint-staged:
       specifier: ^17.3.0
       version: 17.3.0
     npm-check-updates:
-      specifier: ^23.0.1
+      specifier: ^23.0.2
       version: 23.0.2
     simple-git-hooks:
       specifier: ^2.13.1

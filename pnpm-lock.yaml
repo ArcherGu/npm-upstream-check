@@ -16,7 +16,7 @@ catalogs:
       specifier: ^1.0.158
       version: 1.0.158
     '@types/node':
-      specifier: ^26.3.0
+      specifier: ^26.4.0
       version: 26.4.0
     '@typescript/native':
       specifier: npm:typescript@7.0.2
@@ -25,13 +25,13 @@ catalogs:
       specifier: ^10.9.1
       version: 10.9.1
     lint-staged:
-      specifier: ^17.3.0
+      specifier: ^17.4.1
       version: 17.4.1
     npm-check-updates:
       specifier: ^23.1.0
       version: 23.1.0
     simple-git-hooks:
-      specifier: ^2.13.1
+      specifier: ^2.14.0
       version: 2.14.0
     tsdown:
       specifier: ^0.22.14

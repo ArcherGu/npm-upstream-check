@@ -10,7 +10,7 @@ catalog:
   simple-git-hooks: ^2.14.0
   tsdown: ^0.22.14
   typescript: npm:@typescript/typescript6@6.0.2
-  vitest: ^4.1.11
+  vitest: ^5.0.0
   yaml: ^2.9.0
 
 catalogMode: prefer

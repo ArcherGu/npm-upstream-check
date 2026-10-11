@@ -2,13 +2,13 @@ catalog:
   '@actions/core': ^3.0.1
   '@actions/github': ^9.1.1
   '@lightwing/eslint-config': ^1.0.160
-  '@types/node': ^26.6.4
+  '@types/node': ^26.6.5
   '@typescript/native': npm:typescript@7.0.2
   eslint: ^10.12.0
   lint-staged: ^17.6.0
-  npm-check-updates: ^23.1.0
+  npm-check-updates: ^23.1.1
   simple-git-hooks: ^2.14.0
-  tsdown: ^0.23.0
+  tsdown: ^0.23.1
   typescript: npm:@typescript/typescript6@6.0.2
   vitest: ^5.0.3
   yaml: ^2.9.1
@@ -28,7 +28,7 @@ trustPolicyExclude:
   - undici@5.29.0
   - '@octokit/endpoint@9.0.6'
 minimumReleaseAgeExclude:
-  - npm-check-updates@22.2.1 || 22.2.3 || 23.1.0
+  - npm-check-updates@22.2.1 || 22.2.3 || 23.1.0 || 23.1.1
   - '@eslint/plugin-kit@0.7.2'
   - eslint@10.4.1
   - '@types/node@25.9.3'
@@ -40,8 +40,8 @@ minimumReleaseAgeExclude:
   - '@vitest/spy@4.1.9 || 5.0.1'
   - '@vitest/utils@4.1.9'
   - vitest@4.1.9 || 5.0.1
-  - rolldown-plugin-dts@0.27.8
-  - tsdown@0.22.7 || 0.22.8 || 0.22.12 || 0.22.14
+  - rolldown-plugin-dts@0.27.8 || 0.28.7
+  - tsdown@0.22.7 || 0.22.8 || 0.22.12 || 0.22.14 || 0.23.1
   - lint-staged@17.1.0 || 17.1.1 || 17.2.0
   - verkit@0.1.0 || 0.3.0
   - '@lightwing/eslint-config@1.0.157'
